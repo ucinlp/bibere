@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0     http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.sameersingh.bibere</groupId>
+  <artifactId>bibere</artifactId>
+  <packaging>pom</packaging>
+  <inceptionYear>2011</inceptionYear>
+
+
+  <version>0.0.1-SNAPSHOT</version>
+
+  <name>bibere</name>
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+
+  <properties>
+    <scala.version>2.10.1</scala.version>
+  </properties>
+
+  <modules>
+    <module>bibere-core</module>
+    <!--module>bibere-examples</module-->
+  </modules>
+
+  <repositories>
+    <repository>
+      <id>scala-tools.org</id>
+      <name>Scala-Tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases</url>
+    </repository>
+    <repository>
+      <id>IESLthirdparty</id>
+      <name>IESL third party</name>
+      <url>https://dev-iesl.cs.umass.edu/nexus/content/repositories/thirdparty/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>IESLsnapshots</id>
+      <name>IESL snapshots</name>
+      <url>https://dev-iesl.cs.umass.edu/nexus/content/repositories/snapshots/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>IESLreleases</id>
+      <name>IESL releases</name>
+      <url>https://dev-iesl.cs.umass.edu/nexus/content/repositories/releases/</url>
+      <layout>default</layout>
+    </repository>
+    <repository>
+      <id>sameer-releases</id>
+      <name>Sameer repository</name>
+      <url>https://github.com/sameersingh/maven-repo/raw/master/releases</url>
+    </repository>
+    <repository>
+      <id>sameer-snapshots</id>
+      <name>Sameer repository</name>
+      <url>https://github.com/sameersingh/maven-repo/raw/master/snapshots</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+</project>
