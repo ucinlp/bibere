@@ -11,7 +11,8 @@ case class PersonName(first: String,
                       last: String,
                       preLast: Option[String] = None,
                       lineage: Option[String] = None) {
-  def full= first + " " + preLast.fold("")(_ + " ") + last + lineage.fold("")(" " + _)
+  def full = first + " " + preLast.fold("")(_ + " ") + last + lineage.fold("")(" " + _)
+
   def short = first.head + ". " + preLast.fold("")(_.head + ". ") + last + lineage.fold("")(" " + _)
 }
 
@@ -21,9 +22,9 @@ object PersonName {
     assert(split.length >= 2)
     assert(split.length <= 4)
     PersonName(split.head,
-      if(split.length >= 4) split(2) else split.last,
-      if(split.length >= 3) Some(split(1)) else None,
-      if(split.length >= 4) Some(split.last) else None)
+      if (split.length >= 4) split(2) else split.last,
+      if (split.length >= 3) Some(split(1)) else None,
+      if (split.length >= 4) Some(split.last) else None)
   }
 }
 
@@ -38,7 +39,7 @@ case class Venue(id: String, name: String, acronym: String)
 
 case class Paper(id: String,
                  title: String,
-                 pubType: PubType.PubType,
+                 pubTypeSlot: String,
                  year: Int,
                  authorIds: Seq[String],
                  venueId: String,
@@ -46,8 +47,12 @@ case class Paper(id: String,
                  pdfLink: Option[String] = None,
                  pptLink: Option[String] = None,
                  pages: Option[(Int, Int)] = None,
-                 extraLinks: Seq[(String, String)] = Seq.empty,
-                 extraFields: Seq[(String, String)] = Seq.empty)
+                 extraLinksSlot: Seq[(String, String)] = Seq.empty,
+                 extraFieldsSlot: Seq[(String, String)] = Seq.empty) {
+  def extraLinks: Seq[(String, String)] = if (extraLinksSlot == null) Seq.empty else extraLinksSlot
+  def extraFields: Seq[(String, String)] = if (extraFieldsSlot == null) Seq.empty else extraFieldsSlot
+  def pubType: PubType.PubType = PubType.withName(pubTypeSlot)
+}
 
 
 class Publications {
@@ -56,8 +61,8 @@ class Publications {
   val venues: HashMap[String, Venue] = new HashMap
 
   def +=(p: Paper): Unit = {
-    if(!venues.contains(p.venueId)) println("WARNING: Non-DB venue detected: " + p.venueId)
-    if(p.authorIds.exists(a => !authors.contains(a))) println("WARNING: Non-DB author detected")
+    if (!venues.contains(p.venueId)) println("WARNING: Non-DB venue detected: " + p.venueId)
+    if (p.authorIds.exists(a => !authors.contains(a))) println("WARNING: Non-DB author detected")
     assert(!papers.contains(p.id))
     papers(p.id) = p
   }
@@ -72,7 +77,7 @@ class Publications {
     authors(a.id) = a
   }
 
-  def papersByYear = papers.values.toSeq.sortBy(_.venueId).sortBy(_.pubType).sortBy(- _.year)
+  def papersByYear = papers.values.toSeq.sortBy(_.venueId).sortBy(_.pubType).sortBy(-_.year)
 
   def author(id: String) = authors.getOrElse(id, Author(id, PersonName(id)))
 
