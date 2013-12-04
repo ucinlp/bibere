@@ -1,0 +1,57 @@
+[ {
+  "id" : "biglearn",
+  "name" : "Neural Information Processing Systems (NIPS) Workshop on Big Learning",
+  "acronym" : "BigLearning"
+}, {
+  "id" : "probprog",
+  "name" : "NIPS Workshop on Probabilistic Programming",
+  "acronym" : "ProbProg"
+}, {
+  "id" : "akbc13",
+  "name" : "CIKM Workshop on Automated Knowledge Base Construction (AKBC)",
+  "acronym" : "AKBC"
+}, {
+  "id" : "akbc12",
+  "name" : "NAACL/HLT Workshop on Automated Knowledge Base Construction (AKBC-WEKEX)",
+  "acronym" : "AKBC"
+}, {
+  "id" : "reseff",
+  "name" : "Neural Information Processing Systems (NIPS) Workshop on Resource Efficient Machine Learning",
+  "acronym" : "ResEff"
+}, {
+  "id" : "cost",
+  "name" : "Neural Information Processing Systems (NIPS) Workshop on Computational Trade-offs in Statistical Learning (COST)",
+  "acronym" : "COST"
+}, {
+  "id" : "lccc",
+  "name" : "Neural Information Processing Systems (NIPS) Workshop on Learning on Cores, Clusters, and Clouds (LCCC)",
+  "acronym" : "LCCC"
+}, {
+  "id" : "icml",
+  "name" : "International Conference on Machine Learning (ICML)",
+  "acronym" : "ICML"
+}, {
+  "id" : "nips",
+  "name" : "Neural Information Processing Systems (NIPS)",
+  "acronym" : "NIPS"
+}, {
+  "id" : "emnlp",
+  "name" : "Empirical Methods in Natural Language Processing (EMNLP)",
+  "acronym" : "EMNLP"
+}, {
+  "id" : "cikm",
+  "name" : "ACM Conference of Information and Knowledge Management (CIKM)",
+  "acronym" : "CIKM"
+}, {
+  "id" : "conll",
+  "name" : "Conference on Computational Natural Language Learning (CoNLL)",
+  "acronym" : "CoNLL"
+}, {
+  "id" : "acl",
+  "name" : "Association for Computational Linguistics (ACL)",
+  "acronym" : "ACL"
+}, {
+  "id" : "naacl",
+  "name" : "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)",
+  "acronym" : "NAACL"
+} ]

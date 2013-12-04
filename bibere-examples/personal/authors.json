@@ -1,0 +1,136 @@
+[ {
+  "id" : "andrew",
+  "name" : {
+    "first" : "Andrew",
+    "last" : "McCallum",
+    "preLast" : "K.",
+    "lineage" : null
+  },
+  "website" : "http://www.cs.umass.edu/~mccallum"
+}, {
+  "id" : "sameer",
+  "name" : {
+    "first" : "Sameer",
+    "last" : "Singh",
+    "preLast" : null,
+    "lineage" : null
+  },
+  "website" : "http://www.sameersingh.org"
+}, {
+  "id" : "wick",
+  "name" : {
+    "first" : "Michael",
+    "last" : "Wick",
+    "preLast" : null,
+    "lineage" : null
+  },
+  "website" : "http://www.cs.umass.edu/~mwick"
+}, {
+  "id" : "sebastian",
+  "name" : {
+    "first" : "Sebastian",
+    "last" : "Riedel",
+    "preLast" : null,
+    "lineage" : null
+  },
+  "website" : null
+}, {
+  "id" : "thore",
+  "name" : {
+    "first" : "Thore",
+    "last" : "Graepel",
+    "preLast" : null,
+    "lineage" : null
+  },
+  "website" : null
+}, {
+  "id" : "fernando",
+  "name" : {
+    "first" : "Fernando",
+    "last" : "Pereira",
+    "preLast" : null,
+    "lineage" : null
+  },
+  "website" : null
+}, {
+  "id" : "amar",
+  "name" : {
+    "first" : "Amarnag",
+    "last" : "Subramanya",
+    "preLast" : null,
+    "lineage" : null
+  },
+  "website" : null
+}, {
+  "id" : "martin",
+  "name" : {
+    "first" : "Brian",
+    "last" : "Martin",
+    "preLast" : null,
+    "lineage" : null
+  },
+  "website" : null
+}, {
+  "id" : "ari",
+  "name" : {
+    "first" : "Ari",
+    "last" : "Kobren",
+    "preLast" : null,
+    "lineage" : null
+  },
+  "website" : null
+}, {
+  "id" : "luke",
+  "name" : {
+    "first" : "Luke",
+    "last" : "Vilnis",
+    "preLast" : null,
+    "lineage" : null
+  },
+  "website" : null
+}, {
+  "id" : "jiaping",
+  "name" : {
+    "first" : "Jiaping",
+    "last" : "Zheng",
+    "preLast" : null,
+    "lineage" : null
+  },
+  "website" : null
+}, {
+  "id" : "jinho",
+  "name" : {
+    "first" : "Jinho",
+    "last" : "Choi",
+    "preLast" : "D.",
+    "lineage" : null
+  },
+  "website" : null
+}, {
+  "id" : "harshal",
+  "name" : {
+    "first" : "Harshal",
+    "last" : "Pandya",
+    "preLast" : null,
+    "lineage" : null
+  },
+  "website" : null
+}, {
+  "id" : "limin",
+  "name" : {
+    "first" : "Limin",
+    "last" : "Yao",
+    "preLast" : null,
+    "lineage" : null
+  },
+  "website" : null
+}, {
+  "id" : "greg",
+  "name" : {
+    "first" : "Gregory",
+    "last" : "Druck",
+    "preLast" : null,
+    "lineage" : null
+  },
+  "website" : null
+} ]
