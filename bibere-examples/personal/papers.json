@@ -11,8 +11,6 @@
   "venueId" : "cikm",
   "abstractText" : "Probabilistic graphical model representations of relational data provide a number of desired features, such as inference of missing values, detection of errors, visualization of data, and probabilistic answers to relational queries. However, adoption has been slow due to the high level of expertise expected both in probability and in the domain from the user. Instead of requiring a domain expert to specify the probabilistic dependencies of the data, we present an approach that uses the relational DB schema to automatically construct a Bayesian graphical model for a database. This resulting model contains customized distributions for the attributes, latent variables that cluster the records, and factors that reflect and represent the foreign key links, whilst allowing efficient inference. Experiments demonstrate the accuracy of the model and scalability of inference on synthetic and real-world data.",
   "pdfLink" : "http://research.microsoft.com/pubs/200220/cikm1335-singh-preprint.pdf",
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -25,10 +23,6 @@
   "year" : 2013,
   "authorIds" : [ "jiaping", "luke", "sameer", "jinho", "andrew" ],
   "venueId" : "conll",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -41,10 +35,6 @@
   "year" : 2013,
   "authorIds" : [ "sameer", "sebastian", "martin", "jiaping", "andrew" ],
   "venueId" : "akbc13",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -57,10 +47,6 @@
   "year" : 2013,
   "authorIds" : [ "wick", "sameer", "ari", "andrew" ],
   "venueId" : "akbc13",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -73,10 +59,6 @@
   "year" : 2013,
   "authorIds" : [ "wick", "sameer", "harshal", "andrew" ],
   "venueId" : "akbc13",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -89,10 +71,6 @@
   "year" : 2013,
   "authorIds" : [ "sameer", "sebastian", "andrew" ],
   "venueId" : "reseff",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -105,10 +83,6 @@
   "year" : 2012,
   "authorIds" : [ "sameer", "wick", "andrew" ],
   "venueId" : "emnlp",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -121,10 +95,6 @@
   "year" : 2012,
   "authorIds" : [ "wick", "sameer", "andrew" ],
   "venueId" : "acl",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -137,10 +107,6 @@
   "year" : 2012,
   "authorIds" : [ "sameer", "thore" ],
   "venueId" : "probprog",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -153,10 +119,6 @@
   "year" : 2012,
   "authorIds" : [ "sameer", "wick", "andrew" ],
   "venueId" : "akbc12",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -169,10 +131,6 @@
   "year" : 2012,
   "authorIds" : [ "sameer", "greg", "andrew" ],
   "venueId" : "University of Massachusetts Amherst, CMPSCI Technical Report, UM-CS-2012-032",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -185,10 +143,6 @@
   "year" : 2012,
   "authorIds" : [ "sameer", "amar", "fernando", "andrew" ],
   "venueId" : "University of Massachusetts Amherst, CMPSCI Technical Report, UM-CS-2012-015",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -201,10 +155,6 @@
   "year" : 2011,
   "authorIds" : [ "Jeremy Kubica", "sameer", "Daria Sorokina" ],
   "venueId" : "Scaling Up Machine Learning, Cambridge University Press",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -217,10 +167,6 @@
   "year" : 2011,
   "authorIds" : [ "sameer", "amar", "fernando", "andrew" ],
   "venueId" : "acl",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -233,10 +179,6 @@
   "year" : 2011,
   "authorIds" : [ "sameer", "andrew" ],
   "venueId" : "biglearn",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 }, {
@@ -249,10 +191,6 @@
   "year" : 2011,
   "authorIds" : [ "sameer", "martin", "andrew" ],
   "venueId" : "cost",
-  "abstractText" : null,
-  "pdfLink" : null,
-  "pptLink" : null,
-  "pages" : null,
   "extraLinks" : [ ],
   "extraFields" : [ ]
 } ]

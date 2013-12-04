@@ -3,134 +3,94 @@
   "name" : {
     "first" : "Andrew",
     "last" : "McCallum",
-    "preLast" : "K.",
-    "lineage" : null
+    "preLast" : "K."
   },
   "website" : "http://www.cs.umass.edu/~mccallum"
 }, {
   "id" : "sameer",
   "name" : {
     "first" : "Sameer",
-    "last" : "Singh",
-    "preLast" : null,
-    "lineage" : null
+    "last" : "Singh"
   },
   "website" : "http://www.sameersingh.org"
 }, {
   "id" : "wick",
   "name" : {
     "first" : "Michael",
-    "last" : "Wick",
-    "preLast" : null,
-    "lineage" : null
+    "last" : "Wick"
   },
   "website" : "http://www.cs.umass.edu/~mwick"
 }, {
   "id" : "sebastian",
   "name" : {
     "first" : "Sebastian",
-    "last" : "Riedel",
-    "preLast" : null,
-    "lineage" : null
-  },
-  "website" : null
+    "last" : "Riedel"
+  }
 }, {
   "id" : "thore",
   "name" : {
     "first" : "Thore",
-    "last" : "Graepel",
-    "preLast" : null,
-    "lineage" : null
-  },
-  "website" : null
+    "last" : "Graepel"
+  }
 }, {
   "id" : "fernando",
   "name" : {
     "first" : "Fernando",
-    "last" : "Pereira",
-    "preLast" : null,
-    "lineage" : null
-  },
-  "website" : null
+    "last" : "Pereira"
+  }
 }, {
   "id" : "amar",
   "name" : {
     "first" : "Amarnag",
-    "last" : "Subramanya",
-    "preLast" : null,
-    "lineage" : null
-  },
-  "website" : null
+    "last" : "Subramanya"
+  }
 }, {
   "id" : "martin",
   "name" : {
     "first" : "Brian",
-    "last" : "Martin",
-    "preLast" : null,
-    "lineage" : null
-  },
-  "website" : null
+    "last" : "Martin"
+  }
 }, {
   "id" : "ari",
   "name" : {
     "first" : "Ari",
-    "last" : "Kobren",
-    "preLast" : null,
-    "lineage" : null
-  },
-  "website" : null
+    "last" : "Kobren"
+  }
 }, {
   "id" : "luke",
   "name" : {
     "first" : "Luke",
-    "last" : "Vilnis",
-    "preLast" : null,
-    "lineage" : null
-  },
-  "website" : null
+    "last" : "Vilnis"
+  }
 }, {
   "id" : "jiaping",
   "name" : {
     "first" : "Jiaping",
-    "last" : "Zheng",
-    "preLast" : null,
-    "lineage" : null
-  },
-  "website" : null
+    "last" : "Zheng"
+  }
 }, {
   "id" : "jinho",
   "name" : {
     "first" : "Jinho",
     "last" : "Choi",
-    "preLast" : "D.",
-    "lineage" : null
-  },
-  "website" : null
+    "preLast" : "D."
+  }
 }, {
   "id" : "harshal",
   "name" : {
     "first" : "Harshal",
-    "last" : "Pandya",
-    "preLast" : null,
-    "lineage" : null
-  },
-  "website" : null
+    "last" : "Pandya"
+  }
 }, {
   "id" : "limin",
   "name" : {
     "first" : "Limin",
-    "last" : "Yao",
-    "preLast" : null,
-    "lineage" : null
-  },
-  "website" : null
+    "last" : "Yao"
+  }
 }, {
   "id" : "greg",
   "name" : {
     "first" : "Gregory",
-    "last" : "Druck",
-    "preLast" : null,
-    "lineage" : null
-  },
-  "website" : null
+    "last" : "Druck"
+  }
 } ]
