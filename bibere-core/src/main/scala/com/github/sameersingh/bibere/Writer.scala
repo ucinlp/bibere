@@ -2,11 +2,14 @@ package com.github.sameersingh.bibere
 
 import java.io.{FileOutputStream, OutputStreamWriter, PrintWriter}
 import java.util.zip.GZIPOutputStream
+import scalax.io.Resource
 
 /**
  * @author sameer
  */
 trait Writer {
+  def mainAuthorId: Option[String] = None
+
   def write(pubs: Publications, path: String): Unit
 }
 
@@ -32,7 +35,7 @@ object JsonWriter extends Writer {
   def writePapers(pubs: Publications, path: String) {
     val writer = new PrintWriter(new OutputStreamWriter(
       new FileOutputStream(path + "/" + papersFile), "UTF-8"))
-    writer.println(JacksonWrapper.serializePretty(pubs.papers.values.toSeq))
+    writer.println(JacksonWrapper.serializePretty(pubs.papersByYear.toSeq))
     writer.flush()
     writer.close
   }
@@ -43,19 +46,5 @@ object JsonWriter extends Writer {
     writer.println(JacksonWrapper.serializePretty(pubs.venues.values.toSeq))
     writer.flush()
     writer.close
-  }
-}
-
-class HTMLWriter extends Writer {
-  def write(pubs: Publications, path: String) {
-
-  }
-}
-
-object HTMLWriter extends HTMLWriter
-
-class BibtexWriter extends Writer {
-  def write(pubs: Publications, path: String) {
-
   }
 }

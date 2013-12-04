@@ -10,7 +10,22 @@ case class Affiliation(id: String, name: String, website: Option[String])
 case class PersonName(first: String,
                       last: String,
                       preLast: Option[String] = None,
-                      lineage: Option[String] = None)
+                      lineage: Option[String] = None) {
+  def full= first + " " + preLast.fold("")(_ + " ") + last + lineage.fold("")(" " + _)
+  def short = first.head + ". " + preLast.fold("")(_.head + ". ") + last + lineage.fold("")(" " + _)
+}
+
+object PersonName {
+  def apply(name: String): PersonName = {
+    val split = name.split("\\s")
+    assert(split.length >= 2)
+    assert(split.length <= 4)
+    PersonName(split.head,
+      if(split.length >= 4) split(2) else split.last,
+      if(split.length >= 3) Some(split(1)) else None,
+      if(split.length >= 4) Some(split.last) else None)
+  }
+}
 
 case class Author(id: String, name: PersonName, website: Option[String] = None)
 
@@ -41,8 +56,8 @@ class Publications {
   val venues: HashMap[String, Venue] = new HashMap
 
   def +=(p: Paper): Unit = {
-    assert(venues.contains(p.venueId))
-    assert(p.authorIds.forall(a => authors.contains(a)))
+    if(!venues.contains(p.venueId)) println("WARNING: Non-DB venue detected: " + p.venueId)
+    if(p.authorIds.exists(a => !authors.contains(a))) println("WARNING: Non-DB author detected")
     assert(!papers.contains(p.id))
     papers(p.id) = p
   }
@@ -57,9 +72,11 @@ class Publications {
     authors(a.id) = a
   }
 
-  def author(id: String) = authors(id)
+  def papersByYear = papers.values.toSeq.sortBy(_.venueId).sortBy(_.pubType).sortBy(- _.year)
+
+  def author(id: String) = authors.getOrElse(id, Author(id, PersonName(id)))
 
   def paper(id: String) = papers(id)
 
-  def venue(id: String) = venues(id)
+  def venue(id: String) = venues.getOrElse(id, Venue(id, id, id))
 }
