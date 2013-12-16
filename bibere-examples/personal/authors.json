@@ -2,8 +2,7 @@
   "id" : "andrew",
   "name" : {
     "first" : "Andrew",
-    "last" : "McCallum",
-    "preLast" : "K."
+    "last" : "McCallum"
   },
   "website" : "http://www.cs.umass.edu/~mccallum"
 }, {
@@ -25,25 +24,29 @@
   "name" : {
     "first" : "Sebastian",
     "last" : "Riedel"
-  }
+  },
+  "website" : "http://www.riedelcastro.org/"
 }, {
   "id" : "thore",
   "name" : {
     "first" : "Thore",
     "last" : "Graepel"
-  }
+  },
+  "website" : "http://research.microsoft.com/en-us/people/thoreg/"
 }, {
   "id" : "fernando",
   "name" : {
     "first" : "Fernando",
     "last" : "Pereira"
-  }
+  },
+  "website" : "https://sites.google.com/site/fernandopereira/"
 }, {
   "id" : "amar",
   "name" : {
     "first" : "Amarnag",
     "last" : "Subramanya"
-  }
+  },
+  "website" : "https://sites.google.com/site/amarsubramanya/"
 }, {
   "id" : "martin",
   "name" : {
@@ -86,7 +89,8 @@
   "name" : {
     "first" : "Limin",
     "last" : "Yao"
-  }
+  },
+  "website" : "http://people.cs.umass.edu/~lmyao/"
 }, {
   "id" : "greg",
   "name" : {
