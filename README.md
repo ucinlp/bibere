@@ -5,17 +5,25 @@ This is a library to maintain a database of publications, currently backed by js
 
 Current set of features:
 - Read and write authors, papers, and venues in human-editable json files
+- HTML generator: write out publications in a classed-up html, that can be beautified using CSS.
+- BibTex generator: writes out publications as @inproceedings with the basic fields
 
 Coming soon:
-- HTML generator
-- BibTex generator
-- Markdown generator
-- XML generator
+- BibTex: support more publication formats
+- Markdown/Text generator
 - make initialization easier using existing BibTex
 
 ## Initializing Publications
 
-### From an example
+### From Json Files
+
+For examples, see '''bibere-examples'''.
+
+#### Authors
+
+#### Venues
+
+#### Papers
 
 ### From an existing BibTex file
 
