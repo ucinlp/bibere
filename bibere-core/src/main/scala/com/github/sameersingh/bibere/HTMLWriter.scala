@@ -77,6 +77,7 @@ class HTMLWriter extends Writer {
       venue(writer, Venue(p.venueId, p.venueId, p.venueId))
     })(p => {venue(writer, p)})
     year(writer, p.year)
+    writer.println("<br/>")
     links(writer, p)
     post(writer, p, pubs)
     writer.println("</li>")
@@ -156,7 +157,7 @@ trait PerYear extends HTMLWriter {
     val grouped = pubs.papersByYear.groupBy(_.year).toSeq.sortBy(-_._1)
     for ((y,ps) <- grouped) {
       writer.println()
-      writer.println("<span class=\"%s\">%d</span>" format (yearGroupClass, y))
+      writer.println("<span id=\"%d\" class=\"%s\">%d</span>" format (y, yearGroupClass, y))
       writer.println("<ul class=\"" + papersClass + "\">")
       for(p <- ps) pub(p, writer, pubs)
       writer.println("</ul>")
@@ -169,11 +170,11 @@ class BootstrapWriter extends HTMLWriter {
   override def links(writer: PrintWriter, p: Paper) = {
     if(p.pdfLink.isDefined || p.pptLink.isDefined || p.extraLinks.length > 0) {
       writer.println("<div class=\"btn-group\">")
-      writer.println("<button type=\"button\" class=\"btn btn-default dropdown-toggle\" data-toggle=\"dropdown\">")
+      writer.println("<button type=\"button\" class=\"btn btn-default details-btn dropdown-toggle\" data-toggle=\"dropdown\">")
       writer.println("Download <span class=\"caret\"></span>")
       writer.println("</button>")
-      writer.println("<ul class=\"dropdown-menu\" role=\"menu\">")
-      val links = p.pdfLink.map("Paper (PDF)" -> _) ++ p.pptLink.map("Presentation" -> _) ++ p.extraFields
+      writer.println("<ul class=\"dropdown-menu details-panel\" role=\"menu\">")
+      val links = p.pdfLink.map("Paper (PDF)" -> _) ++ p.pptLink.map("Presentation" -> _) ++ p.extraLinks
       for((n,l) <- links) {
         writer.println("<li><a href=\"%s\">%s</a></li>" format(l, n))
       }
