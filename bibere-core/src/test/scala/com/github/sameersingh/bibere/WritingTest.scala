@@ -19,7 +19,8 @@ class WritingTest {
     result += Venue("biglearn", "NIPS Workshop on Big Learning", "BigLearning")
     // papers
     result += Paper("biglearn11", "Towards Asynchronous Distributed MCMC Inference for Large Graphical Models",
-      PubType.Workshop.toString, 2011, Seq("sameer", "andrew"), "biglearn")
+      PubType.Workshop.toString, 2011, Seq("sameer", "andrew"), "biglearn", Some("abstract text"), Some("pdf-link"),
+      Some("ppt-link"), Some((10,100)), Seq(("project", "project-link")), Seq(("tr-num", "UMASS-CS-2013")))
 
     result
   }
