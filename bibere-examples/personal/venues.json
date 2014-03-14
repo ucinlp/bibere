@@ -54,4 +54,8 @@
   "id" : "naacl",
   "name" : "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)",
   "acronym" : "NAACL"
+}, {
+  "id" : "tackbp",
+  "name" : "Text Analysis Conference on Knowledge Base Population",
+  "acronym" : "TAC KBP"
 } ]

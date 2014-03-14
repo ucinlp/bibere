@@ -10,6 +10,15 @@
   "pdfLink" : "http://research.microsoft.com/pubs/200220/cikm1335-singh-preprint.pdf",
   "extraLinksSlot" : [ [ "Project Page", "http://research.microsoft.com/apps/pubs/default.aspx?id=200220" ] ]
 }, {
+  "id" : "kbp13",
+  "title" : "Universal Schema for Slot Filling and Cold Start: UMass IESL at TACKBP 2013",
+  "pubTypeSlot" : "Conference",
+  "year" : 2013,
+  "authorIds" : [ "sameer", "limin", "David Belanger", "ari", "Sam Anzaroot", "wick", "Alexandre Passos", "harshal", "jinho", "martin", "andrew" ],
+  "venueId" : "tackbp",
+  "abstractText" : "We employ \\textit{universal schema} for the TAC KBP slot filling and cold start tasks. The technique enlarges the set of relations in an ontology, e.g., TACKBP slots, to contain all surface patterns between pairs of entities in a large corpus. By factorizing the matrix of co-occurrences between entity pairs and universal schema relations, we are able to predict new target slots. This differs fundamentally from traditional relation extraction approaches because an entire knowledge base is constructed jointly over train and test data. To produce submissions for the slot filling and cold start tasks, we simply query this knowledge base. We describe universal schema, our data preprocessing pipeline, and additional techniques we employ for predicting entities' attributes.",
+  "pdfLink" : "http://cs.umass.edu/~sameer/files/umass-tackbp13.pdf"
+}, {
   "id" : "conll13",
   "title" : "Dynamic Knowledge-Base Alignment for Coreference Resolution",
   "pubTypeSlot" : "Conference",
