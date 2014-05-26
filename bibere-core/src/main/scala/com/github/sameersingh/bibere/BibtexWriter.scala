@@ -45,12 +45,16 @@ object BibtexHelper {
   def entryType(v: Value): String = v match {
     case Conference => "inproceedings"
     case Workshop => "inproceedings"
+    case TechReport => "techreport"
+    case Thesis => "phdthesis"
     case _ => "misc"
   }
 
   def venueTitle(v: Value): String = v match {
     case Conference => "booktitle"
     case Workshop => "booktitle"
+    case TechReport => "institution"
+    case Thesis => "school"
     case _ => "series"
   }
 }
