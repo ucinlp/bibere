@@ -7,6 +7,18 @@
   "name" : "NIPS Workshop on Probabilistic Programming",
   "acronym" : "ProbProg"
 }, {
+  "id" : "starai",
+  "name" : "International Workshop on Statistical Relational AI (StarAI)",
+  "acronym" : "StarAI"
+}, {
+  "id" : "sp14",
+  "name" : "ACL 2014 Workshop on Semantic Parsing (SP14)",
+  "acronym" : "SP14"
+}, {
+  "id" : "nwnlp",
+  "name" : "Pacific Northwest Regional NLP Workshop (NW-NLP)",
+  "acronym" : "NW-NLP"
+}, {
   "id" : "akbc13",
   "name" : "CIKM Workshop on Automated Knowledge Base Construction (AKBC)",
   "acronym" : "AKBC"
