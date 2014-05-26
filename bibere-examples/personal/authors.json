@@ -1,4 +1,32 @@
 [ {
+   "id" : "sameer",
+  "name" : {
+    "first" : "Sameer",
+    "last" : "Singh"
+  },
+  "website" : "http://www.sameersingh.org"
+}, {
+ "id" : "weld",
+  "name" : {
+    "first" : "Dan",
+    "last" : "Weld"
+  },
+  "website" : "https://homes.cs.washington.edu/~weld/"
+}, {
+  "id" : "carlos",
+  "name" : {
+    "first" : "Carlos",
+    "last" : "Guestrin"
+  },
+  "website" : "https://homes.cs.washington.edu/~guestrin/"
+}, {
+  "id" : "lsz",
+  "name" : {
+    "first" : "Luke",
+    "last" : "Zettlemoyer"
+  },
+  "website" : "https://homes.cs.washington.edu/~lsz/"
+}, {
   "id" : "andrew",
   "name" : {
     "first" : "Andrew",
@@ -6,12 +34,26 @@
   },
   "website" : "http://www.cs.umass.edu/~mccallum"
 }, {
-  "id" : "sameer",
+  "id" : "victoria",
   "name" : {
-    "first" : "Sameer",
-    "last" : "Singh"
+    "first" : "Victoria (Xi)",
+    "last" : "Lin"
   },
-  "website" : "http://www.sameersingh.org"
+  "website" : "https://homes.cs.washington.edu/~xilin"
+}, {
+  "id" : "luheng",
+  "name" : {
+    "first" : "Luheng",
+    "last" : "He"
+  },
+  "website" : "https://homes.cs.washington.edu/~luheng"
+}, {
+  "id" : "xiao",
+  "name" : {
+    "first" : "Xiao",
+    "last" : "Ling"
+  },
+  "website" : "https://homes.cs.washington.edu/~xiaoling"
 }, {
   "id" : "wick",
   "name" : {
@@ -19,6 +61,40 @@
     "last" : "Wick"
   },
   "website" : "http://www.cs.umass.edu/~mwick"
+}, {
+  "id" : "tim",
+  "name" : {
+    "first" : "Tim",
+    "last" : "Rocktaschel"
+  }, 
+  "website" : "http://rockt.github.io/"
+}, {
+  "id" : "matko",
+  "name" : {
+    "first" : "Matko",
+    "last" : "Bosnjak"
+  }
+}, {
+  "id" : "vivek",
+  "name" : {
+    "first" : "Vivek",
+    "last" : "Srikumar"
+  },
+  "website" : "http://svivek.com/"
+}, {
+  "id" : "larysa",
+  "name" : {
+    "first" : "Larysa",
+    "last" : "Visengeriyeva"
+  },
+  "website" : "https://twitter.com/visenger"
+}, {
+  "id" : "jan",
+  "name" : {
+    "first" : "Jan",
+    "last" : "Noessner"
+  },
+  "website" : "http://dws.informatik.uni-mannheim.de/en/people/researchers/jan-noessner"
 }, {
   "id" : "sebastian",
   "name" : {
@@ -91,6 +167,18 @@
     "last" : "Yao"
   },
   "website" : "http://people.cs.umass.edu/~lmyao/"
+}, {
+  "id" : "khash",
+  "name" : {
+    "first" : "Khashyar",
+    "last" : "Rohanimanesh"
+  }
+}, {
+  "id" : "karl",
+  "name" : {
+    "first" : "Karl",
+    "last" : "Schultz"
+  }
 }, {
   "id" : "greg",
   "name" : {
