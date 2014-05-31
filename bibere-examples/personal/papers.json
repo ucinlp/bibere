@@ -5,14 +5,16 @@
     "year" : 2014,
     "authorIds" : [ "xiao", "sameer", "weld" ],
     "venueId" : "nwnlp",
-    "pdfLink" : "nwnlp2014.cs.sfu.ca/papers/nwnlp2014_Ling.pdf"
+    "pdfLink" : "nwnlp2014.cs.sfu.ca/papers/nwnlp2014_Ling.pdf",
+    "weight" : 0.5
 }, {
     "id" : "prlr:nwnlp14",
     "title" : "Leveraging Prior Knowledge of Output Structure for Learning with Incomplete Annotations",
     "pubTypeSlot" : "Workshop",
     "year" : 2014,
     "authorIds" : [ "victoria", "sameer", "luheng", "lsz" ],
-    "venueId" : "nwnlp"
+    "venueId" : "nwnlp",
+    "weight" : 0.5
 }, {
     "id" : "logic:sp14",
     "title" : "Low-dimensional Embeddings of Logic",
@@ -20,7 +22,9 @@
     "year" : 2014,
     "authorIds" : [ "tim", "sameer", "matko", "sebastian" ],
     "venueId" : "sp14",
-    "pdfLink" : "http://sp14.ws/pub/rbsr-sp14-2014.pdf"
+    "pdfLink" : "http://sp14.ws/pub/rbsr-sp14-2014.pdf",
+    "emphasisNote" : "Exceptional Submission Award",
+    "note" : "This paper was also submitted to StarAI with minor changes."
 }, {
     "id" : "wolfe:starai14",
     "title" : "WOLFE: Strength Reduction and Approximate Programming for Probabilistic Programming",
@@ -34,7 +38,8 @@
     "pubTypeSlot" : "Workshop",
     "year" : 2014,
     "authorIds" : [ "tim", "sameer", "matko", "sebastian" ],
-    "venueId" : "starai"
+    "venueId" : "starai",
+    "note" : "This paper was also submitted to SemParsing with minor changes."
 }, {
     "id" : "thesis",
     "title" : "Scaling MCMC Inference and Belief Propagation for Large, Dense Graphical Models",
@@ -42,7 +47,8 @@
     "year" : 2014,
     "authorIds" : [ "sameer" ],
     "venueId" : "PhD Thesis, University of Massachusetts",
-    "pdfLink" : "https://web.cs.umass.edu/publication/docs/2014/UM-CS-PhD-2014-007.pdf"
+    "pdfLink" : "https://web.cs.umass.edu/publication/docs/2014/UM-CS-PhD-2014-007.pdf",
+    "note" : "Committee: Andrew McCallum, Carlos Guestrin, Ben Marlin, David Jensen, Michael Zink."
 }, {
      "id" : "cikm13",
      "title" : "Automated Probabilistic Modeling for Relational Data",
@@ -171,7 +177,8 @@
   "authorIds" : [ "sameer", "amar", "fernando", "andrew" ],
   "venueId" : "acl",
   "pdfLink" : "http://cs.umass.edu/~sameer/files/largescale-acl11.pdf",
-  "pptLink" : "http://cs.umass.edu/~sameer/files/largescale-acl11-ppt.pdf"
+  "pptLink" : "http://cs.umass.edu/~sameer/files/largescale-acl11-ppt.pdf",
+  "emphasisNote" : "Best Talk Award at DARPA Machine Reading Project Kickoff."
 }, {
   "id" : "asyncmcmc:biglearn11",
   "title" : "Towards Asynchronous Distributed MCMC Inference for Large Graphical Models",
@@ -271,8 +278,9 @@
   "pubTypeSlot" : "Report",
   "year" : 2009,
   "authorIds" : [ "sameer" ],
-  "venueId" : "University of Massachusetts Amherst, PhD Candidacy/Synthesis Report (Readers: A. Barto, A. McCallum)",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/optiondiscovery-synthesis09.pdf"
+  "venueId" : "University of Massachusetts Amherst, PhD Candidacy/Synthesis Report",
+  "pdfLink" : "http://cs.umass.edu/~sameer/files/optiondiscovery-synthesis09.pdf",
+  "note" : "Readers: Andy Barto and Andrew McCallum"
 }, {
   "id" : "factorie:nipsws08",
   "title" : "FACTORIE: Efficient Probabilistic Programming via Imperative Declarations of Structure, Inference and Learning",
