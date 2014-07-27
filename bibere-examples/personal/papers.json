@@ -5,7 +5,7 @@
     "year" : 2014,
     "authorIds" : [ "xiao", "sameer", "weld" ],
     "venueId" : "nwnlp",
-    "pdfLink" : "nwnlp2014.cs.sfu.ca/papers/nwnlp2014_Ling.pdf",
+    "pdfLink" : "http://nwnlp2014.cs.sfu.ca/papers/nwnlp2014_Ling.pdf",
     "weight" : 0.5
 }, {
     "id" : "prlr:nwnlp14",
