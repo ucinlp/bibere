@@ -5,7 +5,7 @@
     "year" : 2014,
     "authorIds" : [ "xiao", "sameer", "weld" ],
     "venueId" : "nwnlp",
-    "pdfLink" : "http://nwnlp2014.cs.sfu.ca/papers/nwnlp2014_Ling.pdf",
+    "pdfLink" : "files/paper/contextel-nwnlp14.pdf",
     "weight" : 0.5
 }, {
     "id" : "prlr:nwnlp14",
@@ -22,7 +22,7 @@
     "year" : 2014,
     "authorIds" : [ "tim", "sameer", "matko", "sebastian" ],
     "venueId" : "sp14",
-    "pdfLink" : "http://sp14.ws/pub/rbsr-sp14-2014.pdf",
+    "pdfLink" : "files/papers/lowranklogic-sp14.pdf",
     "emphasisNote" : "Exceptional Submission Award",
     "note" : "This paper was also submitted to StarAI with minor changes."
 }, {
@@ -31,7 +31,8 @@
     "pubTypeSlot" : "Workshop",
     "year" : 2014,
     "authorIds" : [ "sebastian", "sameer", "vivek", "tim", "larysa", "jan" ],
-    "venueId" : "starai"
+    "venueId" : "starai",
+    "pdfLink" : "files/papers/wolfe-starai14.pdf"
 }, {
     "id" : "logic:starai14",
     "title" : "Low-dimensional Embeddings of Logic",
@@ -50,6 +51,16 @@
     "pdfLink" : "https://web.cs.umass.edu/publication/docs/2014/UM-CS-PhD-2014-007.pdf",
     "note" : "Committee: Andrew McCallum, Carlos Guestrin, Ben Marlin, David Jensen, Michael Zink."
 }, {
+     "id" : "akbc13",
+     "title" : "AKBC 2013: Third Workshop on Automated Knowledge Base Construction",
+     "pubTypeSlot" : "Conference",
+     "year" : 2013,
+     "authorIds" : [ "Fabian M. Suchanek", "sameer", "sebastian", "Partha P. Talukdar" ],
+     "venueId" : "cikm",
+     "abstractText" : "The AKBC 2013 workshop aims to be a venue of excellence and vision in the area of knowledge base construction. This year's workshop will feature keynotes by ten leading researchers in the field, including from Google, Microsoft, Stanford, and CMU. The submissions focus on visionary ideas instead of on experimental evaluation. Nineteen accepted papers will be presented as posters, with nine exceptional papers also highlighted as spotlight talks. Thereby, the workshop aims provides a vivid forum of discussion about the field of automated knowledge base construction.",
+     "pdfLink" : "files/papers/akbc13.pdf",
+     "extraLinksSlot" : [ [ "ACM DL", "http://dl.acm.org/citation.cfm?id=2505806" ] ]
+}, {
      "id" : "cikm13",
      "title" : "Automated Probabilistic Modeling for Relational Data",
      "pubTypeSlot" : "Conference",
@@ -67,7 +78,7 @@
   "authorIds" : [ "sameer", "limin", "David Belanger", "ari", "Sam Anzaroot", "wick", "Alexandre Passos", "harshal", "jinho", "martin", "andrew" ],
   "venueId" : "tackbp",
   "abstractText" : "We employ universal schema for the TAC KBP slot filling and cold start tasks. The technique enlarges the set of relations in an ontology, e.g., TACKBP slots, to contain all surface patterns between pairs of entities in a large corpus. By factorizing the matrix of co-occurrences between entity pairs and universal schema relations, we are able to predict new target slots. This differs fundamentally from traditional relation extraction approaches because an entire knowledge base is constructed jointly over train and test data. To produce submissions for the slot filling and cold start tasks, we simply query this knowledge base. We describe universal schema, our data preprocessing pipeline, and additional techniques we employ for predicting entities' attributes.",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/umass-tackbp13.pdf"
+  "pdfLink" : "files/papers/umass-tackbp13.pdf"
 }, {
   "id" : "conll13",
   "title" : "Dynamic Knowledge-Base Alignment for Coreference Resolution",
@@ -76,7 +87,7 @@
   "authorIds" : [ "jiaping", "luke", "sameer", "jinho", "andrew" ],
   "venueId" : "conll",
   "abstractText" : "Coreference resolution systems can benefit greatly from inclusion of global context, and a number of recent approaches have demonstrated improvements when precomputing an alignment to external knowledge sources. However, since alignment itself is a challenging task and is often noisy, existing systems either align conservatively, resulting in very few links, or combine the attributes of multiple candidates, leading to a conflation of entities. Our approach instead performs joint inference between within-document coreference and entity linking, maintaining ranked lists of candidate entities that are dynamically merged and reranked during inference. Further, we incorporate a large set of surface string variations for each entity by using anchor texts from the web that link to the entity. These forms of global context enables our system to improve classifier-based coreference by 1.09 B3 F1 points, and improve over the previous state-of-art by 0.41 points, thus introducing a new state-of-art result on the ACE 2004 data.",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/dynamic-conll13.pdf"
+  "pdfLink" : "files/papers/dynamic-conll13.pdf"
 }, {
   "id" : "jnt:akbc13",
   "title" : "Joint Inference of Entities, Relations, and Coreference",
@@ -84,7 +95,7 @@
   "year" : 2013,
   "authorIds" : [ "sameer", "sebastian", "martin", "jiaping", "andrew" ],
   "venueId" : "akbc13",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/joint-akbc13.pdf"
+  "pdfLink" : "files/papers/joint-akbc13.pdf"
 }, {
   "id" : "conf:akbc13",
   "title" : "Assessing Confidence of Knowledge Base Content with an Experimental Study in Entity Resolution",
@@ -92,7 +103,7 @@
   "year" : 2013,
   "authorIds" : [ "wick", "sameer", "ari", "andrew" ],
   "venueId" : "akbc13",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/confidence-akbc13.pdf"
+  "pdfLink" : "files/papers/confidence-akbc13.pdf"
 }, {
   "id" : "link:akbc13",
   "title" : "A Joint Model for Discovering and Linking Entities",
@@ -100,7 +111,7 @@
   "year" : 2013,
   "authorIds" : [ "wick", "sameer", "harshal", "andrew" ],
   "venueId" : "akbc13",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/linking-akbc13.pdf"
+  "pdfLink" : "files/papers/linking-akbc13.pdf"
 }, {
   "id" : "sparse:reseff13",
   "title" : "Anytime Belief Propagation Using Sparse Domains",
@@ -118,8 +129,8 @@
   "year" : 2012,
   "authorIds" : [ "sameer", "wick", "andrew" ],
   "venueId" : "emnlp",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/mcmcmc-emnlp12.pdf",
-  "pptLink" : "http://cs.umass.edu/~sameer/files/mcmcmc-emnlp12-ppt.pdf"
+  "pdfLink" : "files/papers/mcmcmc-emnlp12.pdf",
+  "pptLink" : "files/papers/mcmcmc-emnlp12-ppt.pdf"
 }, {
   "id" : "hcoref:acl12",
   "title" : "A Discriminative Hierarchical Model for Fast Coreference at Large Scale",
@@ -127,7 +138,7 @@
   "year" : 2012,
   "authorIds" : [ "wick", "sameer", "andrew" ],
   "venueId" : "acl",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/hierar-coref-acl12.pdf"
+  "pdfLink" : "files/papers/hierar-coref-acl12.pdf"
 }, {
   "id" : "mldb:probprog12",
   "title" : "Compiling Relational Database Schemata into Probabilistic Graphical Models",
@@ -144,7 +155,7 @@
   "year" : 2012,
   "authorIds" : [ "sameer", "wick", "andrew" ],
   "venueId" : "akbc12",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/mcmcmc-akbc12.pdf"
+  "pdfLink" : "files/papers/mcmcmc-akbc12.pdf"
 }, {
   "id" : "mcmcge:tr2012",
   "title" : "Constraint-Driven Training of Complex Models Using MCMC",
@@ -176,8 +187,8 @@
   "year" : 2011,
   "authorIds" : [ "sameer", "amar", "fernando", "andrew" ],
   "venueId" : "acl",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/largescale-acl11.pdf",
-  "pptLink" : "http://cs.umass.edu/~sameer/files/largescale-acl11-ppt.pdf",
+  "pdfLink" : "files/papers/largescale-acl11.pdf",
+  "pptLink" : "files/papers/largescale-acl11-ppt.pdf",
   "emphasisNote" : "Best Talk Award at DARPA Machine Reading Project Kickoff."
 }, {
   "id" : "asyncmcmc:biglearn11",
@@ -186,7 +197,7 @@
   "year" : 2011,
   "authorIds" : [ "sameer", "andrew" ],
   "venueId" : "biglearn",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/singh-nipsws11-biglearn.pdf"
+  "pdfLink" : "files/papers/singh-nipsws11-biglearn.pdf"
 }, {
   "id" : "sparsebp:cost11",
   "title" : "Inducing Value Sparsity for Parallel Inference in Tree-shaped Models",
@@ -194,8 +205,8 @@
   "year" : 2011,
   "authorIds" : [ "sameer", "martin", "andrew" ],
   "venueId" : "cost",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/singh-nipsws11-cost.pdf",
-  "pptLink" : "http://cs.umass.edu/~sameer/files/singh-nipsws11-cost-ppt.pdf"
+  "pdfLink" : "files/papers/singh-nipsws11-cost.pdf",
+  "pptLink" : "files/papers/singh-nipsws11-cost-ppt.pdf"
 }, {
   "id" : "cons:naacl10",
   "title" : "Constraint-Driven Rank-Based Learning for Information Extraction",
@@ -204,8 +215,8 @@
   "authorIds" : [ "sameer", "limin", "sebastian", "andrew" ],
   "venueId" : "naacl",
   "abstractText" : "Most learning algorithms for factor graphs require complete inference over the dataset or an instance before making an update to the parameters. SampleRank is a rank-based learning framework that alleviates this problem by updating the parameters during inference. Most semi-supervised learning algorithms also rely on the complete inference, i.e. calculating expectations or MAP configurations. We extend the SampleRank framework to the semi-supervised learning, avoiding these inference bottlenecks. Different approaches for incorporating unlabeled data and prior knowledge into this framework are explored. We evaluated our method on a standard information extraction dataset. Our approach outperforms the supervised method significantly and matches the result of the competing semi-supervised learning approach.Most learning algorithms for factor graphs require complete inference over the dataset or an instance before making an update to the parameters. SampleRank is a rank-based learning framework that alleviates this problem by updating the parameters during inference. Most semi-supervised learning algorithms also rely on the complete inference, i.e. calculating expectations or MAP configurations. We extend the SampleRank framework to the semi-supervised learning, avoiding these inference bottlenecks. Different approaches for incorporating unlabeled data and prior knowledge into this framework are explored. We evaluated our method on a standard information extraction dataset. Our approach outperforms the supervised method significantly and matches the result of the competing semi-supervised learning approach.",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/constraint-naacl10.pdf",
-  "pptLink" : "http://cs.umass.edu/~sameer/files/constraint-naacl10-ppt.pdf"
+  "pdfLink" : "files/papers/constraint-naacl10.pdf",
+  "pptLink" : "files/papers/constraint-naacl10-ppt.pdf"
 }, {
   "id" : "min:naacl10",
   "title" : "Minimally-Supervised Extraction of Entities from Text Advertisements",
@@ -214,8 +225,8 @@
   "authorIds" : [ "sameer", "Dustin Hillard", "Chris Leggetter" ],
   "venueId" : "naacl",
   "abstractText" : "Extraction of entities from ad creatives is an important problem that can benefit many computational advertising tasks. Supervised and semi-supervised solutions rely on labeled data which is expensive, time consuming, and difficult to procure for ad creatives. A small set of manually derived constraints on feature expectations over unlabeled data can be used to *partially* and *probabilistically* label large amounts of data. Utilizing recent work in constraint-based semi-supervised learning, this paper injects light weight supervision specified as these ``constraints'' into a semi-Markov conditional random field model of entity extraction in ad creatives. Relying solely on the constraints, the model is trained on a set of unlabeled ads using an online learning algorithm. We demonstrate significant accuracy improvements on a manually labeled test set as compared to a baseline dictionary approach. We also achieve accuracy that approaches a fully supervised classifier.",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/minimally-naacl10.pdf",
-  "pptLink" : "http://cs.umass.edu/~sameer/files/minimally-naacl10-ppt.pdf"
+  "pdfLink" : "files/papers/minimally-naacl10.pdf",
+  "pptLink" : "files/papers/minimally-naacl10-ppt.pdf"
 }, {
   "id" : "distmap:lccc10",
   "title" : "Distributed MAP Inference for Undirected Graphical Models",
@@ -224,8 +235,8 @@
   "authorIds" : [ "sameer", "amar", "fernando", "andrew" ],
   "venueId" : "lccc",
   "abstractText" : "In this work, we distribute the MCMC-based MAP inference using the Map-Reduce framework. The variables are assigned randomly to machines, which leads to some factors that neighbor variables on separate machines. Parallel MCMC-chains are initiated using proposal distributions that only suggest local changes such that factors that lie across machines are not examined. After a fixed number of samples on each machine, we redistribute the variables amongst the machines to enable proposals across variables that were on different machines. To demonstrate the distribution strategy on a real-world information extraction application, we model the task of cross-document coreference.",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/singh-nipsws10-lccc.pdf",
-  "pptLink" : "http://cs.umass.edu/~sameer/files/singh-nipsws10-lccc-ppt.pdf",
+  "pdfLink" : "files/papers/singh-nipsws10-lccc.pdf",
+  "pptLink" : "files/papers/singh-nipsws10-lccc-ppt.pdf",
   "extraLinksSlot" : [ [ "Video", "http://videolectures.net/nipsworkshops2010_singh_dmapi" ] ]
 }, {
   "id" : "distantly:tr10",
@@ -244,7 +255,7 @@
   "year" : 2009,
   "authorIds" : [ "wick", "khash", "sameer", "andrew" ],
   "venueId" : "nips",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/rl-nips09.pdf"
+  "pdfLink" : "files/papers/rl-nips09.pdf"
 }, {
   "id" : "factorie:nips09",
   "title" : "FACTORIE: Probabilistic Programming via Imperatively Defined Factor Graphs",
@@ -252,7 +263,7 @@
   "year" : 2009,
   "authorIds" : [ "andrew", "karl" , "sameer" ],
   "venueId" : "nips",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/factorie-nips09.pdf"
+  "pdfLink" : "files/papers/factorie-nips09.pdf"
 }, {
   "id" : "bidirectional:ecml09",
   "title" : "Bi-directional Joint Inference for Entity Resolution and Segmentation using Imperatively-Defined Factor Graphs",
@@ -260,8 +271,8 @@
   "year" : 2009,
   "authorIds" : [ "sameer", "karl", "andrew" ],
   "venueId" : "Machine Learning and Knowledge Discovery in Databases (Lecture Notes in Computer Science) and European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/bidirectional-ecml09.pdf",
-  "pptLink" : "http://cs.umass.edu/~sameer/files/bidirectional-ecml09-ppt.pdf",
+  "pdfLink" : "files/papers/bidirectional-ecml09.pdf",
+  "pptLink" : "files/papers/bidirectional-ecml09-ppt.pdf",
   "extraLinksSlot" : [ [ "Video", "http://videolectures.net/ecmlpkdd09_singh_bdjiersuidfg" ] ]
 }, {
   "id" : "parallel:sdm09",
@@ -270,8 +281,8 @@
   "year" : 2009,
   "authorIds" : [ "sameer", "Jeremy Kubica", "Scott E. Larsen", "Daria Sorokina" ],
   "venueId" : "SIAM International Conference on Data Mining (SDM)",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/parallel-sdm09.pdf",
-  "pptLink" : "http://cs.umass.edu/~sameer/files/parallel-sdm09-ppt.pdf"
+  "pdfLink" : "files/papers/parallel-sdm09.pdf",
+  "pptLink" : "files/papers/parallel-sdm09-ppt.pdf"
 }, {
   "id" : "option:synth09",
   "title" : "Option Discovery in Hierarchical Reinforcement Learning for Training Large Factor Graphs for Information Extraction",
@@ -279,7 +290,7 @@
   "year" : 2009,
   "authorIds" : [ "sameer" ],
   "venueId" : "University of Massachusetts Amherst, PhD Candidacy/Synthesis Report",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/optiondiscovery-synthesis09.pdf",
+  "pdfLink" : "files/papers/optiondiscovery-synthesis09.pdf",
   "note" : "Readers: Andy Barto and Andrew McCallum"
 }, {
   "id" : "factorie:nipsws08",
@@ -288,7 +299,7 @@
   "year" : 2008,
   "authorIds" : [ "andrew", "khash", "wick", "karl", "sameer" ],
   "venueId" : "probprog",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/factorie-nipsws08.pdf"
+  "pdfLink" : "files/papers/factorie-nipsws08.pdf"
 }, {
   "id" : "feature:patent08",
   "title" : "Feature selection for large scale models",
@@ -313,7 +324,7 @@
   "year" : 2007,
   "authorIds" : [ "S.R. Schach", "T.O.S. Adeshiyan", "D. Balasubramanian", "G. Madl", "E.P. Osses", "sameer", "K. Suwanmongkol", "M. Xie", "D.G. Feitelson" ],
   "venueId" : "Software Quality Journal (SQJ)",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/common-sqj07.pdf"
+  "pdfLink" : "files/papers/common-sqj07.pdf"
 }, {
   "id" : "jss07",
   "title" : "Fine-Grain Analysis of Common Coupling and its Application to a Linux Case Study",
@@ -321,7 +332,7 @@
   "year" : 2007,
   "authorIds" : [ "D.G. Feitelson", "T.O.S. Adeshiyan", "D. Balasubramanian", "Y. Etsion", "G. Madl", "E.P. Osses", "sameer", "K. Suwanmongkol", "M. Xie", "S.R. Schach" ],
   "venueId" : "Journal of Systems and Software (JSS)",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/common-jss07.pdf"
+  "pdfLink" : "files/papers/common-jss07.pdf"
 }, {
   "id" : "icaps07",
   "title" : "Mixed-Initiative Planning for Space Exploration Missions",
@@ -336,7 +347,7 @@
   "year" : 2006,
   "authorIds" : [ "sameer", "Julie A. Adams" ],
   "venueId" : "International Conference on Robotics & Automation (ICRA), 2006",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/transfer-icra06.pdf"
+  "pdfLink" : "files/papers/transfer-icra06.pdf"
 }, {
   "id" : "incarf03",
   "title" : "Finding the shortest path for a mobile robot in an unmapped maze from minimum runs",
