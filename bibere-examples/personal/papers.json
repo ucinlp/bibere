@@ -348,7 +348,7 @@
   "pubTypeSlot" : "Conference",
   "year" : 2006,
   "authorIds" : [ "sameer", "Julie A. Adams" ],
-  "venueId" : "International Conference on Robotics & Automation (ICRA), 2006",
+  "venueId" : "International Conference on Robotics and Automation (ICRA), 2006",
   "pdfLink" : "files/papers/transfer-icra06.pdf"
 }, {
   "id" : "incarf03",
@@ -356,7 +356,7 @@
   "pubTypeSlot" : "Conference",
   "year" : 2003,
   "authorIds" : [ "sameer" ],
-  "venueId" : "Int Conf on CAD, CAM, Robotics & Autonomous Factories (INCARF)"
+  "venueId" : "Int Conf on CAD, CAM, Robotics and Autonomous Factories (INCARF)"
 } ]
 
 
