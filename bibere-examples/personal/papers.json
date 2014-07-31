@@ -24,7 +24,8 @@
     "venueId" : "sp14",
     "pdfLink" : "files/papers/lowranklogic-sp14.pdf",
     "emphasisNote" : "Exceptional Submission Award",
-    "note" : "This paper was also submitted to StarAI with minor changes."
+    "note" : "This paper was also submitted to StarAI with minor changes.",
+     "extraLinksSlot" : [ [ "StarAI Poster", "files/papers/lowranklogic-starai14-poster.pdf" ] ]
 }, {
     "id" : "wolfe:starai14",
     "title" : "WOLFE: Strength Reduction and Approximate Programming for Probabilistic Programming",
@@ -32,7 +33,8 @@
     "year" : 2014,
     "authorIds" : [ "sebastian", "sameer", "vivek", "tim", "larysa", "jan" ],
     "venueId" : "starai",
-    "pdfLink" : "files/papers/wolfe-starai14.pdf"
+    "pdfLink" : "files/papers/wolfe-starai14.pdf",
+     "extraLinksSlot" : [ [ "Website", "http://www.wolfe.ml" ], [ "Poster", "files/papers/wolfe-starai14-poster.pdf" ] ]
 }, {
     "id" : "logic:starai14",
     "title" : "Low-dimensional Embeddings of Logic",
@@ -337,7 +339,7 @@
   "id" : "icaps07",
   "title" : "Mixed-Initiative Planning for Space Exploration Missions",
   "pubTypeSlot" : "Workshop",
-  "year" : 2010,
+  "year" : 2007,
   "authorIds" : [ "T. Kichkaylo", "C. van Buskirk", "sameer", "H. Neema", "M. Orosz", "R. Neches" ],
   "venueId" : "International Conference on Automated Planning and Scheduling Workshop (ICAPS)"
 }, {
