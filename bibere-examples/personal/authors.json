@@ -18,7 +18,28 @@
     "first" : "Carlos",
     "last" : "Guestrin"
   },
-  "website" : "https://homes.cs.washington.edu/~guestrin/"
+  "website" : "http://homes.cs.washington.edu/~guestrin/"
+}, {
+  "id" : "nacho",
+  "name" : {
+    "first" : "Ignacio",
+    "last" : "Cano"
+  },
+  "website" : "http://homes.cs.washington.edu/~icano/"
+}, {
+  "id" : "mathias",
+  "name" : {
+    "first" : "Mathias",
+    "last" : "Niepert"
+  },
+  "website" : "http://www.matlog.net/index.html"
+}, {
+  "id" : "taskar",
+  "name" : {
+    "first" : "Ben",
+    "last" : "Taskar"
+  },
+  "website" : "http://homes.cs.washington.edu/~taskar/"
 }, {
   "id" : "lsz",
   "name" : {
@@ -39,7 +60,7 @@
     "first" : "Victoria (Xi)",
     "last" : "Lin"
   },
-  "website" : "https://homes.cs.washington.edu/~xilin"
+  "website" : "http://homes.cs.washington.edu/~xilin/"
 }, {
   "id" : "luheng",
   "name" : {

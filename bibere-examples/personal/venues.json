@@ -23,6 +23,10 @@
   "name" : "CIKM Workshop on Automated Knowledge Base Construction (AKBC)",
   "acronym" : "AKBC"
 }, {
+  "id" : "akbc",
+  "name" : "Workshop on Automated Knowledge Base Construction (AKBC)",
+  "acronym" : "AKBC"
+}, {
   "id" : "akbc12",
   "name" : "NAACL/HLT Workshop on Automated Knowledge Base Construction (AKBC-WEKEX)",
   "acronym" : "AKBC"

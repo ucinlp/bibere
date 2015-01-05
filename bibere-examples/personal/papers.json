@@ -1,4 +1,12 @@
 [ {
+    "id" : "uw:kba14",
+    "title" : "Distributed Non-Parametric Representations for Vital Filtering: UW at TREC KBA 2014",
+    "pubTypeSlot" : "Conference",
+    "year" : 2014,
+    "authorIds" : [ "nacho", "sameer", "carlos" ],
+    "venueId" : "Text REtrieval Conference (TREC): Knowledge-Base Acquisition (KBA) Track",
+    "weight" : 0.75
+}, {
     "id" : "context:nwnlp14",
     "title" : "Context Representation for Named Entity Linking",
     "pubTypeSlot" : "Workshop",
@@ -8,13 +16,32 @@
     "pdfLink" : "files/papers/contextel-nwnlp14.pdf",
     "weight" : 0.5
 }, {
-    "id" : "prlr:nwnlp14",
-    "title" : "Leveraging Prior Knowledge of Output Structure for Learning with Incomplete Annotations",
+    "id" : "prlr:mmlnlp14",
+    "title" : "Multi-label Learning with Posterior Regularization",
     "pubTypeSlot" : "Workshop",
     "year" : 2014,
-    "authorIds" : [ "victoria", "sameer", "luheng", "lsz" ],
-    "venueId" : "nwnlp",
+    "authorIds" : [ "victoria", "sameer", "luheng", "taskar", "lsz" ],
+    "venueId" : "NIPS Workshop on Modern Machine Learning and Natural Language Processing",
+    "note" : "Also presented at the Pacific Northwest Regional NLP Workshop (NW-NLP) 2014.",
+    "pdfLink": "http://homes.cs.washington.edu/~xilin/pubs/mlnlp2014.pdf",
     "weight" : 0.5
+}, {
+    "id" : "kb-integration:akbc14",
+    "title" : "Out of Many, One: Unifying Web-Extracted Knowledge Bases",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2014,
+    "authorIds" : [ "mathias", "sameer" ],
+    "venueId" : "akbc",
+    "pdfLink": "http://www.akbc.ws/2014/submissions/akbc2014_submission_28.pdf",
+    "weight" : 0.75
+}, {
+    "id" : "ppl-ide:probprog14",
+    "title" : "Designing an IDE for Probabilistic Programming: Challenges and a Prototype",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2014,
+    "authorIds" : [ "sameer", "sebastian", "Luke Hewitt", "tim" ],
+    "venueId" : "probprog",
+    "weight" : 0.75
 }, {
     "id" : "logic:sp14",
     "title" : "Low-dimensional Embeddings of Logic",
@@ -24,7 +51,7 @@
     "venueId" : "sp14",
     "pdfLink" : "files/papers/lowranklogic-sp14.pdf",
     "emphasisNote" : "Exceptional Submission Award",
-    "note" : "This paper was also submitted to StarAI with minor changes.",
+    "note" : "This paper was also presented at StarAI 2014 with minor changes.",
      "extraLinksSlot" : [ [ "StarAI Poster", "files/papers/lowranklogic-starai14-poster.pdf" ] ]
 }, {
     "id" : "wolfe:starai14",
@@ -33,16 +60,9 @@
     "year" : 2014,
     "authorIds" : [ "sebastian", "sameer", "vivek", "tim", "larysa", "jan" ],
     "venueId" : "starai",
+    "note" : "This paper was also presented at NIPS Probabilistic Programming Workshop.",
     "pdfLink" : "files/papers/wolfe-starai14.pdf",
      "extraLinksSlot" : [ [ "Website", "http://www.wolfe.ml" ], [ "Poster", "files/papers/wolfe-starai14-poster.pdf" ] ]
-}, {
-    "id" : "logic:starai14",
-    "title" : "Low-dimensional Embeddings of Logic",
-    "pubTypeSlot" : "Workshop",
-    "year" : 2014,
-    "authorIds" : [ "tim", "sameer", "matko", "sebastian" ],
-    "venueId" : "starai",
-    "note" : "This paper was also submitted to SemParsing with minor changes."
 }, {
     "id" : "thesis",
     "title" : "Scaling MCMC Inference and Belief Propagation for Large, Dense Graphical Models",
@@ -52,7 +72,8 @@
     "venueId" : "PhD Thesis, University of Massachusetts",
     "pdfLink" : "https://web.cs.umass.edu/publication/docs/2014/UM-CS-PhD-2014-007.pdf",
     "note" : "Committee: Andrew McCallum, Carlos Guestrin, Ben Marlin, David Jensen, Michael Zink.",
-    "abstractText" : "With the physical constraints of semiconductor-based electronics becoming increasingly limiting in the past decade, single-core CPUs have given way to multi-core and distributed computing platforms. At the same time, access to large data collections is progressively becoming commonplace due to the lowering cost of storage and bandwidth. Traditional machine learning paradigms that have been designed to operate sequentially on single processor architectures seem destined to become obsolete in this world of multi-core, multi-node systems and massive data sets. Inference for graphical models is one such example for which most existing algorithms are sequential in nature and are difficult to scale using parallel computations. Further, modeling large datasets leads to an escalation in the number of variables, factors, domains, and the density of the models, all of which have a substantial impact on the computational and storage complexity of inference. To achieve scalability, existing techniques impose strict independence assumptions on the model, resulting in tractable inference at the expense of expressiveness, and therefore of accuracy and utility, of the model.<br>Motivated by the need to scale inference to large, dense graphical models, in this thesis we explore approximations to Markov chain Monte Carlo (MCMC) and belief propagation (BP) that induce dynamic sparsity in the model to utilize parallelism. In particular, since computations over some factors, variables, and values are more important than over others at different stages of inference, proposed approximations that prioritize and parallelize such computations facilitate efficient inference. First, we show that a synchronously distributed MCMC algorithm that uses dynamic partitioning of the model achieves scalable inference. We then identify bottlenecks in the synchronous architecture, and demonstrate that a collection of MCMC techniques that use asynchronous updates are able to address these drawbacks. For large domains and high-order factors, we find that dynamically inducing sparsity in variable domains, results in scalable belief propagation that enables joint inference. We also show that formulating distributed BP and joint inference as generalized BP on cluster graphs, and by using cluster message approximations, provides significantly lower communication cost and running time.With these tools for inference in hand, we are able to tackle entity tagging, relation extraction, entity resolution, cross-document coreference, joint inference, and other information extraction tasks over large text corpora."
+    "abstractText" : "With the physical constraints of semiconductor-based electronics becoming increasingly limiting in the past decade, single-core CPUs have given way to multi-core and distributed computing platforms. At the same time, access to large data collections is progressively becoming commonplace due to the lowering cost of storage and bandwidth. Traditional machine learning paradigms that have been designed to operate sequentially on single processor architectures seem destined to become obsolete in this world of multi-core, multi-node systems and massive data sets. Inference for graphical models is one such example for which most existing algorithms are sequential in nature and are difficult to scale using parallel computations. Further, modeling large datasets leads to an escalation in the number of variables, factors, domains, and the density of the models, all of which have a substantial impact on the computational and storage complexity of inference. To achieve scalability, existing techniques impose strict independence assumptions on the model, resulting in tractable inference at the expense of expressiveness, and therefore of accuracy and utility, of the model.<br>Motivated by the need to scale inference to large, dense graphical models, in this thesis we explore approximations to Markov chain Monte Carlo (MCMC) and belief propagation (BP) that induce dynamic sparsity in the model to utilize parallelism. In particular, since computations over some factors, variables, and values are more important than over others at different stages of inference, proposed approximations that prioritize and parallelize such computations facilitate efficient inference. First, we show that a synchronously distributed MCMC algorithm that uses dynamic partitioning of the model achieves scalable inference. We then identify bottlenecks in the synchronous architecture, and demonstrate that a collection of MCMC techniques that use asynchronous updates are able to address these drawbacks. For large domains and high-order factors, we find that dynamically inducing sparsity in variable domains, results in scalable belief propagation that enables joint inference. We also show that formulating distributed BP and joint inference as generalized BP on cluster graphs, and by using cluster message approximations, provides significantly lower communication cost and running time.With these tools for inference in hand, we are able to tackle entity tagging, relation extraction, entity resolution, cross-document coreference, joint inference, and other information extraction tasks over large text corpora.",
+    "extraLinksSlot" : [ [ "UMass Page", "http://scholarworks.umass.edu/dissertations_2/143/" ] ]
 }, {
      "id" : "akbc13",
      "title" : "AKBC 2013: Third Workshop on Automated Knowledge Base Construction",
