@@ -11,6 +11,10 @@
   "name" : "International Workshop on Statistical Relational AI (StarAI)",
   "acronym" : "StarAI"
 }, {
+  "id" : "krr",
+  "name" : "AAAI Spring Syposium on Knowledge Representation and Reasoning (KRR): Integrating Symbolic and Neural Approaches",
+  "acronym" : "KRR"
+}, {
   "id" : "sp14",
   "name" : "ACL 2014 Workshop on Semantic Parsing (SP14)",
   "acronym" : "SP14"
@@ -51,6 +55,10 @@
   "name" : "Neural Information Processing Systems (NIPS)",
   "acronym" : "NIPS"
 }, {
+  "id" : "aistats",
+  "name" : "International Conference on Artificial Intelligence and Statistics",
+  "acronym" : "AISTATS"
+}, {
   "id" : "emnlp",
   "name" : "Empirical Methods in Natural Language Processing (EMNLP)",
   "acronym" : "EMNLP"
@@ -66,6 +74,10 @@
   "id" : "acl",
   "name" : "Association for Computational Linguistics (ACL)",
   "acronym" : "ACL"
+}, {
+  "id" : "tacl",
+  "name" : "Transactions of the Association for Computational Linguistics (TACL)",
+  "acronym" : "TACL"
 }, {
   "id" : "naacl",
   "name" : "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)",

@@ -6,12 +6,26 @@
   },
   "website" : "http://www.sameersingh.org"
 }, {
+ "id" : "guillaume",
+  "name" : {
+    "first" : "Guillaume",
+    "last" : "Bouchard"
+  },
+  "website" : "https://sites.google.com/site/guillaumebouchardml/home"
+}, {
  "id" : "weld",
   "name" : {
     "first" : "Dan",
     "last" : "Weld"
   },
   "website" : "https://homes.cs.washington.edu/~weld/"
+}, {
+ "id" : "tianqi",
+  "name" : {
+    "first" : "Tianqi",
+    "last" : "Chen"
+  },
+  "website" : "http://homes.cs.washington.edu/~tqchen/"
 }, {
   "id" : "carlos",
   "name" : {

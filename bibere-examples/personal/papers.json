@@ -1,4 +1,31 @@
 [ {
+    "id" : "gbcrf:aistats15",
+    "title" : "Efficient Second-Order Gradient Boosting for Conditional Random Fields",
+    "pubTypeSlot" : "Conference",
+    "year" : 2015,
+    "authorIds" : [ "tianqi", "sameer", "taskar", "carlos" ],
+    "venueId" : "aistats",
+    "pdfLink" : "files/papers/gbcrf-aistats15.pdf",
+    "weight" : 1.2
+}, {
+    "id" : "explain:krr15",
+    "title" : "Towards Extracting Faithful and Descriptive Representations of Latent Variable Models",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2015,
+    "authorIds" : [ "Ivan Sanchez", "tim", "sebastian", "sameer" ],
+    "venueId" : "krr",
+    "pdfLink" : "files/papers/knowlextr-krr15.pdf",
+    "weight" : 0.5
+}, {
+    "id" : "logicmf:krr15",
+    "title" : "On Approximate Reasoning Capabilities of Low-Rank Vector Spaces",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2015,
+    "authorIds" : [ "guillaume", "sameer", "Theo Trouillon" ],
+    "venueId" : "krr",
+    "pdfLink" : "files/papers/logicmf-krr15.pdf",
+    "weight" : 0.75
+}, {
     "id" : "uw:kba14",
     "title" : "Distributed Non-Parametric Representations for Vital Filtering: UW at TREC KBA 2014",
     "pubTypeSlot" : "Conference",
@@ -51,7 +78,7 @@
     "venueId" : "sp14",
     "pdfLink" : "files/papers/lowranklogic-sp14.pdf",
     "emphasisNote" : "Exceptional Submission Award",
-    "note" : "This paper was also presented at StarAI 2014 with minor changes.",
+    "note" : "Also presented at StarAI 2014 with minor changes.",
      "extraLinksSlot" : [ [ "StarAI Poster", "files/papers/lowranklogic-starai14-poster.pdf" ] ]
 }, {
     "id" : "wolfe:starai14",
@@ -60,7 +87,7 @@
     "year" : 2014,
     "authorIds" : [ "sebastian", "sameer", "vivek", "tim", "larysa", "jan" ],
     "venueId" : "starai",
-    "note" : "This paper was also presented at NIPS Probabilistic Programming Workshop.",
+    "note" : "Also presented at NIPS Probabilistic Programming Workshop.",
     "pdfLink" : "files/papers/wolfe-starai14.pdf",
      "extraLinksSlot" : [ [ "Website", "http://www.wolfe.ml" ], [ "Poster", "files/papers/wolfe-starai14-poster.pdf" ] ]
 }, {
@@ -370,7 +397,7 @@
   "pubTypeSlot" : "Conference",
   "year" : 2006,
   "authorIds" : [ "sameer", "Julie A. Adams" ],
-  "venueId" : "International Conference on Robotics and Automation (ICRA), 2006",
+  "venueId" : "International Conference on Robotics and Automation (ICRA)",
   "pdfLink" : "files/papers/transfer-icra06.pdf"
 }, {
   "id" : "incarf03",
