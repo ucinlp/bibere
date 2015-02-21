@@ -56,7 +56,7 @@
   "acronym" : "NIPS"
 }, {
   "id" : "aistats",
-  "name" : "International Conference on Artificial Intelligence and Statistics",
+  "name" : "International Conference on Artificial Intelligence and Statistics (AISTATS)",
   "acronym" : "AISTATS"
 }, {
   "id" : "emnlp",
@@ -84,6 +84,6 @@
   "acronym" : "NAACL"
 }, {
   "id" : "tackbp",
-  "name" : "Text Analysis Conference on Knowledge Base Population",
+  "name" : "Text Analysis Conference on Knowledge Base Population (TAC KBP)",
   "acronym" : "TAC KBP"
 } ]

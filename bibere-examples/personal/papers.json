@@ -1,4 +1,12 @@
 [ {
+    "id" : "logicmf:naacl15",
+    "title" : "Injecting Logical Background Knowledge into Embeddings for Relation Extraction",
+    "pubTypeSlot" : "Conference",
+    "year" : 2015,
+    "authorIds" : [ "tim", "sameer", "sebastian" ],
+    "venueId" : "naacl",
+    "weight" : 1.5
+}, {
     "id" : "gbcrf:aistats15",
     "title" : "Efficient Second-Order Gradient Boosting for Conditional Random Fields",
     "pubTypeSlot" : "Conference",
@@ -26,12 +34,23 @@
     "pdfLink" : "files/papers/logicmf-krr15.pdf",
     "weight" : 0.75
 }, {
+  "id" : "rdb:patent14",
+  "title" : "Relational database management",
+  "pubTypeSlot" : "TechReport",
+  "year" : 2014,
+  "authorIds" : [ "sameer", "thore", "Lucas J. Bordeaux", "Andrew D. Gordon" ],
+  "venueId" : "US Patent Number 0188928",
+  "pdfLink" : "https://docs.google.com/viewer?url=patentimages.storage.googleapis.com/pdfs/US20140188928.pdf",
+  "extraLinksSlot" : [ [ "Webpage", "https://www.google.com/patents/US20140188928" ] ],
+  "weight" : 0.0
+}, {
     "id" : "uw:kba14",
     "title" : "Distributed Non-Parametric Representations for Vital Filtering: UW at TREC KBA 2014",
     "pubTypeSlot" : "Conference",
     "year" : 2014,
     "authorIds" : [ "nacho", "sameer", "carlos" ],
-    "venueId" : "Text REtrieval Conference (TREC): Knowledge-Base Acquisition (KBA) Track",
+    "venueId" : "Text REtrieval Conference (TREC): Knowledge-Base Acceleration (KBA) Track",
+    "pdfLink" : "files/papers/stream-kba14.pdf",
     "weight" : 0.75
 }, {
     "id" : "context:nwnlp14",
@@ -357,8 +376,8 @@
   "pubTypeSlot" : "TechReport",
   "year" : 2008,
   "authorIds" : [ "sameer", "E. S. Larsen", "Jeremy Kubica", "Andrew W. Moore" ],
-  "venueId" : "US Patent Number 8190537, 2008",
-  "pdfLink" : "http://books.google.com/patents/US8190537.pdf",
+  "venueId" : "US Patent Number 8190537",
+  "pdfLink" : "https://docs.google.com/viewer?url=books.google.com/patents/US8190537.pdf",
   "extraLinksSlot" : [ [ "Webpage", "http://www.google.com/patents/US8190537" ] ]
 }, {
   "id" : "rlmap:tr08",
