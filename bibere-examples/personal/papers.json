@@ -5,6 +5,8 @@
     "year" : 2015,
     "authorIds" : [ "tim", "sameer", "sebastian" ],
     "venueId" : "naacl",
+    "pdfLink" : "files/papers/logicmf-naacl15.pdf",
+    "abstractText" : "Matrix factorization approaches to relation extraction provide several attractive features: they support distant supervision, handle open schemas, and leverage unlabeled data. Unfortunately, these methods share a shortcoming with all other distantly supervised approaches: they cannot learn to extract target relations without existing data in the knowledge base, and likewise, these models are inaccurate for relations with sparse data. Rule-based extractors, on the other hand, can be easily extended to novel relations and improved for existing but inaccurate relations, through first-order formulae that capture auxiliary domain knowledge. However, usually a large set of such formulae is necessary to achieve generalization.<br>In this paper, we introduce a paradigm for learning low-dimensional embeddings of entity-pairs and relations that combine the advantages of matrix factorization with first-order logic domain knowledge. We introduce simple approaches for estimating such embeddings, as well as a novel training algorithm to jointly optimize over factual and first-order logic information. Our results show that this method is able to learn accurate extractors with little or no distant supervision alignments, while at the same time generalizing to textual patterns that do not appear in the formulae.",
     "weight" : 1.5
 }, {
     "id" : "gbcrf:aistats15",
@@ -23,6 +25,7 @@
     "authorIds" : [ "Ivan Sanchez", "tim", "sebastian", "sameer" ],
     "venueId" : "krr",
     "pdfLink" : "files/papers/knowlextr-krr15.pdf",
+    "extraLinksSlot" : [ [ "AAAI PDF", "http://www.aaai.org/ocs/index.php/SSS/SSS15/paper/viewFile/10304/10033" ] ],
     "weight" : 0.5
 }, {
     "id" : "logicmf:krr15",
@@ -32,6 +35,7 @@
     "authorIds" : [ "guillaume", "sameer", "Theo Trouillon" ],
     "venueId" : "krr",
     "pdfLink" : "files/papers/logicmf-krr15.pdf",
+    "extraLinksSlot" : [ [ "AAAI PDF", "http://www.aaai.org/ocs/index.php/SSS/SSS15/paper/viewFile/10257/10026" ] ],
     "weight" : 0.75
 }, {
   "id" : "rdb:patent14",
