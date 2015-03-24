@@ -32,7 +32,7 @@ case class Author(id: String, name: PersonName, website: Option[String] = None)
 
 object PubType extends Enumeration {
   type PubType = Value
-  val Conference, Journal, Workshop, TechReport, Thesis, Report, Chapter, Book, Misc = Value
+  val Conference, Journal, Workshop, TechReport, Thesis, Report, Chapter, Book, Misc, Demo = Value
 }
 
 case class Venue(id: String, name: String, acronym: String)
@@ -51,8 +51,11 @@ case class Paper(id: String,
                  extraFieldsSlot: Seq[(String, String)] = Seq.empty,
                  emphasisNote: Option[String] = None,
                  note: Option[String] = None,
-                 weight: Option[Double] = None
+                 weight: Option[Double] = None,
+                 tagsSlot: Seq[String] = Seq.empty
                   ) {
+  def tags: Seq[String] = if (tagsSlot == null) Seq.empty else tagsSlot
+
   def extraLinks: Seq[(String, String)] = if (extraLinksSlot == null) Seq.empty else extraLinksSlot
 
   def extraFields: Seq[(String, String)] = if (extraFieldsSlot == null) Seq.empty else extraFieldsSlot

@@ -1,8 +1,6 @@
 package com.github.sameersingh.bibere
 
 import java.io.FileInputStream
-import scalax.io.Codec
-
 
 /**
  * @author sameer
@@ -25,20 +23,17 @@ object JsonReader extends Reader {
   }
 
   def readPapers(pubs: Publications, path: String) {
-    val reader = scalax.io.Resource.fromInputStream(new FileInputStream(path + "/" + papersFile))
-    for(p <- JacksonWrapper.deserialize[Seq[Paper]](reader.reader(Codec.UTF8).lines().foldLeft("")(_ + _)))
+    for(p <- JacksonWrapper.deserialize[Seq[Paper]](FileUtil.readFile(path + "/" + papersFile)))
       pubs += p
   }
 
   def readAuthors(pubs: Publications, path: String) {
-    val reader = scalax.io.Resource.fromInputStream(new FileInputStream(path + "/" + authorsFile))
-    for(a <- JacksonWrapper.deserialize[Seq[Author]](reader.reader(Codec.UTF8).lines().foldLeft("")(_ + _)))
+    for(a <- JacksonWrapper.deserialize[Seq[Author]](FileUtil.readFile(path + "/" + authorsFile)))
       pubs += a
   }
 
   def readVenues(pubs: Publications, path: String) {
-    val reader = scalax.io.Resource.fromInputStream(new FileInputStream(path + "/" + venuesFile))
-    for(v <- JacksonWrapper.deserialize[Seq[Venue]](reader.reader(Codec.UTF8).lines().foldLeft("")(_ + _)))
+    for(v <- JacksonWrapper.deserialize[Seq[Venue]](FileUtil.readFile(path + "/" + venuesFile)))
       pubs += v
   }
 }

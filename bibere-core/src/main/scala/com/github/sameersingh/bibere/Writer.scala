@@ -2,7 +2,6 @@ package com.github.sameersingh.bibere
 
 import java.io.{FileOutputStream, OutputStreamWriter, PrintWriter}
 import java.util.zip.GZIPOutputStream
-import scalax.io.Resource
 
 /**
  * @author sameer

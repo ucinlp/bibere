@@ -30,6 +30,8 @@ class HTMLWriter extends Writer {
 
   def noteClass = "note"
 
+  def tagClass = "label label-default"
+
   def write(pubs: Publications, path: String) {
     val file = new OutputStreamWriter(
       new FileOutputStream(path + "/" + filename), "UTF-8")
@@ -85,6 +87,7 @@ class HTMLWriter extends Writer {
       venue(writer, p)
     })
     year(writer, p.year)
+    tags(writer, p.tags)
     writer.println("<br/>")
     p.emphasisNote.foreach(s => {
       emphasisNote(writer, s)
@@ -120,6 +123,8 @@ class HTMLWriter extends Writer {
   def venue(writer: PrintWriter, v: Venue) = span(writer, v.name + ". ", venueClass)
 
   def year(writer: PrintWriter, y: Int) = span(writer, y.toString, yearClass)
+
+  def tags(writer: PrintWriter, tags: Seq[String]) = tags.foreach(t => span(writer, t, yearClass))
 
   def abstractText(writer: PrintWriter, abs: String)  = span(writer, abs, abstractClass)
 
