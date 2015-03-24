@@ -1,4 +1,4 @@
-package com.github.sameersingh.bibere
+package org.sameersingh.bibere
 
 import com.fasterxml.jackson.databind.{ObjectWriter, ObjectMapper}
 import com.fasterxml.jackson.module.scala.DefaultScalaModule

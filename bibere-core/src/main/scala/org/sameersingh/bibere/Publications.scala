@@ -1,4 +1,4 @@
-package com.github.sameersingh.bibere
+package org.sameersingh.bibere
 
 import scala.collection.mutable.{Buffer, ArrayBuffer, HashMap}
 
