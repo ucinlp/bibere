@@ -30,7 +30,7 @@ class HTMLWriter extends Writer {
 
   def noteClass = "note"
 
-  def tagClass = "label label-default"
+  def tagClass = "tag label label-default"
 
   def write(pubs: Publications, path: String) {
     val file = new OutputStreamWriter(
@@ -87,6 +87,7 @@ class HTMLWriter extends Writer {
       venue(writer, p)
     })
     year(writer, p.year)
+    if(Set(PubType.Workshop, PubType.Demo, PubType.Conference) contains p.pubType) tags(writer, Seq(p.pubType.toString))
     tags(writer, p.tags)
     writer.println("<br/>")
     p.emphasisNote.foreach(s => {
@@ -124,7 +125,7 @@ class HTMLWriter extends Writer {
 
   def year(writer: PrintWriter, y: Int) = span(writer, y.toString, yearClass)
 
-  def tags(writer: PrintWriter, tags: Seq[String]) = tags.foreach(t => span(writer, t, yearClass))
+  def tags(writer: PrintWriter, tags: Seq[String]) = tags.foreach(t => span(writer, t, "tag_" + t + " " + tagClass))
 
   def abstractText(writer: PrintWriter, abs: String)  = span(writer, abs, abstractClass)
 
