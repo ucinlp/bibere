@@ -9,6 +9,14 @@
     "abstractText" : "Matrix factorization approaches to relation extraction provide several attractive features: they support distant supervision, handle open schemas, and leverage unlabeled data. Unfortunately, these methods share a shortcoming with all other distantly supervised approaches: they cannot learn to extract target relations without existing data in the knowledge base, and likewise, these models are inaccurate for relations with sparse data. Rule-based extractors, on the other hand, can be easily extended to novel relations and improved for existing but inaccurate relations, through first-order formulae that capture auxiliary domain knowledge. However, usually a large set of such formulae is necessary to achieve generalization.<br>In this paper, we introduce a paradigm for learning low-dimensional embeddings of entity-pairs and relations that combine the advantages of matrix factorization with first-order logic domain knowledge. We introduce simple approaches for estimating such embeddings, as well as a novel training algorithm to jointly optimize over factual and first-order logic information. Our results show that this method is able to learn accurate extractors with little or no distant supervision alignments, while at the same time generalizing to textual patterns that do not appear in the formulae.",
     "weight" : 1.5
 }, {
+    "id" : "el:tacl15",
+    "title" : "Design Challenges for Entity Linking",
+    "pubTypeSlot" : "Conference",
+    "year" : 2015,
+    "authorIds" : [ "xiao", "sameer", "weld" ],
+    "venueId" : "tacl",
+    "weight" : 1.3
+}, {
     "id" : "gbcrf:aistats15",
     "title" : "Efficient Second-Order Gradient Boosting for Conditional Random Fields",
     "pubTypeSlot" : "Conference",
@@ -17,6 +25,14 @@
     "venueId" : "aistats",
     "pdfLink" : "files/papers/gbcrf-aistats15.pdf",
     "weight" : 1.2
+}, {
+    "id" : "mftf:vsm15",
+    "title" : "Towards Combined Matrix and Tensor Factorization for Universal Schema Relation Extraction",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2015,
+    "authorIds" : [ "sameer", "tim", "sebastian" ],
+    "venueId" : "NAACL Workshop on Vector Space Modeling for NLP",
+    "pdfLink" : "files/papers/mftf-vsm15.pdf"
 }, {
     "id" : "explain:krr15",
     "title" : "Towards Extracting Faithful and Descriptive Representations of Latent Variable Models",
@@ -91,6 +107,7 @@
     "year" : 2014,
     "authorIds" : [ "sameer", "sebastian", "Luke Hewitt", "tim" ],
     "venueId" : "probprog",
+    "note" : "Also presented at NIPS 2014 as a demo.",
     "weight" : 0.75
 }, {
     "id" : "logic:sp14",
