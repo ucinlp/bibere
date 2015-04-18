@@ -66,7 +66,7 @@
 }, {
   "id" : "rdb:patent14",
   "title" : "Relational database management",
-  "pubTypeSlot" : "TechReport",
+  "pubTypeSlot" : "Patent",
   "year" : 2014,
   "authorIds" : [ "sameer", "thore", "Lucas J. Bordeaux", "Andrew D. Gordon" ],
   "venueId" : "US Patent Number 0188928",
@@ -407,7 +407,7 @@
 }, {
   "id" : "feature:patent08",
   "title" : "Feature selection for large scale models",
-  "pubTypeSlot" : "TechReport",
+  "pubTypeSlot" : "Patent",
   "year" : 2008,
   "authorIds" : [ "sameer", "E. S. Larsen", "Jeremy Kubica", "Andrew W. Moore" ],
   "venueId" : "US Patent Number 8190537",
@@ -424,7 +424,7 @@
 }, {
   "id" : "sqj07",
   "title" : "Common Coupling and Pointer Variables, with Application to a Linux Case Study",
-  "pubTypeSlot" : "TechReport",
+  "pubTypeSlot" : "Journal",
   "year" : 2007,
   "authorIds" : [ "S.R. Schach", "T.O.S. Adeshiyan", "D. Balasubramanian", "G. Madl", "E.P. Osses", "sameer", "K. Suwanmongkol", "M. Xie", "D.G. Feitelson" ],
   "venueId" : "Software Quality Journal (SQJ)",
