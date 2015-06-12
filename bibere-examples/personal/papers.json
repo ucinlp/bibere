@@ -11,10 +11,14 @@
 }, {
     "id" : "el:tacl15",
     "title" : "Design Challenges for Entity Linking",
-    "pubTypeSlot" : "Conference",
+    "pubTypeSlot" : "Journal",
     "year" : 2015,
     "authorIds" : [ "xiao", "sameer", "weld" ],
     "venueId" : "tacl",
+    "pdfLink" : "files/papers/entitylinking-tacl15.pdf",
+    "extraLinksSlot" : [ ["TACL Page", "https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/528" ], [ "TACL PDF", "https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/viewFile/528/133" ] ],
+    "note" : "To be presented at ACL, Beijing, July 26-31, 2015.",
+    "abstractText" : "Recent research on entity linking (EL) has introduced a plethora of promising techniques, ranging from deep neural networks to joint inference. But despite numerous papers there is surprisingly little understanding of the state of the art in EL. We attack this confusion by analyzing differences between several versions of the EL problem and presenting a simple yet effective, modular, unsupervised system, called Vinculum, for entity linking. We conduct an extensive evaluation on nine data sets, comparing Vinculum with two state-of-the-art systems, and elucidate key aspects of the system that include mention extraction, candidate generation, entity type prediction, entity coreference, and coherence.",
     "weight" : 1.3
 }, {
     "id" : "gbcrf:aistats15",
@@ -25,6 +29,16 @@
     "venueId" : "aistats",
     "pdfLink" : "files/papers/gbcrf-aistats15.pdf",
     "weight" : 1.2
+}, {
+    "id" : "factordb:yelp15",
+    "title" : "Collective Factorization for Relational Data: An Evaluation on the Yelp Datasets",
+    "pubTypeSlot" : "TechReport",
+    "year" : 2015,
+    "authorIds" : [ "nitish", "sameer" ],
+    "venueId" : "Yelp Dataset Challenge, Round 4",
+    "pdfLink" : "http://nitishgupta.github.io/docs/gupta-factordb.pdf",
+    "extraLinksSlot" : [[ "Yelp Challenge", "http://www.yelp.com/dataset_challenge" ]],
+    "emphasisNote" : "Grand Prize Winner of Yelp Dataset Challenge Round 4"
 }, {
     "id" : "mftf:vsm15",
     "title" : "Towards Combined Matrix and Tensor Factorization for Universal Schema Relation Extraction",

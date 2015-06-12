@@ -90,6 +90,13 @@
   },
   "website" : "https://homes.cs.washington.edu/~xiaoling"
 }, {
+  "id" : "nitish",
+  "name" : {
+    "first" : "Nitish",
+    "last" : "Gupta"
+  },
+  "website" : "http://nitishgupta.github.io"
+}, {
   "id" : "wick",
   "name" : {
     "first" : "Michael",
