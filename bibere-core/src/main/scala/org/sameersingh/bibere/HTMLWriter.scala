@@ -71,7 +71,7 @@ class HTMLWriter extends Writer {
 
   def pub(p: Paper, writer: PrintWriter, pubs: Publications) {
     writer.println()
-    writer.println("<li>")
+    writer.println("<li id=\"" + p.id.replaceAll("[^0-9a-zA-Z]", "_") + "\">")
     for (aid <- p.authorIds) {
       pubs.authors.get(aid).fold({
         author(writer, Author(aid, PersonName(aid)))
