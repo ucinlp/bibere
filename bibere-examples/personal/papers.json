@@ -1,14 +1,202 @@
-
 [ {
-  "id" : "cikm13",
-  "title" : "Automated Probabilistic Modeling for Relational Data",
+    "id" : "logicmf:naacl15",
+    "title" : "Injecting Logical Background Knowledge into Embeddings for Relation Extraction",
+    "pubTypeSlot" : "Conference",
+    "year" : 2015,
+    "authorIds" : [ "tim", "sameer", "sebastian" ],
+    "venueId" : "naacl",
+    "pdfLink" : "files/papers/logicmf-naacl15.pdf",
+    "abstractText" : "Matrix factorization approaches to relation extraction provide several attractive features: they support distant supervision, handle open schemas, and leverage unlabeled data. Unfortunately, these methods share a shortcoming with all other distantly supervised approaches: they cannot learn to extract target relations without existing data in the knowledge base, and likewise, these models are inaccurate for relations with sparse data. Rule-based extractors, on the other hand, can be easily extended to novel relations and improved for existing but inaccurate relations, through first-order formulae that capture auxiliary domain knowledge. However, usually a large set of such formulae is necessary to achieve generalization.<br>In this paper, we introduce a paradigm for learning low-dimensional embeddings of entity-pairs and relations that combine the advantages of matrix factorization with first-order logic domain knowledge. We introduce simple approaches for estimating such embeddings, as well as a novel training algorithm to jointly optimize over factual and first-order logic information. Our results show that this method is able to learn accurate extractors with little or no distant supervision alignments, while at the same time generalizing to textual patterns that do not appear in the formulae.",
+    "weight" : 1.5
+}, {
+    "id" : "el:tacl15",
+    "title" : "Design Challenges for Entity Linking",
+    "pubTypeSlot" : "Journal",
+    "year" : 2015,
+    "authorIds" : [ "xiao", "sameer", "weld" ],
+    "venueId" : "tacl",
+    "pdfLink" : "files/papers/entitylinking-tacl15.pdf",
+    "extraLinksSlot" : [ ["TACL Page", "https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/528" ], [ "TACL PDF", "https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/viewFile/528/133" ] ],
+    "note" : "To be presented at ACL, Beijing, July 26-31, 2015.",
+    "abstractText" : "Recent research on entity linking (EL) has introduced a plethora of promising techniques, ranging from deep neural networks to joint inference. But despite numerous papers there is surprisingly little understanding of the state of the art in EL. We attack this confusion by analyzing differences between several versions of the EL problem and presenting a simple yet effective, modular, unsupervised system, called Vinculum, for entity linking. We conduct an extensive evaluation on nine data sets, comparing Vinculum with two state-of-the-art systems, and elucidate key aspects of the system that include mention extraction, candidate generation, entity type prediction, entity coreference, and coherence.",
+    "weight" : 1.3
+}, {
+    "id" : "gbcrf:aistats15",
+    "title" : "Efficient Second-Order Gradient Boosting for Conditional Random Fields",
+    "pubTypeSlot" : "Conference",
+    "year" : 2015,
+    "authorIds" : [ "tianqi", "sameer", "taskar", "carlos" ],
+    "venueId" : "aistats",
+    "pdfLink" : "files/papers/gbcrf-aistats15.pdf",
+    "weight" : 1.2
+}, {
+    "id" : "factordb:yelp15",
+    "title" : "Collective Factorization for Relational Data: An Evaluation on the Yelp Datasets",
+    "pubTypeSlot" : "TechReport",
+    "year" : 2015,
+    "authorIds" : [ "nitish", "sameer" ],
+    "venueId" : "Yelp Dataset Challenge, Round 4",
+    "pdfLink" : "http://nitishgupta.github.io/docs/gupta-factordb.pdf",
+    "extraLinksSlot" : [[ "Yelp Challenge", "http://www.yelp.com/dataset_challenge" ]],
+    "emphasisNote" : "Grand Prize Winner of Yelp Dataset Challenge Round 4"
+}, {
+    "id" : "mftf:vsm15",
+    "title" : "Towards Combined Matrix and Tensor Factorization for Universal Schema Relation Extraction",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2015,
+    "authorIds" : [ "sameer", "tim", "sebastian" ],
+    "venueId" : "NAACL Workshop on Vector Space Modeling for NLP",
+    "pdfLink" : "files/papers/mftf-vsm15.pdf"
+}, {
+    "id" : "wolfe:naacl15",
+    "title" : "WOLFE: An NLP-friendly Declarative Machine Learning Stack",
+    "pubTypeSlot" : "Demo",
+    "year" : 2015,
+    "authorIds" : [ "sameer", "tim", "Luke Hewitt", "Jason Naradowsky", "sebastian" ],
+    "venueId" : "Demo at the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)",
+    "pdfLink" : "files/papers/wolfe-naacl15-demo.pdf",
+    "extraLinksSlot" : [ [ "Live Demo", "http://wolfe.ml/demos/nlp" ] ],
+    "abstractText" : "Developing machine learning algorithms for natural language processing (NLP) applications is inherently an iterative process, involving a continuous refinement of the choice of model, engineering of features, selection of inference algorithms, search for the right hyper-parameters, and error analysis. Existing probabilistic program languages (PPLs) only provide partial solutions; most of them do not support commonly used models such as matrix factorization or neural networks, and do not facilitate interactive and iterative programming that is crucial for rapid development of these models.<br>In this demo we introduce WOLFE, a stack designed to facilitate the development of NLP applications: (1) the WOLFE language allows the user to concisely define complex models, enabling easy modification and extension, (2) the WOLFE interpreter transforms declarative machine learning code into automatically differentiable terms or, where applicable, into factor graphs that allow for complex models to be applied to real-world applications, and (3) the WOLFE IDE provides a number of different visual and interactive elements, allowing intuitive exploration and editing of the data representations, the underlying graphical models, and the execution of the inference algorithms."
+}, {
+    "id" : "explain:krr15",
+    "title" : "Towards Extracting Faithful and Descriptive Representations of Latent Variable Models",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2015,
+    "authorIds" : [ "Ivan Sanchez", "tim", "sebastian", "sameer" ],
+    "venueId" : "krr",
+    "pdfLink" : "files/papers/knowlextr-krr15.pdf",
+    "extraLinksSlot" : [ [ "AAAI PDF", "http://www.aaai.org/ocs/index.php/SSS/SSS15/paper/viewFile/10304/10033" ] ],
+    "weight" : 0.5
+}, {
+    "id" : "logicmf:krr15",
+    "title" : "On Approximate Reasoning Capabilities of Low-Rank Vector Spaces",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2015,
+    "authorIds" : [ "guillaume", "sameer", "Theo Trouillon" ],
+    "venueId" : "krr",
+    "pdfLink" : "files/papers/logicmf-krr15.pdf",
+    "extraLinksSlot" : [ [ "AAAI PDF", "http://www.aaai.org/ocs/index.php/SSS/SSS15/paper/viewFile/10257/10026" ] ],
+    "weight" : 0.75
+}, {
+  "id" : "rdb:patent14",
+  "title" : "Relational database management",
+  "pubTypeSlot" : "Patent",
+  "year" : 2014,
+  "authorIds" : [ "sameer", "thore", "Lucas J. Bordeaux", "Andrew D. Gordon" ],
+  "venueId" : "US Patent Number 0188928",
+  "pdfLink" : "https://docs.google.com/viewer?url=patentimages.storage.googleapis.com/pdfs/US20140188928.pdf",
+  "extraLinksSlot" : [ [ "Webpage", "https://www.google.com/patents/US20140188928" ] ],
+  "weight" : 0.0
+}, {
+    "id" : "uw:kba14",
+    "title" : "Distributed Non-Parametric Representations for Vital Filtering: UW at TREC KBA 2014",
+    "pubTypeSlot" : "Conference",
+    "year" : 2014,
+    "authorIds" : [ "nacho", "sameer", "carlos" ],
+    "venueId" : "Text REtrieval Conference (TREC): Knowledge-Base Acceleration (KBA) Track",
+    "pdfLink" : "files/papers/stream-kba14.pdf",
+    "weight" : 0.75
+}, {
+    "id" : "context:nwnlp14",
+    "title" : "Context Representation for Named Entity Linking",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2014,
+    "authorIds" : [ "xiao", "sameer", "weld" ],
+    "venueId" : "nwnlp",
+    "pdfLink" : "files/papers/contextel-nwnlp14.pdf",
+    "weight" : 0.5
+}, {
+    "id" : "prlr:mmlnlp14",
+    "title" : "Multi-label Learning with Posterior Regularization",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2014,
+    "authorIds" : [ "victoria", "sameer", "luheng", "taskar", "lsz" ],
+    "venueId" : "NIPS Workshop on Modern Machine Learning and Natural Language Processing",
+    "note" : "Also presented at the Pacific Northwest Regional NLP Workshop (NW-NLP) 2014.",
+    "pdfLink": "http://homes.cs.washington.edu/~xilin/pubs/mlnlp2014.pdf",
+    "weight" : 0.5
+}, {
+    "id" : "kb-integration:akbc14",
+    "title" : "Out of Many, One: Unifying Web-Extracted Knowledge Bases",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2014,
+    "authorIds" : [ "mathias", "sameer" ],
+    "venueId" : "akbc",
+    "pdfLink": "http://www.akbc.ws/2014/submissions/akbc2014_submission_28.pdf",
+    "weight" : 0.75
+}, {
+    "id" : "ppl-ide:probprog14",
+    "title" : "Designing an IDE for Probabilistic Programming: Challenges and a Prototype",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2014,
+    "authorIds" : [ "sameer", "sebastian", "Luke Hewitt", "tim" ],
+    "venueId" : "probprog",
+    "note" : "Also presented at NIPS 2014 as a demo.",
+    "weight" : 0.75,
+    "pdfLink" : "files/papers/pplide-nips14-ppl.pdf",
+    "tagsSlot" : [ "Demo" ],
+    "extraLinksSlot" : [ [ "Live Demo", "http://wolfe.ml/demos/nips" ], [ "Poster", "files/papers/pplide-nips14-ppl-poster.pdf" ] ]
+}, {
+    "id" : "logic:sp14",
+    "title" : "Low-dimensional Embeddings of Logic",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2014,
+    "authorIds" : [ "tim", "sameer", "matko", "sebastian" ],
+    "venueId" : "sp14",
+    "pdfLink" : "files/papers/lowranklogic-sp14.pdf",
+    "emphasisNote" : "Exceptional Submission Award",
+    "note" : "Also presented at StarAI 2014 with minor changes.",
+     "extraLinksSlot" : [ [ "StarAI Poster", "files/papers/lowranklogic-starai14-poster.pdf" ] ]
+}, {
+    "id" : "wolfe:starai14",
+    "title" : "WOLFE: Strength Reduction and Approximate Programming for Probabilistic Programming",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2014,
+    "authorIds" : [ "sebastian", "sameer", "vivek", "tim", "larysa", "jan" ],
+    "venueId" : "starai",
+    "note" : "Also presented at NIPS Probabilistic Programming Workshop.",
+    "pdfLink" : "files/papers/wolfe-starai14.pdf",
+     "extraLinksSlot" : [ [ "Website", "http://www.wolfe.ml" ], [ "Poster", "files/papers/wolfe-starai14-poster.pdf" ] ]
+}, {
+    "id" : "thesis",
+    "title" : "Scaling MCMC Inference and Belief Propagation for Large, Dense Graphical Models",
+    "pubTypeSlot" : "Thesis",
+    "year" : 2014,
+    "authorIds" : [ "sameer" ],
+    "venueId" : "PhD Thesis, University of Massachusetts",
+    "pdfLink" : "https://web.cs.umass.edu/publication/docs/2014/UM-CS-PhD-2014-007.pdf",
+    "note" : "Committee: Andrew McCallum, Carlos Guestrin, Ben Marlin, David Jensen, Michael Zink.",
+    "abstractText" : "With the physical constraints of semiconductor-based electronics becoming increasingly limiting in the past decade, single-core CPUs have given way to multi-core and distributed computing platforms. At the same time, access to large data collections is progressively becoming commonplace due to the lowering cost of storage and bandwidth. Traditional machine learning paradigms that have been designed to operate sequentially on single processor architectures seem destined to become obsolete in this world of multi-core, multi-node systems and massive data sets. Inference for graphical models is one such example for which most existing algorithms are sequential in nature and are difficult to scale using parallel computations. Further, modeling large datasets leads to an escalation in the number of variables, factors, domains, and the density of the models, all of which have a substantial impact on the computational and storage complexity of inference. To achieve scalability, existing techniques impose strict independence assumptions on the model, resulting in tractable inference at the expense of expressiveness, and therefore of accuracy and utility, of the model.<br>Motivated by the need to scale inference to large, dense graphical models, in this thesis we explore approximations to Markov chain Monte Carlo (MCMC) and belief propagation (BP) that induce dynamic sparsity in the model to utilize parallelism. In particular, since computations over some factors, variables, and values are more important than over others at different stages of inference, proposed approximations that prioritize and parallelize such computations facilitate efficient inference. First, we show that a synchronously distributed MCMC algorithm that uses dynamic partitioning of the model achieves scalable inference. We then identify bottlenecks in the synchronous architecture, and demonstrate that a collection of MCMC techniques that use asynchronous updates are able to address these drawbacks. For large domains and high-order factors, we find that dynamically inducing sparsity in variable domains, results in scalable belief propagation that enables joint inference. We also show that formulating distributed BP and joint inference as generalized BP on cluster graphs, and by using cluster message approximations, provides significantly lower communication cost and running time.With these tools for inference in hand, we are able to tackle entity tagging, relation extraction, entity resolution, cross-document coreference, joint inference, and other information extraction tasks over large text corpora.",
+    "extraLinksSlot" : [ [ "UMass Page", "http://scholarworks.umass.edu/dissertations_2/143/" ] ]
+}, {
+     "id" : "akbc13",
+     "title" : "AKBC 2013: Third Workshop on Automated Knowledge Base Construction",
+     "pubTypeSlot" : "Conference",
+     "year" : 2013,
+     "authorIds" : [ "Fabian M. Suchanek", "sameer", "sebastian", "Partha P. Talukdar" ],
+     "venueId" : "cikm",
+     "abstractText" : "The AKBC 2013 workshop aims to be a venue of excellence and vision in the area of knowledge base construction. This year's workshop will feature keynotes by ten leading researchers in the field, including from Google, Microsoft, Stanford, and CMU. The submissions focus on visionary ideas instead of on experimental evaluation. Nineteen accepted papers will be presented as posters, with nine exceptional papers also highlighted as spotlight talks. Thereby, the workshop aims provides a vivid forum of discussion about the field of automated knowledge base construction.",
+     "pdfLink" : "files/papers/akbc13.pdf",
+     "extraLinksSlot" : [ [ "ACM DL", "http://dl.acm.org/citation.cfm?id=2505806" ] ]
+}, {
+     "id" : "cikm13",
+     "title" : "Automated Probabilistic Modeling for Relational Data",
+     "pubTypeSlot" : "Conference",
+     "year" : 2013,
+     "authorIds" : [ "sameer", "thore" ],
+     "venueId" : "cikm",
+     "abstractText" : "Probabilistic graphical model representations of relational data provide a number of desired features, such as inference of missing values, detection of errors, visualization of data, and probabilistic answers to relational queries. However, adoption has been slow due to the high level of expertise expected both in probability and in the domain from the user. Instead of requiring a domain expert to specify the probabilistic dependencies of the data, we present an approach that uses the relational DB schema to automatically construct a Bayesian graphical model for a database. This resulting model contains customized distributions for the attributes, latent variables that cluster the records, and factors that reflect and represent the foreign key links, whilst allowing efficient inference. Experiments demonstrate the accuracy of the model and scalability of inference on synthetic and real-world data.",
+     "pdfLink" : "http://research.microsoft.com/pubs/200220/cikm1335-singh-preprint.pdf",
+     "extraLinksSlot" : [ [ "Project Page", "http://research.microsoft.com/apps/pubs/default.aspx?id=200220" ] ]
+}, {
+  "id" : "kbp13",
+  "title" : "Universal Schema for Slot Filling and Cold Start: UMass IESL at TACKBP 2013",
   "pubTypeSlot" : "Conference",
   "year" : 2013,
-  "authorIds" : [ "sameer", "thore" ],
-  "venueId" : "cikm",
-  "abstractText" : "Probabilistic graphical model representations of relational data provide a number of desired features, such as inference of missing values, detection of errors, visualization of data, and probabilistic answers to relational queries. However, adoption has been slow due to the high level of expertise expected both in probability and in the domain from the user. Instead of requiring a domain expert to specify the probabilistic dependencies of the data, we present an approach that uses the relational DB schema to automatically construct a Bayesian graphical model for a database. This resulting model contains customized distributions for the attributes, latent variables that cluster the records, and factors that reflect and represent the foreign key links, whilst allowing efficient inference. Experiments demonstrate the accuracy of the model and scalability of inference on synthetic and real-world data.",
-  "pdfLink" : "http://research.microsoft.com/pubs/200220/cikm1335-singh-preprint.pdf",
-  "extraLinksSlot" : [ [ "Project Page", "http://research.microsoft.com/apps/pubs/default.aspx?id=200220" ] ]
+  "authorIds" : [ "sameer", "limin", "David Belanger", "ari", "Sam Anzaroot", "wick", "Alexandre Passos", "harshal", "jinho", "martin", "andrew" ],
+  "venueId" : "tackbp",
+  "abstractText" : "We employ universal schema for the TAC KBP slot filling and cold start tasks. The technique enlarges the set of relations in an ontology, e.g., TACKBP slots, to contain all surface patterns between pairs of entities in a large corpus. By factorizing the matrix of co-occurrences between entity pairs and universal schema relations, we are able to predict new target slots. This differs fundamentally from traditional relation extraction approaches because an entire knowledge base is constructed jointly over train and test data. To produce submissions for the slot filling and cold start tasks, we simply query this knowledge base. We describe universal schema, our data preprocessing pipeline, and additional techniques we employ for predicting entities' attributes.",
+  "pdfLink" : "files/papers/umass-tackbp13.pdf"
 }, {
   "id" : "conll13",
   "title" : "Dynamic Knowledge-Base Alignment for Coreference Resolution",
@@ -17,7 +205,7 @@
   "authorIds" : [ "jiaping", "luke", "sameer", "jinho", "andrew" ],
   "venueId" : "conll",
   "abstractText" : "Coreference resolution systems can benefit greatly from inclusion of global context, and a number of recent approaches have demonstrated improvements when precomputing an alignment to external knowledge sources. However, since alignment itself is a challenging task and is often noisy, existing systems either align conservatively, resulting in very few links, or combine the attributes of multiple candidates, leading to a conflation of entities. Our approach instead performs joint inference between within-document coreference and entity linking, maintaining ranked lists of candidate entities that are dynamically merged and reranked during inference. Further, we incorporate a large set of surface string variations for each entity by using anchor texts from the web that link to the entity. These forms of global context enables our system to improve classifier-based coreference by 1.09 B3 F1 points, and improve over the previous state-of-art by 0.41 points, thus introducing a new state-of-art result on the ACE 2004 data.",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/dynamic-conll13.pdf"
+  "pdfLink" : "files/papers/dynamic-conll13.pdf"
 }, {
   "id" : "jnt:akbc13",
   "title" : "Joint Inference of Entities, Relations, and Coreference",
@@ -25,7 +213,7 @@
   "year" : 2013,
   "authorIds" : [ "sameer", "sebastian", "martin", "jiaping", "andrew" ],
   "venueId" : "akbc13",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/joint-akbc13.pdf"
+  "pdfLink" : "files/papers/joint-akbc13.pdf"
 }, {
   "id" : "conf:akbc13",
   "title" : "Assessing Confidence of Knowledge Base Content with an Experimental Study in Entity Resolution",
@@ -33,7 +221,7 @@
   "year" : 2013,
   "authorIds" : [ "wick", "sameer", "ari", "andrew" ],
   "venueId" : "akbc13",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/confidence-akbc13.pdf"
+  "pdfLink" : "files/papers/confidence-akbc13.pdf"
 }, {
   "id" : "link:akbc13",
   "title" : "A Joint Model for Discovering and Linking Entities",
@@ -41,7 +229,7 @@
   "year" : 2013,
   "authorIds" : [ "wick", "sameer", "harshal", "andrew" ],
   "venueId" : "akbc13",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/linking-akbc13.pdf"
+  "pdfLink" : "files/papers/linking-akbc13.pdf"
 }, {
   "id" : "sparse:reseff13",
   "title" : "Anytime Belief Propagation Using Sparse Domains",
@@ -50,78 +238,93 @@
   "authorIds" : [ "sameer", "sebastian", "andrew" ],
   "venueId" : "reseff",
   "abstractText" : "Belief Propagation has been widely used for marginal inference, however it is slow on problems with large-domain variables and high-order factors. Previous work provides useful approximations to facilitate inference on such models, but lacks important anytime properties such as: 1) providing accurate and consistent marginals when stopped early, 2) improving the approximation when run longer, and 3) converging to the fixed point of BP. To this end, we propose a message passing algorithm that works on sparse (partially instantiated) domains, and converges to consistent marginals using dynamic message scheduling. The algorithm grows the sparse domains incrementally, selecting the next value to add using prioritization schemes based on the gradients of the marginal inference objective. Our experiments demonstrate local anytime consistency and fast convergence, providing significant speedups over BP to obtain low-error marginals: up to 25 times on grid models, and up to 6 times on a real-world natural language processing task.",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/singh-nipsws13-sparsebp.pdf",
+  "pdfLink" : "http://arxiv.org/pdf/1311.3368v1",
   "extraLinksSlot" : [ [ "arXiv Page", "http://arxiv.org/abs/1311.3368" ] ]
 }, {
-  "id" : "mcmcmc:emnlp13",
+  "id" : "mcmcmc:emnlp12",
   "title" : "Monte Carlo MCMC: Efficient Inference by Approximate Sampling",
   "pubTypeSlot" : "Conference",
   "year" : 2012,
   "authorIds" : [ "sameer", "wick", "andrew" ],
-  "venueId" : "emnlp"
+  "venueId" : "emnlp",
+  "pdfLink" : "files/papers/mcmcmc-emnlp12.pdf",
+  "pptLink" : "files/papers/mcmcmc-emnlp12-ppt.pdf"
 }, {
   "id" : "hcoref:acl12",
   "title" : "A Discriminative Hierarchical Model for Fast Coreference at Large Scale",
   "pubTypeSlot" : "Conference",
   "year" : 2012,
   "authorIds" : [ "wick", "sameer", "andrew" ],
-  "venueId" : "acl"
+  "venueId" : "acl",
+  "pdfLink" : "files/papers/hierar-coref-acl12.pdf"
 }, {
   "id" : "mldb:probprog12",
   "title" : "Compiling Relational Database Schemata into Probabilistic Graphical Models",
   "pubTypeSlot" : "Workshop",
   "year" : 2012,
   "authorIds" : [ "sameer", "thore" ],
-  "venueId" : "probprog"
+  "venueId" : "probprog",
+  "pdfLink" : "http://arxiv.org/pdf/1212.0967v1.pdf",
+  "extraLinksSlot" : [ [ "arXiv", "http://arxiv.org/abs/1212.0967" ], [ "Project Page", "http://research.microsoft.com/en-us/projects/inferno/" ]]
 }, {
   "id" : "mcmcmc:akbc12",
   "title" : "Monte Carlo MCMC: Efficient Inference by Sampling Factors",
   "pubTypeSlot" : "Workshop",
   "year" : 2012,
   "authorIds" : [ "sameer", "wick", "andrew" ],
-  "venueId" : "akbc12"
+  "venueId" : "akbc12",
+  "pdfLink" : "files/papers/mcmcmc-akbc12.pdf"
 }, {
   "id" : "mcmcge:tr2012",
   "title" : "Constraint-Driven Training of Complex Models Using MCMC",
   "pubTypeSlot" : "TechReport",
   "year" : 2012,
   "authorIds" : [ "sameer", "greg", "andrew" ],
-  "venueId" : "University of Massachusetts Amherst, CMPSCI Technical Report, UM-CS-2012-032"
+  "venueId" : "University of Massachusetts Amherst, CMPSCI Technical Report, UM-CS-2012-032",
+  "pdfLink" : "https://web.cs.umass.edu/publication/docs/2012/UM-CS-2012-032.pdf"
 }, {
   "id" : "wlinks:tr2012",
   "title" : "Wikilinks: A Large-scale Cross-Document Coreference Corpus Labeled via Links to Wikipedia",
   "pubTypeSlot" : "TechReport",
   "year" : 2012,
   "authorIds" : [ "sameer", "amar", "fernando", "andrew" ],
-  "venueId" : "University of Massachusetts Amherst, CMPSCI Technical Report, UM-CS-2012-015"
+  "venueId" : "University of Massachusetts Amherst, CMPSCI Technical Report, UM-CS-2012-015",
+  "pdfLink" : "https://web.cs.umass.edu/publication/docs/2012/UM-CS-2012-015.pdf"
 }, {
   "id" : "parfs:suml11",
   "title" : "Parallel Large-scale Feature Selection",
   "pubTypeSlot" : "Chapter",
   "year" : 2011,
   "authorIds" : [ "Jeremy Kubica", "sameer", "Daria Sorokina" ],
-  "venueId" : "Scaling Up Machine Learning, Cambridge University Press"
+  "venueId" : "Scaling Up Machine Learning, Cambridge University Press",
+  "extraLinksSlot" : [ [ "Website", "http://www.cambridge.org/us/knowledge/isbn/item6542017/" ], [ "Amazon", "http://www.amazon.com/Scaling-Machine-Learning-Distributed-Approaches/dp/0521192242" ] ]
 }, {
   "id" : "dcoref:acl11",
   "title" : "Large-Scale Cross-Document Coreference Using Distributed Inference and Hierarchical Models",
   "pubTypeSlot" : "Conference",
   "year" : 2011,
   "authorIds" : [ "sameer", "amar", "fernando", "andrew" ],
-  "venueId" : "acl"
+  "venueId" : "acl",
+  "pdfLink" : "files/papers/largescale-acl11.pdf",
+  "pptLink" : "files/papers/largescale-acl11-ppt.pdf",
+  "emphasisNote" : "Best Talk Award at DARPA Machine Reading Project Kickoff."
 }, {
   "id" : "asyncmcmc:biglearn11",
   "title" : "Towards Asynchronous Distributed MCMC Inference for Large Graphical Models",
   "pubTypeSlot" : "Workshop",
   "year" : 2011,
   "authorIds" : [ "sameer", "andrew" ],
-  "venueId" : "biglearn"
+  "venueId" : "biglearn",
+  "pdfLink" : "files/papers/singh-nipsws11-biglearn.pdf"
 }, {
   "id" : "sparsebp:cost11",
   "title" : "Inducing Value Sparsity for Parallel Inference in Tree-shaped Models",
   "pubTypeSlot" : "Workshop",
   "year" : 2011,
   "authorIds" : [ "sameer", "martin", "andrew" ],
-  "venueId" : "cost"
+  "venueId" : "cost",
+  "pdfLink" : "files/papers/singh-nipsws11-cost.pdf",
+  "pptLink" : "files/papers/singh-nipsws11-cost-ppt.pdf"
 }, {
   "id" : "cons:naacl10",
   "title" : "Constraint-Driven Rank-Based Learning for Information Extraction",
@@ -130,8 +333,8 @@
   "authorIds" : [ "sameer", "limin", "sebastian", "andrew" ],
   "venueId" : "naacl",
   "abstractText" : "Most learning algorithms for factor graphs require complete inference over the dataset or an instance before making an update to the parameters. SampleRank is a rank-based learning framework that alleviates this problem by updating the parameters during inference. Most semi-supervised learning algorithms also rely on the complete inference, i.e. calculating expectations or MAP configurations. We extend the SampleRank framework to the semi-supervised learning, avoiding these inference bottlenecks. Different approaches for incorporating unlabeled data and prior knowledge into this framework are explored. We evaluated our method on a standard information extraction dataset. Our approach outperforms the supervised method significantly and matches the result of the competing semi-supervised learning approach.Most learning algorithms for factor graphs require complete inference over the dataset or an instance before making an update to the parameters. SampleRank is a rank-based learning framework that alleviates this problem by updating the parameters during inference. Most semi-supervised learning algorithms also rely on the complete inference, i.e. calculating expectations or MAP configurations. We extend the SampleRank framework to the semi-supervised learning, avoiding these inference bottlenecks. Different approaches for incorporating unlabeled data and prior knowledge into this framework are explored. We evaluated our method on a standard information extraction dataset. Our approach outperforms the supervised method significantly and matches the result of the competing semi-supervised learning approach.",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/constraint-naacl10.pdf",
-  "pptLink" : "http://cs.umass.edu/~sameer/files/constraint-naacl10-ppt.pdf"
+  "pdfLink" : "files/papers/constraint-naacl10.pdf",
+  "pptLink" : "files/papers/constraint-naacl10-ppt.pdf"
 }, {
   "id" : "min:naacl10",
   "title" : "Minimally-Supervised Extraction of Entities from Text Advertisements",
@@ -140,8 +343,8 @@
   "authorIds" : [ "sameer", "Dustin Hillard", "Chris Leggetter" ],
   "venueId" : "naacl",
   "abstractText" : "Extraction of entities from ad creatives is an important problem that can benefit many computational advertising tasks. Supervised and semi-supervised solutions rely on labeled data which is expensive, time consuming, and difficult to procure for ad creatives. A small set of manually derived constraints on feature expectations over unlabeled data can be used to *partially* and *probabilistically* label large amounts of data. Utilizing recent work in constraint-based semi-supervised learning, this paper injects light weight supervision specified as these ``constraints'' into a semi-Markov conditional random field model of entity extraction in ad creatives. Relying solely on the constraints, the model is trained on a set of unlabeled ads using an online learning algorithm. We demonstrate significant accuracy improvements on a manually labeled test set as compared to a baseline dictionary approach. We also achieve accuracy that approaches a fully supervised classifier.",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/minimally-naacl10.pdf",
-  "pptLink" : "http://cs.umass.edu/~sameer/files/minimally-naacl10-ppt.pdf"
+  "pdfLink" : "files/papers/minimally-naacl10.pdf",
+  "pptLink" : "files/papers/minimally-naacl10-ppt.pdf"
 }, {
   "id" : "distmap:lccc10",
   "title" : "Distributed MAP Inference for Undirected Graphical Models",
@@ -150,8 +353,8 @@
   "authorIds" : [ "sameer", "amar", "fernando", "andrew" ],
   "venueId" : "lccc",
   "abstractText" : "In this work, we distribute the MCMC-based MAP inference using the Map-Reduce framework. The variables are assigned randomly to machines, which leads to some factors that neighbor variables on separate machines. Parallel MCMC-chains are initiated using proposal distributions that only suggest local changes such that factors that lie across machines are not examined. After a fixed number of samples on each machine, we redistribute the variables amongst the machines to enable proposals across variables that were on different machines. To demonstrate the distribution strategy on a real-world information extraction application, we model the task of cross-document coreference.",
-  "pdfLink" : "http://cs.umass.edu/~sameer/files/singh-nipsws10-lccc.pdf",
-  "pptLink" : "http://cs.umass.edu/~sameer/files/singh-nipsws10-lccc-ppt.pdf",
+  "pdfLink" : "files/papers/singh-nipsws10-lccc.pdf",
+  "pptLink" : "files/papers/singh-nipsws10-lccc-ppt.pdf",
   "extraLinksSlot" : [ [ "Video", "http://videolectures.net/nipsworkshops2010_singh_dmapi" ] ]
 }, {
   "id" : "distantly:tr10",
@@ -163,4 +366,113 @@
   "abstractText" : "Cross-document coreference, the problem of resolving entity mentions across multi-document collections, is crucial to automated knowledge base construction and data mining tasks. However, the scarcity of large labeled data sets has hindered supervised machine learning research for this task. In this paper we develop and demonstrate an approach based on ``distantly-labeling'' a data set from which we can train a discriminative cross-document coreference model. In particular we build a dataset of more than a million people mentions extracted from 3.5 years of New York Times articles, leverage Wikipedia for distant labeling with a generative model (and measure the reliability of such labeling); then we train and evaluate a conditional random field coreference model that has factors on cross-document entities as well as mention-pairs. This coreference model obtains high accuracy in resolving mentions and entities that are not present in the training data, indicating applicability to non-Wikipedia data. Given the large amount of data, our work is also an exercise demonstrating the scalability of our approach.",
   "pdfLink" : "http://arxiv.org/pdf/1005.4298v1",
   "extraLinksSlot" : [ [ "arXiv Page", "http://arxiv.org/abs/1005.4298" ] ]
+}, {
+  "id" : "rlmap:nips09",
+  "title" : "Training Factor Graphs with Reinforcement Learning for Efficient MAP Inference",
+  "pubTypeSlot" : "Conference",
+  "year" : 2009,
+  "authorIds" : [ "wick", "khash", "sameer", "andrew" ],
+  "venueId" : "nips",
+  "pdfLink" : "files/papers/rl-nips09.pdf"
+}, {
+  "id" : "factorie:nips09",
+  "title" : "FACTORIE: Probabilistic Programming via Imperatively Defined Factor Graphs",
+  "pubTypeSlot" : "Conference",
+  "year" : 2009,
+  "authorIds" : [ "andrew", "karl" , "sameer" ],
+  "venueId" : "nips",
+  "pdfLink" : "files/papers/factorie-nips09.pdf"
+}, {
+  "id" : "bidirectional:ecml09",
+  "title" : "Bi-directional Joint Inference for Entity Resolution and Segmentation using Imperatively-Defined Factor Graphs",
+  "pubTypeSlot" : "Conference",
+  "year" : 2009,
+  "authorIds" : [ "sameer", "karl", "andrew" ],
+  "venueId" : "Machine Learning and Knowledge Discovery in Databases (Lecture Notes in Computer Science) and European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)",
+  "pdfLink" : "files/papers/bidirectional-ecml09.pdf",
+  "pptLink" : "files/papers/bidirectional-ecml09-ppt.pdf",
+  "extraLinksSlot" : [ [ "Video", "http://videolectures.net/ecmlpkdd09_singh_bdjiersuidfg" ] ]
+}, {
+  "id" : "parallel:sdm09",
+  "title" : "Parallel Large Scale Feature Selection for Logistic Regression",
+  "pubTypeSlot" : "Conference",
+  "year" : 2009,
+  "authorIds" : [ "sameer", "Jeremy Kubica", "Scott E. Larsen", "Daria Sorokina" ],
+  "venueId" : "SIAM International Conference on Data Mining (SDM)",
+  "pdfLink" : "files/papers/parallel-sdm09.pdf",
+  "pptLink" : "files/papers/parallel-sdm09-ppt.pdf"
+}, {
+  "id" : "option:synth09",
+  "title" : "Option Discovery in Hierarchical Reinforcement Learning for Training Large Factor Graphs for Information Extraction",
+  "pubTypeSlot" : "Report",
+  "year" : 2009,
+  "authorIds" : [ "sameer" ],
+  "venueId" : "University of Massachusetts Amherst, PhD Candidacy/Synthesis Report",
+  "pdfLink" : "files/papers/optiondiscovery-synthesis09.pdf",
+  "note" : "Readers: Andy Barto and Andrew McCallum"
+}, {
+  "id" : "factorie:nipsws08",
+  "title" : "FACTORIE: Efficient Probabilistic Programming via Imperative Declarations of Structure, Inference and Learning",
+  "pubTypeSlot" : "TechReport",
+  "year" : 2008,
+  "authorIds" : [ "andrew", "khash", "wick", "karl", "sameer" ],
+  "venueId" : "probprog",
+  "pdfLink" : "files/papers/factorie-nipsws08.pdf"
+}, {
+  "id" : "feature:patent08",
+  "title" : "Feature selection for large scale models",
+  "pubTypeSlot" : "Patent",
+  "year" : 2008,
+  "authorIds" : [ "sameer", "E. S. Larsen", "Jeremy Kubica", "Andrew W. Moore" ],
+  "venueId" : "US Patent Number 8190537",
+  "pdfLink" : "https://docs.google.com/viewer?url=books.google.com/patents/US8190537.pdf",
+  "extraLinksSlot" : [ [ "Webpage", "http://www.google.com/patents/US8190537" ] ]
+}, {
+  "id" : "rlmap:tr08",
+  "title" : "Reinforcement Learning for MAP Inference in Large Factor Graphs",
+  "pubTypeSlot" : "TechReport",
+  "year" : 2008,
+  "authorIds" : [ "khash", "wick", "sameer", "andrew" ],
+  "venueId" : "University of Massachusetts Amherst, CMPSCI Technical Report, UM-CS-2008-040",
+  "pdfLink" : "https://web.cs.umass.edu/publication/docs/2008/UM-CS-2008-040.pdf"
+}, {
+  "id" : "sqj07",
+  "title" : "Common Coupling and Pointer Variables, with Application to a Linux Case Study",
+  "pubTypeSlot" : "Journal",
+  "year" : 2007,
+  "authorIds" : [ "S.R. Schach", "T.O.S. Adeshiyan", "D. Balasubramanian", "G. Madl", "E.P. Osses", "sameer", "K. Suwanmongkol", "M. Xie", "D.G. Feitelson" ],
+  "venueId" : "Software Quality Journal (SQJ)",
+  "pdfLink" : "files/papers/common-sqj07.pdf"
+}, {
+  "id" : "jss07",
+  "title" : "Fine-Grain Analysis of Common Coupling and its Application to a Linux Case Study",
+  "pubTypeSlot" : "Journal",
+  "year" : 2007,
+  "authorIds" : [ "D.G. Feitelson", "T.O.S. Adeshiyan", "D. Balasubramanian", "Y. Etsion", "G. Madl", "E.P. Osses", "sameer", "K. Suwanmongkol", "M. Xie", "S.R. Schach" ],
+  "venueId" : "Journal of Systems and Software (JSS)",
+  "pdfLink" : "files/papers/common-jss07.pdf"
+}, {
+  "id" : "icaps07",
+  "title" : "Mixed-Initiative Planning for Space Exploration Missions",
+  "pubTypeSlot" : "Workshop",
+  "year" : 2007,
+  "authorIds" : [ "T. Kichkaylo", "C. van Buskirk", "sameer", "H. Neema", "M. Orosz", "R. Neches" ],
+  "venueId" : "International Conference on Automated Planning and Scheduling Workshop (ICAPS)"
+}, {
+  "id" : "icra06",
+  "title" : "Transfer of Learning for Complex Domains: A Demonstration Using Multiple Robots",
+  "pubTypeSlot" : "Conference",
+  "year" : 2006,
+  "authorIds" : [ "sameer", "Julie A. Adams" ],
+  "venueId" : "International Conference on Robotics and Automation (ICRA)",
+  "pdfLink" : "files/papers/transfer-icra06.pdf"
+}, {
+  "id" : "incarf03",
+  "title" : "Finding the shortest path for a mobile robot in an unmapped maze from minimum runs",
+  "pubTypeSlot" : "Conference",
+  "year" : 2003,
+  "authorIds" : [ "sameer" ],
+  "venueId" : "Int Conf on CAD, CAM, Robotics and Autonomous Factories (INCARF)"
 } ]
+
+

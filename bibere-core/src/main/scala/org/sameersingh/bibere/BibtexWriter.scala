@@ -1,4 +1,4 @@
-package com.github.sameersingh.bibere
+package org.sameersingh.bibere
 
 import java.io.{PrintWriter, FileOutputStream, OutputStreamWriter}
 
@@ -45,12 +45,20 @@ object BibtexHelper {
   def entryType(v: Value): String = v match {
     case Conference => "inproceedings"
     case Workshop => "inproceedings"
+    case Demo => "inproceedings"
+    case TechReport => "techreport"
+    case Patent => "techreport"
+    case Thesis => "phdthesis"
     case _ => "misc"
   }
 
   def venueTitle(v: Value): String = v match {
     case Conference => "booktitle"
     case Workshop => "booktitle"
+    case Demo => "booktitle"
+    case TechReport => "institution"
+    case Patent => "institution"
+    case Thesis => "school"
     case _ => "series"
   }
 }

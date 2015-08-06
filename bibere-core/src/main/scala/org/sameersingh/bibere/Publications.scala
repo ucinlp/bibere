@@ -1,4 +1,4 @@
-package com.github.sameersingh.bibere
+package org.sameersingh.bibere
 
 import scala.collection.mutable.{Buffer, ArrayBuffer, HashMap}
 
@@ -32,7 +32,7 @@ case class Author(id: String, name: PersonName, website: Option[String] = None)
 
 object PubType extends Enumeration {
   type PubType = Value
-  val Conference, Journal, Workshop, TechReport, Thesis, Report, Chapter, Book, Misc = Value
+  val Conference, Journal, Workshop, TechReport, Patent, Thesis, Report, Chapter, Book, Misc, Demo = Value
 }
 
 case class Venue(id: String, name: String, acronym: String)
@@ -48,9 +48,18 @@ case class Paper(id: String,
                  pptLink: Option[String] = None,
                  pages: Option[(Int, Int)] = None,
                  extraLinksSlot: Seq[(String, String)] = Seq.empty,
-                 extraFieldsSlot: Seq[(String, String)] = Seq.empty) {
+                 extraFieldsSlot: Seq[(String, String)] = Seq.empty,
+                 emphasisNote: Option[String] = None,
+                 note: Option[String] = None,
+                 weight: Option[Double] = None,
+                 tagsSlot: Seq[String] = Seq.empty
+                  ) {
+  def tags: Seq[String] = if (tagsSlot == null) Seq.empty else tagsSlot
+
   def extraLinks: Seq[(String, String)] = if (extraLinksSlot == null) Seq.empty else extraLinksSlot
+
   def extraFields: Seq[(String, String)] = if (extraFieldsSlot == null) Seq.empty else extraFieldsSlot
+
   def pubType: PubType.PubType = PubType.withName(pubTypeSlot)
 }
 
@@ -77,7 +86,7 @@ class Publications {
     authors(a.id) = a
   }
 
-  def papersByYear = papers.values.toSeq.sortBy(_.venueId).sortBy(_.pubType).sortBy(-_.year)
+  def papersByYear = papers.values.toSeq.sortBy(_.venueId).sortBy(-_.weight.getOrElse(1.0)).sortBy(_.pubType).sortBy(-_.year)
 
   def author(id: String) = authors.getOrElse(id, Author(id, PersonName(id)))
 

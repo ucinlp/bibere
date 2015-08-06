@@ -7,8 +7,28 @@
   "name" : "NIPS Workshop on Probabilistic Programming",
   "acronym" : "ProbProg"
 }, {
+  "id" : "starai",
+  "name" : "International Workshop on Statistical Relational AI (StarAI)",
+  "acronym" : "StarAI"
+}, {
+  "id" : "krr",
+  "name" : "AAAI Spring Syposium on Knowledge Representation and Reasoning (KRR): Integrating Symbolic and Neural Approaches",
+  "acronym" : "KRR"
+}, {
+  "id" : "sp14",
+  "name" : "ACL 2014 Workshop on Semantic Parsing (SP14)",
+  "acronym" : "SP14"
+}, {
+  "id" : "nwnlp",
+  "name" : "Pacific Northwest Regional NLP Workshop (NW-NLP)",
+  "acronym" : "NW-NLP"
+}, {
   "id" : "akbc13",
   "name" : "CIKM Workshop on Automated Knowledge Base Construction (AKBC)",
+  "acronym" : "AKBC"
+}, {
+  "id" : "akbc",
+  "name" : "Workshop on Automated Knowledge Base Construction (AKBC)",
   "acronym" : "AKBC"
 }, {
   "id" : "akbc12",
@@ -35,6 +55,10 @@
   "name" : "Neural Information Processing Systems (NIPS)",
   "acronym" : "NIPS"
 }, {
+  "id" : "aistats",
+  "name" : "International Conference on Artificial Intelligence and Statistics (AISTATS)",
+  "acronym" : "AISTATS"
+}, {
   "id" : "emnlp",
   "name" : "Empirical Methods in Natural Language Processing (EMNLP)",
   "acronym" : "EMNLP"
@@ -51,7 +75,15 @@
   "name" : "Association for Computational Linguistics (ACL)",
   "acronym" : "ACL"
 }, {
+  "id" : "tacl",
+  "name" : "Transactions of the Association for Computational Linguistics (TACL)",
+  "acronym" : "TACL"
+}, {
   "id" : "naacl",
   "name" : "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)",
   "acronym" : "NAACL"
+}, {
+  "id" : "tackbp",
+  "name" : "Text Analysis Conference on Knowledge Base Population (TAC KBP)",
+  "acronym" : "TAC KBP"
 } ]
