@@ -14,10 +14,8 @@
   <name>bibere</name>
   <licenses>
     <license>
-      <name>Apache 2</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <distribution>repo</distribution>
-      <comments>A business-friendly OSS license</comments>
+      <name>The New BSD License</name>
+      <url>http://www.opensource.org/licenses/bsd-license.html</url>
     </license>
   </licenses>
 
