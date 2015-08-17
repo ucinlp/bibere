@@ -6,6 +6,8 @@
     "authorIds" : [ "tim", "sameer", "sebastian" ],
     "venueId" : "naacl",
     "pdfLink" : "files/papers/logicmf-naacl15.pdf",
+    "pptLink" : "http://rockt.github.io/slides/2015-naacl.pdf",
+    "extraLinksSlot" : [ [ "Source code", "https://github.com/uclmr/low-rank-logic" ], [ "Talk video", "http://techtalks.tv/talks/injecting-logical-background-knowledge-into-embeddings-for-relation-extraction/61526/" ] ],
     "abstractText" : "Matrix factorization approaches to relation extraction provide several attractive features: they support distant supervision, handle open schemas, and leverage unlabeled data. Unfortunately, these methods share a shortcoming with all other distantly supervised approaches: they cannot learn to extract target relations without existing data in the knowledge base, and likewise, these models are inaccurate for relations with sparse data. Rule-based extractors, on the other hand, can be easily extended to novel relations and improved for existing but inaccurate relations, through first-order formulae that capture auxiliary domain knowledge. However, usually a large set of such formulae is necessary to achieve generalization.<br>In this paper, we introduce a paradigm for learning low-dimensional embeddings of entity-pairs and relations that combine the advantages of matrix factorization with first-order logic domain knowledge. We introduce simple approaches for estimating such embeddings, as well as a novel training algorithm to jointly optimize over factual and first-order logic information. Our results show that this method is able to learn accurate extractors with little or no distant supervision alignments, while at the same time generalizing to textual patterns that do not appear in the formulae.",
     "weight" : 1.5
 }, {
@@ -36,8 +38,8 @@
     "year" : 2015,
     "authorIds" : [ "nitish", "sameer" ],
     "venueId" : "Yelp Dataset Challenge, Round 4",
-    "pdfLink" : "http://nitishgupta.github.io/docs/gupta-factordb.pdf",
-    "extraLinksSlot" : [[ "Yelp Challenge", "http://www.yelp.com/dataset_challenge" ]],
+    "pdfLink" : "files/papers/yelp-factordb.pdf",
+    "extraLinksSlot" : [[ "Project Page", "http://nitishgupta.github.io/factorDB/" ], [ "Yelp Challenge", "http://www.yelp.com/dataset_challenge" ]],
     "emphasisNote" : "Grand Prize Winner of Yelp Dataset Challenge Round 4"
 }, {
     "id" : "mftf:vsm15",
@@ -55,7 +57,7 @@
     "authorIds" : [ "sameer", "tim", "Luke Hewitt", "Jason Naradowsky", "sebastian" ],
     "venueId" : "Demo at the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)",
     "pdfLink" : "files/papers/wolfe-naacl15-demo.pdf",
-    "extraLinksSlot" : [ [ "Live Demo", "http://wolfe.ml/demos/nlp" ] ],
+    "extraLinksSlot" : [ [ "Website", "http://www.wolfe.ml" ], [ "Live Demo", "http://wolfe.ml/demos/nlp" ] ],
     "abstractText" : "Developing machine learning algorithms for natural language processing (NLP) applications is inherently an iterative process, involving a continuous refinement of the choice of model, engineering of features, selection of inference algorithms, search for the right hyper-parameters, and error analysis. Existing probabilistic program languages (PPLs) only provide partial solutions; most of them do not support commonly used models such as matrix factorization or neural networks, and do not facilitate interactive and iterative programming that is crucial for rapid development of these models.<br>In this demo we introduce WOLFE, a stack designed to facilitate the development of NLP applications: (1) the WOLFE language allows the user to concisely define complex models, enabling easy modification and extension, (2) the WOLFE interpreter transforms declarative machine learning code into automatically differentiable terms or, where applicable, into factor graphs that allow for complex models to be applied to real-world applications, and (3) the WOLFE IDE provides a number of different visual and interactive elements, allowing intuitive exploration and editing of the data representations, the underlying graphical models, and the execution of the inference algorithms."
 }, {
     "id" : "explain:krr15",
