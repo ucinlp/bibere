@@ -58,7 +58,7 @@ case class Paper(id: String,
 
   def extraLinks: Seq[(String, String)] = if (extraLinksSlot == null) Seq.empty else extraLinksSlot
 
-  def extraFields: Seq[(String, String)] = if (extraFieldsSlot == null) Seq.empty else extraFieldsSlot
+  def extraFields: Map[String, String] = if (extraFieldsSlot == null) Map.empty else extraFieldsSlot.toMap
 
   def pubType: PubType.PubType = PubType.withName(pubTypeSlot)
 }
