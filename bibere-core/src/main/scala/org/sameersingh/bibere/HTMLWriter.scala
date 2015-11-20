@@ -80,7 +80,7 @@ class HTMLWriter extends Writer {
       })
       if (aid == p.authorIds.last) writer.print(". ") else writer.print(", ")
     }
-    title(writer, p.title)
+    title(writer, p.title.replaceAll("\\{", "").replaceAll("\\}", ""))
     pubs.venues.get(p.venueId).fold({
       venue(writer, Venue(p.venueId, p.venueId, p.venueId))
     })(p => {

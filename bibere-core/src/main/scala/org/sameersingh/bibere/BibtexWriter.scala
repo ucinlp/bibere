@@ -28,7 +28,7 @@ class BibtexWriter extends Writer {
     sb.append(" %s = {%s},\n" format("author", p.authorIds.map(pubs author _)
           .map(a => if(mainAuthorId == Some(a.id)) a.name.full.split(" ").map(s => "{\\textbf{" + s  + "}}").mkString(" ") else a.name.full)
           .mkString(" and ")))
-    sb.append(" %s = {%s},\n" format("title", p.title))
+    sb.append(" %s = { %s },\n" format("title", p.title))
     sb.append(" %s = {%s},\n" format(BibtexHelper.venueTitle(p.pubType), pubs.venue(p.venueId).name))
     if(p.pubType == PubType.Journal) sb.append(" %s = {%s},\n" format("volume", p.extraFields("volume")))
     sb.append(" %s = {%d}\n" format("year", p.year))
