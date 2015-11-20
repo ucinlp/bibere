@@ -1,4 +1,12 @@
 [ {
+    "id" : "moro:eaai16",
+    "title" : "Creating Interactive and Visual Educational Resources for {AI}",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2016,
+    "authorIds" : [ "sameer", "sebastian" ],
+    "venueId" : "AAAI Symposium on Educational Advances in Artificial Intelligence (EAAI)",
+    "pdfLink" : "files/papers/moro-eaai16.pdf"
+}, {
     "id" : "logicmf:naacl15",
     "title" : "Injecting Logical Background Knowledge into Embeddings for Relation Extraction",
     "pubTypeSlot" : "Conference",
@@ -52,7 +60,7 @@
     "pdfLink" : "files/papers/mftf-vsm15.pdf"
 }, {
     "id" : "wolfe:naacl15",
-    "title" : "WOLFE: An NLP-friendly Declarative Machine Learning Stack",
+    "title" : "{WOLFE}: An {NLP}-friendly Declarative Machine Learning Stack",
     "pubTypeSlot" : "Demo",
     "year" : 2015,
     "authorIds" : [ "sameer", "tim", "Luke Hewitt", "Jason Naradowsky", "sebastian" ],
@@ -92,7 +100,7 @@
   "weight" : 0.0
 }, {
     "id" : "uw:kba14",
-    "title" : "Distributed Non-Parametric Representations for Vital Filtering: UW at TREC KBA 2014",
+    "title" : "Distributed Non-Parametric Representations for Vital Filtering: {UW at TREC KBA} 2014",
     "pubTypeSlot" : "Conference",
     "year" : 2014,
     "authorIds" : [ "nacho", "sameer", "carlos" ],
