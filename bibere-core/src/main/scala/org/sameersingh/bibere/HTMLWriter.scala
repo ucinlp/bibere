@@ -81,6 +81,8 @@ class HTMLWriter extends Writer {
       if (aid == p.authorIds.last) writer.print(". ") else writer.print(", ")
     }
     title(writer, p.title.replaceAll("\\{", "").replaceAll("\\}", ""))
+    if (Set(PubType.Thesis) contains p.pubType) span(writer, "PhD Thesis, ", venueClass)
+    if (Set(PubType.TechReport) contains p.pubType) span(writer, "Technical Report, ", venueClass)
     pubs.venues.get(p.venueId).fold({
       venue(writer, Venue(p.venueId, p.venueId, p.venueId))
     })(p => {
