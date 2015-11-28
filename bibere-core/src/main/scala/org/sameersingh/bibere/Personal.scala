@@ -32,8 +32,14 @@ object Personal {
     override def post(writer: PrintWriter): Unit = {}
   }
 
-  val bibtexWriter = new BibtexWriter {
+  val personalBibtexWriter = new BibtexWriter {
+    override def filename: String = "personal.bib"
+
     override def mainAuthorId = Some("sameer")
+  }
+
+  val generalBibtexWriter = new BibtexWriter {
+    override def mainAuthorId = None
   }
 
   def main(args: Array[String]) {
@@ -42,7 +48,8 @@ object Personal {
     println("venues: " + pubs.venues.values.mkString("\t"))
     println("papers: " + pubs.papersByYear.mkString("\t"))
     htmlWriter.write(pubs, directory + "html/")
-    bibtexWriter.write(pubs, directory + "bibtex/")
+    personalBibtexWriter.write(pubs, directory + "bibtex/")
+    generalBibtexWriter.write(pubs, directory + "bibtex/")
   }
 
 }
