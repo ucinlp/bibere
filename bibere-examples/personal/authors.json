@@ -13,6 +13,20 @@
   },
   "website" : "https://sites.google.com/site/guillaumebouchardml/home"
 }, {
+ "id" : "yejin",
+  "name" : {
+    "first" : "Yejin",
+    "last" : "Choi"
+  },
+  "website" : "http://homes.cs.washington.edu/~yejin/"
+}, {
+ "id" : "rashkin",
+  "name" : {
+    "first" : "Hannah",
+    "last" : "Rashkin"
+  },
+  "website" : "http://homes.cs.washington.edu/~hrashkin"
+}, {
  "id" : "weld",
   "name" : {
     "first" : "Dan",
@@ -33,6 +47,13 @@
     "last" : "Guestrin"
   },
   "website" : "http://homes.cs.washington.edu/~guestrin/"
+}, {
+  "id" : "marco",
+  "name" : {
+    "first" : "Marco",
+    "last" : "Tulio Ribeiro"
+  },
+  "website" : "http://homes.cs.washington.edu/~marcotcr/"
 }, {
   "id" : "nacho",
   "name" : {
@@ -97,6 +118,20 @@
   },
   "website" : "http://nitishgupta.github.io"
 }, {
+  "id" : "roth",
+  "name" : {
+    "first" : "Dan",
+    "last" : "Roth"
+  },
+  "website" : "http://l2r.cs.uiuc.edu/"
+ }, {
+  "id" : "parisa",
+  "name" : {
+    "first" : "Parisa",
+    "last" : "Kordjamshidi"
+  },
+  "website" : "http://www.cs.tulane.edu/~pkordjam/"
+}, {
   "id" : "wick",
   "name" : {
     "first" : "Michael",
@@ -108,7 +143,7 @@
   "name" : {
     "first" : "Tim",
     "last" : "Rocktaschel"
-  }, 
+  },
   "website" : "http://rockt.github.io/"
 }, {
   "id" : "matko",

@@ -1,11 +1,85 @@
 [ {
+    "id" : "saul:coling16",
+    "title" : "Better call Saul: Flexible Programming for Learning and Inference in NLP",
+    "pubTypeSlot" : "Conference",
+    "year" : 2016,
+    "authorIds" : [ "parisa", "Daniel Khashabi", "Christos Christodoulopoulos", "Bhargav Mangipudi", "sameer", "roth" ],
+    "venueId" : "coling"
+}, {
+    "id" : "connot:acl16",
+    "title" : "Connotation Frames: A Data-Driven Investigation",
+    "pubTypeSlot" : "Conference",
+    "year" : 2016,
+    "authorIds" : [ "rashkin", "sameer", "yejin" ],
+    "extraLinksSlot" : [ [ "ArXiv version", "http://arxiv.org/abs/1506.02739" ], [ "Project page", "http://homes.cs.washington.edu/~hrashkin/connframe.html" ] ],
+    "pdfLink" : "files/papers/connot-acl16.pdf",
+    "venueId" : "acl"
+}, {
+    "id" : "prog:nipsws16",
+    "title" : "Programs as Black-Box Explanations",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2016,
+    "authorIds" : [ "sameer", "marco", "carlos" ],
+    "extraLinksSlot" : [ [ "ArXiv version", "https://arxiv.org/abs/1611.07579" ] ],
+    "venueId" : "interpretML",
+    "abstractText" : "Recent work in model-agnostic explanations of black-box machine learning has demonstrated that interpretability of complex models does not have to come at the cost of accuracy or model flexibility. However, it is not clear what kind of explanations, such as linear models, decision trees, and rule lists, are the appropriate family to consider, and different tasks and models may benefit from different kinds of explanations. Instead of picking a single family of representations, in this work we propose to use \"programs\" as model-agnostic explanations. We show that small programs can be expressive yet intuitive as explanations, and generalize over a number of existing interpretable families. We propose a prototype program induction method based on simulated annealing that approximates the local behavior of black-box classifiers around a specific prediction using random perturbations. Finally, we present preliminary application on small datasets and show that the generated explanations are intuitive and accurate for a number of classifiers."
+}, {
+    "id" : "anchor:nipsws16",
+    "title" : "Nothing Else Matters: Model-Agnostic Explanations By Identifying Prediction Invariance",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2016,
+    "authorIds" : [ "marco", "sameer", "carlos" ],
+    "extraLinksSlot" : [ [ "ArXiv version", "https://arxiv.org/abs/1611.05817" ] ],
+    "venueId" : "interpretML",
+    "abstractText" : "At the core of interpretable machine learning is the question of whether humans are able to make accurate predictions about a model's behavior. Assumed in this question are three properties of the interpretable output: coverage, precision, and effort. Coverage refers to how often humans think they can predict the model's behavior, precision to how accurate humans are in those predictions, and effort is either the up-front effort required in interpreting the model, or the effort required to make predictions about a model's behavior.<br>In this work, we propose anchor-LIME (aLIME), a model-agnostic technique that produces high-precision rule-based explanations for which the coverage boundaries are very clear. We compare aLIME to linear LIME with simulated experiments, and demonstrate the flexibility of aLIME with qualitative examples from a variety of domains and tasks."
+}, {
+    "id" : "lime:hcml16",
+    "title" : "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2016,
+    "authorIds" : [ "marco", "sameer", "carlos" ],
+    "venueId" : "CHI Workshop on Human-Centred Machine Learning (HCML)",
+    "pdfLink" : "files/papers/lime-hcml16.pdf",
+    "note" : "Shorter version of the paper presented at KDD 2016."
+}, {
+    "id" : "lime:whi16",
+    "title" : "Model-Agnostic Interpretability of Machine Learning",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2016,
+    "authorIds" : [ "marco", "sameer", "carlos" ],
+    "pdfLink" : "files/papers/lime-whi16.pdf",
+    "emphasisNote" : "Best Paper Award",
+    "venueId" : "ICML Workshop on Human Interpretability in Machine Learning (WHI)"
+}, {
+    "id" : "lime:kdd16",
+    "title" : "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier",
+    "pubTypeSlot" : "Conference",
+    "year" : 2016,
+    "authorIds" : [ "marco", "sameer", "carlos" ],
+    "venueId" : "kdd",
+    "extraLinksSlot" : [ [ "ArXiv version", "http://arxiv.org/abs/1602.04938" ], [ "Project page", "https://github.com/marcotcr/lime"], [ "Summary Video", "https://www.youtube.com/watch?v=hUnRCxnydCc"], [ "Article on O'Reilly", "https://oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime"], [ "Code for Synthetic Experiments", "https://github.com/marcotcr/lime-experiments"] ],
+    "pdfLink" : "files/papers/lime-kdd16.pdf",
+    "emphasisNote" : "Audience Appreciation Award",
+    "note" : "Also presented at the CHI 2016 Workshop on Human-Centred Machine Learning (HCML)."
+}, {
+    "id" : "lime:naacl16",
+    "title" : "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier",
+    "pubTypeSlot" : "Demo",
+    "year" : 2016,
+    "authorIds" : [ "marco", "sameer", "carlos" ],
+    "venueId" : "Demo at the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)",
+    "pdfLink" : "files/papers/lime-naacl16demo.pdf",
+    "extraLinksSlot" : [ [ "Source code", "https://github.com/UW-MODE/naacl16-demo" ] ],
+    "note" : "Demonstration of the KDD 2016 paper."
+}, {
     "id" : "moro:eaai16",
     "title" : "Creating Interactive and Visual Educational Resources for {AI}",
     "pubTypeSlot" : "Workshop",
     "year" : 2016,
     "authorIds" : [ "sameer", "sebastian" ],
     "venueId" : "AAAI Symposium on Educational Advances in Artificial Intelligence (EAAI)",
-    "pdfLink" : "files/papers/moro-eaai16.pdf"
+    "pdfLink" : "files/papers/moro-eaai16.pdf",
+    "abstractText" : "Teaching artificial intelligence is effective if the experience is a visual and interactive one, with educational materials that utilize combinations of various content types such as text, math, and code into an integrated experience. Unfortunately, easy-to-use tools for creating such pedagogical resources are not available to the educators, resulting in most courses being taught using a disconnected set of static materials, which is not only ineffective for learning AI, but further, requires repeated and redundant effort for the instructor. In this paper, we introduce Moro, a software tool for easily creating and presenting AI-friendly teaching materials. Moro notebooks integrate content of different types (text, math, code, images), allow real-time interactions via modifiable and executable code blocks, and are viewable in browsers both as long-form pages and as presentations. Creating notebooks is easy and intuitive; the creation tool is also in-browser, is WYSIWYG for quick iterations of editing, and supports a variety of shortcuts and customizations for efficiency. We present three deployed case studies of Moro that widely differ from each other, demonstrating its utility in a variety of scenarios such as in-class teaching and conference tutorials."
 }, {
     "id" : "logicmf:naacl15",
     "title" : "Injecting Logical Background Knowledge into Embeddings for Relation Extraction",
@@ -487,5 +561,3 @@
   "authorIds" : [ "sameer" ],
   "venueId" : "Int Conf on CAD, CAM, Robotics and Autonomous Factories (INCARF)"
 } ]
-
-
