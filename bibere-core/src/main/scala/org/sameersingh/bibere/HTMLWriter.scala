@@ -113,11 +113,13 @@ class HTMLWriter extends Writer {
     writer.print("</span>")
   }
 
-  def author(writer: PrintWriter, a: Author) {
+  def author(writer: PrintWriter, a: Author, fullName: Boolean = false) {
     val authClass = mainAuthorId.fold(authorClass)(m => if (a.id == m) mainAuthorClass else authorClass)
     writer.print("<span class=\"%s\">" format (authClass))
     a.website.foreach(w => writer.print("<a href=\"%s\">" format (w)))
-    writer.print(a.name.short)
+    if(fullName)
+      writer.print(a.name.full)
+    else writer.print(a.name.short)
     a.website.foreach(w => writer.print("</a>"))
     writer.print("</span>")
   }
