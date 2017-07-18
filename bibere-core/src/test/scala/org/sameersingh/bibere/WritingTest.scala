@@ -53,7 +53,7 @@ class WritingTest {
 
   @Test
   def testHTMLCoauthorWriting() {
-    val testDir = System.getProperty("user.home") + "/Work/tmp/" // Files.createTempDir().toString
+    val testDir = Files.createTempDir().toString // System.getProperty("user.home") + "/Work/tmp/"
     println("Coauthor: " + testDir)
     val writer = new HTMLCoauthorWriter {
       override def mainAuthorId: Option[String] = None //Some("sameer")
