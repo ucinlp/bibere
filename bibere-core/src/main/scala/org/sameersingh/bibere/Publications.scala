@@ -90,6 +90,8 @@ class Publications {
 
   def author(id: String) = authors.getOrElse(id, Author(id, PersonName(id)))
 
+  def paperAuthorIds = papers.values.flatMap(_.authorIds).toSet
+
   def paper(id: String) = papers(id)
 
   def venue(id: String) = venues.getOrElse(id, Venue(id, id, id))

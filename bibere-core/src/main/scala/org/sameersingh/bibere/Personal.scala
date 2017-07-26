@@ -23,7 +23,7 @@ object Personal {
           |<h2>Publications</h2>
           |
           |<div>
-          |  Publications (grouped by year): <a href="#2016">2016</a>, <a href="#2015">2015</a>, <a href="#2014">2014</a>, <a href="#2013">2013</a>, <a href="#2012">2012</a>, <a href="#2011">2011</a>, <a href="#2010">2010</a>, <a href="#2009">2009</a>, <a href="#2008">2008</a>, <a href="#2007">2007</a>, <a href="#2006">&lt;=2006</a>.
+          |  Publications (grouped by year): <a href="#2017">2017</a>, <a href="#2016">2016</a>, <a href="#2015">2015</a>, <a href="#2014">2014</a>, <a href="#2013">2013</a>, <a href="#2012">2012</a>, <a href="#2011">2011</a>, <a href="#2010">2010</a>, <a href="#2009">2009</a>, <a href="#2008">2008</a>, <a href="#2007">2007</a>, <a href="#2006">&lt;=2006</a>.
           |  <hr>
           |</div>
         """.stripMargin.trim)
