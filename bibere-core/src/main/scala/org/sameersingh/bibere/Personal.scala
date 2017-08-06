@@ -42,12 +42,36 @@ object Personal {
     override def mainAuthorId = None
   }
 
+  val coauthorHTMLWriter = new HTMLCoauthorWriter {
+    override def filename: String = "coauthors.html"
+
+    override def mainAuthorId = Some("sameer")
+
+    override def pre(writer: PrintWriter): Unit = {
+      writer.println(
+        """
+          |---
+          |layout: main
+          |title: "Sameer Singh: Coauthors"
+          |#permalink: /coauthors
+          |---
+          |<h2>Coauthors</h2>
+          |
+        """.stripMargin.trim)
+    }
+
+    override def post(writer: PrintWriter): Unit = {}
+
+    override def sortBy = "numPapers"
+}
+
   def main(args: Array[String]) {
     val pubs = JsonReader.readPublications(directory)
     println("authors: " + pubs.authors.values.mkString("\t"))
     println("venues: " + pubs.venues.values.mkString("\t"))
     println("papers: " + pubs.papersByYear.mkString("\t"))
     htmlWriter.write(pubs, directory + "html/")
+    coauthorHTMLWriter.write(pubs, directory + "html/")
     personalBibtexWriter.write(pubs, directory + "bibtex/")
     generalBibtexWriter.write(pubs, directory + "bibtex/")
   }
