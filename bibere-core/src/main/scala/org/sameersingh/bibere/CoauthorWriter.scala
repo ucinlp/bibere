@@ -15,6 +15,7 @@ trait CoauthorWriter {
   def dedup(pubs: Publications): Iterable[Author] = {
     val auths = pubs.paperAuthorIds
       .filterNot(aid => mainAuthorId.map(_ == aid).getOrElse(false))
+      .filter(aid => pubs.authors.contains(aid))
       .map(aid => pubs.authors(aid)).toSeq
     sortBy match {
       case "last" => auths.sortBy(_.name.last)
@@ -42,21 +43,21 @@ class HTMLCoauthorWriter extends CoauthorWriter {
     writer.println("</title>")
     writer.println("</head>")
     writer.println("<body>")
-    writer.println("<ul>")
   }
 
   def post(writer: PrintWriter) {
-    writer.println("</ul>")
     writer.println("</body>")
     writer.println("</html>")
   }
 
   def writeCoauthors(authors: Iterable[Author], writer: PrintWriter) {
+    writer.println("<ul>")
     for (a <- authors) {
       writer.println("<li>")
       HTMLWriter.author(writer, a, fullName = true)
       writer.println("</li>\n")
     }
+    writer.println("</ul>")
   }
 
   def write(pubs: Publications, path: String) {
