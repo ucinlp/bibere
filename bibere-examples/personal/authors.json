@@ -245,6 +245,13 @@
   },
   "website" : "http://people.cs.umass.edu/~lmyao/"
 }, {
+  "id" : "levorato",
+  "name" : {
+    "first" : "Marco",
+    "last" : "Levorato"
+  },
+  "website" : "http://www.ics.uci.edu/~mlevorat/"
+}, {
   "id" : "khash",
   "name" : {
     "first" : "Khashyar",
@@ -255,6 +262,12 @@
   "name" : {
     "first" : "Karl",
     "last" : "Schultz"
+  }
+}, {
+  "id" : "ananya",
+  "name" : {
+    "first" : "Ananya",
+    "last" : "Ananya"
   }
 }, {
   "id" : "greg",

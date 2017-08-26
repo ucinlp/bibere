@@ -1,4 +1,41 @@
 [ {
+    "id" : "neuralel:emnlp17",
+    "title" : "Entity Linking via Joint Encoding of Types, Descriptions, and Context",
+    "pubTypeSlot" : "Conference",
+    "year" : 2017,
+    "authorIds" : [ "nitish", "sameer", "roth" ],
+    "extraLinksSlot" : [ [ "Project Page", "http://cogcomp.org/page/publication_view/817" ] ],
+    "pdfLink" : "http://cogcomp.org/papers/GuptaSiRo17.pdf",
+    "venueId" : "emnlp",
+    "abstractText" : "For accurate entity linking, we need to capture various information aspects of an entity, such as its description in a KB, contexts in which it is mentioned, and structured knowledge. Additionally, a linking system should work on texts from different domains without requiring domain-specific training data or hand-engineered features.<br>In this work we present a neural, modular entity linking system that learns a unified dense representation for each entity using multiple sources of information, such as its description, contexts around its mentions, and its fine-grained types. We show that the resulting entity linking system is effective at combining these sources, and performs competitively, sometimes out-performing current state-of-the-art systems across datasets, without requiring any domain-specific training data or hand-engineered features. We also show that our model can effectively \"embed\" entities that are new to the KB, and is able to link its mentions accurately."
+}, {
+    "id" : "saul:starai17",
+    "title" : "Relational Learning and Feature Extraction by Querying over Heterogeneous Information Networks",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2017,
+    "authorIds" : [ "parisa", "sameer", "Daniel Khashabi", "Christos Christodoulopoulos", "Mark Summons", "Saurabh Sinha", "roth" ],
+    "extraLinksSlot" : [ [ "ArXiv version", "https://arxiv.org/pdf/1707.07794" ] ],
+    "pdfLink" : "https://arxiv.org/pdf/1707.07794",
+    "venueId" : "starai",
+    "abstractText" : "Many real world systems need to operate on heterogeneous information networks that consist of numerous interacting components of different types. Examples include systems that perform data analysis on biological information networks; social networks; and information extraction systems processing unstructured data to convert raw text to knowledge graphs. Many previous works describe specialized approaches to perform specific types of analysis, mining and learning on such networks. In this work, we propose a unified framework consisting of a data model -a graph with a first order schema along with a declarative language for constructing, querying and manipulating such networks in ways that facilitate relational and structured machine learning. In particular, we provide an initial prototype for a relational and graph traversal query language where queries are directly used as relational features for structured machine learning models. Feature extraction is performed by making declarative graph traversal queries. Learning and inference models can directly operate on this relational representation and augment it with new data and knowledge that, in turn, is integrated seamlessly into the relational structure to support new predictions. We demonstrate this system's capabilities by showcasing tasks in natural language processing and computational biology domains."
+}, {
+    "id" : "gender:winlp17",
+    "title" : "How Biased Are We? Automated Detection of Gendered Language",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2017,
+    "authorIds" : [ "ananya", "sameer" ],
+    "pdfLink" : "http://www.winlp.org/wp-content/uploads/2017/final_papers_2017/80_Paper.pdf",
+    "venueId" : "ACL Workshop on Women and Underrepresented Minorities in NLP (WiNLP)"
+}, {
+    "id" : "semcompress:ita17",
+    "title" : "Semantic Compression for Edge-Assisted Systems",
+    "pubTypeSlot" : "TechReport",
+    "year" : 2017,
+    "extraLinksSlot" : [ [ "ArXiv version", "https://arxiv.org/abs/1702.05863" ] ],
+    "pdfLink" : "https://arxiv.org/pdf/1702.05863",
+    "authorIds" : [ "Igor Burago", "levorato", "sameer" ],
+    "venueId" : "Information Theory and Applications Workshop"
+}, {
     "id" : "saul:coling16",
     "title" : "Better call Saul: Flexible Programming for Learning and Inference in NLP",
     "pubTypeSlot" : "Conference",
