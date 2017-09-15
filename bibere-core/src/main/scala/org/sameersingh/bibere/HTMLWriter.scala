@@ -90,7 +90,7 @@ class HTMLWriter extends Writer {
     })
     year(writer, p.year)
     if (Set(PubType.Workshop, PubType.Demo, PubType.Conference,
-      PubType.Journal, PubType.TechReport) contains p.pubType) tags(writer, Seq(p.pubType.toString))
+      PubType.Journal, PubType.TechReport, PubType.Online) contains p.pubType) tags(writer, Seq(p.pubType.toString))
     tags(writer, p.tags)
     writer.println("<br/>")
     p.emphasisNote.foreach(s => {

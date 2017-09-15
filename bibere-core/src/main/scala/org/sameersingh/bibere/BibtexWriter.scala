@@ -31,6 +31,7 @@ class BibtexWriter extends Writer {
     sb.append(" %s = { %s },\n" format("title", p.title))
     sb.append(" %s = {%s},\n" format(BibtexHelper.venueTitle(p.pubType), pubs.venue(p.venueId).name))
     if(p.pubType == PubType.Journal) sb.append(" %s = {%s},\n" format("volume", p.extraFields("volume")))
+    if(p.pubType == PubType.Online) sb.append(" %s = {%s},\n" format("url", p.extraFields("url")))
     sb.append(" %s = {%d}\n" format("year", p.year))
     sb append "}"
     sb.toString
@@ -51,6 +52,7 @@ object BibtexHelper {
     case Patent => "techreport"
     case Thesis => "phdthesis"
     case Journal => "article"
+    case Online => "misc"
     case _ => "misc"
   }
 
@@ -62,6 +64,7 @@ object BibtexHelper {
     case Patent => "institution"
     case Thesis => "school"
     case Journal => "journal"
+    case Online => "editor"
     case _ => "series"
   }
 }
