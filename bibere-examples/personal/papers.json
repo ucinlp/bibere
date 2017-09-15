@@ -70,6 +70,15 @@
     "venueId" : "interpretML",
     "abstractText" : "At the core of interpretable machine learning is the question of whether humans are able to make accurate predictions about a model's behavior. Assumed in this question are three properties of the interpretable output: coverage, precision, and effort. Coverage refers to how often humans think they can predict the model's behavior, precision to how accurate humans are in those predictions, and effort is either the up-front effort required in interpreting the model, or the effort required to make predictions about a model's behavior.<br>In this work, we propose anchor-LIME (aLIME), a model-agnostic technique that produces high-precision rule-based explanations for which the coverage boundaries are very clear. We compare aLIME to linear LIME with simulated experiments, and demonstrate the flexibility of aLIME with qualitative examples from a variety of domains and tasks."
 }, {
+    "id" : "lime:oreilly16",
+    "title" : "Introduction to Local Interpretable Model-Agnostic Explanations (LIME)",
+    "pubTypeSlot" : "Online",
+    "year" : 2016,
+    "authorIds" : [ "marco", "sameer", "carlos" ],
+    "venueId" : "O'Reilly Media",
+    "extraFieldsSlot" : [ ["url", "https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime"] ],
+    "extraLinksSlot" : [ [ "Article", "https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime" ] ]
+}, {
     "id" : "lime:hcml16",
     "title" : "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier",
     "pubTypeSlot" : "Workshop",
