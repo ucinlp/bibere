@@ -263,12 +263,25 @@
     "first" : "Karl",
     "last" : "Schultz"
   }
-}, {
-  "id" : "ananya",
-  "name" : {
-    "first" : "Ananya",
-    "last" : "Ananya"
-  }
+  }, {
+    "id" : "ananya",
+    "name" : {
+      "first" : "Ananya",
+      "last" : "Ananya"
+    }
+  }, {
+    "id" : "dheeru",
+    "name" : {
+      "first" : "Dheeru",
+      "last" : "Dua"
+    }
+  }, {
+    "id" : "zhengli",
+    "name" : {
+      "first" : "Zhengli",
+      "last" : "Zhao"
+    },
+    "website" : "https://zhengliz.github.io/"
 }, {
   "id" : "greg",
   "name" : {
