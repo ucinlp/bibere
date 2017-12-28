@@ -32,7 +32,7 @@ case class Author(id: String, name: PersonName, website: Option[String] = None)
 
 object PubType extends Enumeration {
   type PubType = Value
-  val Conference, Journal, Workshop, TechReport, Patent, Thesis, Report, Chapter, Book, Misc, Demo, Online = Value
+  val Conference, Journal, Workshop, TechReport, Invited, Patent, Thesis, Report, Chapter, Book, Misc, Demo, Online = Value
 }
 
 case class Venue(id: String, name: String, acronym: String)

@@ -71,7 +71,9 @@ class HTMLWriter extends Writer {
 
   def pub(p: Paper, writer: PrintWriter, pubs: Publications) {
     writer.println()
+    // write the anchor id
     writer.println("<li id=\"" + p.id.replaceAll("[^0-9a-zA-Z]", "_") + "\">")
+    // write the author names
     for (aid <- p.authorIds) {
       pubs.authors.get(aid).fold({
         author(writer, Author(aid, PersonName(aid)))
@@ -80,19 +82,25 @@ class HTMLWriter extends Writer {
       })
       if (aid == p.authorIds.last) writer.print(". ") else writer.print(", ")
     }
+    // write the title
     title(writer, p.title.replaceAll("\\{", "").replaceAll("\\}", ""))
+    // write the venue prefix, if any
     if (Set(PubType.Thesis) contains p.pubType) span(writer, "PhD Thesis, ", venueClass)
     if (Set(PubType.TechReport) contains p.pubType) span(writer, "Technical Report, ", venueClass)
+    // write the venue name
     pubs.venues.get(p.venueId).fold({
       venue(writer, Venue(p.venueId, p.venueId, p.venueId))
     })(p => {
       venue(writer, p)
     })
+    // write the year
     year(writer, p.year)
+    // write the "tags"
     if (Set(PubType.Workshop, PubType.Demo, PubType.Conference,
-      PubType.Journal, PubType.TechReport, PubType.Online) contains p.pubType) tags(writer, Seq(p.pubType.toString))
+      PubType.Journal, PubType.TechReport, PubType.Invited, PubType.Online) contains p.pubType) tags(writer, Seq(p.pubType.toString))
     tags(writer, p.tags)
     writer.println("<br/>")
+    // write other extra information, like notes and links
     p.emphasisNote.foreach(s => {
       emphasisNote(writer, s)
       writer.println("<br/>")
@@ -102,6 +110,7 @@ class HTMLWriter extends Writer {
       writer.println("<br/>")
     })
     links(writer, p)
+    // write the post paper stuff, like abstract and bibtex
     post(writer, p, pubs)
     writer.println("</li>")
     writer.println()
