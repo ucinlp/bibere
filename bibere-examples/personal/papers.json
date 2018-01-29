@@ -1,4 +1,57 @@
 [ {
+    "id" : "anchors:aaai18",
+    "title" : "Anchors: High-Precision Model-Agnostic Explanations",
+    "pubTypeSlot" : "Conference",
+    "year" : 2018,
+    "authorIds" : [ "marco", "sameer", "carlos" ],
+    "venueId" : "aaai"
+},{
+    "id" : "mmkbe:akbc17",
+    "title" : "Embedding Multimodal Relational Data",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2017,
+    "pdfLink" : "http://www.akbc.ws/2017/papers/26_paper.pdf",
+    "authorIds" : [ "Pouya Pezeshkpour", "Liyan Chen", "sameer" ],
+    "venueId" : "akbc"
+},{
+    "id" : "maed:akbc17",
+    "title" : "Multimodal Attribute Extraction",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2017,
+    "authorIds" : [ "Robert L. Logan", "Samuel Humeau", "sameer" ],
+    "pdfLink" : "http://www.akbc.ws/2017/papers/19_paper.pdf",
+    "venueId" : "akbc"
+}, {
+    "id" : "semcompress:asilomar17",
+    "title" : "Intelligent Data Filtering in Constrained IoT Systems",
+    "pubTypeSlot" : "Invited",
+    "year" : 2017,
+    "authorIds" : [ "Igor Burago", "Davide Callegaro", "levorato", "sameer" ],
+    "venueId" : "Asilomar Conference on Signals, Systems, and Computers",
+    "abstractText" : "The expansion of complex autonomous sensing and control mechanisms in the Internet-of-Things systems clashes with constraints on computation and wireless communication resources. In this paper, we propose a framework to address this conflict for applications in which resolution using a centralized architecture with a general-purpose compression of observations is not appropriate. Three approaches for distributing observation detection workload between sensing and processing devices are considered for sensor systems within wireless islands. Each of the approaches is formulated for the shared configuration of a sensor-edge system, in which the network structure, observation monitoring problem, and machine learning-based detector implementing it are not modified. For every approach, a high-level strategy for realization of the detector for different assumptions on the relation between its complexity and the system's constraints is considered. In each case, the potential for the constraints' satisfaction is shown to exist and be exploitable via division, approximation, and delegation of the detector's workload to the sensing devices off the edge processor. We present examples of applications that benefit from the proposed approaches."
+}, {
+    "id" : "natadv:mldecept17",
+    "title" : "Generating Natural Adversarial Examples",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2017,
+    "authorIds" : [ "zhengli", "dheeru", "sameer" ],
+    "extraLinksSlot" : [ [ "ArXiv Page", "https://arxiv.org/abs/1710.11342" ] ],
+    "pdfLink" : "https://arxiv.org/pdf/1710.11342",
+    "venueId" : "NIPS Workshop on Machine Deception",
+    "abstractText" : "Due to their complex nature, it is hard to characterize the ways in which machine learning models can misbehave or be exploited when deployed. Recent work on adversarial examples, i.e. inputs with minor perturbations that result in substantially different model predictions, is helpful in evaluating the robustness of these models by exposing the adversarial scenarios where they fail. However, these malicious perturbations are often unnatural, not semantically meaningful, and not applicable to complicated domains such as language. In this paper, we propose a framework to generate natural and legible adversarial examples by searching in semantic space of dense and continuous data representation, utilizing the recent advances in generative adversarial networks. We present generated adversaries to demonstrate the potential of the proposed approach for black-box classifiers in a wide range of applications such as image classification, textual entailment, and machine translation. We include experiments to show that the generated adversaries are natural, legible to humans, and useful in evaluating and analyzing black-box classifiers.",
+    "emphasisNote" : "Amazon Best Poster Award at the Southern California Machine Learning Symposium.",
+    "weight" : 1.5
+}, {
+    "id" : "tsunami:geosense18",
+    "title" : "A Framework of Rapid Regional Tsunami Damage Recognition from Post-event TerraSAR-X Imagery Using Deep Neural Networks",
+    "pubTypeSlot" : "Journal",
+    "year" : 2017,
+    "authorIds" : [ "Yanbing Bai", "Chang Gao", "sameer",  "Magaly Koch", "Bruno Adriano", "Erick Mas", "Shunichi Koshimura" ],
+    "pdfLink" : "http://ieeexplore.ieee.org/document/8126255/",
+    "venueId" : "IEEE Geoscience and Remote Sensing Letters",
+    "extraFieldsSlot" : [["volume", "PP"]],
+    "abstractText" : "Near real-time building damage mapping is an indispensable prerequisite for governments to make decisions for disaster relief. With high-resolution synthetic aperture radar (SAR) systems, such as TerraSAR-X, the provision of such products in a fast and effective way becomes possible. In this letter, a deep learning-based framework for rapid regional tsunami damage recognition using post-event SAR imagery is proposed. To perform such a rapid damage mapping, a series of tile-based image split analysis is employed to generate the data set. Next, a selection algorithm with the SqueezeNet network is developed to swiftly distinguish between built-up (BU) and nonbuilt-up regions. Finally, a recognition algorithm with a modified wide residual network is developed to classify the BU regions into wash away, collapsed, and slightly damaged regions. Experiments performed on the TerraSAR-X data from the 2011 Tohoku earthquake and tsunami in Japan show a BU region extraction accuracy of 80.4% and a damage-level recognition accuracy of 74.8%, respectively. Our framework takes around 2 h to train on a new region, and only several minutes for prediction."
+}, {
     "id" : "neuralel:emnlp17",
     "title" : "Entity Linking via Joint Encoding of Types, Descriptions, and Context",
     "pubTypeSlot" : "Conference",
@@ -28,17 +81,19 @@
     "authorIds" : [ "ananya", "sameer" ],
     "extraFieldsSlot" : [ ["month", "August"] ],
     "pdfLink" : "http://www.winlp.org/wp-content/uploads/2017/final_papers_2017/80_Paper.pdf",
-    "venueId" : "ACL Workshop on Women and Underrepresented Minorities in NLP (WiNLP)"
+    "venueId" : "ACL Workshop on Women and Underrepresented Minorities in NLP (WiNLP)",
+    "note" : "Also presented at the NIPS 2017 Workshop for Women in Machine Learning (WiML).",
+    "weight" : 0.5
 }, {
     "id" : "semcompress:ita17",
     "title" : "Semantic Compression for Edge-Assisted Systems",
-    "pubTypeSlot" : "TechReport",
+    "pubTypeSlot" : "Invited",
     "year" : 2017,
     "extraLinksSlot" : [ [ "ArXiv version", "https://arxiv.org/abs/1702.05863" ] ],
     "pdfLink" : "https://arxiv.org/pdf/1702.05863",
     "extraFieldsSlot" : [ ["month", "February"] ],
     "authorIds" : [ "Igor Burago", "levorato", "sameer" ],
-    "venueId" : "Information Theory and Applications Workshop"
+    "venueId" : "Information Theory and Applications (ITA) Workshop"
 }, {
     "id" : "saul:coling16",
     "title" : "Better call Saul: Flexible Programming for Learning and Inference in NLP",
