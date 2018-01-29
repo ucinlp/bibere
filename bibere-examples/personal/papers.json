@@ -7,6 +7,7 @@
     "extraLinksSlot" : [ [ "Project Page", "http://cogcomp.org/page/publication_view/817" ] ],
     "pdfLink" : "http://cogcomp.org/papers/GuptaSiRo17.pdf",
     "venueId" : "emnlp",
+    "extraFieldsSlot" : [ ["month", "September"] ],
     "abstractText" : "For accurate entity linking, we need to capture various information aspects of an entity, such as its description in a KB, contexts in which it is mentioned, and structured knowledge. Additionally, a linking system should work on texts from different domains without requiring domain-specific training data or hand-engineered features.<br>In this work we present a neural, modular entity linking system that learns a unified dense representation for each entity using multiple sources of information, such as its description, contexts around its mentions, and its fine-grained types. We show that the resulting entity linking system is effective at combining these sources, and performs competitively, sometimes out-performing current state-of-the-art systems across datasets, without requiring any domain-specific training data or hand-engineered features. We also show that our model can effectively \"embed\" entities that are new to the KB, and is able to link its mentions accurately."
 }, {
     "id" : "saul:starai17",
@@ -17,6 +18,7 @@
     "extraLinksSlot" : [ [ "ArXiv version", "https://arxiv.org/pdf/1707.07794" ] ],
     "pdfLink" : "https://arxiv.org/pdf/1707.07794",
     "venueId" : "starai",
+    "extraFieldsSlot" : [ ["month", "July"] ],
     "abstractText" : "Many real world systems need to operate on heterogeneous information networks that consist of numerous interacting components of different types. Examples include systems that perform data analysis on biological information networks; social networks; and information extraction systems processing unstructured data to convert raw text to knowledge graphs. Many previous works describe specialized approaches to perform specific types of analysis, mining and learning on such networks. In this work, we propose a unified framework consisting of a data model -a graph with a first order schema along with a declarative language for constructing, querying and manipulating such networks in ways that facilitate relational and structured machine learning. In particular, we provide an initial prototype for a relational and graph traversal query language where queries are directly used as relational features for structured machine learning models. Feature extraction is performed by making declarative graph traversal queries. Learning and inference models can directly operate on this relational representation and augment it with new data and knowledge that, in turn, is integrated seamlessly into the relational structure to support new predictions. We demonstrate this system's capabilities by showcasing tasks in natural language processing and computational biology domains."
 }, {
     "id" : "gender:winlp17",
@@ -24,6 +26,7 @@
     "pubTypeSlot" : "Workshop",
     "year" : 2017,
     "authorIds" : [ "ananya", "sameer" ],
+    "extraFieldsSlot" : [ ["month", "August"] ],
     "pdfLink" : "http://www.winlp.org/wp-content/uploads/2017/final_papers_2017/80_Paper.pdf",
     "venueId" : "ACL Workshop on Women and Underrepresented Minorities in NLP (WiNLP)"
 }, {
@@ -33,6 +36,7 @@
     "year" : 2017,
     "extraLinksSlot" : [ [ "ArXiv version", "https://arxiv.org/abs/1702.05863" ] ],
     "pdfLink" : "https://arxiv.org/pdf/1702.05863",
+    "extraFieldsSlot" : [ ["month", "February"] ],
     "authorIds" : [ "Igor Burago", "levorato", "sameer" ],
     "venueId" : "Information Theory and Applications Workshop"
 }, {
@@ -40,13 +44,16 @@
     "title" : "Better call Saul: Flexible Programming for Learning and Inference in NLP",
     "pubTypeSlot" : "Conference",
     "year" : 2016,
+    "extraFieldsSlot" : [ ["month", "December"] ],
     "authorIds" : [ "parisa", "Daniel Khashabi", "Christos Christodoulopoulos", "Bhargav Mangipudi", "sameer", "roth" ],
-    "venueId" : "coling"
+    "venueId" : "coling",
+    "pdfLink" : "http://aclanthology.coli.uni-saarland.de/pdf/C/C16/C16-1285.pdf"
 }, {
     "id" : "connot:acl16",
     "title" : "Connotation Frames: A Data-Driven Investigation",
     "pubTypeSlot" : "Conference",
     "year" : 2016,
+    "extraFieldsSlot" : [ ["month", "August"] ],
     "authorIds" : [ "rashkin", "sameer", "yejin" ],
     "extraLinksSlot" : [ [ "ArXiv version", "http://arxiv.org/abs/1506.02739" ], [ "Project page", "http://homes.cs.washington.edu/~hrashkin/connframe.html" ] ],
     "pdfLink" : "files/papers/connot-acl16.pdf",
@@ -59,6 +66,7 @@
     "authorIds" : [ "sameer", "marco", "carlos" ],
     "extraLinksSlot" : [ [ "ArXiv version", "https://arxiv.org/abs/1611.07579" ] ],
     "venueId" : "interpretML",
+    "extraFieldsSlot" : [ ["month", "November"] ],
     "abstractText" : "Recent work in model-agnostic explanations of black-box machine learning has demonstrated that interpretability of complex models does not have to come at the cost of accuracy or model flexibility. However, it is not clear what kind of explanations, such as linear models, decision trees, and rule lists, are the appropriate family to consider, and different tasks and models may benefit from different kinds of explanations. Instead of picking a single family of representations, in this work we propose to use \"programs\" as model-agnostic explanations. We show that small programs can be expressive yet intuitive as explanations, and generalize over a number of existing interpretable families. We propose a prototype program induction method based on simulated annealing that approximates the local behavior of black-box classifiers around a specific prediction using random perturbations. Finally, we present preliminary application on small datasets and show that the generated explanations are intuitive and accurate for a number of classifiers."
 }, {
     "id" : "anchor:nipsws16",
@@ -68,6 +76,7 @@
     "authorIds" : [ "marco", "sameer", "carlos" ],
     "extraLinksSlot" : [ [ "ArXiv version", "https://arxiv.org/abs/1611.05817" ] ],
     "venueId" : "interpretML",
+    "extraFieldsSlot" : [ ["month", "November"] ],
     "abstractText" : "At the core of interpretable machine learning is the question of whether humans are able to make accurate predictions about a model's behavior. Assumed in this question are three properties of the interpretable output: coverage, precision, and effort. Coverage refers to how often humans think they can predict the model's behavior, precision to how accurate humans are in those predictions, and effort is either the up-front effort required in interpreting the model, or the effort required to make predictions about a model's behavior.<br>In this work, we propose anchor-LIME (aLIME), a model-agnostic technique that produces high-precision rule-based explanations for which the coverage boundaries are very clear. We compare aLIME to linear LIME with simulated experiments, and demonstrate the flexibility of aLIME with qualitative examples from a variety of domains and tasks."
 }, {
     "id" : "lime:oreilly16",
@@ -76,6 +85,7 @@
     "year" : 2016,
     "authorIds" : [ "marco", "sameer", "carlos" ],
     "venueId" : "O'Reilly Media",
+    "extraFieldsSlot" : [ ["month", "August"] ],
     "extraFieldsSlot" : [ ["url", "https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime"] ],
     "extraLinksSlot" : [ [ "Article", "https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime" ] ]
 }, {
@@ -85,6 +95,7 @@
     "year" : 2016,
     "authorIds" : [ "marco", "sameer", "carlos" ],
     "venueId" : "CHI Workshop on Human-Centred Machine Learning (HCML)",
+    "extraFieldsSlot" : [ ["month", "May"] ],
     "pdfLink" : "files/papers/lime-hcml16.pdf",
     "note" : "Shorter version of the paper presented at KDD 2016."
 }, {
@@ -93,6 +104,7 @@
     "pubTypeSlot" : "Workshop",
     "year" : 2016,
     "authorIds" : [ "marco", "sameer", "carlos" ],
+    "extraFieldsSlot" : [ ["month", "June"] ],
     "pdfLink" : "files/papers/lime-whi16.pdf",
     "emphasisNote" : "Best Paper Award",
     "venueId" : "ICML Workshop on Human Interpretability in Machine Learning (WHI)"
@@ -104,6 +116,7 @@
     "authorIds" : [ "marco", "sameer", "carlos" ],
     "venueId" : "kdd",
     "extraLinksSlot" : [ [ "ArXiv version", "http://arxiv.org/abs/1602.04938" ], [ "Project page", "https://github.com/marcotcr/lime"], [ "Summary Video", "https://www.youtube.com/watch?v=hUnRCxnydCc"], [ "Article on O'Reilly", "https://oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime"], [ "Code for Synthetic Experiments", "https://github.com/marcotcr/lime-experiments"] ],
+    "extraFieldsSlot" : [ ["month", "August"] ],
     "pdfLink" : "files/papers/lime-kdd16.pdf",
     "emphasisNote" : "Audience Appreciation Award",
     "note" : "Also presented at the CHI 2016 Workshop on Human-Centred Machine Learning (HCML)."
@@ -114,6 +127,7 @@
     "year" : 2016,
     "authorIds" : [ "marco", "sameer", "carlos" ],
     "venueId" : "Demo at the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)",
+    "extraFieldsSlot" : [ ["month", "June"] ],
     "pdfLink" : "files/papers/lime-naacl16demo.pdf",
     "extraLinksSlot" : [ [ "Source code", "https://github.com/UW-MODE/naacl16-demo" ] ],
     "note" : "Demonstration of the KDD 2016 paper."
@@ -428,7 +442,8 @@
   "year" : 2011,
   "authorIds" : [ "Jeremy Kubica", "sameer", "Daria Sorokina" ],
   "venueId" : "Scaling Up Machine Learning, Cambridge University Press",
-  "extraLinksSlot" : [ [ "Website", "http://www.cambridge.org/us/knowledge/isbn/item6542017/" ], [ "Amazon", "http://www.amazon.com/Scaling-Machine-Learning-Distributed-Approaches/dp/0521192242" ] ]
+  "pdfLink" : "http://additivegroves.net/papers/chapter-featureeval.pdf",
+  "extraLinksSlot" : [ [ "Chapter details", "https://www.cambridge.org/core/books/scaling-up-machine-learning/parallel-large-scale-feature-selection/A410E82F4AE61981802CD38C91ABBD68#" ], [ "Book Website", "http://www.cambridge.org/us/knowledge/isbn/item6542017/" ], [ "Amazon", "http://www.amazon.com/Scaling-Machine-Learning-Distributed-Approaches/dp/0521192242" ] ]
 }, {
   "id" : "dcoref:acl11",
   "title" : "Large-Scale Cross-Document Coreference Using Distributed Inference and Hierarchical Models",
