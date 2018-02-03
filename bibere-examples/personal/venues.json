@@ -98,7 +98,11 @@
   "id" : "tackbp",
   "name" : "Text Analysis Conference on Knowledge Base Population (TAC KBP)",
   "acronym" : "TAC KBP"
-}, {
+  }, {
+  "id" : "iclr",
+  "name" : "International Conference on Learning Representations (ICLR)",
+  "acronym" : "ICLR"
+  }, {
   "id" : "aaai",
   "name" : "AAAI Conference on Artificial Intelligence (AAAI)",
   "acronym" : "AAAI"

@@ -1,4 +1,23 @@
 [ {
+    "id" : "funeval:iclr18",
+    "title" : "Combining Symbolic Expressions and Black-box Function Evaluations for Training Neural Programs",
+    "pubTypeSlot" : "Conference",
+    "year" : 2018,
+    "authorIds" : [ "Forough Arabshahi", "sameer", "Animashree Anandkumar" ],
+    "extraLinksSlot" : [ [ "ArXiv Page", "https://arxiv.org/abs/1801.04342" ], [ "OpenReview Page", "https://openreview.net/forum?id=Hksj2WWAW" ] ],
+    "pdfLink" : "https://arxiv.org/pdf/1801.04342",
+    "venueId" : "iclr"
+}, {
+    "id" : "natadv:iclr18",
+    "title" : "Generating Natural Adversarial Examples",
+    "pubTypeSlot" : "Conference",
+    "year" : 2018,
+    "authorIds" : [ "zhengli", "dheeru", "sameer" ],
+    "extraLinksSlot" : [ [ "ArXiv Page", "https://arxiv.org/abs/1710.11342" ], [ "OpenReview Page", "https://openreview.net/forum?id=H1BLjgZCb" ] ],
+    "pdfLink" : "https://arxiv.org/pdf/1710.11342",
+    "venueId" : "iclr",
+    "weight" : 1.5
+}, {
     "id" : "anchors:aaai18",
     "title" : "Anchors: High-Precision Model-Agnostic Explanations",
     "pubTypeSlot" : "Conference",
@@ -40,6 +59,7 @@
     "venueId" : "NIPS Workshop on Machine Deception",
     "abstractText" : "Due to their complex nature, it is hard to characterize the ways in which machine learning models can misbehave or be exploited when deployed. Recent work on adversarial examples, i.e. inputs with minor perturbations that result in substantially different model predictions, is helpful in evaluating the robustness of these models by exposing the adversarial scenarios where they fail. However, these malicious perturbations are often unnatural, not semantically meaningful, and not applicable to complicated domains such as language. In this paper, we propose a framework to generate natural and legible adversarial examples by searching in semantic space of dense and continuous data representation, utilizing the recent advances in generative adversarial networks. We present generated adversaries to demonstrate the potential of the proposed approach for black-box classifiers in a wide range of applications such as image classification, textual entailment, and machine translation. We include experiments to show that the generated adversaries are natural, legible to humans, and useful in evaluating and analyzing black-box classifiers.",
     "emphasisNote" : "Amazon Best Poster Award at the Southern California Machine Learning Symposium.",
+    "note" : "Shorter version of the paper at ICLR 2018.",
     "weight" : 1.5
 }, {
     "id" : "tsunami:geosense18",
