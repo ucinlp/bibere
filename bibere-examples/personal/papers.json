@@ -24,6 +24,7 @@
     "year" : 2018,
     "authorIds" : [ "marco", "sameer", "carlos" ],
     "pdfLink" : "files/papers/anchors-aaai18.pdf",
+    "extraLinksSlot" : [ [ "Code (package)", "https://github.com/marcotcr/anchor"  ], [ "Code (results)", "https://github.com/marcotcr/anchor-experiments" ] ],
     "venueId" : "aaai"
 },{
     "id" : "mmkbe:akbc17",
