@@ -23,6 +23,7 @@
     "pubTypeSlot" : "Conference",
     "year" : 2018,
     "authorIds" : [ "marco", "sameer", "carlos" ],
+    "pdfLink" : "files/papers/anchors-aaai18.pdf",
     "venueId" : "aaai"
 },{
     "id" : "mmkbe:akbc17",
