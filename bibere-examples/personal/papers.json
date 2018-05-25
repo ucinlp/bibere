@@ -1,11 +1,21 @@
 [ {
+    "id" : "sears:acl18",
+    "title" : "Semantically Equivalent Adversarial Rules for Debugging NLP models",
+    "pubTypeSlot" : "Conference",
+    "year" : 2018,
+    "authorIds" : [ "marco", "sameer", "carlos" ],
+    "extraLinksSlot" : [ [ "Source Code", "https://github.com/marcotcr/sears" ] ],
+    "venueId" : "acl",
+    "pdfLink" : "files/papers/sears-acl18.pdf",
+    "weight" : 1.4
+},{
     "id" : "funeval:iclr18",
     "title" : "Combining Symbolic Expressions and Black-box Function Evaluations for Training Neural Programs",
     "pubTypeSlot" : "Conference",
     "year" : 2018,
     "authorIds" : [ "Forough Arabshahi", "sameer", "Animashree Anandkumar" ],
-    "extraLinksSlot" : [ [ "ArXiv Page", "https://arxiv.org/abs/1801.04342" ], [ "OpenReview Page", "https://openreview.net/forum?id=Hksj2WWAW" ] ],
-    "pdfLink" : "https://arxiv.org/pdf/1801.04342",
+    "extraLinksSlot" : [ ["Source Code", "https://github.com/ForoughA/neuralMath" ], [ "ArXiv Page", "https://arxiv.org/abs/1801.04342" ], [ "OpenReview Page", "https://openreview.net/forum?id=Hksj2WWAW" ] ],
+    "pdfLink" : "files/papers/funeval-iclr18.pdf",
     "venueId" : "iclr"
 }, {
     "id" : "natadv:iclr18",
@@ -13,8 +23,8 @@
     "pubTypeSlot" : "Conference",
     "year" : 2018,
     "authorIds" : [ "zhengli", "dheeru", "sameer" ],
-    "extraLinksSlot" : [ [ "ArXiv Page", "https://arxiv.org/abs/1710.11342" ], [ "OpenReview Page", "https://openreview.net/forum?id=H1BLjgZCb" ] ],
-    "pdfLink" : "https://arxiv.org/pdf/1710.11342",
+    "extraLinksSlot" : [ [ "Source Code", "https://github.com/zhengliz/natural-adversary" ], [ "ArXiv Page", "https://arxiv.org/abs/1710.11342" ], [ "OpenReview Page", "https://openreview.net/forum?id=H1BLjgZCb" ] ],
+    "pdfLink" : "files/paper/natadv-iclr18.pdf",
     "venueId" : "iclr",
     "weight" : 1.5
 }, {
