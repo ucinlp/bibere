@@ -13,6 +13,12 @@ Coming soon:
 - Markdown/Text generator
 - make initialization easier using existing BibTex
 
+## Python tools
+
+Some of recent features are implemented in Python:
+- Word document format of publications (requires `docx` module in Python2, or `python-docx` in Python3)
+- Extract first page of all papers (requires `pypdftk` module)
+
 ## Initializing Publications
 
 ### From Json Files

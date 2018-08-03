@@ -3,22 +3,7 @@ import json
 import argparse
 import docx
 import docxtra
-
-def read_authors(afile):
-    authors = dict()
-    with open(afile) as data_file:
-        data = json.load(data_file)
-        for a in data:
-            authors[a['id']] = a['name']['first'] + ' ' + a['name']['last']
-    return authors
-
-def read_venues(vfile):
-    venues = dict()
-    with open(vfile) as data_file:
-        data = json.load(data_file)
-        for v in data:
-            venues[v['id']] = v['name']
-    return venues
+from read_json import *
 
 def output_paper(paper, para, authors, venues):
     print(paper['id'])
@@ -50,36 +35,35 @@ def run(idir, ofile):
     vfile = idir + "/venues.json"
     authors = read_authors(afile)
     venues = read_venues(vfile)
-    with open(pfile) as data_file:
-        papers = json.load(data_file)
-        document = docx.Document()
-        document.add_heading('Publications', 0)
-        # Book Chapters
-        document.add_heading('Book Chapter', 1)
-        for p in papers:
-            if p['pubTypeSlot'] == 'Chapter':
-                para = document.add_paragraph('', style='ListBullet')
-                output_paper(p, para, authors, venues)
-        # Patents
-        document.add_heading('Patents', 1)
-        for p in papers:
-            if p['pubTypeSlot'] == 'Patent':
-                para = document.add_paragraph('', style='ListBullet')
-                output_paper(p, para, authors, venues)
-        # Journals
-        document.add_heading('Journal', 1)
-        for p in papers:
-            if p['pubTypeSlot'] == 'Journal':
-                para = document.add_paragraph('', style='ListBullet')
-                output_paper(p, para, authors, venues)
-        # Conference
-        document.add_heading('Peer-Reviewed Conference', 1)
-        for p in papers:
-            if p['pubTypeSlot'] == 'Conference' and 'pdfLink' in p:
-                para = document.add_paragraph('', style='ListBullet')
-                output_paper(p, para, authors, venues)
-        #print(json.dumps(data))
-        document.save(ofile)
+    papers = read_papers(pfile)
+    document = docx.Document()
+    document.add_heading('Publications', 0)
+    # Book Chapters
+    document.add_heading('Book Chapter', 1)
+    for p in papers:
+        if p['pubTypeSlot'] == 'Chapter':
+            para = document.add_paragraph('', style='ListBullet')
+            output_paper(p, para, authors, venues)
+    # Patents
+    document.add_heading('Patents', 1)
+    for p in papers:
+        if p['pubTypeSlot'] == 'Patent':
+            para = document.add_paragraph('', style='ListBullet')
+            output_paper(p, para, authors, venues)
+    # Journals
+    document.add_heading('Journal', 1)
+    for p in papers:
+        if p['pubTypeSlot'] == 'Journal':
+            para = document.add_paragraph('', style='ListBullet')
+            output_paper(p, para, authors, venues)
+    # Conference
+    document.add_heading('Peer-Reviewed Conference', 1)
+    for p in papers:
+        if p['pubTypeSlot'] == 'Conference' and 'pdfLink' in p:
+            para = document.add_paragraph('', style='ListBullet')
+            output_paper(p, para, authors, venues)
+    #print(json.dumps(data))
+    document.save(ofile)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
