@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import json
 import argparse
 import docx
 import docxtra
