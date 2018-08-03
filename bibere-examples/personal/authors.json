@@ -268,13 +268,22 @@
     "name" : {
       "first" : "Ananya",
       "last" : "Ananya"
-    }
+    },
+    "website" : "https://www.ics.uci.edu/~aananya/"
   }, {
     "id" : "dheeru",
     "name" : {
       "first" : "Dheeru",
       "last" : "Dua"
-    }
+    },
+    "website" : "https://ddua.github.io/"
+  }, {
+    "id" : "rlogan",
+    "name" : {
+      "first" : "Robert L.",
+      "last" : "Logan"
+    },
+    "website" : "https://rloganiv.github.io/"
   }, {
     "id" : "zhengli",
     "name" : {
@@ -282,10 +291,24 @@
       "last" : "Zhao"
     },
     "website" : "https://zhengliz.github.io/"
-}, {
-  "id" : "greg",
-  "name" : {
-    "first" : "Gregory",
-    "last" : "Druck"
-  }
+  }, {
+    "id" : "greg",
+    "name" : {
+      "first" : "Gregory",
+      "last" : "Druck"
+    }
+  }, {
+    "id" : "forough",
+    "name" : {
+      "first" : "Forough",
+      "last" : "Arabshahi"
+    },
+    "website" : "https://forougha.github.io/"
+  }, {
+    "id" : "anima",
+    "name" : {
+      "first" : "Animashree",
+      "last" : "Anandkumar"
+    },
+    "website" : "http://tensorlab.cms.caltech.edu/users/anima/"
 } ]

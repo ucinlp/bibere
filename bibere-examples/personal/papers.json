@@ -4,16 +4,17 @@
     "pubTypeSlot" : "Conference",
     "year" : 2018,
     "authorIds" : [ "marco", "sameer", "carlos" ],
-    "extraLinksSlot" : [ [ "Source Code", "https://github.com/marcotcr/sears" ] ],
+    "extraLinksSlot" : [ [ "Supplementary Materials", "files/papers/sears-acl18-supp.pdf" ], [ "Source Code", "https://github.com/marcotcr/sears" ] ],
     "venueId" : "acl",
+    "emphasisNote" : "ACL 2018 Honorable Mention for Best Paper.",
     "pdfLink" : "files/papers/sears-acl18.pdf",
-    "weight" : 1.4
+    "weight" : 1.6
 },{
     "id" : "funeval:iclr18",
     "title" : "Combining Symbolic Expressions and Black-box Function Evaluations for Training Neural Programs",
     "pubTypeSlot" : "Conference",
     "year" : 2018,
-    "authorIds" : [ "Forough Arabshahi", "sameer", "Animashree Anandkumar" ],
+    "authorIds" : [ "forough", "sameer", "anima" ],
     "extraLinksSlot" : [ ["Source Code", "https://github.com/ForoughA/neuralMath" ], [ "ArXiv Page", "https://arxiv.org/abs/1801.04342" ], [ "OpenReview Page", "https://openreview.net/forum?id=Hksj2WWAW" ] ],
     "pdfLink" : "files/papers/funeval-iclr18.pdf",
     "venueId" : "iclr"
@@ -24,7 +25,7 @@
     "year" : 2018,
     "authorIds" : [ "zhengli", "dheeru", "sameer" ],
     "extraLinksSlot" : [ [ "Source Code", "https://github.com/zhengliz/natural-adversary" ], [ "ArXiv Page", "https://arxiv.org/abs/1710.11342" ], [ "OpenReview Page", "https://openreview.net/forum?id=H1BLjgZCb" ] ],
-    "pdfLink" : "files/paper/natadv-iclr18.pdf",
+    "pdfLink" : "files/papers/natadv-iclr18.pdf",
     "venueId" : "iclr",
     "weight" : 1.5
 }, {
@@ -41,7 +42,7 @@
     "title" : "Embedding Multimodal Relational Data",
     "pubTypeSlot" : "Workshop",
     "year" : 2017,
-    "pdfLink" : "http://www.akbc.ws/2017/papers/26_paper.pdf",
+    "pdfLink" : "files/papers/mmkbe-akbc17.pdf",
     "authorIds" : [ "Pouya Pezeshkpour", "Liyan Chen", "sameer" ],
     "venueId" : "akbc"
 },{
@@ -49,8 +50,8 @@
     "title" : "Multimodal Attribute Extraction",
     "pubTypeSlot" : "Workshop",
     "year" : 2017,
-    "authorIds" : [ "Robert L. Logan", "Samuel Humeau", "sameer" ],
-    "pdfLink" : "http://www.akbc.ws/2017/papers/19_paper.pdf",
+    "authorIds" : [ "rlogan", "Samuel Humeau", "sameer" ],
+    "pdfLink" : "files/papers/maed-akbc17.pdf",
     "venueId" : "akbc"
 }, {
     "id" : "semcompress:asilomar17",
@@ -59,15 +60,17 @@
     "year" : 2017,
     "authorIds" : [ "Igor Burago", "Davide Callegaro", "levorato", "sameer" ],
     "venueId" : "Asilomar Conference on Signals, Systems, and Computers",
-    "abstractText" : "The expansion of complex autonomous sensing and control mechanisms in the Internet-of-Things systems clashes with constraints on computation and wireless communication resources. In this paper, we propose a framework to address this conflict for applications in which resolution using a centralized architecture with a general-purpose compression of observations is not appropriate. Three approaches for distributing observation detection workload between sensing and processing devices are considered for sensor systems within wireless islands. Each of the approaches is formulated for the shared configuration of a sensor-edge system, in which the network structure, observation monitoring problem, and machine learning-based detector implementing it are not modified. For every approach, a high-level strategy for realization of the detector for different assumptions on the relation between its complexity and the system's constraints is considered. In each case, the potential for the constraints' satisfaction is shown to exist and be exploitable via division, approximation, and delegation of the detector's workload to the sensing devices off the edge processor. We present examples of applications that benefit from the proposed approaches."
+    "abstractText" : "The expansion of complex autonomous sensing and control mechanisms in the Internet-of-Things systems clashes with constraints on computation and wireless communication resources. In this paper, we propose a framework to address this conflict for applications in which resolution using a centralized architecture with a general-purpose compression of observations is not appropriate. Three approaches for distributing observation detection workload between sensing and processing devices are considered for sensor systems within wireless islands. Each of the approaches is formulated for the shared configuration of a sensor-edge system, in which the network structure, observation monitoring problem, and machine learning-based detector implementing it are not modified. For every approach, a high-level strategy for realization of the detector for different assumptions on the relation between its complexity and the system's constraints is considered. In each case, the potential for the constraints' satisfaction is shown to exist and be exploitable via division, approximation, and delegation of the detector's workload to the sensing devices off the edge processor. We present examples of applications that benefit from the proposed approaches.",
+    "extraLinksSlot" : [ [ "IEEE Xplore", "https://ieeexplore.ieee.org/document/8335485/" ] ],
+    "pdfLink": "files/papers/semcompress-asilomar17.pdf"
 }, {
     "id" : "natadv:mldecept17",
     "title" : "Generating Natural Adversarial Examples",
     "pubTypeSlot" : "Workshop",
     "year" : 2017,
     "authorIds" : [ "zhengli", "dheeru", "sameer" ],
-    "extraLinksSlot" : [ [ "ArXiv Page", "https://arxiv.org/abs/1710.11342" ] ],
-    "pdfLink" : "https://arxiv.org/pdf/1710.11342",
+    "extraLinksSlot" : [ [ "ArXiv (full paper)", "https://arxiv.org/abs/1710.11342" ] ],
+    "pdfLink" : "files/papers/natadv-mldecept17.pdf",
     "venueId" : "NIPS Workshop on Machine Deception",
     "abstractText" : "Due to their complex nature, it is hard to characterize the ways in which machine learning models can misbehave or be exploited when deployed. Recent work on adversarial examples, i.e. inputs with minor perturbations that result in substantially different model predictions, is helpful in evaluating the robustness of these models by exposing the adversarial scenarios where they fail. However, these malicious perturbations are often unnatural, not semantically meaningful, and not applicable to complicated domains such as language. In this paper, we propose a framework to generate natural and legible adversarial examples by searching in semantic space of dense and continuous data representation, utilizing the recent advances in generative adversarial networks. We present generated adversaries to demonstrate the potential of the proposed approach for black-box classifiers in a wide range of applications such as image classification, textual entailment, and machine translation. We include experiments to show that the generated adversaries are natural, legible to humans, and useful in evaluating and analyzing black-box classifiers.",
     "emphasisNote" : "Amazon Best Poster Award at the Southern California Machine Learning Symposium.",
@@ -89,8 +92,8 @@
     "pubTypeSlot" : "Conference",
     "year" : 2017,
     "authorIds" : [ "nitish", "sameer", "roth" ],
-    "extraLinksSlot" : [ [ "Project Page", "http://cogcomp.org/page/publication_view/817" ] ],
-    "pdfLink" : "http://cogcomp.org/papers/GuptaSiRo17.pdf",
+    "extraLinksSlot" : [ [ "Source Code", "https://nitishgupta.github.io/neural-el/" ], ["ACL Anthology", "https://aclanthology.info/papers/D17-1284/d17-1284"], [ "UIUC Page", "http://cogcomp.org/page/publication_view/817" ] ],
+    "pdfLink" : "files/papers/neuralel-emnlp17.pdf",
     "venueId" : "emnlp",
     "extraFieldsSlot" : [ ["month", "September"] ],
     "abstractText" : "For accurate entity linking, we need to capture various information aspects of an entity, such as its description in a KB, contexts in which it is mentioned, and structured knowledge. Additionally, a linking system should work on texts from different domains without requiring domain-specific training data or hand-engineered features.<br>In this work we present a neural, modular entity linking system that learns a unified dense representation for each entity using multiple sources of information, such as its description, contexts around its mentions, and its fine-grained types. We show that the resulting entity linking system is effective at combining these sources, and performs competitively, sometimes out-performing current state-of-the-art systems across datasets, without requiring any domain-specific training data or hand-engineered features. We also show that our model can effectively \"embed\" entities that are new to the KB, and is able to link its mentions accurately."
@@ -154,6 +157,7 @@
     "extraLinksSlot" : [ [ "ArXiv version", "https://arxiv.org/abs/1611.07579" ] ],
     "venueId" : "interpretML",
     "extraFieldsSlot" : [ ["month", "November"] ],
+    "pdfLink" : "files/papers/prog-nipsws16.pdf",
     "abstractText" : "Recent work in model-agnostic explanations of black-box machine learning has demonstrated that interpretability of complex models does not have to come at the cost of accuracy or model flexibility. However, it is not clear what kind of explanations, such as linear models, decision trees, and rule lists, are the appropriate family to consider, and different tasks and models may benefit from different kinds of explanations. Instead of picking a single family of representations, in this work we propose to use \"programs\" as model-agnostic explanations. We show that small programs can be expressive yet intuitive as explanations, and generalize over a number of existing interpretable families. We propose a prototype program induction method based on simulated annealing that approximates the local behavior of black-box classifiers around a specific prediction using random perturbations. Finally, we present preliminary application on small datasets and show that the generated explanations are intuitive and accurate for a number of classifiers."
 }, {
     "id" : "anchor:nipsws16",
@@ -162,6 +166,7 @@
     "year" : 2016,
     "authorIds" : [ "marco", "sameer", "carlos" ],
     "extraLinksSlot" : [ [ "ArXiv version", "https://arxiv.org/abs/1611.05817" ] ],
+    "pdfLink" : "files/papers/anchor-nipsws16.pdf",
     "venueId" : "interpretML",
     "extraFieldsSlot" : [ ["month", "November"] ],
     "abstractText" : "At the core of interpretable machine learning is the question of whether humans are able to make accurate predictions about a model's behavior. Assumed in this question are three properties of the interpretable output: coverage, precision, and effort. Coverage refers to how often humans think they can predict the model's behavior, precision to how accurate humans are in those predictions, and effort is either the up-front effort required in interpreting the model, or the effort required to make predictions about a model's behavior.<br>In this work, we propose anchor-LIME (aLIME), a model-agnostic technique that produces high-precision rule-based explanations for which the coverage boundaries are very clear. We compare aLIME to linear LIME with simulated experiments, and demonstrate the flexibility of aLIME with qualitative examples from a variety of domains and tasks."
