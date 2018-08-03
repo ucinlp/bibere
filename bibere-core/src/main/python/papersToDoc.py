@@ -30,12 +30,7 @@ def output_paper(paper, para, authors, venues):
     para.add_run(")")
 
 def run(idir, ofile):
-    pfile = idir + "/papers.json"
-    afile = idir + "/authors.json"
-    vfile = idir + "/venues.json"
-    authors = read_authors(afile)
-    venues = read_venues(vfile)
-    papers = read_papers(pfile)
+    authors, venues, papers = read_all_info(idir)
     document = docx.Document()
     document.add_heading('Publications', 0)
     # Book Chapters

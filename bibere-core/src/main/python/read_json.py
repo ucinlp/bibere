@@ -21,3 +21,12 @@ def read_papers(pfile):
     with open(pfile) as data_file:
         papers = json.load(data_file)
     return papers
+
+def read_all_info(dir):
+    pfile = dir + "/papers.json"
+    afile = dir + "/authors.json"
+    vfile = dir + "/venues.json"
+    authors = read_authors(afile)
+    venues = read_venues(vfile)
+    papers = read_papers(pfile)
+    return authors, venues, papers
