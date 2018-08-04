@@ -4,7 +4,7 @@
     "pubTypeSlot" : "Conference",
     "year" : 2018,
     "authorIds" : [ "marco", "sameer", "carlos" ],
-    "extraLinksSlot" : [ [ "Supplementary Materials", "files/papers/sears-acl18-supp.pdf" ], [ "Source Code", "https://github.com/marcotcr/sears" ] ],
+    "extraLinksSlot" : [ [ "Supplementary Materials", "files/papers/sears-acl18-supp.pdf" ], [ "Source Code", "https://github.com/marcotcr/sears" ], [ "ACL Anthology Page", "https://aclanthology.coli.uni-saarland.de/papers/P18-1079/p18-1079"] ],
     "venueId" : "acl",
     "emphasisNote" : "ACL 2018 Honorable Mention for Best Paper.",
     "pdfLink" : "files/papers/sears-acl18.pdf",
@@ -82,7 +82,8 @@
     "pubTypeSlot" : "Journal",
     "year" : 2017,
     "authorIds" : [ "Yanbing Bai", "Chang Gao", "sameer",  "Magaly Koch", "Bruno Adriano", "Erick Mas", "Shunichi Koshimura" ],
-    "pdfLink" : "http://ieeexplore.ieee.org/document/8126255/",
+    "extraLinksSlot" : [ [ "IEEE Page", "http://ieeexplore.ieee.org/document/8126255/" ] ],
+    "pdfLink" : "files/papers/tsunami-geosense18.pdf",
     "venueId" : "IEEE Geoscience and Remote Sensing Letters",
     "extraFieldsSlot" : [["volume", "PP"]],
     "abstractText" : "Near real-time building damage mapping is an indispensable prerequisite for governments to make decisions for disaster relief. With high-resolution synthetic aperture radar (SAR) systems, such as TerraSAR-X, the provision of such products in a fast and effective way becomes possible. In this letter, a deep learning-based framework for rapid regional tsunami damage recognition using post-event SAR imagery is proposed. To perform such a rapid damage mapping, a series of tile-based image split analysis is employed to generate the data set. Next, a selection algorithm with the SqueezeNet network is developed to swiftly distinguish between built-up (BU) and nonbuilt-up regions. Finally, a recognition algorithm with a modified wide residual network is developed to classify the BU regions into wash away, collapsed, and slightly damaged regions. Experiments performed on the TerraSAR-X data from the 2011 Tohoku earthquake and tsunami in Japan show a BU region extraction accuracy of 80.4% and a damage-level recognition accuracy of 74.8%, respectively. Our framework takes around 2 h to train on a new region, and only several minutes for prediction."
@@ -136,8 +137,9 @@
     "year" : 2016,
     "extraFieldsSlot" : [ ["month", "December"] ],
     "authorIds" : [ "parisa", "Daniel Khashabi", "Christos Christodoulopoulos", "Bhargav Mangipudi", "sameer", "roth" ],
+    "extraLinksSlot" : [ [ "ACL Anthology Page", "https://aclanthology.coli.uni-saarland.de/papers/C16-1285/c16-1285" ] ],
     "venueId" : "coling",
-    "pdfLink" : "http://aclanthology.coli.uni-saarland.de/pdf/C/C16/C16-1285.pdf"
+    "pdfLink" : "files/papers/saul-coling16.pdf"
 }, {
     "id" : "connot:acl16",
     "title" : "Connotation Frames: A Data-Driven Investigation",
@@ -145,7 +147,7 @@
     "year" : 2016,
     "extraFieldsSlot" : [ ["month", "August"] ],
     "authorIds" : [ "rashkin", "sameer", "yejin" ],
-    "extraLinksSlot" : [ [ "ArXiv version", "http://arxiv.org/abs/1506.02739" ], [ "Project page", "http://homes.cs.washington.edu/~hrashkin/connframe.html" ] ],
+    "extraLinksSlot" : [ [ "ArXiv version", "http://arxiv.org/abs/1506.02739" ], [ "Project page", "http://homes.cs.washington.edu/~hrashkin/connframe.html" ], [ "ACL Antohology Page", "https://aclanthology.coli.uni-saarland.de/papers/P16-1030/p16-1030"] ],
     "pdfLink" : "files/papers/connot-acl16.pdf",
     "venueId" : "acl"
 }, {
@@ -241,7 +243,7 @@
     "venueId" : "naacl",
     "pdfLink" : "files/papers/logicmf-naacl15.pdf",
     "pptLink" : "http://rockt.github.io/slides/2015-naacl.pdf",
-    "extraLinksSlot" : [ [ "Source code", "https://github.com/uclmr/low-rank-logic" ], [ "Talk video", "http://techtalks.tv/talks/injecting-logical-background-knowledge-into-embeddings-for-relation-extraction/61526/" ] ],
+    "extraLinksSlot" : [ [ "Source code", "https://github.com/uclmr/low-rank-logic" ], [ "Talk video", "http://techtalks.tv/talks/injecting-logical-background-knowledge-into-embeddings-for-relation-extraction/61526/" ], [ "ACL Anthology Page", "https://aclanthology.coli.uni-saarland.de/papers/N15-1118/n15-1118"] ],
     "abstractText" : "Matrix factorization approaches to relation extraction provide several attractive features: they support distant supervision, handle open schemas, and leverage unlabeled data. Unfortunately, these methods share a shortcoming with all other distantly supervised approaches: they cannot learn to extract target relations without existing data in the knowledge base, and likewise, these models are inaccurate for relations with sparse data. Rule-based extractors, on the other hand, can be easily extended to novel relations and improved for existing but inaccurate relations, through first-order formulae that capture auxiliary domain knowledge. However, usually a large set of such formulae is necessary to achieve generalization.<br>In this paper, we introduce a paradigm for learning low-dimensional embeddings of entity-pairs and relations that combine the advantages of matrix factorization with first-order logic domain knowledge. We introduce simple approaches for estimating such embeddings, as well as a novel training algorithm to jointly optimize over factual and first-order logic information. Our results show that this method is able to learn accurate extractors with little or no distant supervision alignments, while at the same time generalizing to textual patterns that do not appear in the formulae.",
     "weight" : 1.5
 }, {
@@ -423,8 +425,8 @@
      "authorIds" : [ "sameer", "thore" ],
      "venueId" : "cikm",
      "abstractText" : "Probabilistic graphical model representations of relational data provide a number of desired features, such as inference of missing values, detection of errors, visualization of data, and probabilistic answers to relational queries. However, adoption has been slow due to the high level of expertise expected both in probability and in the domain from the user. Instead of requiring a domain expert to specify the probabilistic dependencies of the data, we present an approach that uses the relational DB schema to automatically construct a Bayesian graphical model for a database. This resulting model contains customized distributions for the attributes, latent variables that cluster the records, and factors that reflect and represent the foreign key links, whilst allowing efficient inference. Experiments demonstrate the accuracy of the model and scalability of inference on synthetic and real-world data.",
-     "pdfLink" : "http://research.microsoft.com/pubs/200220/cikm1335-singh-preprint.pdf",
-     "extraLinksSlot" : [ [ "Project Page", "http://research.microsoft.com/apps/pubs/default.aspx?id=200220" ] ]
+     "pdfLink" : "files/papers/cikm13.pdf",
+     "extraLinksSlot" : [ [ "MSR Project Page", "https://www.microsoft.com/en-us/research/publication/automated-probabilistic-modelling-for-relational-data/" ] ]
 }, {
   "id" : "kbp13",
   "title" : "Universal Schema for Slot Filling and Cold Start: UMass IESL at TACKBP 2013",
@@ -484,6 +486,7 @@
   "year" : 2012,
   "authorIds" : [ "sameer", "wick", "andrew" ],
   "venueId" : "emnlp",
+  "extraLinksSlot": [ [ "ACL Anthology Page", "https://aclanthology.coli.uni-saarland.de/papers/D12-1101/d12-1101"]],
   "pdfLink" : "files/papers/mcmcmc-emnlp12.pdf",
   "pptLink" : "files/papers/mcmcmc-emnlp12-ppt.pdf"
 }, {
@@ -493,6 +496,7 @@
   "year" : 2012,
   "authorIds" : [ "wick", "sameer", "andrew" ],
   "venueId" : "acl",
+  "extraLinksSlot" : [ [ "ACL Anthology Page","https://aclanthology.coli.uni-saarland.de/papers/P12-1040/p12-1040"]],
   "pdfLink" : "files/papers/hierar-coref-acl12.pdf"
 }, {
   "id" : "mldb:probprog12",
@@ -571,6 +575,7 @@
   "authorIds" : [ "sameer", "limin", "sebastian", "andrew" ],
   "venueId" : "naacl",
   "abstractText" : "Most learning algorithms for factor graphs require complete inference over the dataset or an instance before making an update to the parameters. SampleRank is a rank-based learning framework that alleviates this problem by updating the parameters during inference. Most semi-supervised learning algorithms also rely on the complete inference, i.e. calculating expectations or MAP configurations. We extend the SampleRank framework to the semi-supervised learning, avoiding these inference bottlenecks. Different approaches for incorporating unlabeled data and prior knowledge into this framework are explored. We evaluated our method on a standard information extraction dataset. Our approach outperforms the supervised method significantly and matches the result of the competing semi-supervised learning approach.Most learning algorithms for factor graphs require complete inference over the dataset or an instance before making an update to the parameters. SampleRank is a rank-based learning framework that alleviates this problem by updating the parameters during inference. Most semi-supervised learning algorithms also rely on the complete inference, i.e. calculating expectations or MAP configurations. We extend the SampleRank framework to the semi-supervised learning, avoiding these inference bottlenecks. Different approaches for incorporating unlabeled data and prior knowledge into this framework are explored. We evaluated our method on a standard information extraction dataset. Our approach outperforms the supervised method significantly and matches the result of the competing semi-supervised learning approach.",
+  "extraLinksSlot" : [ [ "ACL Anthology Page", "https://aclanthology.coli.uni-saarland.de/papers/N10-1111/n10-1111"]],
   "pdfLink" : "files/papers/constraint-naacl10.pdf",
   "pptLink" : "files/papers/constraint-naacl10-ppt.pdf"
 }, {
@@ -581,6 +586,7 @@
   "authorIds" : [ "sameer", "Dustin Hillard", "Chris Leggetter" ],
   "venueId" : "naacl",
   "abstractText" : "Extraction of entities from ad creatives is an important problem that can benefit many computational advertising tasks. Supervised and semi-supervised solutions rely on labeled data which is expensive, time consuming, and difficult to procure for ad creatives. A small set of manually derived constraints on feature expectations over unlabeled data can be used to *partially* and *probabilistically* label large amounts of data. Utilizing recent work in constraint-based semi-supervised learning, this paper injects light weight supervision specified as these ``constraints'' into a semi-Markov conditional random field model of entity extraction in ad creatives. Relying solely on the constraints, the model is trained on a set of unlabeled ads using an online learning algorithm. We demonstrate significant accuracy improvements on a manually labeled test set as compared to a baseline dictionary approach. We also achieve accuracy that approaches a fully supervised classifier.",
+  "extraLinksSlot" : [ [ "ACL Anthology Page", "https://aclanthology.coli.uni-saarland.de/papers/N10-1009/n10-1009"]],
   "pdfLink" : "files/papers/minimally-naacl10.pdf",
   "pptLink" : "files/papers/minimally-naacl10-ppt.pdf"
 }, {
