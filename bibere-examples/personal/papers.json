@@ -1,4 +1,20 @@
 [ {
+    "id" : "mmkb:emnlp18",
+    "title" : "Embedding Multimodal Relational Data for Knowledge Base Completion",
+    "pubTypeSlot" : "Conference",
+    "year" : 2018,
+    "authorIds" : [ "Pouya Pezeshkpour", "Liyan Chen", "sameer" ],
+    "venueId" : "emnlp",
+    "weight" : 1.8
+},{
+    "id" : "quarc:emnlp18",
+    "title" : "Interpretation of Natural Language Rules in Conversational Machine Reading",
+    "pubTypeSlot" : "Conference",
+    "year" : 2018,
+    "authorIds" : [ "Marzieh Saeidi", "Max Bartolo", "Patrick Lewis", "sameer", "tim", "Mike Sheldon", "guillaume", "sebastian" ],
+    "venueId" : "emnlp",
+    "weight" : 1.7
+},{
     "id" : "sears:acl18",
     "title" : "Semantically Equivalent Adversarial Rules for Debugging NLP models",
     "pubTypeSlot" : "Conference",
