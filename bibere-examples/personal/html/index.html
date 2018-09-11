@@ -15,6 +15,15 @@ title: "Sameer Singh: Publications"
 
 <li id="mmkb_emnlp18">
 <span class="author">P. Pezeshkpour</span>, <span class="author">L. Chen</span>, <span class="mainAuthor"><a href="http://www.sameersingh.org">S. Singh</a></span>. <span class="title">Embedding Multimodal Relational Data for Knowledge Base Completion. </span><span class="venue">Empirical Methods in Natural Language Processing (EMNLP). </span><span class="year">2018</span><span class="tag_Conference tag label label-default">Conference</span><br/>
+<div class="btn-group">
+<button type="button" class="btn btn-default details-btn dropdown-toggle" data-toggle="dropdown">
+Download <span class="caret"></span>
+</button>
+<ul class="dropdown-menu details-panel" role="menu">
+<li><a href="http://arxiv.org/pdf/1809.01341">Paper (PDF)</a></li>
+<li><a href="https://github.com/pouyapez/mkbe">Code/Data</a></li>
+<li><a href="http://arxiv.org/abs/1809.01341">ArXiv Page</a></li>
+</ul></div>
 
       <div class="btn-group" data-toggle="buttons">
         <label class="btn btn-primary details-btn" data-toggle="collapse" data-target="#mmkb_emnlp18_abstract">
@@ -27,7 +36,7 @@ title: "Sameer Singh: Publications"
       <div class="collapse" id="mmkb_emnlp18_abstract">
         <div class="panel panel-primary">
           <div class="panel-body details-panel">
-            Coming Soon!
+            Representing entities and relations in an embedding space is a well-studied approach for machine learning on relational data. Existing approaches, however, primarily focus on simple link structure between a finite set of entities, ignoring the variety of data types that are often used in knowledge bases, such as text, images, and numerical values. In this paper, we propose multimodal knowledge base embeddings (MKBE) that use different neural encoders for this variety of observed data, and combine them with existing relational models to learn embeddings of the entities and multimodal data. Further, using these learned embedings and different neural decoders, we introduce a novel multimodal imputation model to generate missing multimodal values, like text and images, from information in the knowledge base. We enrich existing relational datasets to create two novel benchmarks that contain additional information such as textual descriptions and images of the original entities. We demonstrate that our models utilize this additional information effectively to provide more accurate link prediction, achieving state-of-the-art results with a considerable gap of 5-7% over existing methods. Further, we evaluate the quality of our generated multimodal values via a user study.
           </div>
         </div>
       </div>
@@ -46,6 +55,14 @@ title: "Sameer Singh: Publications"
 
 <li id="quarc_emnlp18">
 <span class="author">M. Saeidi</span>, <span class="author">M. Bartolo</span>, <span class="author">P. Lewis</span>, <span class="mainAuthor"><a href="http://www.sameersingh.org">S. Singh</a></span>, <span class="author"><a href="http://rockt.github.io/">T. Rocktaschel</a></span>, <span class="author">M. Sheldon</span>, <span class="author"><a href="https://sites.google.com/site/guillaumebouchardml/home">G. Bouchard</a></span>, <span class="author"><a href="http://www.riedelcastro.org/">S. Riedel</a></span>. <span class="title">Interpretation of Natural Language Rules in Conversational Machine Reading. </span><span class="venue">Empirical Methods in Natural Language Processing (EMNLP). </span><span class="year">2018</span><span class="tag_Conference tag label label-default">Conference</span><br/>
+<div class="btn-group">
+<button type="button" class="btn btn-default details-btn dropdown-toggle" data-toggle="dropdown">
+Download <span class="caret"></span>
+</button>
+<ul class="dropdown-menu details-panel" role="menu">
+<li><a href="http://arxiv.org/pdf/1809.01494">Paper (PDF)</a></li>
+<li><a href="http://arxiv.org/abs/1809.01494">ArXiv Page</a></li>
+</ul></div>
 
       <div class="btn-group" data-toggle="buttons">
         <label class="btn btn-primary details-btn" data-toggle="collapse" data-target="#quarc_emnlp18_abstract">
@@ -58,7 +75,7 @@ title: "Sameer Singh: Publications"
       <div class="collapse" id="quarc_emnlp18_abstract">
         <div class="panel panel-primary">
           <div class="panel-body details-panel">
-            Coming Soon!
+            Most work in machine reading focuses on question answering problems where the answer is directly expressed in the text to read. However, many real-world question answering problems require the reading of text not because it contains the literal answer, but because it contains a recipe to derive an answer together with the reader's background knowledge. One example is the task of interpreting regulations to answer "Can I...?" or "Do I have to...?" questions such as "I am working in Canada. Do I have to carry on paying UK National Insurance?" after reading a UK government website about this topic. This task requires both the interpretation of rules and the application of background knowledge. It is further complicated due to the fact that, in practice, most questions are underspecified, and a human assistant will regularly have to ask clarification questions such as "How long have you been working abroad?" when the answer cannot be directly derived from the question and text. In this paper, we formalise this task and develop a crowd-sourcing strategy to collect 32k task instances based on real-world rules and crowd-generated questions and scenarios. We analyse the challenges of this task and assess its difficulty by evaluating the performance of rule-based and machine-learning baselines. We observe promising results when no background knowledge is necessary, and substantial room for improvement whenever background knowledge is needed.
           </div>
         </div>
       </div>
@@ -100,7 +117,7 @@ Download <span class="caret"></span>
       <div class="collapse" id="sears_acl18_abstract">
         <div class="panel panel-primary">
           <div class="panel-body details-panel">
-            Coming Soon!
+            Complex machine learning models for NLP are often brittle, making different predictions for input instances that are extremely similar semantically. To automatically detect this behavior for individual instances, we present semantically equivalent adversaries (SEAs) – semantic-preserving perturbations that induce changes in the model’s predictions. We generalize these adversaries into semantically equivalent adversarial rules (SEARs) – simple, universal replacement rules that induce adversaries on many instances. We demonstrate the usefulness and flexibility of SEAs and SEARs by detecting bugs in black-box state-of-the-art models for three domains: machine comprehension, visual question-answering, and sentiment analysis. Via user studies, we demonstrate that we generate high-quality local adversaries for more instances than humans, and that SEARs induce four times as many mistakes as the bugs discovered by human experts. SEARs are also actionable: retraining models using data augmentation significantly reduces bugs, while maintaining accuracy.
           </div>
         </div>
       </div>
@@ -141,7 +158,7 @@ Download <span class="caret"></span>
       <div class="collapse" id="natadv_iclr18_abstract">
         <div class="panel panel-primary">
           <div class="panel-body details-panel">
-            Coming Soon!
+            Due to their complex nature, it is hard to characterize the ways in which machine learning models can misbehave or be exploited when deployed. Recent work on adversarial examples, i.e. inputs with minor perturbations that result in substantially different model predictions, is helpful in evaluating the robustness of these models by exposing the adversarial scenarios where they fail. However, these malicious perturbations are often unnatural, not semantically meaningful, and not applicable to complicated domains such as language. In this paper, we propose a framework to generate natural and legible adversarial examples that lie on the data manifold, by searching in semantic space of dense and continuous data representation, utilizing the recent advances in generative adversarial networks. We present generated adversaries to demonstrate the potential of the proposed approach for black-box classifiers for a wide range of applications such as image classification, textual entailment, and machine translation. We include experiments to show that the generated adversaries are natural, legible to humans, and useful in evaluating and analyzing black-box classifiers.
           </div>
         </div>
       </div>
@@ -181,7 +198,7 @@ Download <span class="caret"></span>
       <div class="collapse" id="anchors_aaai18_abstract">
         <div class="panel panel-primary">
           <div class="panel-body details-panel">
-            Coming Soon!
+            We introduce a novel model-agnostic system that explains the behavior of complex models with high-precision rules called anchors, representing local, “sufficient” conditions for predictions. We propose an algorithm to efficiently compute these explanations for any black-box model with high-probability guarantees. We demonstrate the flexibility of anchors by explaining a myriad of different models for different domains and tasks. In a user study, we show that anchors enable users to predict how a model would behave on unseen instances with less effort and higher precision, as compared to existing linear explanations or no explanations.
           </div>
         </div>
       </div>
@@ -222,7 +239,7 @@ Download <span class="caret"></span>
       <div class="collapse" id="funeval_iclr18_abstract">
         <div class="panel panel-primary">
           <div class="panel-body details-panel">
-            Coming Soon!
+            Neural programming involves training neural networks to learn programs, mathematics, or logic from data. Previous works have failed to achieve good generalization performance, especially on problems and programs with high complexity or on large domains. This is because they mostly rely either on black-box function evaluations that do not capture the structure of the program, or on detailed execution traces that are expensive to obtain, and hence the training data has poor coverage of the domain under consideration. We present a novel framework that utilizes black-box function evaluations, in conjunction with symbolic expressions that define relationships between the given functions. We employ tree LSTMs to incorporate the structure of the symbolic expression trees. We use tree encoding for numbers present in function evaluation data, based on their decimal representation. We present an evaluation benchmark for this task to demonstrate our proposed model combines symbolic reasoning and function evaluation in a fruitful manner, obtaining high accuracies in our experiments. Our framework generalizes significantly better to expressions of higher depth and is able to fill partial equations with valid completions.
           </div>
         </div>
       </div>
@@ -232,6 +249,47 @@ Download <span class="caret"></span>
  author = {Forough Arabshahi and Sameer Singh and Animashree Anandkumar},
  title = { Combining Symbolic Expressions and Black-box Function Evaluations for Training Neural Programs },
  booktitle = {International Conference on Learning Representations (ICLR)},
+ year = {2018}
+}</pre>
+        </div>
+      </div>
+                  </li>
+
+
+<li id="deeprl_chap18">
+<span class="author">F. Agostinelli</span>, <span class="author">G. Hocquet</span>, <span class="mainAuthor"><a href="http://www.sameersingh.org">S. Singh</a></span>, <span class="author">P. Baldi</span>. <span class="title">From Reinforcement Learning to Deep Reinforcement Learning: An Overview. </span><span class="venue">Braverman Readings in Machine Learning: Key Ideas from Inception to Current State, Springer Press. </span><span class="year">2018</span><span class="tag_Chapter tag label label-default">Chapter</span><br/>
+<div class="btn-group">
+<button type="button" class="btn btn-default details-btn dropdown-toggle" data-toggle="dropdown">
+Download <span class="caret"></span>
+</button>
+<ul class="dropdown-menu details-panel" role="menu">
+<li><a href="https://link.springer.com/content/pdf/10.1007%2F978-3-319-99492-5_13.pdf">PDF (Springer)</a></li>
+<li><a href="https://link.springer.com/book/10.1007/978-3-319-99492-5">Springer</a></li>
+<li><a href="https://www.amazon.com/Braverman-Readings-Machine-Learning-Inception/dp/3319994913">Amazon</a></li>
+<li><a href="https://books.google.com/books?id=phxrDwAAQBAJ">Google Books</a></li>
+</ul></div>
+
+      <div class="btn-group" data-toggle="buttons">
+        <label class="btn btn-primary details-btn" data-toggle="collapse" data-target="#deeprl_chap18_abstract">
+          <input type="checkbox" /> Abstract
+        </label>
+        <label class="btn btn-info details-btn" data-toggle="collapse" data-target="#deeprl_chap18_bibtex">
+          <input type="checkbox" /> BibTex
+        </label>
+      </div>
+      <div class="collapse" id="deeprl_chap18_abstract">
+        <div class="panel panel-primary">
+          <div class="panel-body details-panel">
+            Coming Soon!
+          </div>
+        </div>
+      </div>
+      <div class="collapse" id="deeprl_chap18_bibtex">
+        <div class="panel panel-info">
+          <pre class="panel-body details-panel">@incollection{deeprl:chap18,
+ author = {Forest Agostinelli and Guillaume Hocquet and Sameer Singh and Pierre Baldi},
+ title = { From Reinforcement Learning to Deep Reinforcement Learning: An Overview },
+ booktitle = {Braverman Readings in Machine Learning: Key Ideas from Inception to Current State, Springer Press},
  year = {2018}
 }</pre>
         </div>
@@ -2358,7 +2416,7 @@ Download <span class="caret"></span>
 
 
 <li id="parfs_suml11">
-<span class="author">J. Kubica</span>, <span class="mainAuthor"><a href="http://www.sameersingh.org">S. Singh</a></span>, <span class="author">D. Sorokina</span>. <span class="title">Parallel Large-scale Feature Selection. </span><span class="venue">Scaling Up Machine Learning, Cambridge University Press. </span><span class="year">2011</span><br/>
+<span class="author">J. Kubica</span>, <span class="mainAuthor"><a href="http://www.sameersingh.org">S. Singh</a></span>, <span class="author">D. Sorokina</span>. <span class="title">Parallel Large-scale Feature Selection. </span><span class="venue">Scaling Up Machine Learning, Cambridge University Press. </span><span class="year">2011</span><span class="tag_Chapter tag label label-default">Chapter</span><br/>
 <div class="btn-group">
 <button type="button" class="btn btn-default details-btn dropdown-toggle" data-toggle="dropdown">
 Download <span class="caret"></span>
@@ -2387,10 +2445,10 @@ Download <span class="caret"></span>
       </div>
       <div class="collapse" id="parfs_suml11_bibtex">
         <div class="panel panel-info">
-          <pre class="panel-body details-panel">@misc{parfs:suml11,
+          <pre class="panel-body details-panel">@incollection{parfs:suml11,
  author = {Jeremy Kubica and Sameer Singh and Daria Sorokina},
  title = { Parallel Large-scale Feature Selection },
- series = {Scaling Up Machine Learning, Cambridge University Press},
+ booktitle = {Scaling Up Machine Learning, Cambridge University Press},
  year = {2011}
 }</pre>
         </div>
