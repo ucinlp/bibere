@@ -96,7 +96,7 @@ class HTMLWriter extends Writer {
     // write the year
     year(writer, p.year)
     // write the "tags"
-    if (Set(PubType.Workshop, PubType.Demo, PubType.Conference,
+    if (Set(PubType.Workshop, PubType.Demo, PubType.Conference, PubType.Chapter,
       PubType.Journal, PubType.TechReport, PubType.Invited, PubType.Online) contains p.pubType) tags(writer, Seq(p.pubType.toString))
     tags(writer, p.tags)
     writer.println("<br/>")

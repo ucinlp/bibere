@@ -53,6 +53,7 @@ object BibtexHelper {
     case Patent => "techreport"
     case Thesis => "phdthesis"
     case Journal => "article"
+    case Chapter => "incollection"
     case Online => "misc"
     case _ => "misc"
   }
@@ -66,6 +67,7 @@ object BibtexHelper {
     case Patent => "institution"
     case Thesis => "school"
     case Journal => "journal"
+    case Chapter => "booktitle"
     case Online => "editor"
     case _ => "series"
   }
