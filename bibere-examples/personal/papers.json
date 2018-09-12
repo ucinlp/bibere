@@ -357,7 +357,7 @@
   "year" : 2014,
   "authorIds" : [ "sameer", "thore", "Lucas J. Bordeaux", "Andrew D. Gordon" ],
   "venueId" : "US Patent Number 0188928",
-  "pdfLink" : "https://docs.google.com/viewer?url=patentimages.storage.googleapis.com/pdfs/US20140188928.pdf",
+  "pdfLink" : "https://patentimages.storage.googleapis.com/78/5c/91/907ceb6c42288c/US20140188928A1.pdf",
   "extraLinksSlot" : [ [ "Webpage", "https://www.google.com/patents/US20140188928" ] ],
   "weight" : 0.0
 }, {
@@ -703,7 +703,7 @@
   "year" : 2008,
   "authorIds" : [ "sameer", "E. S. Larsen", "Jeremy Kubica", "Andrew W. Moore" ],
   "venueId" : "US Patent Number 8190537",
-  "pdfLink" : "https://docs.google.com/viewer?url=books.google.com/patents/US8190537.pdf",
+  "pdfLink" : "https://patentimages.storage.googleapis.com/40/c7/46/71912ed3385d8e/US8190537.pdf",
   "extraLinksSlot" : [ [ "Webpage", "http://www.google.com/patents/US8190537" ] ]
 }, {
   "id" : "rlmap:tr08",
