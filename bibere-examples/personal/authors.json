@@ -270,14 +270,28 @@
       "last" : "Ananya"
     },
     "website" : "https://www.ics.uci.edu/~aananya/"
-  }, {
-    "id" : "dheeru",
-    "name" : {
-      "first" : "Dheeru",
-      "last" : "Dua"
-    },
-    "website" : "https://ddua.github.io/"
-  }, {
+    }, {
+      "id" : "dheeru",
+      "name" : {
+        "first" : "Dheeru",
+        "last" : "Dua"
+      },
+      "website" : "https://ddua.github.io/"
+    }, {
+      "id" : "mattg",
+      "name" : {
+        "first" : "Matt",
+        "last" : "Gardner"
+      },
+      "website" : "https://matt-gardner.github.io/"
+    }, {
+      "id" : "pouya",
+      "name" : {
+        "first" : "Pouya",
+        "last" : "Pezeshkpour"
+      },
+      "website" : "https://pouyapez.github.io/"
+    }, {
     "id" : "rlogan",
     "name" : {
       "first" : "Robert L.",

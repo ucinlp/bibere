@@ -1,4 +1,45 @@
 [{
+    "id" : "advlp:naacl19",
+    "title" : "Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications",
+    "pubTypeSlot" : "Conference",
+    "year" : 2019,
+    "authorIds" : [ "pouya", "Yifan Tian", "sameer" ],
+    "venueId" : "naacl",
+    "weight" : 1.7
+},{
+    "id" : "gender:naacl19",
+    "title" : "Quantifying Mention-Level Genderedness",
+    "pubTypeSlot" : "Conference",
+    "year" : 2019,
+    "authorIds" : [ "ananya", "Nitya Parthasarthi", "sameer" ],
+    "venueId" : "naacl",
+    "weight" : 1.6
+},{
+    "id" : "drop:naacl19",
+    "title" : "DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs",
+    "pubTypeSlot" : "Conference",
+    "year" : 2019,
+    "authorIds" : [ "dheeru", "Yizhong Wang", "Pradeep Dasigi", "Gabriel Stanovsky", "sameer", "mattg" ],
+    "venueId" : "naacl",
+    "weight" : 1.8
+},{
+    "id" : "pomo:naacl19",
+    "title" : "PoMo: Generating Entity-Specific Post-Modifiers in Context",
+    "pubTypeSlot" : "Conference",
+    "year" : 2019,
+    "authorIds" : [ "Jun Seok Kang", "rlogan", "Zewei Chu", "Yang Chen", "dheeru", "Kevin Gimpel", "sameer", "Niranjan Balasubramanian" ],
+    "venueId" : "naacl",
+    "weight" : 1.5
+},{
+    "id" : "diffeqeval:nampi18",
+    "title" : "Towards Solving Differential Equations through Neural Programming",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2018,
+    "authorIds" : [ "forough", "sameer", "anima" ],
+    "extraLinksSlot" : [ [ "Poster", "https://forougha.github.io/paperPDF/neuralODE.pdf" ] ],
+    "pdfLink" : "https://uclmr.github.io/nampi/extended_abstracts/arabshahi.pdf",
+    "venueId" : "ICML Workshop on Neural Abstract Machines & Program Induction (NAMPI)"
+},{
     "id" : "deeprl:chap18",
     "title" : "From Reinforcement Learning to Deep Reinforcement Learning: An Overview",
     "pubTypeSlot" : "Chapter",
@@ -11,7 +52,7 @@
     "title" : "Embedding Multimodal Relational Data for Knowledge Base Completion",
     "pubTypeSlot" : "Conference",
     "year" : 2018,
-    "authorIds" : [ "Pouya Pezeshkpour", "Liyan Chen", "sameer" ],
+    "authorIds" : [ "pouya", "Liyan Chen", "sameer" ],
     "pdfLink" : "http://arxiv.org/pdf/1809.01341",
     "extraLinksSlot" : [ [ "Code/Data", "https://github.com/pouyapez/mkbe" ], [ "ArXiv Page", "http://arxiv.org/abs/1809.01341" ] ],
     "venueId" : "emnlp",
@@ -77,7 +118,7 @@
     "pubTypeSlot" : "Workshop",
     "year" : 2017,
     "pdfLink" : "files/papers/mmkbe-akbc17.pdf",
-    "authorIds" : [ "Pouya Pezeshkpour", "Liyan Chen", "sameer" ],
+    "authorIds" : [ "pouya", "Liyan Chen", "sameer" ],
     "venueId" : "akbc"
 },{
     "id" : "maed:akbc17",
