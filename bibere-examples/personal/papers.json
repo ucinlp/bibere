@@ -254,8 +254,7 @@
     "year" : 2016,
     "authorIds" : [ "marco", "sameer", "carlos" ],
     "venueId" : "O'Reilly Media",
-    "extraFieldsSlot" : [ ["month", "August"] ],
-    "extraFieldsSlot" : [ ["url", "https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime"] ],
+    "extraFieldsSlot" : [ ["month", "August"], ["url", "https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime"] ],
     "extraLinksSlot" : [ [ "Article", "https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime" ] ]
 }, {
     "id" : "lime:hcml16",
