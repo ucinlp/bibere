@@ -15,6 +15,18 @@ title: "Sameer Singh: Publications"
 
 <li id="drop_naacl19">
 <span class="author"><a href="https://ddua.github.io/">D. Dua</a></span>, <span class="author">Y. Wang</span>, <span class="author">P. Dasigi</span>, <span class="author">G. Stanovsky</span>, <span class="mainAuthor"><a href="http://www.sameersingh.org">S. Singh</a></span>, <span class="author"><a href="https://matt-gardner.github.io/">M. Gardner</a></span>. <span class="title">DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs. </span><span class="venue">Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL). </span><span class="year">2019</span><span class="tag_Conference tag label label-default">Conference</span><br/>
+<div class="btn-group">
+<button type="button" class="btn btn-default details-btn dropdown-toggle" data-toggle="dropdown">
+Download <span class="caret"></span>
+</button>
+<ul class="dropdown-menu details-panel" role="menu">
+<li><a href="https://arxiv.org/pdf/1903.00161.pdf">Paper (PDF)</a></li>
+<li><a href="https://allennlp.org/drop.html">Project Page</a></li>
+<li><a href="https://arxiv.org/abs/1903.00161">ArXiv Page</a></li>
+<li><a href="https://s3-us-west-2.amazonaws.com/allennlp/datasets/drop/drop_dataset.zip">Download Data</a></li>
+<li><a href="https://leaderboard.allenai.org/drop/submissions/public">Leaderboard</a></li>
+<li><a href="https://demo.allennlp.org/reading-comprehension">Live Demo</a></li>
+</ul></div>
 
       <div class="btn-group" data-toggle="buttons">
         <label class="btn btn-primary details-btn" data-toggle="collapse" data-target="#drop_naacl19_abstract">
@@ -27,7 +39,7 @@ title: "Sameer Singh: Publications"
       <div class="collapse" id="drop_naacl19_abstract">
         <div class="panel panel-primary">
           <div class="panel-body details-panel">
-            Coming Soon!
+            Reading comprehension has recently seen rapid progress, with systems matching humans on the most popular datasets for the task.  However, a large body of work has highlighted the brittleness of these systems, showing that there is much work left to be done.  We introduce a new reading comprehension benchmark, DROP, which requires Discrete Reasoning Over the content of Paragraphs.  In this crowdsourced, adversarially-created, 55k-question benchmark, a system must resolve references in a question, perhaps to multiple input positions, and perform discrete operations over them (such as addition, counting, or sorting). These operations require a much more comprehensive understanding of the content of paragraphs, as they remove the paraphrase-and-entity-typing shortcuts available in prior datasets.  We apply state-of-the-art methods from both the reading comprehension and semantic parsing literatures on this dataset and show that the best systems only achieve 38.4% F1 on our generalized accuracy metric, while expert human performance is 96%.  We additionally present a new model that combines reading comprehension methods with simple numerical reasoning to achieve 51% F1.
           </div>
         </div>
       </div>
@@ -44,27 +56,27 @@ title: "Sameer Singh: Publications"
                   </li>
 
 
-<li id="advlp_naacl19">
+<li id="criage_naacl19">
 <span class="author"><a href="https://pouyapez.github.io/">P. Pezeshkpour</a></span>, <span class="author">Y. Tian</span>, <span class="mainAuthor"><a href="http://www.sameersingh.org">S. Singh</a></span>. <span class="title">Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications. </span><span class="venue">Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL). </span><span class="year">2019</span><span class="tag_Conference tag label label-default">Conference</span><br/>
 
       <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-primary details-btn" data-toggle="collapse" data-target="#advlp_naacl19_abstract">
+        <label class="btn btn-primary details-btn" data-toggle="collapse" data-target="#criage_naacl19_abstract">
           <input type="checkbox" /> Abstract
         </label>
-        <label class="btn btn-info details-btn" data-toggle="collapse" data-target="#advlp_naacl19_bibtex">
+        <label class="btn btn-info details-btn" data-toggle="collapse" data-target="#criage_naacl19_bibtex">
           <input type="checkbox" /> BibTex
         </label>
       </div>
-      <div class="collapse" id="advlp_naacl19_abstract">
+      <div class="collapse" id="criage_naacl19_abstract">
         <div class="panel panel-primary">
           <div class="panel-body details-panel">
-            Coming Soon!
+            Representing entities and relations in an embedding space is a well-studied approach for machine learning on relational data. Existing approaches, however, primarily focus on improving accuracy and overlook other aspects such as robustness and interpretability. In this paper, we propose adversarial modifications for link prediction models: identifying the fact to add into or remove from the knowledge graph that changes the prediction for a target fact after the model is retrained. Using these single modifications of the graph, we identify the most influential fact for a predicted link and evaluate the sensitivity of the model to the addition of fake facts. We introduce an efficient approach to estimate the effect of such modifications by approximating the change in the embeddings when the knowledge graph changes. To avoid the combinatorial search over all possible facts, we train a network to decode embeddings to their corresponding graph components, allowing the use of gradient-based optimization to identify the adversarial modification. We use these techniques to evaluate the robustness of link prediction models (by measuring sensitivity to additional facts), study interpretability through the facts most responsible for predictions (by identifying the most influential neighbors), and detect incorrect facts in the knowledge base.
           </div>
         </div>
       </div>
-      <div class="collapse" id="advlp_naacl19_bibtex">
+      <div class="collapse" id="criage_naacl19_bibtex">
         <div class="panel panel-info">
-          <pre class="panel-body details-panel">@inproceedings{advlp:naacl19,
+          <pre class="panel-body details-panel">@inproceedings{criage:naacl19,
  author = {Pouya Pezeshkpour and Yifan Tian and Sameer Singh},
  title = { Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications },
  booktitle = {Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
@@ -76,7 +88,7 @@ title: "Sameer Singh: Publications"
 
 
 <li id="gender_naacl19">
-<span class="author"><a href="https://www.ics.uci.edu/~aananya/">A. Ananya</a></span>, <span class="author">N. Parthasarthi</span>, <span class="mainAuthor"><a href="http://www.sameersingh.org">S. Singh</a></span>. <span class="title">Quantifying Mention-Level Genderedness. </span><span class="venue">Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL). </span><span class="year">2019</span><span class="tag_Conference tag label label-default">Conference</span><br/>
+<span class="author"><a href="https://www.ics.uci.edu/~aananya/">A. Ananya</a></span>, <span class="author">N. Parthasarthi</span>, <span class="mainAuthor"><a href="http://www.sameersingh.org">S. Singh</a></span>. <span class="title">GenderQuant: Quantifying Mention-Level Genderedness. </span><span class="venue">Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL). </span><span class="year">2019</span><span class="tag_Conference tag label label-default">Conference</span><br/>
 
       <div class="btn-group" data-toggle="buttons">
         <label class="btn btn-primary details-btn" data-toggle="collapse" data-target="#gender_naacl19_abstract">
@@ -89,7 +101,7 @@ title: "Sameer Singh: Publications"
       <div class="collapse" id="gender_naacl19_abstract">
         <div class="panel panel-primary">
           <div class="panel-body details-panel">
-            Coming Soon!
+            Language is gendered if the context surrounding a mention is suggestive of a particular binary gender for that mention. Detecting the different ways in which language is gendered is an important task since gendered language can bias NLP models (such as for coreference resolution). This task is challenging since genderedness is often expressed in subtle ways. Existing approaches need considerable annotation efforts for each language, domain, and author, and often require handcrafted lexicons and features. Additionally, these approaches do not provide a quantifiable measure of how gendered the text is, nor are they applicable at the fine-grained mention level.<br>In this paper, we use existing NLP pipelines to automatically annotate gender of mentions in the text. On corpora labeled using this method, we train a supervised classifier to predict the gender of any mention from its context and evaluate it on unseen text. The model confidence for a mention's gender can be used as a proxy to indicate the level of genderedness of the context. We test this gendered language detector on movie summaries, movie reviews, news articles, and fiction novels, achieving an AUC-ROC of up to 0.71, and observe that the model predictions agree with human judgments collected for this task. We also provide examples of detected gendered sentences from aforementioned domains.
           </div>
         </div>
       </div>
@@ -97,7 +109,7 @@ title: "Sameer Singh: Publications"
         <div class="panel panel-info">
           <pre class="panel-body details-panel">@inproceedings{gender:naacl19,
  author = {Ananya Ananya and Nitya Parthasarthi and Sameer Singh},
- title = { Quantifying Mention-Level Genderedness },
+ title = { GenderQuant: Quantifying Mention-Level Genderedness },
  booktitle = {Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
  year = {2019}
 }</pre>
@@ -108,6 +120,14 @@ title: "Sameer Singh: Publications"
 
 <li id="pomo_naacl19">
 <span class="author">J. S. Kang</span>, <span class="author"><a href="https://rloganiv.github.io/">R. Logan</a></span>, <span class="author">Z. Chu</span>, <span class="author">Y. Chen</span>, <span class="author"><a href="https://ddua.github.io/">D. Dua</a></span>, <span class="author">K. Gimpel</span>, <span class="mainAuthor"><a href="http://www.sameersingh.org">S. Singh</a></span>, <span class="author">N. Balasubramanian</span>. <span class="title">PoMo: Generating Entity-Specific Post-Modifiers in Context. </span><span class="venue">Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL). </span><span class="year">2019</span><span class="tag_Conference tag label label-default">Conference</span><br/>
+<div class="btn-group">
+<button type="button" class="btn btn-default details-btn dropdown-toggle" data-toggle="dropdown">
+Download <span class="caret"></span>
+</button>
+<ul class="dropdown-menu details-panel" role="menu">
+<li><a href="https://stonybrooknlp.github.io/PoMo/">Project Page</a></li>
+<li><a href="https://github.com/StonyBrookNLP/PoMo">Download Data</a></li>
+</ul></div>
 
       <div class="btn-group" data-toggle="buttons">
         <label class="btn btn-primary details-btn" data-toggle="collapse" data-target="#pomo_naacl19_abstract">
@@ -120,7 +140,7 @@ title: "Sameer Singh: Publications"
       <div class="collapse" id="pomo_naacl19_abstract">
         <div class="panel panel-primary">
           <div class="panel-body details-panel">
-            Coming Soon!
+            We introduce entity post-modifier generation as an instance of a collaborative writing task. Given a sentence about a target entity, the task is to automatically generate a post-modifier phrase that provides contextually relevant information about the entity. For example, for the sentence, "Barack Obama, _______, supported the #MeToo movement.",  the phrase "a father of two girls" is a contextually relevant post-modifier. To this end, we build PoMo, a post-modifier dataset created automatically from news articles reflecting a journalistic need for incorporating entity information that is relevant to a particular news event. PoMo consists of more than 231K sentences with post-modifiers and associated facts extracted from Wikidata for around 57K unique entities. We use crowdsourcing to show that modeling contextual relevance is necessary for accurate post-modifier generation.<br>We adapt a number of existing generation approaches as baselines for this dataset. Our results show there is large room for improvement in terms of both identifying relevant facts to include (knowing which claims are relevant gives a >20% improvement in BLEU score), and generating appropriate post-modifier text for the context (providing relevant claims is not sufficient for accurate generation). We conduct an error analysis that suggests promising directions for future research.
           </div>
         </div>
       </div>
@@ -152,6 +172,8 @@ Download <span class="caret"></span>
 <li><a href="http://arxiv.org/pdf/1809.01341">Paper (PDF)</a></li>
 <li><a href="https://github.com/pouyapez/mkbe">Code/Data</a></li>
 <li><a href="http://arxiv.org/abs/1809.01341">ArXiv Page</a></li>
+<li><a href="https://aclweb.org/anthology/papers/D/D18/D18-1359/">ACL Anthology Page</a></li>
+<li><a href="https://vimeo.com/306113486">Video</a></li>
 </ul></div>
 
       <div class="btn-group" data-toggle="buttons">
@@ -233,6 +255,7 @@ Download <span class="caret"></span>
 <li><a href="files/papers/sears-acl18-supp.pdf">Supplementary Materials</a></li>
 <li><a href="https://github.com/marcotcr/sears">Source Code</a></li>
 <li><a href="https://aclanthology.coli.uni-saarland.de/papers/P18-1079/p18-1079">ACL Anthology Page</a></li>
+<li><a href="https://vimeo.com/285801102">Video</a></li>
 </ul></div>
 
       <div class="btn-group" data-toggle="buttons">
@@ -479,7 +502,7 @@ Download <span class="caret"></span>
 <ul class="dropdown-menu details-panel" role="menu">
 <li><a href="files/papers/neuralel-emnlp17.pdf">Paper (PDF)</a></li>
 <li><a href="https://nitishgupta.github.io/neural-el/">Source Code</a></li>
-<li><a href="https://aclanthology.info/papers/D17-1284/d17-1284">ACL Anthology</a></li>
+<li><a href="https://aclanthology.info/papers/D17-1284/d17-1284">ACL Anthology Page</a></li>
 <li><a href="http://cogcomp.org/page/publication_view/817">UIUC Page</a></li>
 </ul></div>
 
@@ -839,7 +862,7 @@ Download <span class="caret"></span>
 <li><a href="files/papers/connot-acl16.pdf">Paper (PDF)</a></li>
 <li><a href="http://arxiv.org/abs/1506.02739">ArXiv version</a></li>
 <li><a href="http://homes.cs.washington.edu/~hrashkin/connframe.html">Project page</a></li>
-<li><a href="https://aclanthology.coli.uni-saarland.de/papers/P16-1030/p16-1030">ACL Antohology Page</a></li>
+<li><a href="https://aclanthology.coli.uni-saarland.de/papers/P16-1030/p16-1030">ACL Anthology Page</a></li>
 </ul></div>
 
       <div class="btn-group" data-toggle="buttons">
@@ -1243,7 +1266,7 @@ Download <span class="caret"></span>
 <li><a href="http://rockt.github.io/slides/2015-naacl.pdf">Presentation</a></li>
 <li><a href="https://github.com/uclmr/low-rank-logic">Source code</a></li>
 <li><a href="http://techtalks.tv/talks/injecting-logical-background-knowledge-into-embeddings-for-relation-extraction/61526/">Talk video</a></li>
-<li><a href="https://aclanthology.coli.uni-saarland.de/papers/N15-1118/n15-1118">ACL Anthology Page</a></li>
+<li><a href="https://aclanthology.coli.uni-saarland.de/papers/N15-1118/n15-1118">ACL Anthology</a></li>
 </ul></div>
 
       <div class="btn-group" data-toggle="buttons">
@@ -1393,7 +1416,7 @@ Download <span class="caret"></span>
 
 
 <li id="logicmf_krr15">
-<span class="author"><a href="https://sites.google.com/site/guillaumebouchardml/home">G. Bouchard</a></span>, <span class="mainAuthor"><a href="http://www.sameersingh.org">S. Singh</a></span>, <span class="author">T. Trouillon</span>. <span class="title">On Approximate Reasoning Capabilities of Low-Rank Vector Spaces. </span><span class="venue">AAAI Spring Syposium on Knowledge Representation and Reasoning (KRR): Integrating Symbolic and Neural Approaches. </span><span class="year">2015</span><span class="tag_Workshop tag label label-default">Workshop</span><br/>
+<span class="author"><a href="https://sites.google.com/site/guillaumebouchardml/home">G. Bouchard</a></span>, <span class="mainAuthor"><a href="http://www.sameersingh.org">S. Singh</a></span>, <span class="author">T. Trouillon</span>. <span class="title">On Approximate Reasoning Capabilities of Low-Rank Vector Spaces. </span><span class="venue">AAAI Spring Symposium on Knowledge Representation and Reasoning (KRR): Integrating Symbolic and Neural Approaches. </span><span class="year">2015</span><span class="tag_Workshop tag label label-default">Workshop</span><br/>
 <div class="btn-group">
 <button type="button" class="btn btn-default details-btn dropdown-toggle" data-toggle="dropdown">
 Download <span class="caret"></span>
@@ -1423,7 +1446,7 @@ Download <span class="caret"></span>
           <pre class="panel-body details-panel">@inproceedings{logicmf:krr15,
  author = {Guillaume Bouchard and Sameer Singh and Theo Trouillon},
  title = { On Approximate Reasoning Capabilities of Low-Rank Vector Spaces },
- booktitle = {AAAI Spring Syposium on Knowledge Representation and Reasoning (KRR): Integrating Symbolic and Neural Approaches},
+ booktitle = {AAAI Spring Symposium on Knowledge Representation and Reasoning (KRR): Integrating Symbolic and Neural Approaches},
  year = {2015}
 }</pre>
         </div>
@@ -1432,7 +1455,7 @@ Download <span class="caret"></span>
 
 
 <li id="explain_krr15">
-<span class="author">I. Sanchez</span>, <span class="author"><a href="http://rockt.github.io/">T. Rocktaschel</a></span>, <span class="author"><a href="http://www.riedelcastro.org/">S. Riedel</a></span>, <span class="mainAuthor"><a href="http://www.sameersingh.org">S. Singh</a></span>. <span class="title">Towards Extracting Faithful and Descriptive Representations of Latent Variable Models. </span><span class="venue">AAAI Spring Syposium on Knowledge Representation and Reasoning (KRR): Integrating Symbolic and Neural Approaches. </span><span class="year">2015</span><span class="tag_Workshop tag label label-default">Workshop</span><br/>
+<span class="author">I. Sanchez</span>, <span class="author"><a href="http://rockt.github.io/">T. Rocktaschel</a></span>, <span class="author"><a href="http://www.riedelcastro.org/">S. Riedel</a></span>, <span class="mainAuthor"><a href="http://www.sameersingh.org">S. Singh</a></span>. <span class="title">Towards Extracting Faithful and Descriptive Representations of Latent Variable Models. </span><span class="venue">AAAI Spring Symposium on Knowledge Representation and Reasoning (KRR): Integrating Symbolic and Neural Approaches. </span><span class="year">2015</span><span class="tag_Workshop tag label label-default">Workshop</span><br/>
 <div class="btn-group">
 <button type="button" class="btn btn-default details-btn dropdown-toggle" data-toggle="dropdown">
 Download <span class="caret"></span>
@@ -1462,7 +1485,7 @@ Download <span class="caret"></span>
           <pre class="panel-body details-panel">@inproceedings{explain:krr15,
  author = {Ivan Sanchez and Tim Rocktaschel and Sebastian Riedel and Sameer Singh},
  title = { Towards Extracting Faithful and Descriptive Representations of Latent Variable Models },
- booktitle = {AAAI Spring Syposium on Knowledge Representation and Reasoning (KRR): Integrating Symbolic and Neural Approaches},
+ booktitle = {AAAI Spring Symposium on Knowledge Representation and Reasoning (KRR): Integrating Symbolic and Neural Approaches},
  year = {2015}
 }</pre>
         </div>
