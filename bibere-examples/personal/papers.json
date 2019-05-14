@@ -4,21 +4,24 @@
   "pubTypeSlot" : "Conference",
   "year" : 2019,
   "authorIds" : [ "rlogan", "Nelson F. Liu", "Matthew Peters", "mattg", "sameer" ],
-  "venueId" : "acl"
+  "venueId" : "acl",
+  "weight" : 2.5
 },{
   "id" : "impl:acl19",
   "title" : "Are Red Roses Red? Evaluating Consistency of Question-Answering Models",
   "pubTypeSlot" : "Conference",
   "year" : 2019,
   "authorIds" : [ "marco", "carlos", "sameer" ],
-  "venueId" : "acl"
+  "venueId" : "acl",
+  "weight" : 2.4
 },{
   "id" : "mhop:acl19",
   "title" : "Compositional Questions Do Not Necessitate Multi-hop Reasoning",
   "pubTypeSlot" : "Conference",
   "year" : 2019,
   "authorIds" : [ "Sewon Min", "ericw", "sameer", "mattg", "Hannaneh Hajishirzi", "lsz" ],
-  "venueId" : "acl"
+  "venueId" : "acl",
+  "weight" : 2.2
 },{
   "id" : "criage:naacl19",
   "title" : "Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications",
