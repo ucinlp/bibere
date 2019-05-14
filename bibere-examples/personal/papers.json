@@ -1,4 +1,13 @@
 [{
+    "id" : "diffeqeval:nampi18",
+    "title" : "Towards Solving Differential Equations through Neural Programming",
+    "pubTypeSlot" : "Workshop",
+    "year" : 2018,
+    "authorIds" : [ "forough", "sameer", "anima" ],
+    "extraLinksSlot" : [ ["Poster", "https://forougha.github.io/paperPDF/neuralODE.pdf" ] ],
+    "pdfLink" : "https://uclmr.github.io/nampi/extended_abstracts/arabshahi.pdf",
+    "venueId" : "ICML Workshop on Neural Abstract Machines & Program Induction (NAMPI)"
+}, {
     "id" : "deeprl:chap18",
     "title" : "From Reinforcement Learning to Deep Reinforcement Learning: An Overview",
     "pubTypeSlot" : "Chapter",
