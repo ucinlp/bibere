@@ -17,7 +17,7 @@
   "title" : "Compositional Questions Do Not Necessitate Multi-hop Reasoning",
   "pubTypeSlot" : "Conference",
   "year" : 2019,
-  "authorIds" : [ "Sewon Min, Eric Wallace", "sameer", "mattg", "Hannaneh Hajishirzi", "Luke Zettlemoyer" ],
+  "authorIds" : [ "Sewon Min", "Eric Wallace", "sameer", "mattg", "Hannaneh Hajishirzi", "Luke Zettlemoyer" ],
   "venueId" : "acl"
 },{
   "id" : "criage:naacl19",
