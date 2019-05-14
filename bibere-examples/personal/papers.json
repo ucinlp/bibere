@@ -1,12 +1,33 @@
 [{
-    "id" : "criage:naacl19",
-    "title" : "Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications",
-    "pubTypeSlot" : "Conference",
-    "year" : 2019,
-    "authorIds" : [ "pouya", "Yifan Tian", "sameer" ],
-    "venueId" : "naacl",
-    "abstractText" : "Representing entities and relations in an embedding space is a well-studied approach for machine learning on relational data. Existing approaches, however, primarily focus on improving accuracy and overlook other aspects such as robustness and interpretability. In this paper, we propose adversarial modifications for link prediction models: identifying the fact to add into or remove from the knowledge graph that changes the prediction for a target fact after the model is retrained. Using these single modifications of the graph, we identify the most influential fact for a predicted link and evaluate the sensitivity of the model to the addition of fake facts. We introduce an efficient approach to estimate the effect of such modifications by approximating the change in the embeddings when the knowledge graph changes. To avoid the combinatorial search over all possible facts, we train a network to decode embeddings to their corresponding graph components, allowing the use of gradient-based optimization to identify the adversarial modification. We use these techniques to evaluate the robustness of link prediction models (by measuring sensitivity to additional facts), study interpretability through the facts most responsible for predictions (by identifying the most influential neighbors), and detect incorrect facts in the knowledge base.",
-    "weight" : 1.7
+  "id" : "kglm:acl19",
+  "title" : "Barack's Wife Hillary: Using Knowledge Graphs for Fact-Aware Language Modeling",
+  "pubTypeSlot" : "Conference",
+  "year" : 2019,
+  "authorIds" : [ "rlogan", "Nelson F. Liu", "Matthew Peters", "mattg", "sameer" ],
+  "venueId" : "acl"
+},{
+  "id" : "impl:acl19",
+  "title" : "Are Red Roses Red? Evaluating Consistency of Question-Answering Models",
+  "pubTypeSlot" : "Conference",
+  "year" : 2019,
+  "authorIds" : [ "marco", "carlos", "sameer" ],
+  "venueId" : "acl"
+},{
+  "id" : "mhop:acl19",
+  "title" : "Compositional Questions Do Not Necessitate Multi-hop Reasoning",
+  "pubTypeSlot" : "Conference",
+  "year" : 2019,
+  "authorIds" : [ "Sewon Min, Eric Wallace", "sameer", "mattg", "Hannaneh Hajishirzi", "Luke Zettlemoyer" ],
+  "venueId" : "acl"
+},{
+  "id" : "criage:naacl19",
+  "title" : "Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications",
+  "pubTypeSlot" : "Conference",
+  "year" : 2019,
+  "authorIds" : [ "pouya", "Yifan Tian", "sameer" ],
+  "venueId" : "naacl",
+  "abstractText" : "Representing entities and relations in an embedding space is a well-studied approach for machine learning on relational data. Existing approaches, however, primarily focus on improving accuracy and overlook other aspects such as robustness and interpretability. In this paper, we propose adversarial modifications for link prediction models: identifying the fact to add into or remove from the knowledge graph that changes the prediction for a target fact after the model is retrained. Using these single modifications of the graph, we identify the most influential fact for a predicted link and evaluate the sensitivity of the model to the addition of fake facts. We introduce an efficient approach to estimate the effect of such modifications by approximating the change in the embeddings when the knowledge graph changes. To avoid the combinatorial search over all possible facts, we train a network to decode embeddings to their corresponding graph components, allowing the use of gradient-based optimization to identify the adversarial modification. We use these techniques to evaluate the robustness of link prediction models (by measuring sensitivity to additional facts), study interpretability through the facts most responsible for predictions (by identifying the most influential neighbors), and detect incorrect facts in the knowledge base.",
+  "weight" : 1.7
 },{
     "id" : "gender:naacl19",
     "title" : "GenderQuant: Quantifying Mention-Level Genderedness",
