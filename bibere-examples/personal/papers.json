@@ -1,13 +1,52 @@
 [{
+    "id" : "criage:naacl19",
+    "title" : "Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications",
+    "pubTypeSlot" : "Conference",
+    "year" : 2019,
+    "authorIds" : [ "pouya", "Yifan Tian", "sameer" ],
+    "venueId" : "naacl",
+    "abstractText" : "Representing entities and relations in an embedding space is a well-studied approach for machine learning on relational data. Existing approaches, however, primarily focus on improving accuracy and overlook other aspects such as robustness and interpretability. In this paper, we propose adversarial modifications for link prediction models: identifying the fact to add into or remove from the knowledge graph that changes the prediction for a target fact after the model is retrained. Using these single modifications of the graph, we identify the most influential fact for a predicted link and evaluate the sensitivity of the model to the addition of fake facts. We introduce an efficient approach to estimate the effect of such modifications by approximating the change in the embeddings when the knowledge graph changes. To avoid the combinatorial search over all possible facts, we train a network to decode embeddings to their corresponding graph components, allowing the use of gradient-based optimization to identify the adversarial modification. We use these techniques to evaluate the robustness of link prediction models (by measuring sensitivity to additional facts), study interpretability through the facts most responsible for predictions (by identifying the most influential neighbors), and detect incorrect facts in the knowledge base.",
+    "weight" : 1.7
+},{
+    "id" : "gender:naacl19",
+    "title" : "GenderQuant: Quantifying Mention-Level Genderedness",
+    "pubTypeSlot" : "Conference",
+    "year" : 2019,
+    "authorIds" : [ "ananya", "Nitya Parthasarthi", "sameer" ],
+    "venueId" : "naacl",
+    "abstractText": "Language is gendered if the context surrounding a mention is suggestive of a particular binary gender for that mention. Detecting the different ways in which language is gendered is an important task since gendered language can bias NLP models (such as for coreference resolution). This task is challenging since genderedness is often expressed in subtle ways. Existing approaches need considerable annotation efforts for each language, domain, and author, and often require handcrafted lexicons and features. Additionally, these approaches do not provide a quantifiable measure of how gendered the text is, nor are they applicable at the fine-grained mention level.<br>In this paper, we use existing NLP pipelines to automatically annotate gender of mentions in the text. On corpora labeled using this method, we train a supervised classifier to predict the gender of any mention from its context and evaluate it on unseen text. The model confidence for a mention's gender can be used as a proxy to indicate the level of genderedness of the context. We test this gendered language detector on movie summaries, movie reviews, news articles, and fiction novels, achieving an AUC-ROC of up to 0.71, and observe that the model predictions agree with human judgments collected for this task. We also provide examples of detected gendered sentences from aforementioned domains.",
+    "weight" : 1.6
+},{
+    "id" : "drop:naacl19",
+    "title" : "DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs",
+    "pubTypeSlot" : "Conference",
+    "year" : 2019,
+    "authorIds" : [ "dheeru", "Yizhong Wang", "Pradeep Dasigi", "Gabriel Stanovsky", "sameer", "mattg" ],
+    "venueId" : "naacl",
+    "extraLinksSlot" : [ [ "Project Page", "https://allennlp.org/drop.html"], ["ArXiv Page", "https://arxiv.org/abs/1903.00161"], ["Download Data", "https://s3-us-west-2.amazonaws.com/allennlp/datasets/drop/drop_dataset.zip" ], ["Leaderboard", "https://leaderboard.allenai.org/drop/submissions/public" ], ["Live Demo", "https://demo.allennlp.org/reading-comprehension" ] ],
+    "pdfLink" : "https://arxiv.org/pdf/1903.00161.pdf",
+    "abstractText": "Reading comprehension has recently seen rapid progress, with systems matching humans on the most popular datasets for the task.  However, a large body of work has highlighted the brittleness of these systems, showing that there is much work left to be done.  We introduce a new reading comprehension benchmark, DROP, which requires Discrete Reasoning Over the content of Paragraphs.  In this crowdsourced, adversarially-created, 55k-question benchmark, a system must resolve references in a question, perhaps to multiple input positions, and perform discrete operations over them (such as addition, counting, or sorting). These operations require a much more comprehensive understanding of the content of paragraphs, as they remove the paraphrase-and-entity-typing shortcuts available in prior datasets.  We apply state-of-the-art methods from both the reading comprehension and semantic parsing literatures on this dataset and show that the best systems only achieve 38.4% F1 on our generalized accuracy metric, while expert human performance is 96%.  We additionally present a new model that combines reading comprehension methods with simple numerical reasoning to achieve 51% F1.",
+    "weight" : 1.8
+},{
+    "id" : "pomo:naacl19",
+    "title" : "PoMo: Generating Entity-Specific Post-Modifiers in Context",
+    "pubTypeSlot" : "Conference",
+    "year" : 2019,
+    "authorIds" : [ "Jun Seok Kang", "rlogan", "Zewei Chu", "Yang Chen", "dheeru", "Kevin Gimpel", "sameer", "Niranjan Balasubramanian" ],
+    "venueId" : "naacl",
+    "extraLinksSlot" : [ [ "Project Page", "https://stonybrooknlp.github.io/PoMo/" ], [ "Download Data", "https://github.com/StonyBrookNLP/PoMo" ]],
+    "abstractText": "We introduce entity post-modifier generation as an instance of a collaborative writing task. Given a sentence about a target entity, the task is to automatically generate a post-modifier phrase that provides contextually relevant information about the entity. For example, for the sentence, \"Barack Obama, _______, supported the #MeToo movement.\",  the phrase \"a father of two girls\" is a contextually relevant post-modifier. To this end, we build PoMo, a post-modifier dataset created automatically from news articles reflecting a journalistic need for incorporating entity information that is relevant to a particular news event. PoMo consists of more than 231K sentences with post-modifiers and associated facts extracted from Wikidata for around 57K unique entities. We use crowdsourcing to show that modeling contextual relevance is necessary for accurate post-modifier generation.<br>We adapt a number of existing generation approaches as baselines for this dataset. Our results show there is large room for improvement in terms of both identifying relevant facts to include (knowing which claims are relevant gives a >20% improvement in BLEU score), and generating appropriate post-modifier text for the context (providing relevant claims is not sufficient for accurate generation). We conduct an error analysis that suggests promising directions for future research.",
+    "weight" : 1.5
+},{
     "id" : "diffeqeval:nampi18",
     "title" : "Towards Solving Differential Equations through Neural Programming",
     "pubTypeSlot" : "Workshop",
     "year" : 2018,
     "authorIds" : [ "forough", "sameer", "anima" ],
-    "extraLinksSlot" : [ ["Poster", "https://forougha.github.io/paperPDF/neuralODE.pdf" ] ],
+    "extraLinksSlot" : [ [ "Poster", "https://forougha.github.io/paperPDF/neuralODE.pdf" ] ],
     "pdfLink" : "https://uclmr.github.io/nampi/extended_abstracts/arabshahi.pdf",
     "venueId" : "ICML Workshop on Neural Abstract Machines & Program Induction (NAMPI)"
-}, {
+},{
     "id" : "deeprl:chap18",
     "title" : "From Reinforcement Learning to Deep Reinforcement Learning: An Overview",
     "pubTypeSlot" : "Chapter",
@@ -20,9 +59,9 @@
     "title" : "Embedding Multimodal Relational Data for Knowledge Base Completion",
     "pubTypeSlot" : "Conference",
     "year" : 2018,
-    "authorIds" : [ "Pouya Pezeshkpour", "Liyan Chen", "sameer" ],
+    "authorIds" : [ "pouya", "Liyan Chen", "sameer" ],
     "pdfLink" : "http://arxiv.org/pdf/1809.01341",
-    "extraLinksSlot" : [ [ "Code/Data", "https://github.com/pouyapez/mkbe" ], [ "ArXiv Page", "http://arxiv.org/abs/1809.01341" ] ],
+    "extraLinksSlot" : [ [ "Code/Data", "https://github.com/pouyapez/mkbe" ], [ "ArXiv Page", "http://arxiv.org/abs/1809.01341" ], [ "ACL Anthology Page", "https://aclweb.org/anthology/papers/D/D18/D18-1359/" ], [ "Video", "https://vimeo.com/306113486" ] ],
     "venueId" : "emnlp",
     "abstractText": "Representing entities and relations in an embedding space is a well-studied approach for machine learning on relational data. Existing approaches, however, primarily focus on simple link structure between a finite set of entities, ignoring the variety of data types that are often used in knowledge bases, such as text, images, and numerical values. In this paper, we propose multimodal knowledge base embeddings (MKBE) that use different neural encoders for this variety of observed data, and combine them with existing relational models to learn embeddings of the entities and multimodal data. Further, using these learned embedings and different neural decoders, we introduce a novel multimodal imputation model to generate missing multimodal values, like text and images, from information in the knowledge base. We enrich existing relational datasets to create two novel benchmarks that contain additional information such as textual descriptions and images of the original entities. We demonstrate that our models utilize this additional information effectively to provide more accurate link prediction, achieving state-of-the-art results with a considerable gap of 5-7% over existing methods. Further, we evaluate the quality of our generated multimodal values via a user study.",
     "weight" : 1.8
@@ -43,7 +82,7 @@
     "pubTypeSlot" : "Conference",
     "year" : 2018,
     "authorIds" : [ "marco", "sameer", "carlos" ],
-    "extraLinksSlot" : [ [ "Supplementary Materials", "files/papers/sears-acl18-supp.pdf" ], [ "Source Code", "https://github.com/marcotcr/sears" ], [ "ACL Anthology Page", "https://aclanthology.coli.uni-saarland.de/papers/P18-1079/p18-1079"] ],
+    "extraLinksSlot" : [ [ "Supplementary Materials", "files/papers/sears-acl18-supp.pdf" ], [ "Source Code", "https://github.com/marcotcr/sears" ], [ "ACL Anthology Page", "https://aclanthology.coli.uni-saarland.de/papers/P18-1079/p18-1079"], [ "Video", "https://vimeo.com/285801102" ] ],
     "venueId" : "acl",
     "emphasisNote" : "ACL 2018 Honorable Mention for Best Paper.",
     "pdfLink" : "files/papers/sears-acl18.pdf",
@@ -86,7 +125,7 @@
     "pubTypeSlot" : "Workshop",
     "year" : 2017,
     "pdfLink" : "files/papers/mmkbe-akbc17.pdf",
-    "authorIds" : [ "Pouya Pezeshkpour", "Liyan Chen", "sameer" ],
+    "authorIds" : [ "pouya", "Liyan Chen", "sameer" ],
     "venueId" : "akbc"
 },{
     "id" : "maed:akbc17",
@@ -136,7 +175,7 @@
     "pubTypeSlot" : "Conference",
     "year" : 2017,
     "authorIds" : [ "nitish", "sameer", "roth" ],
-    "extraLinksSlot" : [ [ "Source Code", "https://nitishgupta.github.io/neural-el/" ], ["ACL Anthology", "https://aclanthology.info/papers/D17-1284/d17-1284"], [ "UIUC Page", "http://cogcomp.org/page/publication_view/817" ] ],
+    "extraLinksSlot" : [ [ "Source Code", "https://nitishgupta.github.io/neural-el/" ], ["ACL Anthology Page", "https://aclanthology.info/papers/D17-1284/d17-1284"], [ "UIUC Page", "http://cogcomp.org/page/publication_view/817" ] ],
     "pdfLink" : "files/papers/neuralel-emnlp17.pdf",
     "venueId" : "emnlp",
     "extraFieldsSlot" : [ ["month", "September"] ],
@@ -190,7 +229,7 @@
     "year" : 2016,
     "extraFieldsSlot" : [ ["month", "August"] ],
     "authorIds" : [ "rashkin", "sameer", "yejin" ],
-    "extraLinksSlot" : [ [ "ArXiv version", "http://arxiv.org/abs/1506.02739" ], [ "Project page", "http://homes.cs.washington.edu/~hrashkin/connframe.html" ], [ "ACL Antohology Page", "https://aclanthology.coli.uni-saarland.de/papers/P16-1030/p16-1030"] ],
+    "extraLinksSlot" : [ [ "ArXiv version", "http://arxiv.org/abs/1506.02739" ], [ "Project page", "http://homes.cs.washington.edu/~hrashkin/connframe.html" ], [ "ACL Anthology Page", "https://aclanthology.coli.uni-saarland.de/papers/P16-1030/p16-1030"] ],
     "pdfLink" : "files/papers/connot-acl16.pdf",
     "venueId" : "acl"
 }, {
@@ -222,8 +261,7 @@
     "year" : 2016,
     "authorIds" : [ "marco", "sameer", "carlos" ],
     "venueId" : "O'Reilly Media",
-    "extraFieldsSlot" : [ ["month", "August"] ],
-    "extraFieldsSlot" : [ ["url", "https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime"] ],
+    "extraFieldsSlot" : [ ["month", "August"], ["url", "https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime"] ],
     "extraLinksSlot" : [ [ "Article", "https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime" ] ]
 }, {
     "id" : "lime:hcml16",
@@ -286,7 +324,7 @@
     "venueId" : "naacl",
     "pdfLink" : "files/papers/logicmf-naacl15.pdf",
     "pptLink" : "http://rockt.github.io/slides/2015-naacl.pdf",
-    "extraLinksSlot" : [ [ "Source code", "https://github.com/uclmr/low-rank-logic" ], [ "Talk video", "http://techtalks.tv/talks/injecting-logical-background-knowledge-into-embeddings-for-relation-extraction/61526/" ], [ "ACL Anthology Page", "https://aclanthology.coli.uni-saarland.de/papers/N15-1118/n15-1118"] ],
+    "extraLinksSlot" : [ [ "Source code", "https://github.com/uclmr/low-rank-logic" ], [ "Talk video", "http://techtalks.tv/talks/injecting-logical-background-knowledge-into-embeddings-for-relation-extraction/61526/" ], [ "ACL Anthology", "https://aclanthology.coli.uni-saarland.de/papers/N15-1118/n15-1118"] ],
     "abstractText" : "Matrix factorization approaches to relation extraction provide several attractive features: they support distant supervision, handle open schemas, and leverage unlabeled data. Unfortunately, these methods share a shortcoming with all other distantly supervised approaches: they cannot learn to extract target relations without existing data in the knowledge base, and likewise, these models are inaccurate for relations with sparse data. Rule-based extractors, on the other hand, can be easily extended to novel relations and improved for existing but inaccurate relations, through first-order formulae that capture auxiliary domain knowledge. However, usually a large set of such formulae is necessary to achieve generalization.<br>In this paper, we introduce a paradigm for learning low-dimensional embeddings of entity-pairs and relations that combine the advantages of matrix factorization with first-order logic domain knowledge. We introduce simple approaches for estimating such embeddings, as well as a novel training algorithm to jointly optimize over factual and first-order logic information. Our results show that this method is able to learn accurate extractors with little or no distant supervision alignments, while at the same time generalizing to textual patterns that do not appear in the formulae.",
     "weight" : 1.5
 }, {
