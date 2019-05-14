@@ -319,10 +319,17 @@
     },
     "website" : "https://forougha.github.io/"
   }, {
+    "id" : "ericw",
+    "name" : {
+      "first" : "Eric",
+      "last" : "Wallace"
+    },
+    "website" : "http://www.ericswallace.com/"
+  }, {
     "id" : "anima",
     "name" : {
       "first" : "Animashree",
       "last" : "Anandkumar"
     },
     "website" : "http://tensorlab.cms.caltech.edu/users/anima/"
-} ]
+  } ]
