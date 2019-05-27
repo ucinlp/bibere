@@ -11,7 +11,7 @@
     "first" : "Guillaume",
     "last" : "Bouchard"
   },
-  "website" : "https://sites.google.com/site/guillaumebouchardml/home"
+  "website" : "https://gbouchar.github.io/"
 }, {
  "id" : "yejin",
   "name" : {
@@ -95,21 +95,21 @@
     "first" : "Victoria (Xi)",
     "last" : "Lin"
   },
-  "website" : "http://homes.cs.washington.edu/~xilin/"
+  "website" : "http://victorialin.net/"
 }, {
   "id" : "luheng",
   "name" : {
     "first" : "Luheng",
     "last" : "He"
   },
-  "website" : "https://homes.cs.washington.edu/~luheng"
+  "website" : "http://luheng.github.io/"
 }, {
   "id" : "xiao",
   "name" : {
     "first" : "Xiao",
     "last" : "Ling"
   },
-  "website" : "https://homes.cs.washington.edu/~xiaoling"
+  "website" : "http://xiaoling.github.io/"
 }, {
   "id" : "nitish",
   "name" : {
@@ -137,7 +137,7 @@
     "first" : "Michael",
     "last" : "Wick"
   },
-  "website" : "http://www.cs.umass.edu/~mwick"
+  "website" : "https://labs.oracle.com/pls/apex/f?p=labs:bio:0:2069"
 }, {
   "id" : "tim",
   "name" : {
@@ -185,7 +185,7 @@
     "first" : "Thore",
     "last" : "Graepel"
   },
-  "website" : "http://research.microsoft.com/en-us/people/thoreg/"
+  "website" : "https://www.linkedin.com/in/thoregraepel/"
 }, {
   "id" : "fernando",
   "name" : {
@@ -211,7 +211,8 @@
   "name" : {
     "first" : "Ari",
     "last" : "Kobren"
-  }
+  },
+  "website" : "https://akobre01.github.io/"
 }, {
   "id" : "luke",
   "name" : {
