@@ -92,13 +92,18 @@
       <plugin>
         <groupId>net.alchim31.maven</groupId>
         <artifactId>scala-maven-plugin</artifactId>
-        <version>3.2.2</version>
+        <version>3.4.2</version>
         <executions>
           <execution>
             <goals>
               <goal>compile</goal>
               <goal>testCompile</goal>
             </goals>
+            <configuration>
+              <args>
+                <arg>-nobootcp</arg>
+              </args>
+            </configuration>
             <!--configuration>
               <args>
                 <arg>-make:transitive</arg>
