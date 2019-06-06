@@ -4,6 +4,7 @@
   "pubTypeSlot" : "Conference",
   "year" : 2019,
   "authorIds" : [ "rlogan", "Nelson F. Liu", "Matthew Peters", "mattg", "sameer" ],
+  "pdfLink" : "files/papers/kglm-acl19.pdf",
   "venueId" : "acl",
   "weight" : 2.5
 },{
@@ -12,6 +13,7 @@
   "pubTypeSlot" : "Conference",
   "year" : 2019,
   "authorIds" : [ "marco", "carlos", "sameer" ],
+  "pdfLink" : "files/papers/impl-acl19.pdf",
   "venueId" : "acl",
   "weight" : 2.4
 },{
@@ -20,6 +22,7 @@
   "pubTypeSlot" : "Conference",
   "year" : 2019,
   "authorIds" : [ "Sewon Min", "ericw", "sameer", "mattg", "Hannaneh Hajishirzi", "lsz" ],
+  "pdfLink" : "files/papers/mhop-acl19.pdf",
   "venueId" : "acl",
   "weight" : 2.2
 },{
@@ -29,8 +32,8 @@
   "year" : 2019,
   "authorIds" : [ "pouya", "Yifan Tian", "sameer" ],
   "venueId" : "naacl",
-  "extraLinksSlot" : [ [ "Project Page", "https://pouyapez.github.io/criage/"], ["ArXiv Page", "https://arxiv.org/abs/1905.00563"], ["Source code", "https://github.com/pouyapez/criage"], ["Video Spotlight", "https://www.youtube.com/watch?v=irVqAjt664s"] ],
-  "pdfLink" : "https://arxiv.org/pdf/1905.00563.pdf",
+  "extraLinksSlot" : [ [ "Project Page", "https://pouyapez.github.io/criage/"], ["ArXiv Page", "https://arxiv.org/abs/1905.00563"], ["Source code", "https://github.com/pouyapez/criage"], ["Video Spotlight", "https://www.youtube.com/watch?v=irVqAjt664s"], ["ACL Anthology Page", "https://www.aclweb.org/anthology/papers/N/N19/N19-1337/"] ],
+  "pdfLink" : "files/papers/criage-naacl19.pdf",
   "abstractText" : "Representing entities and relations in an embedding space is a well-studied approach for machine learning on relational data. Existing approaches, however, primarily focus on improving accuracy and overlook other aspects such as robustness and interpretability. In this paper, we propose adversarial modifications for link prediction models: identifying the fact to add into or remove from the knowledge graph that changes the prediction for a target fact after the model is retrained. Using these single modifications of the graph, we identify the most influential fact for a predicted link and evaluate the sensitivity of the model to the addition of fake facts. We introduce an efficient approach to estimate the effect of such modifications by approximating the change in the embeddings when the knowledge graph changes. To avoid the combinatorial search over all possible facts, we train a network to decode embeddings to their corresponding graph components, allowing the use of gradient-based optimization to identify the adversarial modification. We use these techniques to evaluate the robustness of link prediction models (by measuring sensitivity to additional facts), study interpretability through the facts most responsible for predictions (by identifying the most influential neighbors), and detect incorrect facts in the knowledge base.",
   "weight" : 1.7
 },{
@@ -40,6 +43,8 @@
     "year" : 2019,
     "authorIds" : [ "ananya", "Nitya Parthasarthi", "sameer" ],
     "venueId" : "naacl",
+    "extraLinksSlot" : [ ["Project Page", "https://ucinlp.github.io/GenderQuant/"], ["Source Code", "https://github.com/ucinlp/GenderQuant/"], ["ACL Anthology Page", "https://www.aclweb.org/anthology/papers/N/N19/N19-1303/"] ],
+    "pdfLink" : "files/papers/gender-naacl19.pdf",
     "abstractText": "Language is gendered if the context surrounding a mention is suggestive of a particular binary gender for that mention. Detecting the different ways in which language is gendered is an important task since gendered language can bias NLP models (such as for coreference resolution). This task is challenging since genderedness is often expressed in subtle ways. Existing approaches need considerable annotation efforts for each language, domain, and author, and often require handcrafted lexicons and features. Additionally, these approaches do not provide a quantifiable measure of how gendered the text is, nor are they applicable at the fine-grained mention level.<br>In this paper, we use existing NLP pipelines to automatically annotate gender of mentions in the text. On corpora labeled using this method, we train a supervised classifier to predict the gender of any mention from its context and evaluate it on unseen text. The model confidence for a mention's gender can be used as a proxy to indicate the level of genderedness of the context. We test this gendered language detector on movie summaries, movie reviews, news articles, and fiction novels, achieving an AUC-ROC of up to 0.71, and observe that the model predictions agree with human judgments collected for this task. We also provide examples of detected gendered sentences from aforementioned domains.",
     "weight" : 1.6
 },{
@@ -49,8 +54,8 @@
     "year" : 2019,
     "authorIds" : [ "dheeru", "Yizhong Wang", "Pradeep Dasigi", "Gabriel Stanovsky", "sameer", "mattg" ],
     "venueId" : "naacl",
-    "extraLinksSlot" : [ [ "Project Page", "https://allennlp.org/drop.html"], ["ArXiv Page", "https://arxiv.org/abs/1903.00161"], ["Download Data", "https://s3-us-west-2.amazonaws.com/allennlp/datasets/drop/drop_dataset.zip" ], ["Leaderboard", "https://leaderboard.allenai.org/drop/submissions/public" ], ["Live Demo", "https://demo.allennlp.org/reading-comprehension" ] ],
-    "pdfLink" : "https://arxiv.org/pdf/1903.00161.pdf",
+    "extraLinksSlot" : [ [ "Project Page", "https://allennlp.org/drop.html"], ["ArXiv Page", "https://arxiv.org/abs/1903.00161"], ["Download Data", "https://s3-us-west-2.amazonaws.com/allennlp/datasets/drop/drop_dataset.zip" ], [ "ACL Anthology Page", "https://www.aclweb.org/anthology/papers/N/N19/N19-1246/"], ["Leaderboard", "https://leaderboard.allenai.org/drop/submissions/public" ], ["Live Demo", "https://demo.allennlp.org/reading-comprehension" ] ],
+    "pdfLink" : "files/papers/drop-naacl19.pdf",
     "abstractText": "Reading comprehension has recently seen rapid progress, with systems matching humans on the most popular datasets for the task.  However, a large body of work has highlighted the brittleness of these systems, showing that there is much work left to be done.  We introduce a new reading comprehension benchmark, DROP, which requires Discrete Reasoning Over the content of Paragraphs.  In this crowdsourced, adversarially-created, 55k-question benchmark, a system must resolve references in a question, perhaps to multiple input positions, and perform discrete operations over them (such as addition, counting, or sorting). These operations require a much more comprehensive understanding of the content of paragraphs, as they remove the paraphrase-and-entity-typing shortcuts available in prior datasets.  We apply state-of-the-art methods from both the reading comprehension and semantic parsing literatures on this dataset and show that the best systems only achieve 38.4% F1 on our generalized accuracy metric, while expert human performance is 96%.  We additionally present a new model that combines reading comprehension methods with simple numerical reasoning to achieve 51% F1.",
     "weight" : 1.8
 },{
@@ -60,8 +65,8 @@
     "year" : 2019,
     "authorIds" : [ "Jun Seok Kang", "rlogan", "Zewei Chu", "Yang Chen", "dheeru", "Kevin Gimpel", "sameer", "Niranjan Balasubramanian" ],
     "venueId" : "naacl",
-    "extraLinksSlot" : [ [ "Project Page", "https://stonybrooknlp.github.io/PoMo/" ], [ "ArXiv Page", "https://arxiv.org/abs/1904.03111"], [ "Download Data", "https://github.com/StonyBrookNLP/PoMo" ]],
-    "pdfLink" : "https://arxiv.org/pdf/1904.03111.pdf",
+    "extraLinksSlot" : [ [ "Project Page", "https://stonybrooknlp.github.io/PoMo/" ], [ "ArXiv Page", "https://arxiv.org/abs/1904.03111"], [ "Download Data", "https://github.com/StonyBrookNLP/PoMo" ], ["ACL Anthology Page", "https://www.aclweb.org/anthology/papers/N/N19/N19-1089/"]],
+    "pdfLink" : "files/papers/pomo-naacl19.pdf",
     "abstractText": "We introduce entity post-modifier generation as an instance of a collaborative writing task. Given a sentence about a target entity, the task is to automatically generate a post-modifier phrase that provides contextually relevant information about the entity. For example, for the sentence, \"Barack Obama, _______, supported the #MeToo movement.\",  the phrase \"a father of two girls\" is a contextually relevant post-modifier. To this end, we build PoMo, a post-modifier dataset created automatically from news articles reflecting a journalistic need for incorporating entity information that is relevant to a particular news event. PoMo consists of more than 231K sentences with post-modifiers and associated facts extracted from Wikidata for around 57K unique entities. We use crowdsourcing to show that modeling contextual relevance is necessary for accurate post-modifier generation.<br>We adapt a number of existing generation approaches as baselines for this dataset. Our results show there is large room for improvement in terms of both identifying relevant facts to include (knowing which claims are relevant gives a >20% improvement in BLEU score), and generating appropriate post-modifier text for the context (providing relevant claims is not sufficient for accurate generation). We conduct an error analysis that suggests promising directions for future research.",
     "weight" : 1.5
 },{
