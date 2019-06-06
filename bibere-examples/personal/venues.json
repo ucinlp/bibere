@@ -1,10 +1,10 @@
 [ {
   "id" : "biglearn",
-  "name" : "Neural Information Processing Systems (NIPS) Workshop on Big Learning",
+  "name" : "Neural Information Processing Systems (NeurIPS) Workshop on Big Learning",
   "acronym" : "BigLearning"
 }, {
   "id" : "interpretML",
-  "name" : "NIPS Workshop on Interpretable Machine Learning in Complex Systems",
+  "name" : "NeurIPS Workshop on Interpretable Machine Learning in Complex Systems",
   "acronym" : "InterpretML"
 }, {
   "id" : "coling",
@@ -12,7 +12,7 @@
   "acronym" : "COLING"
 }, {
   "id" : "probprog",
-  "name" : "NIPS Workshop on Probabilistic Programming",
+  "name" : "NeurIPS Workshop on Probabilistic Programming",
   "acronym" : "ProbProg"
 }, {
   "id" : "kdd",
@@ -48,15 +48,15 @@
   "acronym" : "AKBC"
 }, {
   "id" : "reseff",
-  "name" : "Neural Information Processing Systems (NIPS) Workshop on Resource Efficient Machine Learning",
+  "name" : "Neural Information Processing Systems (NeurIPS) Workshop on Resource Efficient Machine Learning",
   "acronym" : "ResEff"
 }, {
   "id" : "cost",
-  "name" : "Neural Information Processing Systems (NIPS) Workshop on Computational Trade-offs in Statistical Learning (COST)",
+  "name" : "Neural Information Processing Systems (NeurIPS) Workshop on Computational Trade-offs in Statistical Learning (COST)",
   "acronym" : "COST"
 }, {
   "id" : "lccc",
-  "name" : "Neural Information Processing Systems (NIPS) Workshop on Learning on Cores, Clusters, and Clouds (LCCC)",
+  "name" : "Neural Information Processing Systems (NeurIPS) Workshop on Learning on Cores, Clusters, and Clouds (LCCC)",
   "acronym" : "LCCC"
 }, {
   "id" : "icml",
@@ -64,8 +64,8 @@
   "acronym" : "ICML"
 }, {
   "id" : "nips",
-  "name" : "Neural Information Processing Systems (NIPS)",
-  "acronym" : "NIPS"
+  "name" : "Neural Information Processing Systems (NeurIPS)",
+  "acronym" : "NeurIPS"
 }, {
   "id" : "aistats",
   "name" : "International Conference on Artificial Intelligence and Statistics (AISTATS)",

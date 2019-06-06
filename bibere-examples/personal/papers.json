@@ -180,7 +180,7 @@
     "authorIds" : [ "zhengli", "dheeru", "sameer" ],
     "extraLinksSlot" : [ [ "ArXiv (full paper)", "https://arxiv.org/abs/1710.11342" ] ],
     "pdfLink" : "files/papers/natadv-mldecept17.pdf",
-    "venueId" : "NIPS Workshop on Machine Deception",
+    "venueId" : "NeurIPS Workshop on Machine Deception",
     "abstractText" : "Due to their complex nature, it is hard to characterize the ways in which machine learning models can misbehave or be exploited when deployed. Recent work on adversarial examples, i.e. inputs with minor perturbations that result in substantially different model predictions, is helpful in evaluating the robustness of these models by exposing the adversarial scenarios where they fail. However, these malicious perturbations are often unnatural, not semantically meaningful, and not applicable to complicated domains such as language. In this paper, we propose a framework to generate natural and legible adversarial examples by searching in semantic space of dense and continuous data representation, utilizing the recent advances in generative adversarial networks. We present generated adversaries to demonstrate the potential of the proposed approach for black-box classifiers in a wide range of applications such as image classification, textual entailment, and machine translation. We include experiments to show that the generated adversaries are natural, legible to humans, and useful in evaluating and analyzing black-box classifiers.",
     "emphasisNote" : "Amazon Best Poster Award at the Southern California Machine Learning Symposium.",
     "note" : "Shorter version of the paper at ICLR 2018.",
@@ -227,7 +227,7 @@
     "extraFieldsSlot" : [ ["month", "August"] ],
     "pdfLink" : "http://www.winlp.org/wp-content/uploads/2017/final_papers_2017/80_Paper.pdf",
     "venueId" : "ACL Workshop on Women and Underrepresented Minorities in NLP (WiNLP)",
-    "note" : "Also presented at the NIPS 2017 Workshop for Women in Machine Learning (WiML).",
+    "note" : "Also presented at the NeurIPS 2017 Workshop for Women in Machine Learning (WiML).",
     "weight" : 0.5
 }, {
     "id" : "semcompress:ita17",
@@ -458,7 +458,7 @@
     "pubTypeSlot" : "Workshop",
     "year" : 2014,
     "authorIds" : [ "victoria", "sameer", "luheng", "taskar", "lsz" ],
-    "venueId" : "NIPS Workshop on Modern Machine Learning and Natural Language Processing",
+    "venueId" : "NeurIPS Workshop on Modern Machine Learning and Natural Language Processing",
     "note" : "Also presented at the Pacific Northwest Regional NLP Workshop (NW-NLP) 2014.",
     "pdfLink": "http://homes.cs.washington.edu/~xilin/pubs/mlnlp2014.pdf",
     "weight" : 0.5
@@ -478,7 +478,7 @@
     "year" : 2014,
     "authorIds" : [ "sameer", "sebastian", "Luke Hewitt", "tim" ],
     "venueId" : "probprog",
-    "note" : "Also presented at NIPS 2014 as a demo.",
+    "note" : "Also presented at NeurIPS 2014 as a demo.",
     "weight" : 0.75,
     "pdfLink" : "files/papers/pplide-nips14-ppl.pdf",
     "tagsSlot" : [ "Demo" ],
@@ -501,7 +501,7 @@
     "year" : 2014,
     "authorIds" : [ "sebastian", "sameer", "vivek", "tim", "larysa", "jan" ],
     "venueId" : "starai",
-    "note" : "Also presented at NIPS Probabilistic Programming Workshop.",
+    "note" : "Also presented at NeurIPS Probabilistic Programming Workshop.",
     "pdfLink" : "files/papers/wolfe-starai14.pdf",
      "extraLinksSlot" : [ [ "Website", "http://www.wolfe.ml" ], [ "Poster", "files/papers/wolfe-starai14-poster.pdf" ] ]
 }, {
