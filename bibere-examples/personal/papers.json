@@ -1,9 +1,33 @@
 [{
+  "id" : "trigger:emnlp19",
+  "title" : "Universal Trigger Sequences for Attacking and Analyzing NLP",
+  "pubTypeSlot" : "Conference",
+  "year" : 2019,
+  "authorIds" : [ "ericw", "Shi Feng", "Nikhil Kandpal", "mattg", "sameer" ],
+  "venueId" : "emnlp",
+  "weight" : 3.6
+},{
+  "id" : "numeracy:emnlp19",
+  "title" : "Do Neural NLP Models Know Numbers? Probing Numeracy in Embeddings",
+  "pubTypeSlot" : "Conference",
+  "year" : 2019,
+  "authorIds" : [ "ericw", "yizhong", "Sujian Li", "sameer", "mattg" ],
+  "venueId" : "emnlp",
+  "weight" : 3.5
+},{
+  "id" : "knobert:emnlp19",
+  "title" : "Knowledge Enhanced Contextual Word Representations",
+  "pubTypeSlot" : "Conference",
+  "year" : 2019,
+  "authorIds" : [ "Matthew E. Peters", "Mark Neumann", "rlogan", "Roy Schwartz", "Vidur Joshi", "sameer", "Noah A. Smith" ],
+  "venueId" : "emnlp",
+  "weight" : 3.4
+},{
   "id" : "kglm:acl19",
   "title" : "Barack's Wife Hillary: Using Knowledge Graphs for Fact-Aware Language Modeling",
   "pubTypeSlot" : "Conference",
   "year" : 2019,
-  "authorIds" : [ "rlogan", "Nelson F. Liu", "Matthew Peters", "mattg", "sameer" ],
+  "authorIds" : [ "rlogan", "Nelson F. Liu", "Matthew E. Peters", "mattg", "sameer" ],
   "pdfLink" : "files/papers/kglm-acl19.pdf",
   "extraLinksSlot" : [["Dataset", "https://rloganiv.github.io/linked-wikitext-2/"], ["Source Code", "https://github.com/rloganiv/kglm-model"]],
   "venueId" : "acl",
@@ -53,7 +77,7 @@
     "title" : "DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs",
     "pubTypeSlot" : "Conference",
     "year" : 2019,
-    "authorIds" : [ "dheeru", "Yizhong Wang", "Pradeep Dasigi", "Gabriel Stanovsky", "sameer", "mattg" ],
+    "authorIds" : [ "dheeru", "yizhong", "Pradeep Dasigi", "Gabriel Stanovsky", "sameer", "mattg" ],
     "venueId" : "naacl",
     "extraLinksSlot" : [ [ "Project Page", "https://allennlp.org/drop.html"], ["ArXiv Page", "https://arxiv.org/abs/1903.00161"], ["Download Data", "https://s3-us-west-2.amazonaws.com/allennlp/datasets/drop/drop_dataset.zip" ], [ "ACL Anthology Page", "https://www.aclweb.org/anthology/papers/N/N19/N19-1246/"], ["Leaderboard", "https://leaderboard.allenai.org/drop/submissions/public" ], ["Live Demo", "https://demo.allennlp.org/reading-comprehension" ] ],
     "pdfLink" : "files/papers/drop-naacl19.pdf",
