@@ -327,6 +327,13 @@
     },
     "website" : "http://www.ericswallace.com/"
   }, {
+    "id" : "yizhong",
+    "name" : {
+      "first" : "Yizhong",
+      "last" : "Wang"
+    },
+    "website" : "https://yizhong-wang.com/"
+  }, {
     "id" : "anima",
     "name" : {
       "first" : "Animashree",
