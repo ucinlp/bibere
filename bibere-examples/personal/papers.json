@@ -1,4 +1,12 @@
 [{
+  "id" : "convtopics:jamia19",
+  "title" : "Detecting Conversation Topics in Primary Care Office Visits from Transcripts of Patient-Provider Interactions",
+  "authorIds" : ["Jihyun Park", "Dimitrios Kotzias", "Patty Kuo", "rlogan", "Kritzia Merced", "sameer", "Michael Tanana", "Efi Karra-Taniskidou", "Jennifer Elston Lafata", "David C. Atkins", "Ming Tai-Seale", "Zac E Imel", "Padhraic Smyth"],
+  "pubTypeSlot": "Journal",
+  "venueId" : "Journal of the American Medical Informatics Association",
+  "extraFieldsSlot" : [["volume", "TBD"]],
+  "year" : "2019"
+},{
   "id" : "kglm:acl19",
   "title" : "Barack's Wife Hillary: Using Knowledge Graphs for Fact-Aware Language Modeling",
   "pubTypeSlot" : "Conference",
@@ -78,7 +86,7 @@
     "authorIds" : [ "forough", "sameer", "anima" ],
     "extraLinksSlot" : [ [ "Poster", "https://forougha.github.io/paperPDF/neuralODE.pdf" ] ],
     "pdfLink" : "https://uclmr.github.io/nampi/extended_abstracts/arabshahi.pdf",
-    "venueId" : "ICML Workshop on Neural Abstract Machines & Program Induction (NAMPI)"
+    "venueId" : "ICML Workshop on Neural Abstract Machines and Program Induction (NAMPI)"
 },{
     "id" : "deeprl:chap18",
     "title" : "From Reinforcement Learning to Deep Reinforcement Learning: An Overview",
