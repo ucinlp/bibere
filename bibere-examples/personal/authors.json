@@ -334,6 +334,13 @@
     },
     "website" : "https://yizhong-wang.com/"
   }, {
+    "id" : "gabis",
+    "name" : {
+      "first": "Gabriel",
+      "last" : "Stanovsky"
+    },
+    "website": "https://gabrielstanovsky.github.io/"
+  }, {
     "id" : "anima",
     "name" : {
       "first" : "Animashree",

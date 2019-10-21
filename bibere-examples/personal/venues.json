@@ -39,6 +39,10 @@
   "name" : "CIKM Workshop on Automated Knowledge Base Construction (AKBC)",
   "acronym" : "AKBC"
 }, {
+  "id" : "mrqa",
+  "name" : "Workshop on Machine Reading and Question Answering (MRQA)",
+  "acronym" : "MRQA"
+}, {
   "id" : "akbc",
   "name" : "Workshop on Automated Knowledge Base Construction (AKBC)",
   "acronym" : "AKBC"
