@@ -19,8 +19,10 @@ case class PersonName(first: String,
 object PersonName {
   def apply(name: String): PersonName = {
     val split = name.split("\\s")
-    assert(split.length >= 2)
-    assert(split.length <= 4)
+    assert(split.length >= 2, 
+      name + " does not have enough tokens, " + split.length + " instead of >=2.")
+    assert(split.length <= 4, 
+      name + " has too many tokens, " + split.length + " instead of <=4.")
     PersonName(split.head,
       if (split.length >= 4) split(2) else split.last,
       if (split.length >= 3) Some(split(1)) else None,
@@ -71,7 +73,9 @@ class Publications {
 
   def +=(p: Paper): Unit = {
     if (!venues.contains(p.venueId)) println("WARNING: Non-DB venue detected: " + p.venueId)
-    if (p.authorIds.exists(a => !authors.contains(a))) println("WARNING: Non-DB author detected")
+    p.authorIds.foreach(a => {
+      if (!authors.contains(a)) println("WARNING: Non-DB author detected: " + a)
+    })
     assert(!papers.contains(p.id))
     papers(p.id) = p
   }
