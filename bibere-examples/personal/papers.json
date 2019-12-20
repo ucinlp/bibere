@@ -7,7 +7,8 @@
     "authorIds": ["nitish", "Kevin Lin", "roth", "sameer", "mattg"],
     "pdfLink": "https://arxiv.org/pdf/1912.04971",
     "extraLinksSlot": [
-      ["Arxiv Page", "https://arxiv.org/abs/1912.04971"]
+      ["Arxiv Page", "https://arxiv.org/abs/1912.04971"],
+      ["OpenReview Page", "https://openreview.net/forum?id=SygWvAVFPr"]
     ],
     "venueId": "iclr"
   },
