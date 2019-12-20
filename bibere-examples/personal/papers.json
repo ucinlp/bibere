@@ -1,5 +1,48 @@
 [
   {
+    "id": "nmn:iclr20",
+    "title": "Neural Module Networks for Reasoning over Text",
+    "pubTypeSlot": "Conference",
+    "year": 2020,
+    "authorIds": ["nitish", "Kevin Lin", "roth", "sameer", "mattg"],
+    "pdfLink": "https://arxiv.org/pdf/1912.04971",
+    "extraLinksSlot": [
+      ["Arxiv Page", "https://arxiv.org/abs/1912.04971"]
+    ],
+    "venueId": "iclr"
+  },
+  {
+    "id": "salrl:iclr20",
+    "title": "Explain Your Move: Understanding Agent Actions Using Focused Feature Saliency",
+    "pubTypeSlot": "Conference",
+    "year": 2020,
+    "authorIds": ["Piyush Gupta", "Nikaash Puri", "Sukriti Verma", "Dhruv Kayastha", "Shripad Deshmukh", "Balaji Krishnamurthy", "sameer"],
+    "extraLinksSlot": [
+      ["OpenReview Page", "https://openreview.net/forum?id=SJgzLkBKPB"]
+    ],
+    "venueId": "iclr"
+  },
+  {
+    "id": "malmo:eaai20",
+    "title": "Minecraft as a Platform for Project-Based Learning in AI",
+    "pubTypeSlot": "Conference",
+    "year": 2020,
+    "authorIds": ["sameer"],
+    "venueId": "eaai"
+  },
+  {
+    "id": "advlime:aies20",
+    "title": "Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods",
+    "pubTypeSlot": "Conference",
+    "year": 2020,
+    "authorIds": ["Dylan Slack", "Sophie Hilgard", "Emily Jia", "sameer", "Himabindu Lakkaraju"],
+    "pdfLink": "https://arxiv.org/pdf/1911.02508",
+    "extraLinksSlot": [
+      ["Arxiv Page", "https://arxiv.org/abs/1911.02508"]
+    ],
+    "venueId": "aies"
+  },
+  {
     "id": "evalqa:mrqa19",
     "title": "Evaluating Question Answering Evaluation",
     "pubTypeSlot": "Workshop",
@@ -723,7 +766,7 @@
     "pubTypeSlot": "Workshop",
     "year": 2016,
     "authorIds": ["sameer", "sebastian"],
-    "venueId": "AAAI Symposium on Educational Advances in Artificial Intelligence (EAAI)",
+    "venueId": "eaai",
     "pdfLink": "files/papers/moro-eaai16.pdf",
     "abstractText": "Teaching artificial intelligence is effective if the experience is a visual and interactive one, with educational materials that utilize combinations of various content types such as text, math, and code into an integrated experience. Unfortunately, easy-to-use tools for creating such pedagogical resources are not available to the educators, resulting in most courses being taught using a disconnected set of static materials, which is not only ineffective for learning AI, but further, requires repeated and redundant effort for the instructor. In this paper, we introduce Moro, a software tool for easily creating and presenting AI-friendly teaching materials. Moro notebooks integrate content of different types (text, math, code, images), allow real-time interactions via modifiable and executable code blocks, and are viewable in browsers both as long-form pages and as presentations. Creating notebooks is easy and intuitive; the creation tool is also in-browser, is WYSIWYG for quick iterations of editing, and supports a variety of shortcuts and customizations for efficiency. We present three deployed case studies of Moro that widely differ from each other, demonstrating its utility in a variety of scenarios such as in-class teaching and conference tutorials."
   },
