@@ -7,8 +7,8 @@
     "authorIds": ["nitish", "Kevin Lin", "roth", "sameer", "mattg"],
     "pdfLink": "https://arxiv.org/pdf/1912.04971",
     "extraLinksSlot": [
-      ["Arxiv Page", "https://arxiv.org/abs/1912.04971"],
-      ["OpenReview Page", "https://openreview.net/forum?id=SygWvAVFPr"]
+      ["arXiv", "https://arxiv.org/abs/1912.04971"],
+      ["OpenReview", "https://openreview.net/forum?id=SygWvAVFPr"]
     ],
     "venueId": "iclr"
   },
@@ -19,7 +19,7 @@
     "year": 2020,
     "authorIds": ["Piyush Gupta", "Nikaash Puri", "Sukriti Verma", "Dhruv Kayastha", "Shripad Deshmukh", "Balaji Krishnamurthy", "sameer"],
     "extraLinksSlot": [
-      ["OpenReview Page", "https://openreview.net/forum?id=SJgzLkBKPB"]
+      ["OpenReview", "https://openreview.net/forum?id=SJgzLkBKPB"]
     ],
     "venueId": "iclr"
   },
@@ -39,7 +39,7 @@
     "authorIds": ["Dylan Slack", "Sophie Hilgard", "Emily Jia", "sameer", "Himabindu Lakkaraju"],
     "pdfLink": "https://arxiv.org/pdf/1911.02508",
     "extraLinksSlot": [
-      ["Arxiv Page", "https://arxiv.org/abs/1911.02508"]
+      ["arXiv", "https://arxiv.org/abs/1911.02508"]
     ],
     "venueId": "aies"
   },
@@ -55,15 +55,15 @@
   },
   {
     "id": "orb:mrqa19",
-    "title": "Comprehensive Multi-Dataset Evaluation of Reading Comprehension",
+    "title": "ORB: An Open Reading Benchmark for Comprehensive Evaluation of Machine Reading Comprehension",
     "pubTypeSlot": "Workshop",
     "year": 2019,
     "authorIds": [
       "dheeru",
       "Ananth Gottumukkala",
       "Alon Talmor",
-      "mattg",
-      "sameer"
+      "sameer",
+      "mattg"
     ],
     "venueId": "mrqa",
     "pdfLink": "files/papers/orb-mrqa19.pdf"
@@ -92,7 +92,7 @@
     "pdfLink": "https://academic.oup.com/jamia/advance-article-pdf/doi/10.1093/jamia/ocz140/30035158/ocz140.pdf",
     "extraLinksSlot": [
       [
-        "Publisher Page",
+        "Website",
         "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocz140/5571446"
       ]
     ],
@@ -114,7 +114,7 @@
     ],
     "extraLinksSlot": [
       [
-        "Link",
+        "Article",
         "https://syncedreview.com/2019/08/09/semantic-based-adversarial-examples-fool-face-recognition/"
       ]
     ],
@@ -129,9 +129,9 @@
     "venueId": "emnlp",
     "pdfLink": "https://arxiv.org/pdf/1908.07125",
     "extraLinksSlot": [
-      ["Arxiv Page", "https://arxiv.org/abs/1908.07125"],
-      ["Blog post (w/ Demos)", "http://www.ericswallace.com/triggers"],
-      ["Source code", "https://github.com/Eric-Wallace/universal-triggers"]
+      ["arXiv", "https://arxiv.org/abs/1908.07125"],
+      ["Blog post", "http://www.ericswallace.com/triggers"],
+      ["Code", "https://github.com/Eric-Wallace/universal-triggers"]
     ],
     "weight": 3.6
   },
@@ -143,7 +143,7 @@
     "authorIds": ["ericw", "yizhong", "Sujian Li", "sameer", "mattg"],
     "venueId": "emnlp",
     "pdfLink": "https://arxiv.org/pdf/1909.07940",
-    "extraLinksSlot": [["Arxiv Page", "https://arxiv.org/abs/1909.07940"]],
+    "extraLinksSlot": [["arXiv", "https://arxiv.org/abs/1909.07940"]],
     "weight": 3.5
   },
   {
@@ -162,7 +162,7 @@
     ],
     "venueId": "emnlp",
     "pdfLink": "https://arxiv.org/pdf/1909.04164",
-    "extraLinksSlot": [["Arxiv Page", "https://arxiv.org/abs/1909.04164"]],
+    "extraLinksSlot": [["arXiv", "https://arxiv.org/abs/1909.04164"]],
     "weight": 3.4
   },
   {
@@ -197,9 +197,9 @@
     ],
     "pdfLink": "files/papers/kglm-acl19.pdf",
     "extraLinksSlot": [
-      ["Arxiv Page", "https://arxiv.org/abs/1906.07241"],
-      ["Dataset", "https://rloganiv.github.io/linked-wikitext-2/"],
-      ["Source Code", "https://github.com/rloganiv/kglm-model"]
+      ["arXiv", "https://arxiv.org/abs/1906.07241"],
+      ["Data", "https://rloganiv.github.io/linked-wikitext-2/"],
+      ["Code", "https://github.com/rloganiv/kglm-model"]
     ],
     "venueId": "acl",
     "weight": 2.5
@@ -228,7 +228,7 @@
       "lsz"
     ],
     "pdfLink": "files/papers/mhop-acl19.pdf",
-    "extraLinksSlot": [["Arxiv Page", "https://arxiv.org/abs/1906.02900"]],
+    "extraLinksSlot": [["arXiv", "https://arxiv.org/abs/1906.02900"]],
     "venueId": "acl",
     "weight": 2.2
   },
@@ -240,12 +240,12 @@
     "authorIds": ["pouya", "Yifan Tian", "sameer"],
     "venueId": "naacl",
     "extraLinksSlot": [
-      ["Project Page", "https://pouyapez.github.io/criage/"],
-      ["ArXiv Page", "https://arxiv.org/abs/1905.00563"],
-      ["Source code", "https://github.com/pouyapez/criage"],
-      ["Video Spotlight", "https://www.youtube.com/watch?v=irVqAjt664s"],
+      ["Website", "https://pouyapez.github.io/criage/"],
+      ["arXiv", "https://arxiv.org/abs/1905.00563"],
+      ["Code", "https://github.com/pouyapez/criage"],
+      ["Video", "https://www.youtube.com/watch?v=irVqAjt664s"],
       [
-        "ACL Anthology Page",
+        "ACL Anthology",
         "https://www.aclweb.org/anthology/papers/N/N19/N19-1337/"
       ]
     ],
@@ -261,10 +261,10 @@
     "authorIds": ["ananya", "Nitya Parthasarthi", "sameer"],
     "venueId": "naacl",
     "extraLinksSlot": [
-      ["Project Page", "https://ucinlp.github.io/GenderQuant/"],
-      ["Source Code", "https://github.com/ucinlp/GenderQuant/"],
+      ["Website", "https://ucinlp.github.io/GenderQuant/"],
+      ["Code", "https://github.com/ucinlp/GenderQuant/"],
       [
-        "ACL Anthology Page",
+        "ACL Anthology",
         "https://www.aclweb.org/anthology/papers/N/N19/N19-1303/"
       ]
     ],
@@ -287,21 +287,21 @@
     ],
     "venueId": "naacl",
     "extraLinksSlot": [
-      ["Project Page", "https://allennlp.org/drop.html"],
-      ["ArXiv Page", "https://arxiv.org/abs/1903.00161"],
+      ["Website", "https://allennlp.org/drop.html"],
+      ["arXiv", "https://arxiv.org/abs/1903.00161"],
       [
-        "Download Data",
+        "Data",
         "https://s3-us-west-2.amazonaws.com/allennlp/datasets/drop/drop_dataset.zip"
       ],
       [
-        "ACL Anthology Page",
+        "ACL Anthology",
         "https://www.aclweb.org/anthology/papers/N/N19/N19-1246/"
       ],
       [
         "Leaderboard",
         "https://leaderboard.allenai.org/drop/submissions/public"
       ],
-      ["Live Demo", "https://demo.allennlp.org/reading-comprehension"]
+      ["Demo", "https://demo.allennlp.org/reading-comprehension"]
     ],
     "pdfLink": "files/papers/drop-naacl19.pdf",
     "abstractText": "Reading comprehension has recently seen rapid progress, with systems matching humans on the most popular datasets for the task.  However, a large body of work has highlighted the brittleness of these systems, showing that there is much work left to be done.  We introduce a new reading comprehension benchmark, DROP, which requires Discrete Reasoning Over the content of Paragraphs.  In this crowdsourced, adversarially-created, 55k-question benchmark, a system must resolve references in a question, perhaps to multiple input positions, and perform discrete operations over them (such as addition, counting, or sorting). These operations require a much more comprehensive understanding of the content of paragraphs, as they remove the paraphrase-and-entity-typing shortcuts available in prior datasets.  We apply state-of-the-art methods from both the reading comprehension and semantic parsing literatures on this dataset and show that the best systems only achieve 38.4% F1 on our generalized accuracy metric, while expert human performance is 96%.  We additionally present a new model that combines reading comprehension methods with simple numerical reasoning to achieve 51% F1.",
@@ -324,11 +324,11 @@
     ],
     "venueId": "naacl",
     "extraLinksSlot": [
-      ["Project Page", "https://stonybrooknlp.github.io/PoMo/"],
-      ["ArXiv Page", "https://arxiv.org/abs/1904.03111"],
-      ["Download Data", "https://github.com/StonyBrookNLP/PoMo"],
+      ["Website", "https://stonybrooknlp.github.io/PoMo/"],
+      ["arXiv", "https://arxiv.org/abs/1904.03111"],
+      ["Data", "https://github.com/StonyBrookNLP/PoMo"],
       [
-        "ACL Anthology Page",
+        "ACL Anthology",
         "https://www.aclweb.org/anthology/papers/N/N19/N19-1089/"
       ]
     ],
@@ -382,9 +382,9 @@
     "pdfLink": "http://arxiv.org/pdf/1809.01341",
     "extraLinksSlot": [
       ["Code/Data", "https://github.com/pouyapez/mkbe"],
-      ["ArXiv Page", "http://arxiv.org/abs/1809.01341"],
+      ["arXiv", "http://arxiv.org/abs/1809.01341"],
       [
-        "ACL Anthology Page",
+        "ACL Anthology",
         "https://aclweb.org/anthology/papers/D/D18/D18-1359/"
       ],
       ["Video", "https://vimeo.com/306113486"]
@@ -409,7 +409,7 @@
       "sebastian"
     ],
     "pdfLink": "http://arxiv.org/pdf/1809.01494",
-    "extraLinksSlot": [["ArXiv Page", "http://arxiv.org/abs/1809.01494"]],
+    "extraLinksSlot": [["arXiv", "http://arxiv.org/abs/1809.01494"]],
     "venueId": "emnlp",
     "abstractText": "Most work in machine reading focuses on question answering problems where the answer is directly expressed in the text to read. However, many real-world question answering problems require the reading of text not because it contains the literal answer, but because it contains a recipe to derive an answer together with the reader's background knowledge. One example is the task of interpreting regulations to answer \"Can I...?\" or \"Do I have to...?\" questions such as \"I am working in Canada. Do I have to carry on paying UK National Insurance?\" after reading a UK government website about this topic. This task requires both the interpretation of rules and the application of background knowledge. It is further complicated due to the fact that, in practice, most questions are underspecified, and a human assistant will regularly have to ask clarification questions such as \"How long have you been working abroad?\" when the answer cannot be directly derived from the question and text. In this paper, we formalise this task and develop a crowd-sourcing strategy to collect 32k task instances based on real-world rules and crowd-generated questions and scenarios. We analyse the challenges of this task and assess its difficulty by evaluating the performance of rule-based and machine-learning baselines. We observe promising results when no background knowledge is necessary, and substantial room for improvement whenever background knowledge is needed.",
     "weight": 1.7
@@ -421,16 +421,16 @@
     "year": 2018,
     "authorIds": ["marco", "sameer", "carlos"],
     "extraLinksSlot": [
-      ["Supplementary Materials", "files/papers/sears-acl18-supp.pdf"],
-      ["Source Code", "https://github.com/marcotcr/sears"],
+      ["Appendix", "files/papers/sears-acl18-supp.pdf"],
+      ["Code", "https://github.com/marcotcr/sears"],
       [
-        "ACL Anthology Page",
+        "ACL Anthology",
         "https://aclanthology.coli.uni-saarland.de/papers/P18-1079/p18-1079"
       ],
       ["Video", "https://vimeo.com/285801102"]
     ],
     "venueId": "acl",
-    "emphasisNote": "ACL 2018 Honorable Mention for Best Paper.",
+    "emphasisNote": "Honorable Mention for Best Paper.",
     "pdfLink": "files/papers/sears-acl18.pdf",
     "abstractText": "Complex machine learning models for NLP are often brittle, making different predictions for input instances that are extremely similar semantically. To automatically detect this behavior for individual instances, we present semantically equivalent adversaries (SEAs) – semantic-preserving perturbations that induce changes in the model’s predictions. We generalize these adversaries into semantically equivalent adversarial rules (SEARs) – simple, universal replacement rules that induce adversaries on many instances. We demonstrate the usefulness and flexibility of SEAs and SEARs by detecting bugs in black-box state-of-the-art models for three domains: machine comprehension, visual question-answering, and sentiment analysis. Via user studies, we demonstrate that we generate high-quality local adversaries for more instances than humans, and that SEARs induce four times as many mistakes as the bugs discovered by human experts. SEARs are also actionable: retraining models using data augmentation significantly reduces bugs, while maintaining accuracy.",
     "weight": 1.6
@@ -443,8 +443,8 @@
     "authorIds": ["forough", "sameer", "anima"],
     "extraLinksSlot": [
       ["Source Code", "https://github.com/ForoughA/neuralMath"],
-      ["ArXiv Page", "https://arxiv.org/abs/1801.04342"],
-      ["OpenReview Page", "https://openreview.net/forum?id=Hksj2WWAW"]
+      ["arXiv", "https://arxiv.org/abs/1801.04342"],
+      ["OpenReview", "https://openreview.net/forum?id=Hksj2WWAW"]
     ],
     "pdfLink": "files/papers/funeval-iclr18.pdf",
     "abstractText": "Neural programming involves training neural networks to learn programs, mathematics, or logic from data. Previous works have failed to achieve good generalization performance, especially on problems and programs with high complexity or on large domains. This is because they mostly rely either on black-box function evaluations that do not capture the structure of the program, or on detailed execution traces that are expensive to obtain, and hence the training data has poor coverage of the domain under consideration. We present a novel framework that utilizes black-box function evaluations, in conjunction with symbolic expressions that define relationships between the given functions. We employ tree LSTMs to incorporate the structure of the symbolic expression trees. We use tree encoding for numbers present in function evaluation data, based on their decimal representation. We present an evaluation benchmark for this task to demonstrate our proposed model combines symbolic reasoning and function evaluation in a fruitful manner, obtaining high accuracies in our experiments. Our framework generalizes significantly better to expressions of higher depth and is able to fill partial equations with valid completions.",
@@ -458,8 +458,8 @@
     "authorIds": ["zhengli", "dheeru", "sameer"],
     "extraLinksSlot": [
       ["Source Code", "https://github.com/zhengliz/natural-adversary"],
-      ["ArXiv Page", "https://arxiv.org/abs/1710.11342"],
-      ["OpenReview Page", "https://openreview.net/forum?id=H1BLjgZCb"]
+      ["arXiv", "https://arxiv.org/abs/1710.11342"],
+      ["OpenReview", "https://openreview.net/forum?id=H1BLjgZCb"]
     ],
     "pdfLink": "files/papers/natadv-iclr18.pdf",
     "venueId": "iclr",
@@ -495,7 +495,7 @@
       "Shunichi Koshimura"
     ],
     "extraLinksSlot": [
-      ["IEEE Page", "http://ieeexplore.ieee.org/document/8126255/"]
+      ["IEEE", "http://ieeexplore.ieee.org/document/8126255/"]
     ],
     "pdfLink": "files/papers/tsunami-geosense18.pdf",
     "venueId": "IEEE Geoscience and Remote Sensing Letters",
@@ -556,12 +556,12 @@
     "year": 2017,
     "authorIds": ["nitish", "sameer", "roth"],
     "extraLinksSlot": [
-      ["Source Code", "https://nitishgupta.github.io/neural-el/"],
+      ["Code", "https://nitishgupta.github.io/neural-el/"],
       [
-        "ACL Anthology Page",
+        "ACL Anthology",
         "https://aclanthology.info/papers/D17-1284/d17-1284"
       ],
-      ["UIUC Page", "http://cogcomp.org/page/publication_view/817"]
+      ["Website", "http://cogcomp.org/page/publication_view/817"]
     ],
     "pdfLink": "files/papers/neuralel-emnlp17.pdf",
     "venueId": "emnlp",
@@ -627,7 +627,7 @@
     ],
     "extraLinksSlot": [
       [
-        "ACL Anthology Page",
+        "ACL Anthology",
         "https://aclanthology.coli.uni-saarland.de/papers/C16-1285/c16-1285"
       ]
     ],
@@ -642,13 +642,13 @@
     "extraFieldsSlot": [["month", "August"]],
     "authorIds": ["rashkin", "sameer", "yejin"],
     "extraLinksSlot": [
-      ["ArXiv version", "http://arxiv.org/abs/1506.02739"],
+      ["arXiv", "http://arxiv.org/abs/1506.02739"],
       [
-        "Project page",
+        "Website",
         "http://homes.cs.washington.edu/~hrashkin/connframe.html"
       ],
       [
-        "ACL Anthology Page",
+        "ACL Anthology",
         "https://aclanthology.coli.uni-saarland.de/papers/P16-1030/p16-1030"
       ]
     ],
@@ -661,7 +661,7 @@
     "pubTypeSlot": "Workshop",
     "year": 2016,
     "authorIds": ["sameer", "marco", "carlos"],
-    "extraLinksSlot": [["ArXiv version", "https://arxiv.org/abs/1611.07579"]],
+    "extraLinksSlot": [["arXiv", "https://arxiv.org/abs/1611.07579"]],
     "venueId": "interpretML",
     "extraFieldsSlot": [["month", "November"]],
     "pdfLink": "files/papers/prog-nipsws16.pdf",
@@ -673,7 +673,7 @@
     "pubTypeSlot": "Workshop",
     "year": 2016,
     "authorIds": ["marco", "sameer", "carlos"],
-    "extraLinksSlot": [["ArXiv version", "https://arxiv.org/abs/1611.05817"]],
+    "extraLinksSlot": [["arXiv", "https://arxiv.org/abs/1611.05817"]],
     "pdfLink": "files/papers/anchor-nipsws16.pdf",
     "venueId": "interpretML",
     "extraFieldsSlot": [["month", "November"]],
@@ -730,15 +730,15 @@
     "authorIds": ["marco", "sameer", "carlos"],
     "venueId": "kdd",
     "extraLinksSlot": [
-      ["ArXiv version", "http://arxiv.org/abs/1602.04938"],
-      ["Project page", "https://github.com/marcotcr/lime"],
-      ["Summary Video", "https://www.youtube.com/watch?v=hUnRCxnydCc"],
+      ["arXiv", "http://arxiv.org/abs/1602.04938"],
+      ["Code", "https://github.com/marcotcr/lime"],
+      ["Video", "https://www.youtube.com/watch?v=hUnRCxnydCc"],
       [
-        "Article on O'Reilly",
+        "O'Reilly",
         "https://oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime"
       ],
       [
-        "Code for Synthetic Experiments",
+        "Code (experiments)",
         "https://github.com/marcotcr/lime-experiments"
       ]
     ],
@@ -757,7 +757,7 @@
     "extraFieldsSlot": [["month", "June"]],
     "pdfLink": "files/papers/lime-naacl16demo.pdf",
     "extraLinksSlot": [
-      ["Source code", "https://github.com/UW-MODE/naacl16-demo"]
+      ["Code", "https://github.com/UW-MODE/naacl16-demo"]
     ],
     "note": "Demonstration of the KDD 2016 paper."
   },
@@ -781,7 +781,7 @@
     "pdfLink": "files/papers/logicmf-naacl15.pdf",
     "pptLink": "http://rockt.github.io/slides/2015-naacl.pdf",
     "extraLinksSlot": [
-      ["Source code", "https://github.com/uclmr/low-rank-logic"],
+      ["Code", "https://github.com/uclmr/low-rank-logic"],
       [
         "Talk video",
         "http://techtalks.tv/talks/injecting-logical-background-knowledge-into-embeddings-for-relation-extraction/61526/"
@@ -836,7 +836,7 @@
     "venueId": "Yelp Dataset Challenge, Round 4",
     "pdfLink": "files/papers/yelp-factordb.pdf",
     "extraLinksSlot": [
-      ["Project Page", "http://nitishgupta.github.io/factorDB/"],
+      ["Website", "http://nitishgupta.github.io/factorDB/"],
       ["Yelp Challenge", "http://www.yelp.com/dataset_challenge"]
     ],
     "emphasisNote": "Grand Prize Winner of Yelp Dataset Challenge Round 4"
@@ -866,7 +866,7 @@
     "pdfLink": "files/papers/wolfe-naacl15-demo.pdf",
     "extraLinksSlot": [
       ["Website", "http://www.wolfe.ml"],
-      ["Live Demo", "http://wolfe.ml/demos/nlp"]
+      ["Demo", "http://wolfe.ml/demos/nlp"]
     ],
     "abstractText": "Developing machine learning algorithms for natural language processing (NLP) applications is inherently an iterative process, involving a continuous refinement of the choice of model, engineering of features, selection of inference algorithms, search for the right hyper-parameters, and error analysis. Existing probabilistic program languages (PPLs) only provide partial solutions; most of them do not support commonly used models such as matrix factorization or neural networks, and do not facilitate interactive and iterative programming that is crucial for rapid development of these models.<br>In this demo we introduce WOLFE, a stack designed to facilitate the development of NLP applications: (1) the WOLFE language allows the user to concisely define complex models, enabling easy modification and extension, (2) the WOLFE interpreter transforms declarative machine learning code into automatically differentiable terms or, where applicable, into factor graphs that allow for complex models to be applied to real-world applications, and (3) the WOLFE IDE provides a number of different visual and interactive elements, allowing intuitive exploration and editing of the data representations, the underlying graphical models, and the execution of the inference algorithms."
   },
@@ -968,7 +968,7 @@
     "pdfLink": "files/papers/pplide-nips14-ppl.pdf",
     "tagsSlot": ["Demo"],
     "extraLinksSlot": [
-      ["Live Demo", "http://wolfe.ml/demos/nips"],
+      ["Demo", "http://wolfe.ml/demos/nips"],
       ["Poster", "files/papers/pplide-nips14-ppl-poster.pdf"]
     ]
   },
@@ -983,7 +983,7 @@
     "emphasisNote": "Exceptional Submission Award",
     "note": "Also presented at StarAI 2014 with minor changes.",
     "extraLinksSlot": [
-      ["StarAI Poster", "files/papers/lowranklogic-starai14-poster.pdf"]
+      ["Poster", "files/papers/lowranklogic-starai14-poster.pdf"]
     ]
   },
   {
@@ -1041,7 +1041,7 @@
     "pdfLink": "files/papers/cikm13.pdf",
     "extraLinksSlot": [
       [
-        "MSR Project Page",
+        "MSR Page",
         "https://www.microsoft.com/en-us/research/publication/automated-probabilistic-modelling-for-relational-data/"
       ]
     ]
@@ -1114,7 +1114,7 @@
     "venueId": "reseff",
     "abstractText": "Belief Propagation has been widely used for marginal inference, however it is slow on problems with large-domain variables and high-order factors. Previous work provides useful approximations to facilitate inference on such models, but lacks important anytime properties such as: 1) providing accurate and consistent marginals when stopped early, 2) improving the approximation when run longer, and 3) converging to the fixed point of BP. To this end, we propose a message passing algorithm that works on sparse (partially instantiated) domains, and converges to consistent marginals using dynamic message scheduling. The algorithm grows the sparse domains incrementally, selecting the next value to add using prioritization schemes based on the gradients of the marginal inference objective. Our experiments demonstrate local anytime consistency and fast convergence, providing significant speedups over BP to obtain low-error marginals: up to 25 times on grid models, and up to 6 times on a real-world natural language processing task.",
     "pdfLink": "http://arxiv.org/pdf/1311.3368v1",
-    "extraLinksSlot": [["arXiv Page", "http://arxiv.org/abs/1311.3368"]]
+    "extraLinksSlot": [["arXiv", "http://arxiv.org/abs/1311.3368"]]
   },
   {
     "id": "mcmcmc:emnlp12",
@@ -1125,7 +1125,7 @@
     "venueId": "emnlp",
     "extraLinksSlot": [
       [
-        "ACL Anthology Page",
+        "ACL Anthology",
         "https://aclanthology.coli.uni-saarland.de/papers/D12-1101/d12-1101"
       ]
     ],
@@ -1141,7 +1141,7 @@
     "venueId": "acl",
     "extraLinksSlot": [
       [
-        "ACL Anthology Page",
+        "ACL Anthology",
         "https://aclanthology.coli.uni-saarland.de/papers/P12-1040/p12-1040"
       ]
     ],
@@ -1157,7 +1157,7 @@
     "pdfLink": "http://arxiv.org/pdf/1212.0967v1.pdf",
     "extraLinksSlot": [
       ["arXiv", "http://arxiv.org/abs/1212.0967"],
-      ["Project Page", "http://research.microsoft.com/en-us/projects/inferno/"]
+      ["Website", "http://research.microsoft.com/en-us/projects/inferno/"]
     ]
   },
   {
@@ -1197,11 +1197,11 @@
     "pdfLink": "http://additivegroves.net/papers/chapter-featureeval.pdf",
     "extraLinksSlot": [
       [
-        "Chapter details",
+        "Details",
         "https://www.cambridge.org/core/books/scaling-up-machine-learning/parallel-large-scale-feature-selection/A410E82F4AE61981802CD38C91ABBD68#"
       ],
       [
-        "Book Website",
+        "Publisher",
         "http://www.cambridge.org/us/knowledge/isbn/item6542017/"
       ],
       [
@@ -1250,7 +1250,7 @@
     "abstractText": "Most learning algorithms for factor graphs require complete inference over the dataset or an instance before making an update to the parameters. SampleRank is a rank-based learning framework that alleviates this problem by updating the parameters during inference. Most semi-supervised learning algorithms also rely on the complete inference, i.e. calculating expectations or MAP configurations. We extend the SampleRank framework to the semi-supervised learning, avoiding these inference bottlenecks. Different approaches for incorporating unlabeled data and prior knowledge into this framework are explored. We evaluated our method on a standard information extraction dataset. Our approach outperforms the supervised method significantly and matches the result of the competing semi-supervised learning approach.Most learning algorithms for factor graphs require complete inference over the dataset or an instance before making an update to the parameters. SampleRank is a rank-based learning framework that alleviates this problem by updating the parameters during inference. Most semi-supervised learning algorithms also rely on the complete inference, i.e. calculating expectations or MAP configurations. We extend the SampleRank framework to the semi-supervised learning, avoiding these inference bottlenecks. Different approaches for incorporating unlabeled data and prior knowledge into this framework are explored. We evaluated our method on a standard information extraction dataset. Our approach outperforms the supervised method significantly and matches the result of the competing semi-supervised learning approach.",
     "extraLinksSlot": [
       [
-        "ACL Anthology Page",
+        "ACL Anthology",
         "https://aclanthology.coli.uni-saarland.de/papers/N10-1111/n10-1111"
       ]
     ],
@@ -1267,7 +1267,7 @@
     "abstractText": "Extraction of entities from ad creatives is an important problem that can benefit many computational advertising tasks. Supervised and semi-supervised solutions rely on labeled data which is expensive, time consuming, and difficult to procure for ad creatives. A small set of manually derived constraints on feature expectations over unlabeled data can be used to *partially* and *probabilistically* label large amounts of data. Utilizing recent work in constraint-based semi-supervised learning, this paper injects light weight supervision specified as these ``constraints'' into a semi-Markov conditional random field model of entity extraction in ad creatives. Relying solely on the constraints, the model is trained on a set of unlabeled ads using an online learning algorithm. We demonstrate significant accuracy improvements on a manually labeled test set as compared to a baseline dictionary approach. We also achieve accuracy that approaches a fully supervised classifier.",
     "extraLinksSlot": [
       [
-        "ACL Anthology Page",
+        "ACL Anthology",
         "https://aclanthology.coli.uni-saarland.de/papers/N10-1009/n10-1009"
       ]
     ],
@@ -1297,7 +1297,7 @@
     "venueId": "Computing Research Repository (CoRR) eprint arXiv:1005.4298",
     "abstractText": "Cross-document coreference, the problem of resolving entity mentions across multi-document collections, is crucial to automated knowledge base construction and data mining tasks. However, the scarcity of large labeled data sets has hindered supervised machine learning research for this task. In this paper we develop and demonstrate an approach based on ``distantly-labeling'' a data set from which we can train a discriminative cross-document coreference model. In particular we build a dataset of more than a million people mentions extracted from 3.5 years of New York Times articles, leverage Wikipedia for distant labeling with a generative model (and measure the reliability of such labeling); then we train and evaluate a conditional random field coreference model that has factors on cross-document entities as well as mention-pairs. This coreference model obtains high accuracy in resolving mentions and entities that are not present in the training data, indicating applicability to non-Wikipedia data. Given the large amount of data, our work is also an exercise demonstrating the scalability of our approach.",
     "pdfLink": "http://arxiv.org/pdf/1005.4298v1",
-    "extraLinksSlot": [["arXiv Page", "http://arxiv.org/abs/1005.4298"]]
+    "extraLinksSlot": [["arXiv", "http://arxiv.org/abs/1005.4298"]]
   },
   {
     "id": "rlmap:nips09",
