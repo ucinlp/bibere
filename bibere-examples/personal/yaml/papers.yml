@@ -1,0 +1,1827 @@
+nmn:iclr20:
+  title: >
+    Neural Module Networks for Reasoning over Text
+  venue: "iclr"
+  year: 2020
+  type: "Conference"
+  authors:
+    - "nitish"
+    - "Kevin Lin"
+    - "roth"
+    - "sameer"
+    - "mattg"
+  links:
+    - name: "PDF"
+      link: "https://arxiv.org/pdf/1912.04971"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1912.04971"
+    - name: "OpenReview"
+      link: "https://openreview.net/forum?id=SygWvAVFPr"
+
+salrl:iclr20:
+  title: >
+    Explain Your Move: Understanding Agent Actions Using Focused Feature Saliency
+  venue: "iclr"
+  year: 2020
+  type: "Conference"
+  authors:
+    - "Piyush Gupta"
+    - "Nikaash Puri"
+    - "Sukriti Verma"
+    - "Dhruv Kayastha"
+    - "Shripad Deshmukh"
+    - "Balaji Krishnamurthy"
+    - "sameer"
+  links:
+    - name: "OpenReview"
+      link: "https://openreview.net/forum?id=SJgzLkBKPB"
+
+malmo:eaai20:
+  title: >
+    Minecraft as a Platform for Project-Based Learning in AI
+  venue: "eaai"
+  year: 2020
+  type: "Conference"
+  authors:
+    - "sameer"
+
+advlime:aies20:
+  title: >
+    Fooling LIME and SHAP: Adversarial Attacks on Post hoc Explanation Methods
+  venue: "aies"
+  year: 2020
+  type: "Conference"
+  authors:
+    - "Dylan Slack"
+    - "Sophie Hilgard"
+    - "Emily Jia"
+    - "sameer"
+    - "Himabindu Lakkaraju"
+  links:
+    - name: "PDF"
+      link: "https://arxiv.org/pdf/1911.02508"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1911.02508"
+
+evalqa:mrqa19:
+  title: >
+    Evaluating Question Answering Evaluation
+  venue: "mrqa"
+  year: 2019
+  type: "Workshop"
+  authors:
+    - "anthonyc"
+    - "gabis"
+    - "sameer"
+    - "mattg"
+  links:
+    - name: "PDF"
+      link: "files/papers/evalqa-mrqa19.pdf"
+  emphasis: "Best Paper Award."
+
+orb:mrqa19:
+  title: >
+    ORB: An Open Reading Benchmark for Comprehensive Evaluation of Machine Reading Comprehension
+  venue: "mrqa"
+  year: 2019
+  type: "Workshop"
+  authors:
+    - "dheeru"
+    - "Ananth Gottumukkala"
+    - "Alon Talmor"
+    - "sameer"
+    - "mattg"
+  links:
+    - name: "PDF"
+      link: "files/papers/orb-mrqa19.pdf"
+
+convtopics:jamia19:
+  title: >
+    Detecting Conversation Topics in Primary Care Office Visits from Transcripts of Patient-Provider Interactions
+  venue: "Journal of the American Medical Informatics Association"
+  year: 2019
+  type: "Journal"
+  authors:
+    - "Jihyun Park"
+    - "Dimitrios Kotzias"
+    - "Patty Kuo"
+    - "rlogan"
+    - "Kritzia Merced"
+    - "sameer"
+    - "Michael Tanana"
+    - "Efi Karra-Taniskidou"
+    - "Jennifer Elston Lafata"
+    - "David C. Atkins"
+    - "Ming Tai-Seale"
+    - "Zac E Imel"
+    - "Padhraic Smyth"
+  links:
+    - name: "PDF"
+      link: "https://academic.oup.com/jamia/advance-article-pdf/doi/10.1093/jamia/ocz140/30035158/ocz140.pdf"
+    - name: "Website"
+      link: "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocz140/5571446"
+  bibtex_fields:
+    volume: "TBD"
+
+review:synced19:
+  title: >
+    Comment on Semantic Based Adversarial Examples Fool Face Recognition
+  venue: "Synced Review"
+  year: 2019
+  type: "Online"
+  authors:
+    - "sameer"
+  links:
+    - name: "Article"
+      link: "https://syncedreview.com/2019/08/09/semantic-based-adversarial-examples-fool-face-recognition/"
+  bibtex_fields:
+    month: "August"
+    url: "https://syncedreview.com/2019/08/09/semantic-based-adversarial-examples-fool-face-recognition/"
+  sort_weight: 0.0
+
+trigger:emnlp19:
+  title: >
+    Universal Adversarial Triggers for Attacking and Analyzing NLP
+  venue: "emnlp"
+  year: 2019
+  type: "Conference"
+  authors:
+    - "ericw"
+    - "Shi Feng"
+    - "Nikhil Kandpal"
+    - "mattg"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "https://arxiv.org/pdf/1908.07125"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1908.07125"
+    - name: "Blog post"
+      link: "http://www.ericswallace.com/triggers"
+    - name: "Code"
+      link: "https://github.com/Eric-Wallace/universal-triggers"
+  sort_weight: 3.6
+
+numeracy:emnlp19:
+  title: >
+    Do NLP Models Know Numbers? Probing Numeracy in Embeddings
+  venue: "emnlp"
+  year: 2019
+  type: "Conference"
+  authors:
+    - "ericw"
+    - "yizhong"
+    - "Sujian Li"
+    - "sameer"
+    - "mattg"
+  links:
+    - name: "PDF"
+      link: "https://arxiv.org/pdf/1909.07940"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1909.07940"
+  sort_weight: 3.5
+
+knobert:emnlp19:
+  title: >
+    Knowledge Enhanced Contextual Word Representations
+  venue: "emnlp"
+  year: 2019
+  type: "Conference"
+  authors:
+    - "Matthew E. Peters"
+    - "Mark Neumann"
+    - "rlogan"
+    - "Roy Schwartz"
+    - "Vidur Joshi"
+    - "sameer"
+    - "Noah A. Smith"
+  links:
+    - name: "PDF"
+      link: "https://arxiv.org/pdf/1909.04164"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1909.04164"
+  sort_weight: 3.4
+
+interpret:emnlp19:
+  title: >
+    AllenNLP Interpret: A Framework for Explaining Predictions of NLP Models
+  venue: "Demo at the Empirical Methods in Natural Language Processing (EMNLP)"
+  year: 2019
+  type: "Demo"
+  authors:
+    - "ericw"
+    - "Jens Tuyls"
+    - "Junlin Wang"
+    - "Sanjay Subramanian"
+    - "mattg"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/allennlp-interpret-demo-emnlp19.pdf"
+  abstract: >
+    Neural NLP models are increasingly accurate but are imperfect and opaque---they break in counterintuitive ways and leave end users puzzled at their behavior. Model interpretation methods ameliorate this opacity by providing explanations for specific model predictions. Unfortunately, existing interpretation codebases make it difficult to apply these methods to new models and tasks, which hinders adoption for practitioners and burdens interpretability researchers. We introduce AllenNLP Interpret, a flexible framework for interpreting NLP models. The toolkit provides interpretation primitives (e.g., input gradients) for any AllenNLP model and task, a suite of built-in interpretation methods, and a library of front-end visualization components. We demonstrate the toolkit's flexibility and utility by implementing live demos for five interpretation methods (e.g., saliency maps and adversarial attacks) on a variety of models and tasks (e.g., masked language modeling using BERT and reading comprehension using BiDAF). These demos, alongside our code and tutorials, are available at https://allennlp.org/interpret.
+  emphasis: "Best Demonstration Paper Award."
+
+kglm:acl19:
+  title: >
+    Barack's Wife Hillary: Using Knowledge Graphs for Fact-Aware Language Modeling
+  venue: "acl"
+  year: 2019
+  type: "Conference"
+  authors:
+    - "rlogan"
+    - "Nelson F. Liu"
+    - "Matthew E. Peters"
+    - "mattg"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/kglm-acl19.pdf"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1906.07241"
+    - name: "Data"
+      link: "https://rloganiv.github.io/linked-wikitext-2/"
+    - name: "Code"
+      link: "https://github.com/rloganiv/kglm-model"
+  sort_weight: 2.5
+
+impl:acl19:
+  title: >
+    Are Red Roses Red? Evaluating Consistency of Question-Answering Models
+  venue: "acl"
+  year: 2019
+  type: "Conference"
+  authors:
+    - "marco"
+    - "carlos"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/impl-acl19.pdf"
+  sort_weight: 2.4
+
+mhop:acl19:
+  title: >
+    Compositional Questions Do Not Necessitate Multi-hop Reasoning
+  venue: "acl"
+  year: 2019
+  type: "Conference"
+  authors:
+    - "Sewon Min"
+    - "ericw"
+    - "sameer"
+    - "mattg"
+    - "Hannaneh Hajishirzi"
+    - "lsz"
+  links:
+    - name: "PDF"
+      link: "files/papers/mhop-acl19.pdf"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1906.02900"
+  sort_weight: 2.2
+
+criage:naacl19:
+  title: >
+    Investigating Robustness and Interpretability of Link Prediction via Adversarial Modifications
+  venue: "naacl"
+  year: 2019
+  type: "Conference"
+  authors:
+    - "pouya"
+    - "Yifan Tian"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/criage-naacl19.pdf"
+    - name: "Website"
+      link: "https://pouyapez.github.io/criage/"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1905.00563"
+    - name: "Code"
+      link: "https://github.com/pouyapez/criage"
+    - name: "Video"
+      link: "https://www.youtube.com/watch?v=irVqAjt664s"
+    - name: "ACL Anthology"
+      link: "https://www.aclweb.org/anthology/papers/N/N19/N19-1337/"
+  abstract: >
+    Representing entities and relations in an embedding space is a well-studied approach for machine learning on relational data. Existing approaches, however, primarily focus on improving accuracy and overlook other aspects such as robustness and interpretability. In this paper, we propose adversarial modifications for link prediction models: identifying the fact to add into or remove from the knowledge graph that changes the prediction for a target fact after the model is retrained. Using these single modifications of the graph, we identify the most influential fact for a predicted link and evaluate the sensitivity of the model to the addition of fake facts. We introduce an efficient approach to estimate the effect of such modifications by approximating the change in the embeddings when the knowledge graph changes. To avoid the combinatorial search over all possible facts, we train a network to decode embeddings to their corresponding graph components, allowing the use of gradient-based optimization to identify the adversarial modification. We use these techniques to evaluate the robustness of link prediction models (by measuring sensitivity to additional facts), study interpretability through the facts most responsible for predictions (by identifying the most influential neighbors), and detect incorrect facts in the knowledge base.
+  sort_weight: 1.7
+
+gender:naacl19:
+  title: >
+    GenderQuant: Quantifying Mention-Level Genderedness
+  venue: "naacl"
+  year: 2019
+  type: "Conference"
+  authors:
+    - "ananya"
+    - "Nitya Parthasarthi"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/gender-naacl19.pdf"
+    - name: "Website"
+      link: "https://ucinlp.github.io/GenderQuant/"
+    - name: "Code"
+      link: "https://github.com/ucinlp/GenderQuant/"
+    - name: "ACL Anthology"
+      link: "https://www.aclweb.org/anthology/papers/N/N19/N19-1303/"
+  abstract: >
+    Language is gendered if the context surrounding a mention is suggestive of a particular binary gender for that mention. Detecting the different ways in which language is gendered is an important task since gendered language can bias NLP models (such as for coreference resolution). This task is challenging since genderedness is often expressed in subtle ways. Existing approaches need considerable annotation efforts for each language, domain, and author, and often require handcrafted lexicons and features. Additionally, these approaches do not provide a quantifiable measure of how gendered the text is, nor are they applicable at the fine-grained mention level.<br>In this paper, we use existing NLP pipelines to automatically annotate gender of mentions in the text. On corpora labeled using this method, we train a supervised classifier to predict the gender of any mention from its context and evaluate it on unseen text. The model confidence for a mention's gender can be used as a proxy to indicate the level of genderedness of the context. We test this gendered language detector on movie summaries, movie reviews, news articles, and fiction novels, achieving an AUC-ROC of up to 0.71, and observe that the model predictions agree with human judgments collected for this task. We also provide examples of detected gendered sentences from aforementioned domains.
+  sort_weight: 1.6
+
+drop:naacl19:
+  title: >
+    DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs
+  venue: "naacl"
+  year: 2019
+  type: "Conference"
+  authors:
+    - "dheeru"
+    - "yizhong"
+    - "Pradeep Dasigi"
+    - "gabis"
+    - "sameer"
+    - "mattg"
+  links:
+    - name: "PDF"
+      link: "files/papers/drop-naacl19.pdf"
+    - name: "Website"
+      link: "https://allennlp.org/drop.html"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1903.00161"
+    - name: "Data"
+      link: "https://s3-us-west-2.amazonaws.com/allennlp/datasets/drop/drop_dataset.zip"
+    - name: "ACL Anthology"
+      link: "https://www.aclweb.org/anthology/papers/N/N19/N19-1246/"
+    - name: "Leaderboard"
+      link: "https://leaderboard.allenai.org/drop/submissions/public"
+    - name: "Demo"
+      link: "https://demo.allennlp.org/reading-comprehension"
+  abstract: >
+    Reading comprehension has recently seen rapid progress, with systems matching humans on the most popular datasets for the task.  However, a large body of work has highlighted the brittleness of these systems, showing that there is much work left to be done.  We introduce a new reading comprehension benchmark, DROP, which requires Discrete Reasoning Over the content of Paragraphs.  In this crowdsourced, adversarially-created, 55k-question benchmark, a system must resolve references in a question, perhaps to multiple input positions, and perform discrete operations over them (such as addition, counting, or sorting). These operations require a much more comprehensive understanding of the content of paragraphs, as they remove the paraphrase-and-entity-typing shortcuts available in prior datasets.  We apply state-of-the-art methods from both the reading comprehension and semantic parsing literatures on this dataset and show that the best systems only achieve 38.4% F1 on our generalized accuracy metric, while expert human performance is 96%.  We additionally present a new model that combines reading comprehension methods with simple numerical reasoning to achieve 51% F1.
+  sort_weight: 1.8
+
+pomo:naacl19:
+  title: >
+    PoMo: Generating Entity-Specific Post-Modifiers in Context
+  venue: "naacl"
+  year: 2019
+  type: "Conference"
+  authors:
+    - "Jun Seok Kang"
+    - "rlogan"
+    - "Zewei Chu"
+    - "Yang Chen"
+    - "dheeru"
+    - "Kevin Gimpel"
+    - "sameer"
+    - "Niranjan Balasubramanian"
+  links:
+    - name: "PDF"
+      link: "files/papers/pomo-naacl19.pdf"
+    - name: "Website"
+      link: "https://stonybrooknlp.github.io/PoMo/"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1904.03111"
+    - name: "Data"
+      link: "https://github.com/StonyBrookNLP/PoMo"
+    - name: "ACL Anthology"
+      link: "https://www.aclweb.org/anthology/papers/N/N19/N19-1089/"
+  abstract: >
+    We introduce entity post-modifier generation as an instance of a collaborative writing task. Given a sentence about a target entity, the task is to automatically generate a post-modifier phrase that provides contextually relevant information about the entity. For example, for the sentence, "Barack Obama, _______, supported the #MeToo movement.",  the phrase "a father of two girls" is a contextually relevant post-modifier. To this end, we build PoMo, a post-modifier dataset created automatically from news articles reflecting a journalistic need for incorporating entity information that is relevant to a particular news event. PoMo consists of more than 231K sentences with post-modifiers and associated facts extracted from Wikidata for around 57K unique entities. We use crowdsourcing to show that modeling contextual relevance is necessary for accurate post-modifier generation.<br>We adapt a number of existing generation approaches as baselines for this dataset. Our results show there is large room for improvement in terms of both identifying relevant facts to include (knowing which claims are relevant gives a >20% improvement in BLEU score), and generating appropriate post-modifier text for the context (providing relevant claims is not sufficient for accurate generation). We conduct an error analysis that suggests promising directions for future research.
+  sort_weight: 1.5
+
+diffeqeval:nampi18:
+  title: >
+    Towards Solving Differential Equations through Neural Programming
+  venue: "ICML Workshop on Neural Abstract Machines and Program Induction (NAMPI)"
+  year: 2018
+  type: "Workshop"
+  authors:
+    - "forough"
+    - "sameer"
+    - "anima"
+  links:
+    - name: "PDF"
+      link: "https://uclmr.github.io/nampi/extended_abstracts/arabshahi.pdf"
+    - name: "Poster"
+      link: "https://forougha.github.io/paperPDF/neuralODE.pdf"
+
+deeprl:chap18:
+  title: >
+    From Reinforcement Learning to Deep Reinforcement Learning: An Overview
+  venue: "Braverman Readings in Machine Learning: Key Ideas from Inception to Current State, Springer Press"
+  year: 2018
+  type: "Chapter"
+  authors:
+    - "Forest Agostinelli"
+    - "Guillaume Hocquet"
+    - "sameer"
+    - "Pierre Baldi"
+  links:
+    - name: "PDF (Springer)"
+      link: "https://link.springer.com/content/pdf/10.1007%2F978-3-319-99492-5_13.pdf"
+    - name: "Springer"
+      link: "https://link.springer.com/book/10.1007/978-3-319-99492-5"
+    - name: "Amazon"
+      link: "https://www.amazon.com/Braverman-Readings-Machine-Learning-Inception/dp/3319994913"
+    - name: "Google Books"
+      link: "https://books.google.com/books?id=phxrDwAAQBAJ"
+
+mmkb:emnlp18:
+  title: >
+    Embedding Multimodal Relational Data for Knowledge Base Completion
+  venue: "emnlp"
+  year: 2018
+  type: "Conference"
+  authors:
+    - "pouya"
+    - "Liyan Chen"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "http://arxiv.org/pdf/1809.01341"
+    - name: "Code/Data"
+      link: "https://github.com/pouyapez/mkbe"
+    - name: "arXiv"
+      link: "http://arxiv.org/abs/1809.01341"
+    - name: "ACL Anthology"
+      link: "https://aclweb.org/anthology/papers/D/D18/D18-1359/"
+    - name: "Video"
+      link: "https://vimeo.com/306113486"
+  abstract: >
+    Representing entities and relations in an embedding space is a well-studied approach for machine learning on relational data. Existing approaches, however, primarily focus on simple link structure between a finite set of entities, ignoring the variety of data types that are often used in knowledge bases, such as text, images, and numerical values. In this paper, we propose multimodal knowledge base embeddings (MKBE) that use different neural encoders for this variety of observed data, and combine them with existing relational models to learn embeddings of the entities and multimodal data. Further, using these learned embedings and different neural decoders, we introduce a novel multimodal imputation model to generate missing multimodal values, like text and images, from information in the knowledge base. We enrich existing relational datasets to create two novel benchmarks that contain additional information such as textual descriptions and images of the original entities. We demonstrate that our models utilize this additional information effectively to provide more accurate link prediction, achieving state-of-the-art results with a considerable gap of 5-7% over existing methods. Further, we evaluate the quality of our generated multimodal values via a user study.
+  sort_weight: 1.8
+
+quarc:emnlp18:
+  title: >
+    Interpretation of Natural Language Rules in Conversational Machine Reading
+  venue: "emnlp"
+  year: 2018
+  type: "Conference"
+  authors:
+    - "Marzieh Saeidi"
+    - "Max Bartolo"
+    - "Patrick Lewis"
+    - "sameer"
+    - "tim"
+    - "Mike Sheldon"
+    - "guillaume"
+    - "sebastian"
+  links:
+    - name: "PDF"
+      link: "http://arxiv.org/pdf/1809.01494"
+    - name: "arXiv"
+      link: "http://arxiv.org/abs/1809.01494"
+  abstract: >
+    Most work in machine reading focuses on question answering problems where the answer is directly expressed in the text to read. However, many real-world question answering problems require the reading of text not because it contains the literal answer, but because it contains a recipe to derive an answer together with the reader's background knowledge. One example is the task of interpreting regulations to answer "Can I...?" or "Do I have to...?" questions such as "I am working in Canada. Do I have to carry on paying UK National Insurance?" after reading a UK government website about this topic. This task requires both the interpretation of rules and the application of background knowledge. It is further complicated due to the fact that, in practice, most questions are underspecified, and a human assistant will regularly have to ask clarification questions such as "How long have you been working abroad?" when the answer cannot be directly derived from the question and text. In this paper, we formalise this task and develop a crowd-sourcing strategy to collect 32k task instances based on real-world rules and crowd-generated questions and scenarios. We analyse the challenges of this task and assess its difficulty by evaluating the performance of rule-based and machine-learning baselines. We observe promising results when no background knowledge is necessary, and substantial room for improvement whenever background knowledge is needed.
+  sort_weight: 1.7
+
+sears:acl18:
+  title: >
+    Semantically Equivalent Adversarial Rules for Debugging NLP models
+  venue: "acl"
+  year: 2018
+  type: "Conference"
+  authors:
+    - "marco"
+    - "sameer"
+    - "carlos"
+  links:
+    - name: "PDF"
+      link: "files/papers/sears-acl18.pdf"
+    - name: "Appendix"
+      link: "files/papers/sears-acl18-supp.pdf"
+    - name: "Code"
+      link: "https://github.com/marcotcr/sears"
+    - name: "ACL Anthology"
+      link: "https://aclanthology.coli.uni-saarland.de/papers/P18-1079/p18-1079"
+    - name: "Video"
+      link: "https://vimeo.com/285801102"
+  abstract: >
+    Complex machine learning models for NLP are often brittle, making different predictions for input instances that are extremely similar semantically. To automatically detect this behavior for individual instances, we present semantically equivalent adversaries (SEAs) – semantic-preserving perturbations that induce changes in the model’s predictions. We generalize these adversaries into semantically equivalent adversarial rules (SEARs) – simple, universal replacement rules that induce adversaries on many instances. We demonstrate the usefulness and flexibility of SEAs and SEARs by detecting bugs in black-box state-of-the-art models for three domains: machine comprehension, visual question-answering, and sentiment analysis. Via user studies, we demonstrate that we generate high-quality local adversaries for more instances than humans, and that SEARs induce four times as many mistakes as the bugs discovered by human experts. SEARs are also actionable: retraining models using data augmentation significantly reduces bugs, while maintaining accuracy.
+  emphasis: "Honorable Mention for Best Paper."
+  sort_weight: 1.6
+
+funeval:iclr18:
+  title: >
+    Combining Symbolic Expressions and Black-box Function Evaluations for Training Neural Programs
+  venue: "iclr"
+  year: 2018
+  type: "Conference"
+  authors:
+    - "forough"
+    - "sameer"
+    - "anima"
+  links:
+    - name: "PDF"
+      link: "files/papers/funeval-iclr18.pdf"
+    - name: "Source Code"
+      link: "https://github.com/ForoughA/neuralMath"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1801.04342"
+    - name: "OpenReview"
+      link: "https://openreview.net/forum?id=Hksj2WWAW"
+  abstract: >
+    Neural programming involves training neural networks to learn programs, mathematics, or logic from data. Previous works have failed to achieve good generalization performance, especially on problems and programs with high complexity or on large domains. This is because they mostly rely either on black-box function evaluations that do not capture the structure of the program, or on detailed execution traces that are expensive to obtain, and hence the training data has poor coverage of the domain under consideration. We present a novel framework that utilizes black-box function evaluations, in conjunction with symbolic expressions that define relationships between the given functions. We employ tree LSTMs to incorporate the structure of the symbolic expression trees. We use tree encoding for numbers present in function evaluation data, based on their decimal representation. We present an evaluation benchmark for this task to demonstrate our proposed model combines symbolic reasoning and function evaluation in a fruitful manner, obtaining high accuracies in our experiments. Our framework generalizes significantly better to expressions of higher depth and is able to fill partial equations with valid completions.
+
+natadv:iclr18:
+  title: >
+    Generating Natural Adversarial Examples
+  venue: "iclr"
+  year: 2018
+  type: "Conference"
+  authors:
+    - "zhengli"
+    - "dheeru"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/natadv-iclr18.pdf"
+    - name: "Source Code"
+      link: "https://github.com/zhengliz/natural-adversary"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1710.11342"
+    - name: "OpenReview"
+      link: "https://openreview.net/forum?id=H1BLjgZCb"
+  abstract: >
+    Due to their complex nature, it is hard to characterize the ways in which machine learning models can misbehave or be exploited when deployed. Recent work on adversarial examples, i.e. inputs with minor perturbations that result in substantially different model predictions, is helpful in evaluating the robustness of these models by exposing the adversarial scenarios where they fail. However, these malicious perturbations are often unnatural, not semantically meaningful, and not applicable to complicated domains such as language. In this paper, we propose a framework to generate natural and legible adversarial examples that lie on the data manifold, by searching in semantic space of dense and continuous data representation, utilizing the recent advances in generative adversarial networks. We present generated adversaries to demonstrate the potential of the proposed approach for black-box classifiers for a wide range of applications such as image classification, textual entailment, and machine translation. We include experiments to show that the generated adversaries are natural, legible to humans, and useful in evaluating and analyzing black-box classifiers.
+  sort_weight: 1.5
+
+anchors:aaai18:
+  title: >
+    Anchors: High-Precision Model-Agnostic Explanations
+  venue: "aaai"
+  year: 2018
+  type: "Conference"
+  authors:
+    - "marco"
+    - "sameer"
+    - "carlos"
+  links:
+    - name: "PDF"
+      link: "files/papers/anchors-aaai18.pdf"
+    - name: "Code (package)"
+      link: "https://github.com/marcotcr/anchor"
+    - name: "Code (results)"
+      link: "https://github.com/marcotcr/anchor-experiments"
+  abstract: >
+    We introduce a novel model-agnostic system that explains the behavior of complex models with high-precision rules called anchors, representing local, “sufficient” conditions for predictions. We propose an algorithm to efficiently compute these explanations for any black-box model with high-probability guarantees. We demonstrate the flexibility of anchors by explaining a myriad of different models for different domains and tasks. In a user study, we show that anchors enable users to predict how a model would behave on unseen instances with less effort and higher precision, as compared to existing linear explanations or no explanations.
+
+tsunami:geosense18:
+  title: >
+    A Framework of Rapid Regional Tsunami Damage Recognition from Post-event TerraSAR-X Imagery Using Deep Neural Networks
+  venue: "IEEE Geoscience and Remote Sensing Letters"
+  year: 2018
+  type: "Journal"
+  authors:
+    - "Yanbing Bai"
+    - "Chang Gao"
+    - "sameer"
+    - "Magaly Koch"
+    - "Bruno Adriano"
+    - "Erick Mas"
+    - "Shunichi Koshimura"
+  links:
+    - name: "PDF"
+      link: "files/papers/tsunami-geosense18.pdf"
+    - name: "IEEE"
+      link: "http://ieeexplore.ieee.org/document/8126255/"
+  abstract: >
+    Near real-time building damage mapping is an indispensable prerequisite for governments to make decisions for disaster relief. With high-resolution synthetic aperture radar (SAR) systems, such as TerraSAR-X, the provision of such products in a fast and effective way becomes possible. In this letter, a deep learning-based framework for rapid regional tsunami damage recognition using post-event SAR imagery is proposed. To perform such a rapid damage mapping, a series of tile-based image split analysis is employed to generate the data set. Next, a selection algorithm with the SqueezeNet network is developed to swiftly distinguish between built-up (BU) and nonbuilt-up regions. Finally, a recognition algorithm with a modified wide residual network is developed to classify the BU regions into wash away, collapsed, and slightly damaged regions. Experiments performed on the TerraSAR-X data from the 2011 Tohoku earthquake and tsunami in Japan show a BU region extraction accuracy of 80.4% and a damage-level recognition accuracy of 74.8%, respectively. Our framework takes around 2 h to train on a new region, and only several minutes for prediction.
+  bibtex_fields:
+    volume: "PP"
+
+mmkbe:akbc17:
+  title: >
+    Embedding Multimodal Relational Data
+  venue: "akbc"
+  year: 2017
+  type: "Workshop"
+  authors:
+    - "pouya"
+    - "Liyan Chen"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/mmkbe-akbc17.pdf"
+
+maed:akbc17:
+  title: >
+    Multimodal Attribute Extraction
+  venue: "akbc"
+  year: 2017
+  type: "Workshop"
+  authors:
+    - "rlogan"
+    - "Samuel Humeau"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/maed-akbc17.pdf"
+
+semcompress:asilomar17:
+  title: >
+    Intelligent Data Filtering in Constrained IoT Systems
+  venue: "Asilomar Conference on Signals, Systems, and Computers"
+  year: 2017
+  type: "Invited"
+  authors:
+    - "Igor Burago"
+    - "Davide Callegaro"
+    - "levorato"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/semcompress-asilomar17.pdf"
+    - name: "IEEE Xplore"
+      link: "https://ieeexplore.ieee.org/document/8335485/"
+  abstract: >
+    The expansion of complex autonomous sensing and control mechanisms in the Internet-of-Things systems clashes with constraints on computation and wireless communication resources. In this paper, we propose a framework to address this conflict for applications in which resolution using a centralized architecture with a general-purpose compression of observations is not appropriate. Three approaches for distributing observation detection workload between sensing and processing devices are considered for sensor systems within wireless islands. Each of the approaches is formulated for the shared configuration of a sensor-edge system, in which the network structure, observation monitoring problem, and machine learning-based detector implementing it are not modified. For every approach, a high-level strategy for realization of the detector for different assumptions on the relation between its complexity and the system's constraints is considered. In each case, the potential for the constraints' satisfaction is shown to exist and be exploitable via division, approximation, and delegation of the detector's workload to the sensing devices off the edge processor. We present examples of applications that benefit from the proposed approaches.
+
+natadv:mldecept17:
+  title: >
+    Generating Natural Adversarial Examples
+  venue: "NeurIPS Workshop on Machine Deception"
+  year: 2017
+  type: "Workshop"
+  authors:
+    - "zhengli"
+    - "dheeru"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/natadv-mldecept17.pdf"
+    - name: "ArXiv (full paper)"
+      link: "https://arxiv.org/abs/1710.11342"
+  abstract: >
+    Due to their complex nature, it is hard to characterize the ways in which machine learning models can misbehave or be exploited when deployed. Recent work on adversarial examples, i.e. inputs with minor perturbations that result in substantially different model predictions, is helpful in evaluating the robustness of these models by exposing the adversarial scenarios where they fail. However, these malicious perturbations are often unnatural, not semantically meaningful, and not applicable to complicated domains such as language. In this paper, we propose a framework to generate natural and legible adversarial examples by searching in semantic space of dense and continuous data representation, utilizing the recent advances in generative adversarial networks. We present generated adversaries to demonstrate the potential of the proposed approach for black-box classifiers in a wide range of applications such as image classification, textual entailment, and machine translation. We include experiments to show that the generated adversaries are natural, legible to humans, and useful in evaluating and analyzing black-box classifiers.
+  emphasis: "Amazon Best Poster Award at the Southern California Machine Learning Symposium."
+  note: "Shorter version of the paper at ICLR 2018."
+  sort_weight: 1.5
+
+neuralel:emnlp17:
+  title: >
+    Entity Linking via Joint Encoding of Types, Descriptions, and Context
+  venue: "emnlp"
+  year: 2017
+  type: "Conference"
+  authors:
+    - "nitish"
+    - "sameer"
+    - "roth"
+  links:
+    - name: "PDF"
+      link: "files/papers/neuralel-emnlp17.pdf"
+    - name: "Code"
+      link: "https://nitishgupta.github.io/neural-el/"
+    - name: "ACL Anthology"
+      link: "https://aclanthology.info/papers/D17-1284/d17-1284"
+    - name: "Website"
+      link: "http://cogcomp.org/page/publication_view/817"
+  abstract: >
+    For accurate entity linking, we need to capture various information aspects of an entity, such as its description in a KB, contexts in which it is mentioned, and structured knowledge. Additionally, a linking system should work on texts from different domains without requiring domain-specific training data or hand-engineered features.<br>In this work we present a neural, modular entity linking system that learns a unified dense representation for each entity using multiple sources of information, such as its description, contexts around its mentions, and its fine-grained types. We show that the resulting entity linking system is effective at combining these sources, and performs competitively, sometimes out-performing current state-of-the-art systems across datasets, without requiring any domain-specific training data or hand-engineered features. We also show that our model can effectively "embed" entities that are new to the KB, and is able to link its mentions accurately.
+  bibtex_fields:
+    month: "September"
+
+saul:starai17:
+  title: >
+    Relational Learning and Feature Extraction by Querying over Heterogeneous Information Networks
+  venue: "starai"
+  year: 2017
+  type: "Workshop"
+  authors:
+    - "parisa"
+    - "sameer"
+    - "Daniel Khashabi"
+    - "Christos Christodoulopoulos"
+    - "Mark Summons"
+    - "Saurabh Sinha"
+    - "roth"
+  links:
+    - name: "PDF"
+      link: "https://arxiv.org/pdf/1707.07794"
+    - name: "ArXiv version"
+      link: "https://arxiv.org/pdf/1707.07794"
+  abstract: >
+    Many real world systems need to operate on heterogeneous information networks that consist of numerous interacting components of different types. Examples include systems that perform data analysis on biological information networks; social networks; and information extraction systems processing unstructured data to convert raw text to knowledge graphs. Many previous works describe specialized approaches to perform specific types of analysis, mining and learning on such networks. In this work, we propose a unified framework consisting of a data model -a graph with a first order schema along with a declarative language for constructing, querying and manipulating such networks in ways that facilitate relational and structured machine learning. In particular, we provide an initial prototype for a relational and graph traversal query language where queries are directly used as relational features for structured machine learning models. Feature extraction is performed by making declarative graph traversal queries. Learning and inference models can directly operate on this relational representation and augment it with new data and knowledge that, in turn, is integrated seamlessly into the relational structure to support new predictions. We demonstrate this system's capabilities by showcasing tasks in natural language processing and computational biology domains.
+  bibtex_fields:
+    month: "July"
+
+gender:winlp17:
+  title: >
+    How Biased Are We? Automated Detection of Gendered Language
+  venue: "ACL Workshop on Women and Underrepresented Minorities in NLP (WiNLP)"
+  year: 2017
+  type: "Workshop"
+  authors:
+    - "ananya"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "http://www.winlp.org/wp-content/uploads/2017/final_papers_2017/80_Paper.pdf"
+  note: "Also presented at the NeurIPS 2017 Workshop for Women in Machine Learning (WiML)."
+  bibtex_fields:
+    month: "August"
+  sort_weight: 0.5
+
+semcompress:ita17:
+  title: >
+    Semantic Compression for Edge-Assisted Systems
+  venue: "Information Theory and Applications (ITA) Workshop"
+  year: 2017
+  type: "Invited"
+  authors:
+    - "Igor Burago"
+    - "levorato"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "https://arxiv.org/pdf/1702.05863"
+    - name: "ArXiv version"
+      link: "https://arxiv.org/abs/1702.05863"
+  bibtex_fields:
+    month: "February"
+
+saul:coling16:
+  title: >
+    Better call Saul: Flexible Programming for Learning and Inference in NLP
+  venue: "coling"
+  year: 2016
+  type: "Conference"
+  authors:
+    - "parisa"
+    - "Daniel Khashabi"
+    - "Christos Christodoulopoulos"
+    - "Bhargav Mangipudi"
+    - "sameer"
+    - "roth"
+  links:
+    - name: "PDF"
+      link: "files/papers/saul-coling16.pdf"
+    - name: "ACL Anthology"
+      link: "https://aclanthology.coli.uni-saarland.de/papers/C16-1285/c16-1285"
+  bibtex_fields:
+    month: "December"
+
+connot:acl16:
+  title: >
+    Connotation Frames: A Data-Driven Investigation
+  venue: "acl"
+  year: 2016
+  type: "Conference"
+  authors:
+    - "rashkin"
+    - "sameer"
+    - "yejin"
+  links:
+    - name: "PDF"
+      link: "files/papers/connot-acl16.pdf"
+    - name: "arXiv"
+      link: "http://arxiv.org/abs/1506.02739"
+    - name: "Website"
+      link: "http://homes.cs.washington.edu/~hrashkin/connframe.html"
+    - name: "ACL Anthology"
+      link: "https://aclanthology.coli.uni-saarland.de/papers/P16-1030/p16-1030"
+  bibtex_fields:
+    month: "August"
+
+prog:nipsws16:
+  title: >
+    Programs as Black-Box Explanations
+  venue: "interpretML"
+  year: 2016
+  type: "Workshop"
+  authors:
+    - "sameer"
+    - "marco"
+    - "carlos"
+  links:
+    - name: "PDF"
+      link: "files/papers/prog-nipsws16.pdf"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1611.07579"
+  abstract: >
+    Recent work in model-agnostic explanations of black-box machine learning has demonstrated that interpretability of complex models does not have to come at the cost of accuracy or model flexibility. However, it is not clear what kind of explanations, such as linear models, decision trees, and rule lists, are the appropriate family to consider, and different tasks and models may benefit from different kinds of explanations. Instead of picking a single family of representations, in this work we propose to use "programs" as model-agnostic explanations. We show that small programs can be expressive yet intuitive as explanations, and generalize over a number of existing interpretable families. We propose a prototype program induction method based on simulated annealing that approximates the local behavior of black-box classifiers around a specific prediction using random perturbations. Finally, we present preliminary application on small datasets and show that the generated explanations are intuitive and accurate for a number of classifiers.
+  bibtex_fields:
+    month: "November"
+
+anchor:nipsws16:
+  title: >
+    Nothing Else Matters: Model-Agnostic Explanations By Identifying Prediction Invariance
+  venue: "interpretML"
+  year: 2016
+  type: "Workshop"
+  authors:
+    - "marco"
+    - "sameer"
+    - "carlos"
+  links:
+    - name: "PDF"
+      link: "files/papers/anchor-nipsws16.pdf"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1611.05817"
+  abstract: >
+    At the core of interpretable machine learning is the question of whether humans are able to make accurate predictions about a model's behavior. Assumed in this question are three properties of the interpretable output: coverage, precision, and effort. Coverage refers to how often humans think they can predict the model's behavior, precision to how accurate humans are in those predictions, and effort is either the up-front effort required in interpreting the model, or the effort required to make predictions about a model's behavior.<br>In this work, we propose anchor-LIME (aLIME), a model-agnostic technique that produces high-precision rule-based explanations for which the coverage boundaries are very clear. We compare aLIME to linear LIME with simulated experiments, and demonstrate the flexibility of aLIME with qualitative examples from a variety of domains and tasks.
+  bibtex_fields:
+    month: "November"
+
+lime:oreilly16:
+  title: >
+    Introduction to Local Interpretable Model-Agnostic Explanations (LIME)
+  venue: "O'Reilly Media"
+  year: 2016
+  type: "Online"
+  authors:
+    - "marco"
+    - "sameer"
+    - "carlos"
+  links:
+    - name: "Article"
+      link: "https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime"
+  bibtex_fields:
+    month: "August"
+    url: "https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime"
+
+lime:hcml16:
+  title: >
+    "Why Should I Trust You?": Explaining the Predictions of Any Classifier
+  venue: "CHI Workshop on Human-Centred Machine Learning (HCML)"
+  year: 2016
+  type: "Workshop"
+  authors:
+    - "marco"
+    - "sameer"
+    - "carlos"
+  links:
+    - name: "PDF"
+      link: "files/papers/lime-hcml16.pdf"
+  note: "Shorter version of the paper presented at KDD 2016."
+  bibtex_fields:
+    month: "May"
+
+lime:whi16:
+  title: >
+    Model-Agnostic Interpretability of Machine Learning
+  venue: "ICML Workshop on Human Interpretability in Machine Learning (WHI)"
+  year: 2016
+  type: "Workshop"
+  authors:
+    - "marco"
+    - "sameer"
+    - "carlos"
+  links:
+    - name: "PDF"
+      link: "files/papers/lime-whi16.pdf"
+  emphasis: "Best Paper Award"
+  bibtex_fields:
+    month: "June"
+
+lime:kdd16:
+  title: >
+    "Why Should I Trust You?": Explaining the Predictions of Any Classifier
+  venue: "kdd"
+  year: 2016
+  type: "Conference"
+  authors:
+    - "marco"
+    - "sameer"
+    - "carlos"
+  links:
+    - name: "PDF"
+      link: "files/papers/lime-kdd16.pdf"
+    - name: "arXiv"
+      link: "http://arxiv.org/abs/1602.04938"
+    - name: "Code"
+      link: "https://github.com/marcotcr/lime"
+    - name: "Video"
+      link: "https://www.youtube.com/watch?v=hUnRCxnydCc"
+    - name: "O'Reilly"
+      link: "https://oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime"
+    - name: "Code (experiments)"
+      link: "https://github.com/marcotcr/lime-experiments"
+  emphasis: "Audience Appreciation Award"
+  note: "Also presented at the CHI 2016 Workshop on Human-Centred Machine Learning (HCML)."
+  bibtex_fields:
+    month: "August"
+
+lime:naacl16:
+  title: >
+    "Why Should I Trust You?": Explaining the Predictions of Any Classifier
+  venue: "Demo at the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)"
+  year: 2016
+  type: "Demo"
+  authors:
+    - "marco"
+    - "sameer"
+    - "carlos"
+  links:
+    - name: "PDF"
+      link: "files/papers/lime-naacl16demo.pdf"
+    - name: "Code"
+      link: "https://github.com/UW-MODE/naacl16-demo"
+  note: "Demonstration of the KDD 2016 paper."
+  bibtex_fields:
+    month: "June"
+
+moro:eaai16:
+  title: >
+    Creating Interactive and Visual Educational Resources for {AI}
+  venue: "eaai"
+  year: 2016
+  type: "Workshop"
+  authors:
+    - "sameer"
+    - "sebastian"
+  links:
+    - name: "PDF"
+      link: "files/papers/moro-eaai16.pdf"
+  abstract: >
+    Teaching artificial intelligence is effective if the experience is a visual and interactive one, with educational materials that utilize combinations of various content types such as text, math, and code into an integrated experience. Unfortunately, easy-to-use tools for creating such pedagogical resources are not available to the educators, resulting in most courses being taught using a disconnected set of static materials, which is not only ineffective for learning AI, but further, requires repeated and redundant effort for the instructor. In this paper, we introduce Moro, a software tool for easily creating and presenting AI-friendly teaching materials. Moro notebooks integrate content of different types (text, math, code, images), allow real-time interactions via modifiable and executable code blocks, and are viewable in browsers both as long-form pages and as presentations. Creating notebooks is easy and intuitive; the creation tool is also in-browser, is WYSIWYG for quick iterations of editing, and supports a variety of shortcuts and customizations for efficiency. We present three deployed case studies of Moro that widely differ from each other, demonstrating its utility in a variety of scenarios such as in-class teaching and conference tutorials.
+
+logicmf:naacl15:
+  title: >
+    Injecting Logical Background Knowledge into Embeddings for Relation Extraction
+  venue: "naacl"
+  year: 2015
+  type: "Conference"
+  authors:
+    - "tim"
+    - "sameer"
+    - "sebastian"
+  links:
+    - name: "PDF"
+      link: "files/papers/logicmf-naacl15.pdf"
+    - name: "Code"
+      link: "https://github.com/uclmr/low-rank-logic"
+    - name: "Talk video"
+      link: "http://techtalks.tv/talks/injecting-logical-background-knowledge-into-embeddings-for-relation-extraction/61526/"
+    - name: "ACL Anthology"
+      link: "https://aclanthology.coli.uni-saarland.de/papers/N15-1118/n15-1118"
+  abstract: >
+    Matrix factorization approaches to relation extraction provide several attractive features: they support distant supervision, handle open schemas, and leverage unlabeled data. Unfortunately, these methods share a shortcoming with all other distantly supervised approaches: they cannot learn to extract target relations without existing data in the knowledge base, and likewise, these models are inaccurate for relations with sparse data. Rule-based extractors, on the other hand, can be easily extended to novel relations and improved for existing but inaccurate relations, through first-order formulae that capture auxiliary domain knowledge. However, usually a large set of such formulae is necessary to achieve generalization.<br>In this paper, we introduce a paradigm for learning low-dimensional embeddings of entity-pairs and relations that combine the advantages of matrix factorization with first-order logic domain knowledge. We introduce simple approaches for estimating such embeddings, as well as a novel training algorithm to jointly optimize over factual and first-order logic information. Our results show that this method is able to learn accurate extractors with little or no distant supervision alignments, while at the same time generalizing to textual patterns that do not appear in the formulae.
+  sort_weight: 1.5
+
+el:tacl15:
+  title: >
+    Design Challenges for Entity Linking
+  venue: "tacl"
+  year: 2015
+  type: "Journal"
+  authors:
+    - "xiao"
+    - "sameer"
+    - "weld"
+  links:
+    - name: "PDF"
+      link: "files/papers/entitylinking-tacl15.pdf"
+    - name: "TACL Page"
+      link: "https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/528"
+    - name: "TACL PDF"
+      link: "https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/viewFile/528/133"
+  abstract: >
+    Recent research on entity linking (EL) has introduced a plethora of promising techniques, ranging from deep neural networks to joint inference. But despite numerous papers there is surprisingly little understanding of the state of the art in EL. We attack this confusion by analyzing differences between several versions of the EL problem and presenting a simple yet effective, modular, unsupervised system, called Vinculum, for entity linking. We conduct an extensive evaluation on nine data sets, comparing Vinculum with two state-of-the-art systems, and elucidate key aspects of the system that include mention extraction, candidate generation, entity type prediction, entity coreference, and coherence.
+  note: "To be presented at ACL, Beijing, July 26-31, 2015."
+  bibtex_fields:
+    volume: "3"
+  sort_weight: 1.3
+
+gbcrf:aistats15:
+  title: >
+    Efficient Second-Order Gradient Boosting for Conditional Random Fields
+  venue: "aistats"
+  year: 2015
+  type: "Conference"
+  authors:
+    - "tianqi"
+    - "sameer"
+    - "taskar"
+    - "carlos"
+  links:
+    - name: "PDF"
+      link: "files/papers/gbcrf-aistats15.pdf"
+  sort_weight: 1.2
+
+factordb:yelp15:
+  title: >
+    Collective Factorization for Relational Data: An Evaluation on the Yelp Datasets
+  venue: "Yelp Dataset Challenge, Round 4"
+  year: 2015
+  type: "TechReport"
+  authors:
+    - "nitish"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/yelp-factordb.pdf"
+    - name: "Website"
+      link: "http://nitishgupta.github.io/factorDB/"
+    - name: "Yelp Challenge"
+      link: "http://www.yelp.com/dataset_challenge"
+  emphasis: "Grand Prize Winner of Yelp Dataset Challenge Round 4"
+
+mftf:vsm15:
+  title: >
+    Towards Combined Matrix and Tensor Factorization for Universal Schema Relation Extraction
+  venue: "NAACL Workshop on Vector Space Modeling for NLP"
+  year: 2015
+  type: "Workshop"
+  authors:
+    - "sameer"
+    - "tim"
+    - "sebastian"
+  links:
+    - name: "PDF"
+      link: "files/papers/mftf-vsm15.pdf"
+
+wolfe:naacl15:
+  title: >
+    {WOLFE}: An {NLP}-friendly Declarative Machine Learning Stack
+  venue: "Demo at the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)"
+  year: 2015
+  type: "Demo"
+  authors:
+    - "sameer"
+    - "tim"
+    - "Luke Hewitt"
+    - "Jason Naradowsky"
+    - "sebastian"
+  links:
+    - name: "PDF"
+      link: "files/papers/wolfe-naacl15-demo.pdf"
+    - name: "Website"
+      link: "http://www.wolfe.ml"
+    - name: "Demo"
+      link: "http://wolfe.ml/demos/nlp"
+  abstract: >
+    Developing machine learning algorithms for natural language processing (NLP) applications is inherently an iterative process, involving a continuous refinement of the choice of model, engineering of features, selection of inference algorithms, search for the right hyper-parameters, and error analysis. Existing probabilistic program languages (PPLs) only provide partial solutions; most of them do not support commonly used models such as matrix factorization or neural networks, and do not facilitate interactive and iterative programming that is crucial for rapid development of these models.<br>In this demo we introduce WOLFE, a stack designed to facilitate the development of NLP applications: (1) the WOLFE language allows the user to concisely define complex models, enabling easy modification and extension, (2) the WOLFE interpreter transforms declarative machine learning code into automatically differentiable terms or, where applicable, into factor graphs that allow for complex models to be applied to real-world applications, and (3) the WOLFE IDE provides a number of different visual and interactive elements, allowing intuitive exploration and editing of the data representations, the underlying graphical models, and the execution of the inference algorithms.
+
+explain:krr15:
+  title: >
+    Towards Extracting Faithful and Descriptive Representations of Latent Variable Models
+  venue: "krr"
+  year: 2015
+  type: "Workshop"
+  authors:
+    - "Ivan Sanchez"
+    - "tim"
+    - "sebastian"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/knowlextr-krr15.pdf"
+    - name: "AAAI PDF"
+      link: "http://www.aaai.org/ocs/index.php/SSS/SSS15/paper/viewFile/10304/10033"
+  sort_weight: 0.5
+
+logicmf:krr15:
+  title: >
+    On Approximate Reasoning Capabilities of Low-Rank Vector Spaces
+  venue: "krr"
+  year: 2015
+  type: "Workshop"
+  authors:
+    - "guillaume"
+    - "sameer"
+    - "Theo Trouillon"
+  links:
+    - name: "PDF"
+      link: "files/papers/logicmf-krr15.pdf"
+    - name: "AAAI PDF"
+      link: "http://www.aaai.org/ocs/index.php/SSS/SSS15/paper/viewFile/10257/10026"
+  sort_weight: 0.75
+
+rdb:patent14:
+  title: >
+    Relational database management
+  venue: "US Patent Number 0188928"
+  year: 2014
+  type: "Patent"
+  authors:
+    - "sameer"
+    - "thore"
+    - "Lucas J. Bordeaux"
+    - "Andrew D. Gordon"
+  links:
+    - name: "PDF"
+      link: "https://patentimages.storage.googleapis.com/78/5c/91/907ceb6c42288c/US20140188928A1.pdf"
+    - name: "Webpage"
+      link: "https://www.google.com/patents/US20140188928"
+  sort_weight: 0.0
+
+uw:kba14:
+  title: >
+    Distributed Non-Parametric Representations for Vital Filtering: {UW at TREC KBA} 2014
+  venue: "Text REtrieval Conference (TREC): Knowledge-Base Acceleration (KBA) Track"
+  year: 2014
+  type: "Conference"
+  authors:
+    - "nacho"
+    - "sameer"
+    - "carlos"
+  links:
+    - name: "PDF"
+      link: "files/papers/stream-kba14.pdf"
+  sort_weight: 0.75
+
+context:nwnlp14:
+  title: >
+    Context Representation for Named Entity Linking
+  venue: "nwnlp"
+  year: 2014
+  type: "Workshop"
+  authors:
+    - "xiao"
+    - "sameer"
+    - "weld"
+  links:
+    - name: "PDF"
+      link: "files/papers/contextel-nwnlp14.pdf"
+  sort_weight: 0.5
+
+prlr:mmlnlp14:
+  title: >
+    Multi-label Learning with Posterior Regularization
+  venue: "NeurIPS Workshop on Modern Machine Learning and Natural Language Processing"
+  year: 2014
+  type: "Workshop"
+  authors:
+    - "victoria"
+    - "sameer"
+    - "luheng"
+    - "taskar"
+    - "lsz"
+  links:
+    - name: "PDF"
+      link: "http://homes.cs.washington.edu/~xilin/pubs/mlnlp2014.pdf"
+  note: "Also presented at the Pacific Northwest Regional NLP Workshop (NW-NLP) 2014."
+  sort_weight: 0.5
+
+kb-integration:akbc14:
+  title: >
+    Out of Many, One: Unifying Web-Extracted Knowledge Bases
+  venue: "akbc"
+  year: 2014
+  type: "Workshop"
+  authors:
+    - "mathias"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "http://www.akbc.ws/2014/submissions/akbc2014_submission_28.pdf"
+  sort_weight: 0.75
+
+ppl-ide:probprog14:
+  title: >
+    Designing an IDE for Probabilistic Programming: Challenges and a Prototype
+  venue: "probprog"
+  year: 2014
+  type: "Workshop"
+  authors:
+    - "sameer"
+    - "sebastian"
+    - "Luke Hewitt"
+    - "tim"
+  links:
+    - name: "PDF"
+      link: "files/papers/pplide-nips14-ppl.pdf"
+    - name: "Demo"
+      link: "http://wolfe.ml/demos/nips"
+    - name: "Poster"
+      link: "files/papers/pplide-nips14-ppl-poster.pdf"
+  note: "Also presented at NeurIPS 2014 as a demo."
+  extraTags: [ "Demo" ]
+  sort_weight: 0.75
+
+logic:sp14:
+  title: >
+    Low-dimensional Embeddings of Logic
+  venue: "sp14"
+  year: 2014
+  type: "Workshop"
+  authors:
+    - "tim"
+    - "sameer"
+    - "matko"
+    - "sebastian"
+  links:
+    - name: "PDF"
+      link: "files/papers/lowranklogic-sp14.pdf"
+    - name: "Poster"
+      link: "files/papers/lowranklogic-starai14-poster.pdf"
+  emphasis: "Exceptional Submission Award"
+  note: "Also presented at StarAI 2014 with minor changes."
+
+wolfe:starai14:
+  title: >
+    WOLFE: Strength Reduction and Approximate Programming for Probabilistic Programming
+  venue: "starai"
+  year: 2014
+  type: "Workshop"
+  authors:
+    - "sebastian"
+    - "sameer"
+    - "vivek"
+    - "tim"
+    - "larysa"
+    - "jan"
+  links:
+    - name: "PDF"
+      link: "files/papers/wolfe-starai14.pdf"
+    - name: "Website"
+      link: "http://www.wolfe.ml"
+    - name: "Poster"
+      link: "files/papers/wolfe-starai14-poster.pdf"
+  note: "Also presented at NeurIPS Probabilistic Programming Workshop."
+
+thesis:
+  title: >
+    Scaling MCMC Inference and Belief Propagation for Large, Dense Graphical Models
+  venue: "University of Massachusetts"
+  year: 2014
+  type: "Thesis"
+  authors:
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "https://web.cs.umass.edu/publication/docs/2014/UM-CS-PhD-2014-007.pdf"
+    - name: "UMass Page"
+      link: "http://scholarworks.umass.edu/dissertations_2/143/"
+  abstract: >
+    With the physical constraints of semiconductor-based electronics becoming increasingly limiting in the past decade, single-core CPUs have given way to multi-core and distributed computing platforms. At the same time, access to large data collections is progressively becoming commonplace due to the lowering cost of storage and bandwidth. Traditional machine learning paradigms that have been designed to operate sequentially on single processor architectures seem destined to become obsolete in this world of multi-core, multi-node systems and massive data sets. Inference for graphical models is one such example for which most existing algorithms are sequential in nature and are difficult to scale using parallel computations. Further, modeling large datasets leads to an escalation in the number of variables, factors, domains, and the density of the models, all of which have a substantial impact on the computational and storage complexity of inference. To achieve scalability, existing techniques impose strict independence assumptions on the model, resulting in tractable inference at the expense of expressiveness, and therefore of accuracy and utility, of the model.<br>Motivated by the need to scale inference to large, dense graphical models, in this thesis we explore approximations to Markov chain Monte Carlo (MCMC) and belief propagation (BP) that induce dynamic sparsity in the model to utilize parallelism. In particular, since computations over some factors, variables, and values are more important than over others at different stages of inference, proposed approximations that prioritize and parallelize such computations facilitate efficient inference. First, we show that a synchronously distributed MCMC algorithm that uses dynamic partitioning of the model achieves scalable inference. We then identify bottlenecks in the synchronous architecture, and demonstrate that a collection of MCMC techniques that use asynchronous updates are able to address these drawbacks. For large domains and high-order factors, we find that dynamically inducing sparsity in variable domains, results in scalable belief propagation that enables joint inference. We also show that formulating distributed BP and joint inference as generalized BP on cluster graphs, and by using cluster message approximations, provides significantly lower communication cost and running time.With these tools for inference in hand, we are able to tackle entity tagging, relation extraction, entity resolution, cross-document coreference, joint inference, and other information extraction tasks over large text corpora.
+  note: "Committee: Andrew McCallum, Carlos Guestrin, Ben Marlin, David Jensen, Michael Zink."
+
+akbc13:
+  title: >
+    AKBC 2013: Third Workshop on Automated Knowledge Base Construction
+  venue: "cikm"
+  year: 2013
+  type: "Conference"
+  authors:
+    - "Fabian M. Suchanek"
+    - "sameer"
+    - "sebastian"
+    - "Partha P. Talukdar"
+  links:
+    - name: "PDF"
+      link: "files/papers/akbc13.pdf"
+    - name: "ACM DL"
+      link: "http://dl.acm.org/citation.cfm?id=2505806"
+  abstract: >
+    The AKBC 2013 workshop aims to be a venue of excellence and vision in the area of knowledge base construction. This year's workshop will feature keynotes by ten leading researchers in the field, including from Google, Microsoft, Stanford, and CMU. The submissions focus on visionary ideas instead of on experimental evaluation. Nineteen accepted papers will be presented as posters, with nine exceptional papers also highlighted as spotlight talks. Thereby, the workshop aims provides a vivid forum of discussion about the field of automated knowledge base construction.
+
+cikm13:
+  title: >
+    Automated Probabilistic Modeling for Relational Data
+  venue: "cikm"
+  year: 2013
+  type: "Conference"
+  authors:
+    - "sameer"
+    - "thore"
+  links:
+    - name: "PDF"
+      link: "files/papers/cikm13.pdf"
+    - name: "MSR Page"
+      link: "https://www.microsoft.com/en-us/research/publication/automated-probabilistic-modelling-for-relational-data/"
+  abstract: >
+    Probabilistic graphical model representations of relational data provide a number of desired features, such as inference of missing values, detection of errors, visualization of data, and probabilistic answers to relational queries. However, adoption has been slow due to the high level of expertise expected both in probability and in the domain from the user. Instead of requiring a domain expert to specify the probabilistic dependencies of the data, we present an approach that uses the relational DB schema to automatically construct a Bayesian graphical model for a database. This resulting model contains customized distributions for the attributes, latent variables that cluster the records, and factors that reflect and represent the foreign key links, whilst allowing efficient inference. Experiments demonstrate the accuracy of the model and scalability of inference on synthetic and real-world data.
+
+kbp13:
+  title: >
+    Universal Schema for Slot Filling and Cold Start: UMass IESL at TACKBP 2013
+  venue: "tackbp"
+  year: 2013
+  type: "Conference"
+  authors:
+    - "sameer"
+    - "limin"
+    - "David Belanger"
+    - "ari"
+    - "Sam Anzaroot"
+    - "wick"
+    - "Alexandre Passos"
+    - "harshal"
+    - "jinho"
+    - "martin"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/umass-tackbp13.pdf"
+  abstract: >
+    We employ universal schema for the TAC KBP slot filling and cold start tasks. The technique enlarges the set of relations in an ontology, e.g., TACKBP slots, to contain all surface patterns between pairs of entities in a large corpus. By factorizing the matrix of co-occurrences between entity pairs and universal schema relations, we are able to predict new target slots. This differs fundamentally from traditional relation extraction approaches because an entire knowledge base is constructed jointly over train and test data. To produce submissions for the slot filling and cold start tasks, we simply query this knowledge base. We describe universal schema, our data preprocessing pipeline, and additional techniques we employ for predicting entities' attributes.
+
+conll13:
+  title: >
+    Dynamic Knowledge-Base Alignment for Coreference Resolution
+  venue: "conll"
+  year: 2013
+  type: "Conference"
+  authors:
+    - "jiaping"
+    - "luke"
+    - "sameer"
+    - "jinho"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/dynamic-conll13.pdf"
+  abstract: >
+    Coreference resolution systems can benefit greatly from inclusion of global context, and a number of recent approaches have demonstrated improvements when precomputing an alignment to external knowledge sources. However, since alignment itself is a challenging task and is often noisy, existing systems either align conservatively, resulting in very few links, or combine the attributes of multiple candidates, leading to a conflation of entities. Our approach instead performs joint inference between within-document coreference and entity linking, maintaining ranked lists of candidate entities that are dynamically merged and reranked during inference. Further, we incorporate a large set of surface string variations for each entity by using anchor texts from the web that link to the entity. These forms of global context enables our system to improve classifier-based coreference by 1.09 B3 F1 points, and improve over the previous state-of-art by 0.41 points, thus introducing a new state-of-art result on the ACE 2004 data.
+
+jnt:akbc13:
+  title: >
+    Joint Inference of Entities, Relations, and Coreference
+  venue: "akbc13"
+  year: 2013
+  type: "Workshop"
+  authors:
+    - "sameer"
+    - "sebastian"
+    - "martin"
+    - "jiaping"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/joint-akbc13.pdf"
+
+conf:akbc13:
+  title: >
+    Assessing Confidence of Knowledge Base Content with an Experimental Study in Entity Resolution
+  venue: "akbc13"
+  year: 2013
+  type: "Workshop"
+  authors:
+    - "wick"
+    - "sameer"
+    - "ari"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/confidence-akbc13.pdf"
+
+link:akbc13:
+  title: >
+    A Joint Model for Discovering and Linking Entities
+  venue: "akbc13"
+  year: 2013
+  type: "Workshop"
+  authors:
+    - "wick"
+    - "sameer"
+    - "harshal"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/linking-akbc13.pdf"
+
+sparse:reseff13:
+  title: >
+    Anytime Belief Propagation Using Sparse Domains
+  venue: "reseff"
+  year: 2013
+  type: "Workshop"
+  authors:
+    - "sameer"
+    - "sebastian"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "http://arxiv.org/pdf/1311.3368v1"
+    - name: "arXiv"
+      link: "http://arxiv.org/abs/1311.3368"
+  abstract: >
+    Belief Propagation has been widely used for marginal inference, however it is slow on problems with large-domain variables and high-order factors. Previous work provides useful approximations to facilitate inference on such models, but lacks important anytime properties such as: 1) providing accurate and consistent marginals when stopped early, 2) improving the approximation when run longer, and 3) converging to the fixed point of BP. To this end, we propose a message passing algorithm that works on sparse (partially instantiated) domains, and converges to consistent marginals using dynamic message scheduling. The algorithm grows the sparse domains incrementally, selecting the next value to add using prioritization schemes based on the gradients of the marginal inference objective. Our experiments demonstrate local anytime consistency and fast convergence, providing significant speedups over BP to obtain low-error marginals: up to 25 times on grid models, and up to 6 times on a real-world natural language processing task.
+
+mcmcmc:emnlp12:
+  title: >
+    Monte Carlo MCMC: Efficient Inference by Approximate Sampling
+  venue: "emnlp"
+  year: 2012
+  type: "Conference"
+  authors:
+    - "sameer"
+    - "wick"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/mcmcmc-emnlp12.pdf"
+    - name: "ACL Anthology"
+      link: "https://aclanthology.coli.uni-saarland.de/papers/D12-1101/d12-1101"
+
+hcoref:acl12:
+  title: >
+    A Discriminative Hierarchical Model for Fast Coreference at Large Scale
+  venue: "acl"
+  year: 2012
+  type: "Conference"
+  authors:
+    - "wick"
+    - "sameer"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/hierar-coref-acl12.pdf"
+    - name: "ACL Anthology"
+      link: "https://aclanthology.coli.uni-saarland.de/papers/P12-1040/p12-1040"
+
+mldb:probprog12:
+  title: >
+    Compiling Relational Database Schemata into Probabilistic Graphical Models
+  venue: "probprog"
+  year: 2012
+  type: "Workshop"
+  authors:
+    - "sameer"
+    - "thore"
+  links:
+    - name: "PDF"
+      link: "http://arxiv.org/pdf/1212.0967v1.pdf"
+    - name: "arXiv"
+      link: "http://arxiv.org/abs/1212.0967"
+    - name: "Website"
+      link: "http://research.microsoft.com/en-us/projects/inferno/"
+
+mcmcmc:akbc12:
+  title: >
+    Monte Carlo MCMC: Efficient Inference by Sampling Factors
+  venue: "akbc12"
+  year: 2012
+  type: "Workshop"
+  authors:
+    - "sameer"
+    - "wick"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/mcmcmc-akbc12.pdf"
+
+mcmcge:tr2012:
+  title: >
+    Constraint-Driven Training of Complex Models Using MCMC
+  venue: "University of Massachusetts Amherst, CMPSCI UM-CS-2012-032"
+  year: 2012
+  type: "TechReport"
+  authors:
+    - "sameer"
+    - "greg"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "https://web.cs.umass.edu/publication/docs/2012/UM-CS-2012-032.pdf"
+
+wlinks:tr2012:
+  title: >
+    Wikilinks: A Large-scale Cross-Document Coreference Corpus Labeled via Links to Wikipedia
+  venue: "University of Massachusetts Amherst, CMPSCI UM-CS-2012-015"
+  year: 2012
+  type: "TechReport"
+  authors:
+    - "sameer"
+    - "amar"
+    - "fernando"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "https://web.cs.umass.edu/publication/docs/2012/UM-CS-2012-015.pdf"
+
+parfs:suml11:
+  title: >
+    Parallel Large-scale Feature Selection
+  venue: "Scaling Up Machine Learning, Cambridge University Press"
+  year: 2011
+  type: "Chapter"
+  authors:
+    - "Jeremy Kubica"
+    - "sameer"
+    - "Daria Sorokina"
+  links:
+    - name: "PDF"
+      link: "http://additivegroves.net/papers/chapter-featureeval.pdf"
+    - name: "Details"
+      link: "https://www.cambridge.org/core/books/scaling-up-machine-learning/parallel-large-scale-feature-selection/A410E82F4AE61981802CD38C91ABBD68#"
+    - name: "Publisher"
+      link: "http://www.cambridge.org/us/knowledge/isbn/item6542017/"
+    - name: "Amazon"
+      link: "http://www.amazon.com/Scaling-Machine-Learning-Distributed-Approaches/dp/0521192242"
+
+dcoref:acl11:
+  title: >
+    Large-Scale Cross-Document Coreference Using Distributed Inference and Hierarchical Models
+  venue: "acl"
+  year: 2011
+  type: "Conference"
+  authors:
+    - "sameer"
+    - "amar"
+    - "fernando"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/largescale-acl11.pdf"
+  emphasis: "Best Talk Award at DARPA Machine Reading Project Kickoff."
+
+asyncmcmc:biglearn11:
+  title: >
+    Towards Asynchronous Distributed MCMC Inference for Large Graphical Models
+  venue: "biglearn"
+  year: 2011
+  type: "Workshop"
+  authors:
+    - "sameer"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/singh-nipsws11-biglearn.pdf"
+
+sparsebp:cost11:
+  title: >
+    Inducing Value Sparsity for Parallel Inference in Tree-shaped Models
+  venue: "cost"
+  year: 2011
+  type: "Workshop"
+  authors:
+    - "sameer"
+    - "martin"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/singh-nipsws11-cost.pdf"
+
+cons:naacl10:
+  title: >
+    Constraint-Driven Rank-Based Learning for Information Extraction
+  venue: "naacl"
+  year: 2010
+  type: "Conference"
+  authors:
+    - "sameer"
+    - "limin"
+    - "sebastian"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/constraint-naacl10.pdf"
+    - name: "ACL Anthology"
+      link: "https://aclanthology.coli.uni-saarland.de/papers/N10-1111/n10-1111"
+  abstract: >
+    Most learning algorithms for factor graphs require complete inference over the dataset or an instance before making an update to the parameters. SampleRank is a rank-based learning framework that alleviates this problem by updating the parameters during inference. Most semi-supervised learning algorithms also rely on the complete inference, i.e. calculating expectations or MAP configurations. We extend the SampleRank framework to the semi-supervised learning, avoiding these inference bottlenecks. Different approaches for incorporating unlabeled data and prior knowledge into this framework are explored. We evaluated our method on a standard information extraction dataset. Our approach outperforms the supervised method significantly and matches the result of the competing semi-supervised learning approach.Most learning algorithms for factor graphs require complete inference over the dataset or an instance before making an update to the parameters. SampleRank is a rank-based learning framework that alleviates this problem by updating the parameters during inference. Most semi-supervised learning algorithms also rely on the complete inference, i.e. calculating expectations or MAP configurations. We extend the SampleRank framework to the semi-supervised learning, avoiding these inference bottlenecks. Different approaches for incorporating unlabeled data and prior knowledge into this framework are explored. We evaluated our method on a standard information extraction dataset. Our approach outperforms the supervised method significantly and matches the result of the competing semi-supervised learning approach.
+
+min:naacl10:
+  title: >
+    Minimally-Supervised Extraction of Entities from Text Advertisements
+  venue: "naacl"
+  year: 2010
+  type: "Conference"
+  authors:
+    - "sameer"
+    - "Dustin Hillard"
+    - "Chris Leggetter"
+  links:
+    - name: "PDF"
+      link: "files/papers/minimally-naacl10.pdf"
+    - name: "ACL Anthology"
+      link: "https://aclanthology.coli.uni-saarland.de/papers/N10-1009/n10-1009"
+  abstract: >
+    Extraction of entities from ad creatives is an important problem that can benefit many computational advertising tasks. Supervised and semi-supervised solutions rely on labeled data which is expensive, time consuming, and difficult to procure for ad creatives. A small set of manually derived constraints on feature expectations over unlabeled data can be used to *partially* and *probabilistically* label large amounts of data. Utilizing recent work in constraint-based semi-supervised learning, this paper injects light weight supervision specified as these ``constraints'' into a semi-Markov conditional random field model of entity extraction in ad creatives. Relying solely on the constraints, the model is trained on a set of unlabeled ads using an online learning algorithm. We demonstrate significant accuracy improvements on a manually labeled test set as compared to a baseline dictionary approach. We also achieve accuracy that approaches a fully supervised classifier.
+
+distmap:lccc10:
+  title: >
+    Distributed MAP Inference for Undirected Graphical Models
+  venue: "lccc"
+  year: 2010
+  type: "Workshop"
+  authors:
+    - "sameer"
+    - "amar"
+    - "fernando"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/singh-nipsws10-lccc.pdf"
+    - name: "Video"
+      link: "http://videolectures.net/nipsworkshops2010_singh_dmapi"
+  abstract: >
+    In this work, we distribute the MCMC-based MAP inference using the Map-Reduce framework. The variables are assigned randomly to machines, which leads to some factors that neighbor variables on separate machines. Parallel MCMC-chains are initiated using proposal distributions that only suggest local changes such that factors that lie across machines are not examined. After a fixed number of samples on each machine, we redistribute the variables amongst the machines to enable proposals across variables that were on different machines. To demonstrate the distribution strategy on a real-world information extraction application, we model the task of cross-document coreference.
+
+distantly:tr10:
+  title: >
+    Distantly Labeling Data for Large Scale Cross-Document Coreference
+  venue: "Computing Research Repository (CoRR) eprint arXiv:1005.4298"
+  year: 2010
+  type: "TechReport"
+  authors:
+    - "sameer"
+    - "wick"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "http://arxiv.org/pdf/1005.4298v1"
+    - name: "arXiv"
+      link: "http://arxiv.org/abs/1005.4298"
+  abstract: >
+    Cross-document coreference, the problem of resolving entity mentions across multi-document collections, is crucial to automated knowledge base construction and data mining tasks. However, the scarcity of large labeled data sets has hindered supervised machine learning research for this task. In this paper we develop and demonstrate an approach based on ``distantly-labeling'' a data set from which we can train a discriminative cross-document coreference model. In particular we build a dataset of more than a million people mentions extracted from 3.5 years of New York Times articles, leverage Wikipedia for distant labeling with a generative model (and measure the reliability of such labeling); then we train and evaluate a conditional random field coreference model that has factors on cross-document entities as well as mention-pairs. This coreference model obtains high accuracy in resolving mentions and entities that are not present in the training data, indicating applicability to non-Wikipedia data. Given the large amount of data, our work is also an exercise demonstrating the scalability of our approach.
+
+rlmap:nips09:
+  title: >
+    Training Factor Graphs with Reinforcement Learning for Efficient MAP Inference
+  venue: "nips"
+  year: 2009
+  type: "Conference"
+  authors:
+    - "wick"
+    - "khash"
+    - "sameer"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/rl-nips09.pdf"
+
+factorie:nips09:
+  title: >
+    FACTORIE: Probabilistic Programming via Imperatively Defined Factor Graphs
+  venue: "nips"
+  year: 2009
+  type: "Conference"
+  authors:
+    - "andrew"
+    - "karl"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/factorie-nips09.pdf"
+
+bidirectional:ecml09:
+  title: >
+    Bi-directional Joint Inference for Entity Resolution and Segmentation using Imperatively-Defined Factor Graphs
+  venue: "Machine Learning and Knowledge Discovery in Databases (Lecture Notes in Computer Science) and European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)"
+  year: 2009
+  type: "Conference"
+  authors:
+    - "sameer"
+    - "karl"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "files/papers/bidirectional-ecml09.pdf"
+    - name: "Video"
+      link: "http://videolectures.net/ecmlpkdd09_singh_bdjiersuidfg"
+
+parallel:sdm09:
+  title: >
+    Parallel Large Scale Feature Selection for Logistic Regression
+  venue: "SIAM International Conference on Data Mining (SDM)"
+  year: 2009
+  type: "Conference"
+  authors:
+    - "sameer"
+    - "Jeremy Kubica"
+    - "Scott E. Larsen"
+    - "Daria Sorokina"
+  links:
+    - name: "PDF"
+      link: "files/papers/parallel-sdm09.pdf"
+
+option:synth09:
+  title: >
+    Option Discovery in Hierarchical Reinforcement Learning for Training Large Factor Graphs for Information Extraction
+  venue: "University of Massachusetts Amherst, PhD Candidacy/Synthesis Report"
+  year: 2009
+  type: "Report"
+  authors:
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/optiondiscovery-synthesis09.pdf"
+  note: "Readers: Andy Barto and Andrew McCallum"
+
+factorie:nipsws08:
+  title: >
+    FACTORIE: Efficient Probabilistic Programming via Imperative Declarations of Structure, Inference and Learning
+  venue: "probprog"
+  year: 2008
+  type: "Workshop"
+  authors:
+    - "andrew"
+    - "khash"
+    - "wick"
+    - "karl"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "files/papers/factorie-nipsws08.pdf"
+
+feature:patent08:
+  title: >
+    Feature selection for large scale models
+  venue: "US Patent Number 8190537"
+  year: 2008
+  type: "Patent"
+  authors:
+    - "sameer"
+    - "E. S. Larsen"
+    - "Jeremy Kubica"
+    - "Andrew W. Moore"
+  links:
+    - name: "PDF"
+      link: "https://patentimages.storage.googleapis.com/40/c7/46/71912ed3385d8e/US8190537.pdf"
+    - name: "Webpage"
+      link: "http://www.google.com/patents/US8190537"
+
+rlmap:tr08:
+  title: >
+    Reinforcement Learning for MAP Inference in Large Factor Graphs
+  venue: "University of Massachusetts Amherst, CMPSCI UM-CS-2008-040"
+  year: 2008
+  type: "TechReport"
+  authors:
+    - "khash"
+    - "wick"
+    - "sameer"
+    - "andrew"
+  links:
+    - name: "PDF"
+      link: "https://web.cs.umass.edu/publication/docs/2008/UM-CS-2008-040.pdf"
+
+sqj07:
+  title: >
+    Common Coupling and Pointer Variables, with Application to a Linux Case Study
+  venue: "Software Quality Journal (SQJ)"
+  year: 2007
+  type: "Journal"
+  authors:
+    - "S.R. Schach"
+    - "T.O.S. Adeshiyan"
+    - "D. Balasubramanian"
+    - "G. Madl"
+    - "E.P. Osses"
+    - "sameer"
+    - "K. Suwanmongkol"
+    - "M. Xie"
+    - "D.G. Feitelson"
+  links:
+    - name: "PDF"
+      link: "files/papers/common-sqj07.pdf"
+  bibtex_fields:
+    volume: "15"
+
+jss07:
+  title: >
+    Fine-Grain Analysis of Common Coupling and its Application to a Linux Case Study
+  venue: "Journal of Systems and Software (JSS)"
+  year: 2007
+  type: "Journal"
+  authors:
+    - "D.G. Feitelson"
+    - "T.O.S. Adeshiyan"
+    - "D. Balasubramanian"
+    - "Y. Etsion"
+    - "G. Madl"
+    - "E.P. Osses"
+    - "sameer"
+    - "K. Suwanmongkol"
+    - "M. Xie"
+    - "S.R. Schach"
+  links:
+    - name: "PDF"
+      link: "files/papers/common-jss07.pdf"
+  bibtex_fields:
+    volume: "80"
+
+icaps07:
+  title: >
+    Mixed-Initiative Planning for Space Exploration Missions
+  venue: "International Conference on Automated Planning and Scheduling Workshop (ICAPS)"
+  year: 2007
+  type: "Workshop"
+  authors:
+    - "T. Kichkaylo"
+    - "C. van Buskirk"
+    - "sameer"
+    - "H. Neema"
+    - "M. Orosz"
+    - "R. Neches"
+
+icra06:
+  title: >
+    Transfer of Learning for Complex Domains: A Demonstration Using Multiple Robots
+  venue: "International Conference on Robotics and Automation (ICRA)"
+  year: 2006
+  type: "Conference"
+  authors:
+    - "sameer"
+    - "Julie A. Adams"
+  links:
+    - name: "PDF"
+      link: "files/papers/transfer-icra06.pdf"
+
+incarf03:
+  title: >
+    Finding the shortest path for a mobile robot in an unmapped maze from minimum runs
+  venue: "Int Conf on CAD, CAM, Robotics and Autonomous Factories (INCARF)"
+  year: 2003
+  type: "Conference"
+  authors:
+    - "sameer"
+
