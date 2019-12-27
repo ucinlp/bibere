@@ -8,6 +8,12 @@ def read_authors(afile):
             authors[a['id']] = a['name']['first'] + ' ' + a['name']['last']
     return authors
 
+def read_json(ifile):
+    full_data = []
+    with open(ifile) as data_file:
+        full_data = json.load(data_file)
+    return full_data
+
 def read_venues(vfile):
     venues = dict()
     with open(vfile) as data_file:
@@ -16,17 +22,11 @@ def read_venues(vfile):
             venues[v['id']] = v['name']
     return venues
 
-def read_papers(pfile):
-    papers = []
-    with open(pfile) as data_file:
-        papers = json.load(data_file)
-    return papers
-
 def read_all_info(dir):
     pfile = dir + "/papers.json"
     afile = dir + "/authors.json"
     vfile = dir + "/venues.json"
     authors = read_authors(afile)
     venues = read_venues(vfile)
-    papers = read_papers(pfile)
+    papers = read_json(pfile)
     return authors, venues, papers
