@@ -123,6 +123,38 @@ convtopics:jamia19:
   bibtex_fields:
     volume: "TBD"
 
+compvqa:vigil19:
+  title: >
+    Analyzing Compositionality of Visual Question Answering
+  venue: "NeurIPS Workshop on Visually Grounded Interaction and Language (ViGIL)"
+  year: 2019
+  type: "Workshop"
+  authors:
+    - "Sanjay Subramanian"
+    - "sameer"
+    - "mattg"
+  links:
+    - name: "PDF"
+      link: "https://vigilworkshop.github.io/static/papers/43.pdf"
+
+dpal:priml19:
+  title: >
+    Improving Differentially Private Models with Active Learning
+  venue: "NeurIPS Workshop on Privacy in Machine Learning (PriML)"
+  year: 2019
+  type: "Workshop"
+  authors:
+    - "zhengli"
+    - "Nicolas Papernot"
+    - "sameer"
+    - "Neoklis Polyzotis"
+    - "Augustus Odena"
+  links:
+    - name: "PDF"
+      link: "https://arxiv.org/pdf/1910.01177.pdf"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1910.01177"
+
 review:synced19:
   title: >
     Comment on Semantic Based Adversarial Examples Fool Face Recognition
