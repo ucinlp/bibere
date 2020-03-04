@@ -31,7 +31,9 @@
     "authorIds": ["sameer"],
     "pdfLink": "/files/papers/malmo-eaai20.pdf",
     "extraLinksSlot": [
-      ["Website", "/courses/malmo"]
+      ["Website", "/courses/malmo"],
+      ["Poster", "/files/ppts/malmo-eaai20-poster.pdf"],
+      ["Spotlight", "/files/ppts/malmo-eaai20-slides.pdf"]
     ],
     "venueId": "eaai"
   },

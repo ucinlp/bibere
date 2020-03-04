@@ -49,6 +49,10 @@ malmo:eaai20:
       link: "/files/papers/malmo-eaai20.pdf"
     - name: "Website"
       link: "/courses/malmo"
+    - name: "Poster"
+      link: "/files/ppts/malmo-eaai20-poster.pdf"
+    - name: "Spotlight"
+      link: "/files/ppts/malmo-eaai20-slides.pdf"
 
 advlime:aies20:
   title: >
