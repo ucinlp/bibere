@@ -44,6 +44,11 @@ malmo:eaai20:
   type: "Conference"
   authors:
     - "sameer"
+  links:
+    - name: "PDF"
+      link: "/files/papers/malmo-eaai20.pdf"
+    - name: "Website"
+      link: "/courses/malmo"
 
 advlime:aies20:
   title: >
@@ -59,7 +64,7 @@ advlime:aies20:
     - "Himabindu Lakkaraju"
   links:
     - name: "PDF"
-      link: "https://arxiv.org/pdf/1911.02508"
+      link: "/files/papers/advlime-aies20.pdf"
     - name: "arXiv"
       link: "https://arxiv.org/abs/1911.02508"
 
@@ -76,7 +81,7 @@ evalqa:mrqa19:
     - "mattg"
   links:
     - name: "PDF"
-      link: "files/papers/evalqa-mrqa19.pdf"
+      link: "/files/papers/evalqa-mrqa19.pdf"
   emphasis: "Best Paper Award."
 
 orb:mrqa19:
@@ -93,7 +98,7 @@ orb:mrqa19:
     - "mattg"
   links:
     - name: "PDF"
-      link: "files/papers/orb-mrqa19.pdf"
+      link: "/files/papers/orb-mrqa19.pdf"
 
 convtopics:jamia19:
   title: >
@@ -249,7 +254,7 @@ interpret:emnlp19:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/allennlp-interpret-demo-emnlp19.pdf"
+      link: "/files/papers/allennlp-interpret-demo-emnlp19.pdf"
   abstract: >
     Neural NLP models are increasingly accurate but are imperfect and opaque---they break in counterintuitive ways and leave end users puzzled at their behavior. Model interpretation methods ameliorate this opacity by providing explanations for specific model predictions. Unfortunately, existing interpretation codebases make it difficult to apply these methods to new models and tasks, which hinders adoption for practitioners and burdens interpretability researchers. We introduce AllenNLP Interpret, a flexible framework for interpreting NLP models. The toolkit provides interpretation primitives (e.g., input gradients) for any AllenNLP model and task, a suite of built-in interpretation methods, and a library of front-end visualization components. We demonstrate the toolkit's flexibility and utility by implementing live demos for five interpretation methods (e.g., saliency maps and adversarial attacks) on a variety of models and tasks (e.g., masked language modeling using BERT and reading comprehension using BiDAF). These demos, alongside our code and tutorials, are available at https://allennlp.org/interpret.
   emphasis: "Best Demonstration Paper Award."
@@ -268,7 +273,7 @@ kglm:acl19:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/kglm-acl19.pdf"
+      link: "/files/papers/kglm-acl19.pdf"
     - name: "arXiv"
       link: "https://arxiv.org/abs/1906.07241"
     - name: "Data"
@@ -289,7 +294,7 @@ impl:acl19:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/impl-acl19.pdf"
+      link: "/files/papers/impl-acl19.pdf"
   sort_weight: 2.4
 
 mhop:acl19:
@@ -307,7 +312,7 @@ mhop:acl19:
     - "lsz"
   links:
     - name: "PDF"
-      link: "files/papers/mhop-acl19.pdf"
+      link: "/files/papers/mhop-acl19.pdf"
     - name: "arXiv"
       link: "https://arxiv.org/abs/1906.02900"
   sort_weight: 2.2
@@ -324,7 +329,7 @@ criage:naacl19:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/criage-naacl19.pdf"
+      link: "/files/papers/criage-naacl19.pdf"
     - name: "Website"
       link: "https://pouyapez.github.io/criage/"
     - name: "arXiv"
@@ -351,7 +356,7 @@ gender:naacl19:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/gender-naacl19.pdf"
+      link: "/files/papers/gender-naacl19.pdf"
     - name: "Website"
       link: "https://ucinlp.github.io/GenderQuant/"
     - name: "Code"
@@ -377,7 +382,7 @@ drop:naacl19:
     - "mattg"
   links:
     - name: "PDF"
-      link: "files/papers/drop-naacl19.pdf"
+      link: "/files/papers/drop-naacl19.pdf"
     - name: "Website"
       link: "https://allennlp.org/drop.html"
     - name: "arXiv"
@@ -411,7 +416,7 @@ pomo:naacl19:
     - "Niranjan Balasubramanian"
   links:
     - name: "PDF"
-      link: "files/papers/pomo-naacl19.pdf"
+      link: "/files/papers/pomo-naacl19.pdf"
     - name: "Website"
       link: "https://stonybrooknlp.github.io/PoMo/"
     - name: "arXiv"
@@ -522,7 +527,7 @@ sears:acl18:
     - "carlos"
   links:
     - name: "PDF"
-      link: "files/papers/sears-acl18.pdf"
+      link: "/files/papers/sears-acl18.pdf"
     - name: "Appendix"
       link: "files/papers/sears-acl18-supp.pdf"
     - name: "Code"
@@ -548,7 +553,7 @@ funeval:iclr18:
     - "anima"
   links:
     - name: "PDF"
-      link: "files/papers/funeval-iclr18.pdf"
+      link: "/files/papers/funeval-iclr18.pdf"
     - name: "Source Code"
       link: "https://github.com/ForoughA/neuralMath"
     - name: "arXiv"
@@ -570,7 +575,7 @@ natadv:iclr18:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/natadv-iclr18.pdf"
+      link: "/files/papers/natadv-iclr18.pdf"
     - name: "Source Code"
       link: "https://github.com/zhengliz/natural-adversary"
     - name: "arXiv"
@@ -593,7 +598,7 @@ anchors:aaai18:
     - "carlos"
   links:
     - name: "PDF"
-      link: "files/papers/anchors-aaai18.pdf"
+      link: "/files/papers/anchors-aaai18.pdf"
     - name: "Code (package)"
       link: "https://github.com/marcotcr/anchor"
     - name: "Code (results)"
@@ -617,7 +622,7 @@ tsunami:geosense18:
     - "Shunichi Koshimura"
   links:
     - name: "PDF"
-      link: "files/papers/tsunami-geosense18.pdf"
+      link: "/files/papers/tsunami-geosense18.pdf"
     - name: "IEEE"
       link: "http://ieeexplore.ieee.org/document/8126255/"
   abstract: >
@@ -637,7 +642,7 @@ mmkbe:akbc17:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/mmkbe-akbc17.pdf"
+      link: "/files/papers/mmkbe-akbc17.pdf"
 
 maed:akbc17:
   title: >
@@ -651,7 +656,7 @@ maed:akbc17:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/maed-akbc17.pdf"
+      link: "/files/papers/maed-akbc17.pdf"
 
 semcompress:asilomar17:
   title: >
@@ -666,7 +671,7 @@ semcompress:asilomar17:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/semcompress-asilomar17.pdf"
+      link: "/files/papers/semcompress-asilomar17.pdf"
     - name: "IEEE Xplore"
       link: "https://ieeexplore.ieee.org/document/8335485/"
   abstract: >
@@ -684,7 +689,7 @@ natadv:mldecept17:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/natadv-mldecept17.pdf"
+      link: "/files/papers/natadv-mldecept17.pdf"
     - name: "ArXiv (full paper)"
       link: "https://arxiv.org/abs/1710.11342"
   abstract: >
@@ -705,7 +710,7 @@ neuralel:emnlp17:
     - "roth"
   links:
     - name: "PDF"
-      link: "files/papers/neuralel-emnlp17.pdf"
+      link: "/files/papers/neuralel-emnlp17.pdf"
     - name: "Code"
       link: "https://nitishgupta.github.io/neural-el/"
     - name: "ACL Anthology"
@@ -791,7 +796,7 @@ saul:coling16:
     - "roth"
   links:
     - name: "PDF"
-      link: "files/papers/saul-coling16.pdf"
+      link: "/files/papers/saul-coling16.pdf"
     - name: "ACL Anthology"
       link: "https://aclanthology.coli.uni-saarland.de/papers/C16-1285/c16-1285"
   bibtex_fields:
@@ -809,7 +814,7 @@ connot:acl16:
     - "yejin"
   links:
     - name: "PDF"
-      link: "files/papers/connot-acl16.pdf"
+      link: "/files/papers/connot-acl16.pdf"
     - name: "arXiv"
       link: "http://arxiv.org/abs/1506.02739"
     - name: "Website"
@@ -831,7 +836,7 @@ prog:nipsws16:
     - "carlos"
   links:
     - name: "PDF"
-      link: "files/papers/prog-nipsws16.pdf"
+      link: "/files/papers/prog-nipsws16.pdf"
     - name: "arXiv"
       link: "https://arxiv.org/abs/1611.07579"
   abstract: >
@@ -851,7 +856,7 @@ anchor:nipsws16:
     - "carlos"
   links:
     - name: "PDF"
-      link: "files/papers/anchor-nipsws16.pdf"
+      link: "/files/papers/anchor-nipsws16.pdf"
     - name: "arXiv"
       link: "https://arxiv.org/abs/1611.05817"
   abstract: >
@@ -888,7 +893,7 @@ lime:hcml16:
     - "carlos"
   links:
     - name: "PDF"
-      link: "files/papers/lime-hcml16.pdf"
+      link: "/files/papers/lime-hcml16.pdf"
   note: "Shorter version of the paper presented at KDD 2016."
   bibtex_fields:
     month: "May"
@@ -905,7 +910,7 @@ lime:whi16:
     - "carlos"
   links:
     - name: "PDF"
-      link: "files/papers/lime-whi16.pdf"
+      link: "/files/papers/lime-whi16.pdf"
   emphasis: "Best Paper Award"
   bibtex_fields:
     month: "June"
@@ -922,7 +927,7 @@ lime:kdd16:
     - "carlos"
   links:
     - name: "PDF"
-      link: "files/papers/lime-kdd16.pdf"
+      link: "/files/papers/lime-kdd16.pdf"
     - name: "arXiv"
       link: "http://arxiv.org/abs/1602.04938"
     - name: "Code"
@@ -950,7 +955,7 @@ lime:naacl16:
     - "carlos"
   links:
     - name: "PDF"
-      link: "files/papers/lime-naacl16demo.pdf"
+      link: "/files/papers/lime-naacl16demo.pdf"
     - name: "Code"
       link: "https://github.com/UW-MODE/naacl16-demo"
   note: "Demonstration of the KDD 2016 paper."
@@ -968,7 +973,7 @@ moro:eaai16:
     - "sebastian"
   links:
     - name: "PDF"
-      link: "files/papers/moro-eaai16.pdf"
+      link: "/files/papers/moro-eaai16.pdf"
   abstract: >
     Teaching artificial intelligence is effective if the experience is a visual and interactive one, with educational materials that utilize combinations of various content types such as text, math, and code into an integrated experience. Unfortunately, easy-to-use tools for creating such pedagogical resources are not available to the educators, resulting in most courses being taught using a disconnected set of static materials, which is not only ineffective for learning AI, but further, requires repeated and redundant effort for the instructor. In this paper, we introduce Moro, a software tool for easily creating and presenting AI-friendly teaching materials. Moro notebooks integrate content of different types (text, math, code, images), allow real-time interactions via modifiable and executable code blocks, and are viewable in browsers both as long-form pages and as presentations. Creating notebooks is easy and intuitive; the creation tool is also in-browser, is WYSIWYG for quick iterations of editing, and supports a variety of shortcuts and customizations for efficiency. We present three deployed case studies of Moro that widely differ from each other, demonstrating its utility in a variety of scenarios such as in-class teaching and conference tutorials.
 
@@ -984,7 +989,7 @@ logicmf:naacl15:
     - "sebastian"
   links:
     - name: "PDF"
-      link: "files/papers/logicmf-naacl15.pdf"
+      link: "/files/papers/logicmf-naacl15.pdf"
     - name: "Code"
       link: "https://github.com/uclmr/low-rank-logic"
     - name: "Talk video"
@@ -1007,7 +1012,7 @@ el:tacl15:
     - "weld"
   links:
     - name: "PDF"
-      link: "files/papers/entitylinking-tacl15.pdf"
+      link: "/files/papers/entitylinking-tacl15.pdf"
     - name: "TACL Page"
       link: "https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/528"
     - name: "TACL PDF"
@@ -1032,7 +1037,7 @@ gbcrf:aistats15:
     - "carlos"
   links:
     - name: "PDF"
-      link: "files/papers/gbcrf-aistats15.pdf"
+      link: "/files/papers/gbcrf-aistats15.pdf"
   sort_weight: 1.2
 
 factordb:yelp15:
@@ -1046,7 +1051,7 @@ factordb:yelp15:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/yelp-factordb.pdf"
+      link: "/files/papers/yelp-factordb.pdf"
     - name: "Website"
       link: "http://nitishgupta.github.io/factorDB/"
     - name: "Yelp Challenge"
@@ -1065,7 +1070,7 @@ mftf:vsm15:
     - "sebastian"
   links:
     - name: "PDF"
-      link: "files/papers/mftf-vsm15.pdf"
+      link: "/files/papers/mftf-vsm15.pdf"
 
 wolfe:naacl15:
   title: >
@@ -1081,7 +1086,7 @@ wolfe:naacl15:
     - "sebastian"
   links:
     - name: "PDF"
-      link: "files/papers/wolfe-naacl15-demo.pdf"
+      link: "/files/papers/wolfe-naacl15-demo.pdf"
     - name: "Website"
       link: "http://www.wolfe.ml"
     - name: "Demo"
@@ -1102,7 +1107,7 @@ explain:krr15:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/knowlextr-krr15.pdf"
+      link: "/files/papers/knowlextr-krr15.pdf"
     - name: "AAAI PDF"
       link: "http://www.aaai.org/ocs/index.php/SSS/SSS15/paper/viewFile/10304/10033"
   sort_weight: 0.5
@@ -1119,7 +1124,7 @@ logicmf:krr15:
     - "Theo Trouillon"
   links:
     - name: "PDF"
-      link: "files/papers/logicmf-krr15.pdf"
+      link: "/files/papers/logicmf-krr15.pdf"
     - name: "AAAI PDF"
       link: "http://www.aaai.org/ocs/index.php/SSS/SSS15/paper/viewFile/10257/10026"
   sort_weight: 0.75
@@ -1154,7 +1159,7 @@ uw:kba14:
     - "carlos"
   links:
     - name: "PDF"
-      link: "files/papers/stream-kba14.pdf"
+      link: "/files/papers/stream-kba14.pdf"
   sort_weight: 0.75
 
 context:nwnlp14:
@@ -1169,7 +1174,7 @@ context:nwnlp14:
     - "weld"
   links:
     - name: "PDF"
-      link: "files/papers/contextel-nwnlp14.pdf"
+      link: "/files/papers/contextel-nwnlp14.pdf"
   sort_weight: 0.5
 
 prlr:mmlnlp14:
@@ -1217,7 +1222,7 @@ ppl-ide:probprog14:
     - "tim"
   links:
     - name: "PDF"
-      link: "files/papers/pplide-nips14-ppl.pdf"
+      link: "/files/papers/pplide-nips14-ppl.pdf"
     - name: "Demo"
       link: "http://wolfe.ml/demos/nips"
     - name: "Poster"
@@ -1239,7 +1244,7 @@ logic:sp14:
     - "sebastian"
   links:
     - name: "PDF"
-      link: "files/papers/lowranklogic-sp14.pdf"
+      link: "/files/papers/lowranklogic-sp14.pdf"
     - name: "Poster"
       link: "files/papers/lowranklogic-starai14-poster.pdf"
   emphasis: "Exceptional Submission Award"
@@ -1260,7 +1265,7 @@ wolfe:starai14:
     - "jan"
   links:
     - name: "PDF"
-      link: "files/papers/wolfe-starai14.pdf"
+      link: "/files/papers/wolfe-starai14.pdf"
     - name: "Website"
       link: "http://www.wolfe.ml"
     - name: "Poster"
@@ -1297,7 +1302,7 @@ akbc13:
     - "Partha P. Talukdar"
   links:
     - name: "PDF"
-      link: "files/papers/akbc13.pdf"
+      link: "/files/papers/akbc13.pdf"
     - name: "ACM DL"
       link: "http://dl.acm.org/citation.cfm?id=2505806"
   abstract: >
@@ -1314,7 +1319,7 @@ cikm13:
     - "thore"
   links:
     - name: "PDF"
-      link: "files/papers/cikm13.pdf"
+      link: "/files/papers/cikm13.pdf"
     - name: "MSR Page"
       link: "https://www.microsoft.com/en-us/research/publication/automated-probabilistic-modelling-for-relational-data/"
   abstract: >
@@ -1340,7 +1345,7 @@ kbp13:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/umass-tackbp13.pdf"
+      link: "/files/papers/umass-tackbp13.pdf"
   abstract: >
     We employ universal schema for the TAC KBP slot filling and cold start tasks. The technique enlarges the set of relations in an ontology, e.g., TACKBP slots, to contain all surface patterns between pairs of entities in a large corpus. By factorizing the matrix of co-occurrences between entity pairs and universal schema relations, we are able to predict new target slots. This differs fundamentally from traditional relation extraction approaches because an entire knowledge base is constructed jointly over train and test data. To produce submissions for the slot filling and cold start tasks, we simply query this knowledge base. We describe universal schema, our data preprocessing pipeline, and additional techniques we employ for predicting entities' attributes.
 
@@ -1358,7 +1363,7 @@ conll13:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/dynamic-conll13.pdf"
+      link: "/files/papers/dynamic-conll13.pdf"
   abstract: >
     Coreference resolution systems can benefit greatly from inclusion of global context, and a number of recent approaches have demonstrated improvements when precomputing an alignment to external knowledge sources. However, since alignment itself is a challenging task and is often noisy, existing systems either align conservatively, resulting in very few links, or combine the attributes of multiple candidates, leading to a conflation of entities. Our approach instead performs joint inference between within-document coreference and entity linking, maintaining ranked lists of candidate entities that are dynamically merged and reranked during inference. Further, we incorporate a large set of surface string variations for each entity by using anchor texts from the web that link to the entity. These forms of global context enables our system to improve classifier-based coreference by 1.09 B3 F1 points, and improve over the previous state-of-art by 0.41 points, thus introducing a new state-of-art result on the ACE 2004 data.
 
@@ -1376,7 +1381,7 @@ jnt:akbc13:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/joint-akbc13.pdf"
+      link: "/files/papers/joint-akbc13.pdf"
 
 conf:akbc13:
   title: >
@@ -1391,7 +1396,7 @@ conf:akbc13:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/confidence-akbc13.pdf"
+      link: "/files/papers/confidence-akbc13.pdf"
 
 link:akbc13:
   title: >
@@ -1406,7 +1411,7 @@ link:akbc13:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/linking-akbc13.pdf"
+      link: "/files/papers/linking-akbc13.pdf"
 
 sparse:reseff13:
   title: >
@@ -1438,7 +1443,7 @@ mcmcmc:emnlp12:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/mcmcmc-emnlp12.pdf"
+      link: "/files/papers/mcmcmc-emnlp12.pdf"
     - name: "ACL Anthology"
       link: "https://aclanthology.coli.uni-saarland.de/papers/D12-1101/d12-1101"
 
@@ -1454,7 +1459,7 @@ hcoref:acl12:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/hierar-coref-acl12.pdf"
+      link: "/files/papers/hierar-coref-acl12.pdf"
     - name: "ACL Anthology"
       link: "https://aclanthology.coli.uni-saarland.de/papers/P12-1040/p12-1040"
 
@@ -1487,7 +1492,7 @@ mcmcmc:akbc12:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/mcmcmc-akbc12.pdf"
+      link: "/files/papers/mcmcmc-akbc12.pdf"
 
 mcmcge:tr2012:
   title: >
@@ -1551,7 +1556,7 @@ dcoref:acl11:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/largescale-acl11.pdf"
+      link: "/files/papers/largescale-acl11.pdf"
   emphasis: "Best Talk Award at DARPA Machine Reading Project Kickoff."
 
 asyncmcmc:biglearn11:
@@ -1565,7 +1570,7 @@ asyncmcmc:biglearn11:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/singh-nipsws11-biglearn.pdf"
+      link: "/files/papers/singh-nipsws11-biglearn.pdf"
 
 sparsebp:cost11:
   title: >
@@ -1579,7 +1584,7 @@ sparsebp:cost11:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/singh-nipsws11-cost.pdf"
+      link: "/files/papers/singh-nipsws11-cost.pdf"
 
 cons:naacl10:
   title: >
@@ -1594,7 +1599,7 @@ cons:naacl10:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/constraint-naacl10.pdf"
+      link: "/files/papers/constraint-naacl10.pdf"
     - name: "ACL Anthology"
       link: "https://aclanthology.coli.uni-saarland.de/papers/N10-1111/n10-1111"
   abstract: >
@@ -1612,7 +1617,7 @@ min:naacl10:
     - "Chris Leggetter"
   links:
     - name: "PDF"
-      link: "files/papers/minimally-naacl10.pdf"
+      link: "/files/papers/minimally-naacl10.pdf"
     - name: "ACL Anthology"
       link: "https://aclanthology.coli.uni-saarland.de/papers/N10-1009/n10-1009"
   abstract: >
@@ -1631,7 +1636,7 @@ distmap:lccc10:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/singh-nipsws10-lccc.pdf"
+      link: "/files/papers/singh-nipsws10-lccc.pdf"
     - name: "Video"
       link: "http://videolectures.net/nipsworkshops2010_singh_dmapi"
   abstract: >
@@ -1668,7 +1673,7 @@ rlmap:nips09:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/rl-nips09.pdf"
+      link: "/files/papers/rl-nips09.pdf"
 
 factorie:nips09:
   title: >
@@ -1682,7 +1687,7 @@ factorie:nips09:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/factorie-nips09.pdf"
+      link: "/files/papers/factorie-nips09.pdf"
 
 bidirectional:ecml09:
   title: >
@@ -1696,7 +1701,7 @@ bidirectional:ecml09:
     - "andrew"
   links:
     - name: "PDF"
-      link: "files/papers/bidirectional-ecml09.pdf"
+      link: "/files/papers/bidirectional-ecml09.pdf"
     - name: "Video"
       link: "http://videolectures.net/ecmlpkdd09_singh_bdjiersuidfg"
 
@@ -1713,7 +1718,7 @@ parallel:sdm09:
     - "Daria Sorokina"
   links:
     - name: "PDF"
-      link: "files/papers/parallel-sdm09.pdf"
+      link: "/files/papers/parallel-sdm09.pdf"
 
 option:synth09:
   title: >
@@ -1725,7 +1730,7 @@ option:synth09:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/optiondiscovery-synthesis09.pdf"
+      link: "/files/papers/optiondiscovery-synthesis09.pdf"
   note: "Readers: Andy Barto and Andrew McCallum"
 
 factorie:nipsws08:
@@ -1742,7 +1747,7 @@ factorie:nipsws08:
     - "sameer"
   links:
     - name: "PDF"
-      link: "files/papers/factorie-nipsws08.pdf"
+      link: "/files/papers/factorie-nipsws08.pdf"
 
 feature:patent08:
   title: >
@@ -1794,7 +1799,7 @@ sqj07:
     - "D.G. Feitelson"
   links:
     - name: "PDF"
-      link: "files/papers/common-sqj07.pdf"
+      link: "/files/papers/common-sqj07.pdf"
   bibtex_fields:
     volume: "15"
 
@@ -1817,7 +1822,7 @@ jss07:
     - "S.R. Schach"
   links:
     - name: "PDF"
-      link: "files/papers/common-jss07.pdf"
+      link: "/files/papers/common-jss07.pdf"
   bibtex_fields:
     volume: "80"
 
@@ -1846,7 +1851,7 @@ icra06:
     - "Julie A. Adams"
   links:
     - name: "PDF"
-      link: "files/papers/transfer-icra06.pdf"
+      link: "/files/papers/transfer-icra06.pdf"
 
 incarf03:
   title: >

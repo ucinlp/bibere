@@ -29,6 +29,10 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["sameer"],
+    "pdfLink": "/files/papers/malmo-eaai20.pdf",
+    "extraLinksSlot": [
+      ["Website", "/courses/malmo"]
+    ],
     "venueId": "eaai"
   },
   {
@@ -37,7 +41,7 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["Dylan Slack", "Sophie Hilgard", "Emily Jia", "sameer", "Himabindu Lakkaraju"],
-    "pdfLink": "https://arxiv.org/pdf/1911.02508",
+    "pdfLink": "/files/papers/advlime-aies20.pdf",
     "extraLinksSlot": [
       ["arXiv", "https://arxiv.org/abs/1911.02508"]
     ],
@@ -50,7 +54,7 @@
     "year": 2019,
     "authorIds": ["anthonyc", "gabis", "sameer", "mattg"],
     "venueId": "mrqa",
-    "pdfLink": "files/papers/evalqa-mrqa19.pdf",
+    "pdfLink": "/files/papers/evalqa-mrqa19.pdf",
     "emphasisNote": "Best Paper Award."
   },
   {
@@ -66,7 +70,7 @@
       "mattg"
     ],
     "venueId": "mrqa",
-    "pdfLink": "files/papers/orb-mrqa19.pdf"
+    "pdfLink": "/files/papers/orb-mrqa19.pdf"
   },
   {
     "id": "convtopics:jamia19",
@@ -199,7 +203,7 @@
       "mattg",
       "sameer"
     ],
-    "pdfLink": "files/papers/allennlp-interpret-demo-emnlp19.pdf",
+    "pdfLink": "/files/papers/allennlp-interpret-demo-emnlp19.pdf",
     "venueId": "Demo at the Empirical Methods in Natural Language Processing (EMNLP)",
     "abstractText": "Neural NLP models are increasingly accurate but are imperfect and opaque---they break in counterintuitive ways and leave end users puzzled at their behavior. Model interpretation methods ameliorate this opacity by providing explanations for specific model predictions. Unfortunately, existing interpretation codebases make it difficult to apply these methods to new models and tasks, which hinders adoption for practitioners and burdens interpretability researchers. We introduce AllenNLP Interpret, a flexible framework for interpreting NLP models. The toolkit provides interpretation primitives (e.g., input gradients) for any AllenNLP model and task, a suite of built-in interpretation methods, and a library of front-end visualization components. We demonstrate the toolkit's flexibility and utility by implementing live demos for five interpretation methods (e.g., saliency maps and adversarial attacks) on a variety of models and tasks (e.g., masked language modeling using BERT and reading comprehension using BiDAF). These demos, alongside our code and tutorials, are available at https://allennlp.org/interpret.",
     "emphasisNote": "Best Demonstration Paper Award."
@@ -216,7 +220,7 @@
       "mattg",
       "sameer"
     ],
-    "pdfLink": "files/papers/kglm-acl19.pdf",
+    "pdfLink": "/files/papers/kglm-acl19.pdf",
     "extraLinksSlot": [
       ["arXiv", "https://arxiv.org/abs/1906.07241"],
       ["Data", "https://rloganiv.github.io/linked-wikitext-2/"],
@@ -231,7 +235,7 @@
     "pubTypeSlot": "Conference",
     "year": 2019,
     "authorIds": ["marco", "carlos", "sameer"],
-    "pdfLink": "files/papers/impl-acl19.pdf",
+    "pdfLink": "/files/papers/impl-acl19.pdf",
     "venueId": "acl",
     "weight": 2.4
   },
@@ -248,7 +252,7 @@
       "Hannaneh Hajishirzi",
       "lsz"
     ],
-    "pdfLink": "files/papers/mhop-acl19.pdf",
+    "pdfLink": "/files/papers/mhop-acl19.pdf",
     "extraLinksSlot": [["arXiv", "https://arxiv.org/abs/1906.02900"]],
     "venueId": "acl",
     "weight": 2.2
@@ -270,7 +274,7 @@
         "https://www.aclweb.org/anthology/papers/N/N19/N19-1337/"
       ]
     ],
-    "pdfLink": "files/papers/criage-naacl19.pdf",
+    "pdfLink": "/files/papers/criage-naacl19.pdf",
     "abstractText": "Representing entities and relations in an embedding space is a well-studied approach for machine learning on relational data. Existing approaches, however, primarily focus on improving accuracy and overlook other aspects such as robustness and interpretability. In this paper, we propose adversarial modifications for link prediction models: identifying the fact to add into or remove from the knowledge graph that changes the prediction for a target fact after the model is retrained. Using these single modifications of the graph, we identify the most influential fact for a predicted link and evaluate the sensitivity of the model to the addition of fake facts. We introduce an efficient approach to estimate the effect of such modifications by approximating the change in the embeddings when the knowledge graph changes. To avoid the combinatorial search over all possible facts, we train a network to decode embeddings to their corresponding graph components, allowing the use of gradient-based optimization to identify the adversarial modification. We use these techniques to evaluate the robustness of link prediction models (by measuring sensitivity to additional facts), study interpretability through the facts most responsible for predictions (by identifying the most influential neighbors), and detect incorrect facts in the knowledge base.",
     "weight": 1.7
   },
@@ -289,7 +293,7 @@
         "https://www.aclweb.org/anthology/papers/N/N19/N19-1303/"
       ]
     ],
-    "pdfLink": "files/papers/gender-naacl19.pdf",
+    "pdfLink": "/files/papers/gender-naacl19.pdf",
     "abstractText": "Language is gendered if the context surrounding a mention is suggestive of a particular binary gender for that mention. Detecting the different ways in which language is gendered is an important task since gendered language can bias NLP models (such as for coreference resolution). This task is challenging since genderedness is often expressed in subtle ways. Existing approaches need considerable annotation efforts for each language, domain, and author, and often require handcrafted lexicons and features. Additionally, these approaches do not provide a quantifiable measure of how gendered the text is, nor are they applicable at the fine-grained mention level.<br>In this paper, we use existing NLP pipelines to automatically annotate gender of mentions in the text. On corpora labeled using this method, we train a supervised classifier to predict the gender of any mention from its context and evaluate it on unseen text. The model confidence for a mention's gender can be used as a proxy to indicate the level of genderedness of the context. We test this gendered language detector on movie summaries, movie reviews, news articles, and fiction novels, achieving an AUC-ROC of up to 0.71, and observe that the model predictions agree with human judgments collected for this task. We also provide examples of detected gendered sentences from aforementioned domains.",
     "weight": 1.6
   },
@@ -324,7 +328,7 @@
       ],
       ["Demo", "https://demo.allennlp.org/reading-comprehension"]
     ],
-    "pdfLink": "files/papers/drop-naacl19.pdf",
+    "pdfLink": "/files/papers/drop-naacl19.pdf",
     "abstractText": "Reading comprehension has recently seen rapid progress, with systems matching humans on the most popular datasets for the task.  However, a large body of work has highlighted the brittleness of these systems, showing that there is much work left to be done.  We introduce a new reading comprehension benchmark, DROP, which requires Discrete Reasoning Over the content of Paragraphs.  In this crowdsourced, adversarially-created, 55k-question benchmark, a system must resolve references in a question, perhaps to multiple input positions, and perform discrete operations over them (such as addition, counting, or sorting). These operations require a much more comprehensive understanding of the content of paragraphs, as they remove the paraphrase-and-entity-typing shortcuts available in prior datasets.  We apply state-of-the-art methods from both the reading comprehension and semantic parsing literatures on this dataset and show that the best systems only achieve 38.4% F1 on our generalized accuracy metric, while expert human performance is 96%.  We additionally present a new model that combines reading comprehension methods with simple numerical reasoning to achieve 51% F1.",
     "weight": 1.8
   },
@@ -353,7 +357,7 @@
         "https://www.aclweb.org/anthology/papers/N/N19/N19-1089/"
       ]
     ],
-    "pdfLink": "files/papers/pomo-naacl19.pdf",
+    "pdfLink": "/files/papers/pomo-naacl19.pdf",
     "abstractText": "We introduce entity post-modifier generation as an instance of a collaborative writing task. Given a sentence about a target entity, the task is to automatically generate a post-modifier phrase that provides contextually relevant information about the entity. For example, for the sentence, \"Barack Obama, _______, supported the #MeToo movement.\",  the phrase \"a father of two girls\" is a contextually relevant post-modifier. To this end, we build PoMo, a post-modifier dataset created automatically from news articles reflecting a journalistic need for incorporating entity information that is relevant to a particular news event. PoMo consists of more than 231K sentences with post-modifiers and associated facts extracted from Wikidata for around 57K unique entities. We use crowdsourcing to show that modeling contextual relevance is necessary for accurate post-modifier generation.<br>We adapt a number of existing generation approaches as baselines for this dataset. Our results show there is large room for improvement in terms of both identifying relevant facts to include (knowing which claims are relevant gives a >20% improvement in BLEU score), and generating appropriate post-modifier text for the context (providing relevant claims is not sufficient for accurate generation). We conduct an error analysis that suggests promising directions for future research.",
     "weight": 1.5
   },
@@ -452,7 +456,7 @@
     ],
     "venueId": "acl",
     "emphasisNote": "Honorable Mention for Best Paper.",
-    "pdfLink": "files/papers/sears-acl18.pdf",
+    "pdfLink": "/files/papers/sears-acl18.pdf",
     "abstractText": "Complex machine learning models for NLP are often brittle, making different predictions for input instances that are extremely similar semantically. To automatically detect this behavior for individual instances, we present semantically equivalent adversaries (SEAs) – semantic-preserving perturbations that induce changes in the model’s predictions. We generalize these adversaries into semantically equivalent adversarial rules (SEARs) – simple, universal replacement rules that induce adversaries on many instances. We demonstrate the usefulness and flexibility of SEAs and SEARs by detecting bugs in black-box state-of-the-art models for three domains: machine comprehension, visual question-answering, and sentiment analysis. Via user studies, we demonstrate that we generate high-quality local adversaries for more instances than humans, and that SEARs induce four times as many mistakes as the bugs discovered by human experts. SEARs are also actionable: retraining models using data augmentation significantly reduces bugs, while maintaining accuracy.",
     "weight": 1.6
   },
@@ -467,7 +471,7 @@
       ["arXiv", "https://arxiv.org/abs/1801.04342"],
       ["OpenReview", "https://openreview.net/forum?id=Hksj2WWAW"]
     ],
-    "pdfLink": "files/papers/funeval-iclr18.pdf",
+    "pdfLink": "/files/papers/funeval-iclr18.pdf",
     "abstractText": "Neural programming involves training neural networks to learn programs, mathematics, or logic from data. Previous works have failed to achieve good generalization performance, especially on problems and programs with high complexity or on large domains. This is because they mostly rely either on black-box function evaluations that do not capture the structure of the program, or on detailed execution traces that are expensive to obtain, and hence the training data has poor coverage of the domain under consideration. We present a novel framework that utilizes black-box function evaluations, in conjunction with symbolic expressions that define relationships between the given functions. We employ tree LSTMs to incorporate the structure of the symbolic expression trees. We use tree encoding for numbers present in function evaluation data, based on their decimal representation. We present an evaluation benchmark for this task to demonstrate our proposed model combines symbolic reasoning and function evaluation in a fruitful manner, obtaining high accuracies in our experiments. Our framework generalizes significantly better to expressions of higher depth and is able to fill partial equations with valid completions.",
     "venueId": "iclr"
   },
@@ -482,7 +486,7 @@
       ["arXiv", "https://arxiv.org/abs/1710.11342"],
       ["OpenReview", "https://openreview.net/forum?id=H1BLjgZCb"]
     ],
-    "pdfLink": "files/papers/natadv-iclr18.pdf",
+    "pdfLink": "/files/papers/natadv-iclr18.pdf",
     "venueId": "iclr",
     "abstractText": "Due to their complex nature, it is hard to characterize the ways in which machine learning models can misbehave or be exploited when deployed. Recent work on adversarial examples, i.e. inputs with minor perturbations that result in substantially different model predictions, is helpful in evaluating the robustness of these models by exposing the adversarial scenarios where they fail. However, these malicious perturbations are often unnatural, not semantically meaningful, and not applicable to complicated domains such as language. In this paper, we propose a framework to generate natural and legible adversarial examples that lie on the data manifold, by searching in semantic space of dense and continuous data representation, utilizing the recent advances in generative adversarial networks. We present generated adversaries to demonstrate the potential of the proposed approach for black-box classifiers for a wide range of applications such as image classification, textual entailment, and machine translation. We include experiments to show that the generated adversaries are natural, legible to humans, and useful in evaluating and analyzing black-box classifiers.",
     "weight": 1.5
@@ -493,7 +497,7 @@
     "pubTypeSlot": "Conference",
     "year": 2018,
     "authorIds": ["marco", "sameer", "carlos"],
-    "pdfLink": "files/papers/anchors-aaai18.pdf",
+    "pdfLink": "/files/papers/anchors-aaai18.pdf",
     "extraLinksSlot": [
       ["Code (package)", "https://github.com/marcotcr/anchor"],
       ["Code (results)", "https://github.com/marcotcr/anchor-experiments"]
@@ -518,7 +522,7 @@
     "extraLinksSlot": [
       ["IEEE", "http://ieeexplore.ieee.org/document/8126255/"]
     ],
-    "pdfLink": "files/papers/tsunami-geosense18.pdf",
+    "pdfLink": "/files/papers/tsunami-geosense18.pdf",
     "venueId": "IEEE Geoscience and Remote Sensing Letters",
     "extraFieldsSlot": [["volume", "PP"]],
     "abstractText": "Near real-time building damage mapping is an indispensable prerequisite for governments to make decisions for disaster relief. With high-resolution synthetic aperture radar (SAR) systems, such as TerraSAR-X, the provision of such products in a fast and effective way becomes possible. In this letter, a deep learning-based framework for rapid regional tsunami damage recognition using post-event SAR imagery is proposed. To perform such a rapid damage mapping, a series of tile-based image split analysis is employed to generate the data set. Next, a selection algorithm with the SqueezeNet network is developed to swiftly distinguish between built-up (BU) and nonbuilt-up regions. Finally, a recognition algorithm with a modified wide residual network is developed to classify the BU regions into wash away, collapsed, and slightly damaged regions. Experiments performed on the TerraSAR-X data from the 2011 Tohoku earthquake and tsunami in Japan show a BU region extraction accuracy of 80.4% and a damage-level recognition accuracy of 74.8%, respectively. Our framework takes around 2 h to train on a new region, and only several minutes for prediction."
@@ -528,7 +532,7 @@
     "title": "Embedding Multimodal Relational Data",
     "pubTypeSlot": "Workshop",
     "year": 2017,
-    "pdfLink": "files/papers/mmkbe-akbc17.pdf",
+    "pdfLink": "/files/papers/mmkbe-akbc17.pdf",
     "authorIds": ["pouya", "Liyan Chen", "sameer"],
     "venueId": "akbc"
   },
@@ -538,7 +542,7 @@
     "pubTypeSlot": "Workshop",
     "year": 2017,
     "authorIds": ["rlogan", "Samuel Humeau", "sameer"],
-    "pdfLink": "files/papers/maed-akbc17.pdf",
+    "pdfLink": "/files/papers/maed-akbc17.pdf",
     "venueId": "akbc"
   },
   {
@@ -552,7 +556,7 @@
     "extraLinksSlot": [
       ["IEEE Xplore", "https://ieeexplore.ieee.org/document/8335485/"]
     ],
-    "pdfLink": "files/papers/semcompress-asilomar17.pdf"
+    "pdfLink": "/files/papers/semcompress-asilomar17.pdf"
   },
   {
     "id": "natadv:mldecept17",
@@ -563,7 +567,7 @@
     "extraLinksSlot": [
       ["ArXiv (full paper)", "https://arxiv.org/abs/1710.11342"]
     ],
-    "pdfLink": "files/papers/natadv-mldecept17.pdf",
+    "pdfLink": "/files/papers/natadv-mldecept17.pdf",
     "venueId": "NeurIPS Workshop on Machine Deception",
     "abstractText": "Due to their complex nature, it is hard to characterize the ways in which machine learning models can misbehave or be exploited when deployed. Recent work on adversarial examples, i.e. inputs with minor perturbations that result in substantially different model predictions, is helpful in evaluating the robustness of these models by exposing the adversarial scenarios where they fail. However, these malicious perturbations are often unnatural, not semantically meaningful, and not applicable to complicated domains such as language. In this paper, we propose a framework to generate natural and legible adversarial examples by searching in semantic space of dense and continuous data representation, utilizing the recent advances in generative adversarial networks. We present generated adversaries to demonstrate the potential of the proposed approach for black-box classifiers in a wide range of applications such as image classification, textual entailment, and machine translation. We include experiments to show that the generated adversaries are natural, legible to humans, and useful in evaluating and analyzing black-box classifiers.",
     "emphasisNote": "Amazon Best Poster Award at the Southern California Machine Learning Symposium.",
@@ -584,7 +588,7 @@
       ],
       ["Website", "http://cogcomp.org/page/publication_view/817"]
     ],
-    "pdfLink": "files/papers/neuralel-emnlp17.pdf",
+    "pdfLink": "/files/papers/neuralel-emnlp17.pdf",
     "venueId": "emnlp",
     "extraFieldsSlot": [["month", "September"]],
     "abstractText": "For accurate entity linking, we need to capture various information aspects of an entity, such as its description in a KB, contexts in which it is mentioned, and structured knowledge. Additionally, a linking system should work on texts from different domains without requiring domain-specific training data or hand-engineered features.<br>In this work we present a neural, modular entity linking system that learns a unified dense representation for each entity using multiple sources of information, such as its description, contexts around its mentions, and its fine-grained types. We show that the resulting entity linking system is effective at combining these sources, and performs competitively, sometimes out-performing current state-of-the-art systems across datasets, without requiring any domain-specific training data or hand-engineered features. We also show that our model can effectively \"embed\" entities that are new to the KB, and is able to link its mentions accurately."
@@ -653,7 +657,7 @@
       ]
     ],
     "venueId": "coling",
-    "pdfLink": "files/papers/saul-coling16.pdf"
+    "pdfLink": "/files/papers/saul-coling16.pdf"
   },
   {
     "id": "connot:acl16",
@@ -673,7 +677,7 @@
         "https://aclanthology.coli.uni-saarland.de/papers/P16-1030/p16-1030"
       ]
     ],
-    "pdfLink": "files/papers/connot-acl16.pdf",
+    "pdfLink": "/files/papers/connot-acl16.pdf",
     "venueId": "acl"
   },
   {
@@ -685,7 +689,7 @@
     "extraLinksSlot": [["arXiv", "https://arxiv.org/abs/1611.07579"]],
     "venueId": "interpretML",
     "extraFieldsSlot": [["month", "November"]],
-    "pdfLink": "files/papers/prog-nipsws16.pdf",
+    "pdfLink": "/files/papers/prog-nipsws16.pdf",
     "abstractText": "Recent work in model-agnostic explanations of black-box machine learning has demonstrated that interpretability of complex models does not have to come at the cost of accuracy or model flexibility. However, it is not clear what kind of explanations, such as linear models, decision trees, and rule lists, are the appropriate family to consider, and different tasks and models may benefit from different kinds of explanations. Instead of picking a single family of representations, in this work we propose to use \"programs\" as model-agnostic explanations. We show that small programs can be expressive yet intuitive as explanations, and generalize over a number of existing interpretable families. We propose a prototype program induction method based on simulated annealing that approximates the local behavior of black-box classifiers around a specific prediction using random perturbations. Finally, we present preliminary application on small datasets and show that the generated explanations are intuitive and accurate for a number of classifiers."
   },
   {
@@ -695,7 +699,7 @@
     "year": 2016,
     "authorIds": ["marco", "sameer", "carlos"],
     "extraLinksSlot": [["arXiv", "https://arxiv.org/abs/1611.05817"]],
-    "pdfLink": "files/papers/anchor-nipsws16.pdf",
+    "pdfLink": "/files/papers/anchor-nipsws16.pdf",
     "venueId": "interpretML",
     "extraFieldsSlot": [["month", "November"]],
     "abstractText": "At the core of interpretable machine learning is the question of whether humans are able to make accurate predictions about a model's behavior. Assumed in this question are three properties of the interpretable output: coverage, precision, and effort. Coverage refers to how often humans think they can predict the model's behavior, precision to how accurate humans are in those predictions, and effort is either the up-front effort required in interpreting the model, or the effort required to make predictions about a model's behavior.<br>In this work, we propose anchor-LIME (aLIME), a model-agnostic technique that produces high-precision rule-based explanations for which the coverage boundaries are very clear. We compare aLIME to linear LIME with simulated experiments, and demonstrate the flexibility of aLIME with qualitative examples from a variety of domains and tasks."
@@ -729,7 +733,7 @@
     "authorIds": ["marco", "sameer", "carlos"],
     "venueId": "CHI Workshop on Human-Centred Machine Learning (HCML)",
     "extraFieldsSlot": [["month", "May"]],
-    "pdfLink": "files/papers/lime-hcml16.pdf",
+    "pdfLink": "/files/papers/lime-hcml16.pdf",
     "note": "Shorter version of the paper presented at KDD 2016."
   },
   {
@@ -739,7 +743,7 @@
     "year": 2016,
     "authorIds": ["marco", "sameer", "carlos"],
     "extraFieldsSlot": [["month", "June"]],
-    "pdfLink": "files/papers/lime-whi16.pdf",
+    "pdfLink": "/files/papers/lime-whi16.pdf",
     "emphasisNote": "Best Paper Award",
     "venueId": "ICML Workshop on Human Interpretability in Machine Learning (WHI)"
   },
@@ -764,7 +768,7 @@
       ]
     ],
     "extraFieldsSlot": [["month", "August"]],
-    "pdfLink": "files/papers/lime-kdd16.pdf",
+    "pdfLink": "/files/papers/lime-kdd16.pdf",
     "emphasisNote": "Audience Appreciation Award",
     "note": "Also presented at the CHI 2016 Workshop on Human-Centred Machine Learning (HCML)."
   },
@@ -776,7 +780,7 @@
     "authorIds": ["marco", "sameer", "carlos"],
     "venueId": "Demo at the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)",
     "extraFieldsSlot": [["month", "June"]],
-    "pdfLink": "files/papers/lime-naacl16demo.pdf",
+    "pdfLink": "/files/papers/lime-naacl16demo.pdf",
     "extraLinksSlot": [
       ["Code", "https://github.com/UW-MODE/naacl16-demo"]
     ],
@@ -789,7 +793,7 @@
     "year": 2016,
     "authorIds": ["sameer", "sebastian"],
     "venueId": "eaai",
-    "pdfLink": "files/papers/moro-eaai16.pdf",
+    "pdfLink": "/files/papers/moro-eaai16.pdf",
     "abstractText": "Teaching artificial intelligence is effective if the experience is a visual and interactive one, with educational materials that utilize combinations of various content types such as text, math, and code into an integrated experience. Unfortunately, easy-to-use tools for creating such pedagogical resources are not available to the educators, resulting in most courses being taught using a disconnected set of static materials, which is not only ineffective for learning AI, but further, requires repeated and redundant effort for the instructor. In this paper, we introduce Moro, a software tool for easily creating and presenting AI-friendly teaching materials. Moro notebooks integrate content of different types (text, math, code, images), allow real-time interactions via modifiable and executable code blocks, and are viewable in browsers both as long-form pages and as presentations. Creating notebooks is easy and intuitive; the creation tool is also in-browser, is WYSIWYG for quick iterations of editing, and supports a variety of shortcuts and customizations for efficiency. We present three deployed case studies of Moro that widely differ from each other, demonstrating its utility in a variety of scenarios such as in-class teaching and conference tutorials."
   },
   {
@@ -799,7 +803,7 @@
     "year": 2015,
     "authorIds": ["tim", "sameer", "sebastian"],
     "venueId": "naacl",
-    "pdfLink": "files/papers/logicmf-naacl15.pdf",
+    "pdfLink": "/files/papers/logicmf-naacl15.pdf",
     "pptLink": "http://rockt.github.io/slides/2015-naacl.pdf",
     "extraLinksSlot": [
       ["Code", "https://github.com/uclmr/low-rank-logic"],
@@ -822,7 +826,7 @@
     "year": 2015,
     "authorIds": ["xiao", "sameer", "weld"],
     "venueId": "tacl",
-    "pdfLink": "files/papers/entitylinking-tacl15.pdf",
+    "pdfLink": "/files/papers/entitylinking-tacl15.pdf",
     "extraLinksSlot": [
       [
         "TACL Page",
@@ -845,7 +849,7 @@
     "year": 2015,
     "authorIds": ["tianqi", "sameer", "taskar", "carlos"],
     "venueId": "aistats",
-    "pdfLink": "files/papers/gbcrf-aistats15.pdf",
+    "pdfLink": "/files/papers/gbcrf-aistats15.pdf",
     "weight": 1.2
   },
   {
@@ -855,7 +859,7 @@
     "year": 2015,
     "authorIds": ["nitish", "sameer"],
     "venueId": "Yelp Dataset Challenge, Round 4",
-    "pdfLink": "files/papers/yelp-factordb.pdf",
+    "pdfLink": "/files/papers/yelp-factordb.pdf",
     "extraLinksSlot": [
       ["Website", "http://nitishgupta.github.io/factorDB/"],
       ["Yelp Challenge", "http://www.yelp.com/dataset_challenge"]
@@ -869,7 +873,7 @@
     "year": 2015,
     "authorIds": ["sameer", "tim", "sebastian"],
     "venueId": "NAACL Workshop on Vector Space Modeling for NLP",
-    "pdfLink": "files/papers/mftf-vsm15.pdf"
+    "pdfLink": "/files/papers/mftf-vsm15.pdf"
   },
   {
     "id": "wolfe:naacl15",
@@ -884,7 +888,7 @@
       "sebastian"
     ],
     "venueId": "Demo at the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)",
-    "pdfLink": "files/papers/wolfe-naacl15-demo.pdf",
+    "pdfLink": "/files/papers/wolfe-naacl15-demo.pdf",
     "extraLinksSlot": [
       ["Website", "http://www.wolfe.ml"],
       ["Demo", "http://wolfe.ml/demos/nlp"]
@@ -898,7 +902,7 @@
     "year": 2015,
     "authorIds": ["Ivan Sanchez", "tim", "sebastian", "sameer"],
     "venueId": "krr",
-    "pdfLink": "files/papers/knowlextr-krr15.pdf",
+    "pdfLink": "/files/papers/knowlextr-krr15.pdf",
     "extraLinksSlot": [
       [
         "AAAI PDF",
@@ -914,7 +918,7 @@
     "year": 2015,
     "authorIds": ["guillaume", "sameer", "Theo Trouillon"],
     "venueId": "krr",
-    "pdfLink": "files/papers/logicmf-krr15.pdf",
+    "pdfLink": "/files/papers/logicmf-krr15.pdf",
     "extraLinksSlot": [
       [
         "AAAI PDF",
@@ -943,7 +947,7 @@
     "year": 2014,
     "authorIds": ["nacho", "sameer", "carlos"],
     "venueId": "Text REtrieval Conference (TREC): Knowledge-Base Acceleration (KBA) Track",
-    "pdfLink": "files/papers/stream-kba14.pdf",
+    "pdfLink": "/files/papers/stream-kba14.pdf",
     "weight": 0.75
   },
   {
@@ -953,7 +957,7 @@
     "year": 2014,
     "authorIds": ["xiao", "sameer", "weld"],
     "venueId": "nwnlp",
-    "pdfLink": "files/papers/contextel-nwnlp14.pdf",
+    "pdfLink": "/files/papers/contextel-nwnlp14.pdf",
     "weight": 0.5
   },
   {
@@ -986,7 +990,7 @@
     "venueId": "probprog",
     "note": "Also presented at NeurIPS 2014 as a demo.",
     "weight": 0.75,
-    "pdfLink": "files/papers/pplide-nips14-ppl.pdf",
+    "pdfLink": "/files/papers/pplide-nips14-ppl.pdf",
     "tagsSlot": ["Demo"],
     "extraLinksSlot": [
       ["Demo", "http://wolfe.ml/demos/nips"],
@@ -1000,7 +1004,7 @@
     "year": 2014,
     "authorIds": ["tim", "sameer", "matko", "sebastian"],
     "venueId": "sp14",
-    "pdfLink": "files/papers/lowranklogic-sp14.pdf",
+    "pdfLink": "/files/papers/lowranklogic-sp14.pdf",
     "emphasisNote": "Exceptional Submission Award",
     "note": "Also presented at StarAI 2014 with minor changes.",
     "extraLinksSlot": [
@@ -1015,7 +1019,7 @@
     "authorIds": ["sebastian", "sameer", "vivek", "tim", "larysa", "jan"],
     "venueId": "starai",
     "note": "Also presented at NeurIPS Probabilistic Programming Workshop.",
-    "pdfLink": "files/papers/wolfe-starai14.pdf",
+    "pdfLink": "/files/papers/wolfe-starai14.pdf",
     "extraLinksSlot": [
       ["Website", "http://www.wolfe.ml"],
       ["Poster", "files/papers/wolfe-starai14-poster.pdf"]
@@ -1048,7 +1052,7 @@
     ],
     "venueId": "cikm",
     "abstractText": "The AKBC 2013 workshop aims to be a venue of excellence and vision in the area of knowledge base construction. This year's workshop will feature keynotes by ten leading researchers in the field, including from Google, Microsoft, Stanford, and CMU. The submissions focus on visionary ideas instead of on experimental evaluation. Nineteen accepted papers will be presented as posters, with nine exceptional papers also highlighted as spotlight talks. Thereby, the workshop aims provides a vivid forum of discussion about the field of automated knowledge base construction.",
-    "pdfLink": "files/papers/akbc13.pdf",
+    "pdfLink": "/files/papers/akbc13.pdf",
     "extraLinksSlot": [["ACM DL", "http://dl.acm.org/citation.cfm?id=2505806"]]
   },
   {
@@ -1059,7 +1063,7 @@
     "authorIds": ["sameer", "thore"],
     "venueId": "cikm",
     "abstractText": "Probabilistic graphical model representations of relational data provide a number of desired features, such as inference of missing values, detection of errors, visualization of data, and probabilistic answers to relational queries. However, adoption has been slow due to the high level of expertise expected both in probability and in the domain from the user. Instead of requiring a domain expert to specify the probabilistic dependencies of the data, we present an approach that uses the relational DB schema to automatically construct a Bayesian graphical model for a database. This resulting model contains customized distributions for the attributes, latent variables that cluster the records, and factors that reflect and represent the foreign key links, whilst allowing efficient inference. Experiments demonstrate the accuracy of the model and scalability of inference on synthetic and real-world data.",
-    "pdfLink": "files/papers/cikm13.pdf",
+    "pdfLink": "/files/papers/cikm13.pdf",
     "extraLinksSlot": [
       [
         "MSR Page",
@@ -1087,7 +1091,7 @@
     ],
     "venueId": "tackbp",
     "abstractText": "We employ universal schema for the TAC KBP slot filling and cold start tasks. The technique enlarges the set of relations in an ontology, e.g., TACKBP slots, to contain all surface patterns between pairs of entities in a large corpus. By factorizing the matrix of co-occurrences between entity pairs and universal schema relations, we are able to predict new target slots. This differs fundamentally from traditional relation extraction approaches because an entire knowledge base is constructed jointly over train and test data. To produce submissions for the slot filling and cold start tasks, we simply query this knowledge base. We describe universal schema, our data preprocessing pipeline, and additional techniques we employ for predicting entities' attributes.",
-    "pdfLink": "files/papers/umass-tackbp13.pdf"
+    "pdfLink": "/files/papers/umass-tackbp13.pdf"
   },
   {
     "id": "conll13",
@@ -1097,7 +1101,7 @@
     "authorIds": ["jiaping", "luke", "sameer", "jinho", "andrew"],
     "venueId": "conll",
     "abstractText": "Coreference resolution systems can benefit greatly from inclusion of global context, and a number of recent approaches have demonstrated improvements when precomputing an alignment to external knowledge sources. However, since alignment itself is a challenging task and is often noisy, existing systems either align conservatively, resulting in very few links, or combine the attributes of multiple candidates, leading to a conflation of entities. Our approach instead performs joint inference between within-document coreference and entity linking, maintaining ranked lists of candidate entities that are dynamically merged and reranked during inference. Further, we incorporate a large set of surface string variations for each entity by using anchor texts from the web that link to the entity. These forms of global context enables our system to improve classifier-based coreference by 1.09 B3 F1 points, and improve over the previous state-of-art by 0.41 points, thus introducing a new state-of-art result on the ACE 2004 data.",
-    "pdfLink": "files/papers/dynamic-conll13.pdf"
+    "pdfLink": "/files/papers/dynamic-conll13.pdf"
   },
   {
     "id": "jnt:akbc13",
@@ -1106,7 +1110,7 @@
     "year": 2013,
     "authorIds": ["sameer", "sebastian", "martin", "jiaping", "andrew"],
     "venueId": "akbc13",
-    "pdfLink": "files/papers/joint-akbc13.pdf"
+    "pdfLink": "/files/papers/joint-akbc13.pdf"
   },
   {
     "id": "conf:akbc13",
@@ -1115,7 +1119,7 @@
     "year": 2013,
     "authorIds": ["wick", "sameer", "ari", "andrew"],
     "venueId": "akbc13",
-    "pdfLink": "files/papers/confidence-akbc13.pdf"
+    "pdfLink": "/files/papers/confidence-akbc13.pdf"
   },
   {
     "id": "link:akbc13",
@@ -1124,7 +1128,7 @@
     "year": 2013,
     "authorIds": ["wick", "sameer", "harshal", "andrew"],
     "venueId": "akbc13",
-    "pdfLink": "files/papers/linking-akbc13.pdf"
+    "pdfLink": "/files/papers/linking-akbc13.pdf"
   },
   {
     "id": "sparse:reseff13",
@@ -1150,7 +1154,7 @@
         "https://aclanthology.coli.uni-saarland.de/papers/D12-1101/d12-1101"
       ]
     ],
-    "pdfLink": "files/papers/mcmcmc-emnlp12.pdf",
+    "pdfLink": "/files/papers/mcmcmc-emnlp12.pdf",
     "pptLink": "files/papers/mcmcmc-emnlp12-ppt.pdf"
   },
   {
@@ -1166,7 +1170,7 @@
         "https://aclanthology.coli.uni-saarland.de/papers/P12-1040/p12-1040"
       ]
     ],
-    "pdfLink": "files/papers/hierar-coref-acl12.pdf"
+    "pdfLink": "/files/papers/hierar-coref-acl12.pdf"
   },
   {
     "id": "mldb:probprog12",
@@ -1188,7 +1192,7 @@
     "year": 2012,
     "authorIds": ["sameer", "wick", "andrew"],
     "venueId": "akbc12",
-    "pdfLink": "files/papers/mcmcmc-akbc12.pdf"
+    "pdfLink": "/files/papers/mcmcmc-akbc12.pdf"
   },
   {
     "id": "mcmcge:tr2012",
@@ -1238,7 +1242,7 @@
     "year": 2011,
     "authorIds": ["sameer", "amar", "fernando", "andrew"],
     "venueId": "acl",
-    "pdfLink": "files/papers/largescale-acl11.pdf",
+    "pdfLink": "/files/papers/largescale-acl11.pdf",
     "pptLink": "files/papers/largescale-acl11-ppt.pdf",
     "emphasisNote": "Best Talk Award at DARPA Machine Reading Project Kickoff."
   },
@@ -1249,7 +1253,7 @@
     "year": 2011,
     "authorIds": ["sameer", "andrew"],
     "venueId": "biglearn",
-    "pdfLink": "files/papers/singh-nipsws11-biglearn.pdf"
+    "pdfLink": "/files/papers/singh-nipsws11-biglearn.pdf"
   },
   {
     "id": "sparsebp:cost11",
@@ -1258,7 +1262,7 @@
     "year": 2011,
     "authorIds": ["sameer", "martin", "andrew"],
     "venueId": "cost",
-    "pdfLink": "files/papers/singh-nipsws11-cost.pdf",
+    "pdfLink": "/files/papers/singh-nipsws11-cost.pdf",
     "pptLink": "files/papers/singh-nipsws11-cost-ppt.pdf"
   },
   {
@@ -1275,7 +1279,7 @@
         "https://aclanthology.coli.uni-saarland.de/papers/N10-1111/n10-1111"
       ]
     ],
-    "pdfLink": "files/papers/constraint-naacl10.pdf",
+    "pdfLink": "/files/papers/constraint-naacl10.pdf",
     "pptLink": "files/papers/constraint-naacl10-ppt.pdf"
   },
   {
@@ -1292,7 +1296,7 @@
         "https://aclanthology.coli.uni-saarland.de/papers/N10-1009/n10-1009"
       ]
     ],
-    "pdfLink": "files/papers/minimally-naacl10.pdf",
+    "pdfLink": "/files/papers/minimally-naacl10.pdf",
     "pptLink": "files/papers/minimally-naacl10-ppt.pdf"
   },
   {
@@ -1303,7 +1307,7 @@
     "authorIds": ["sameer", "amar", "fernando", "andrew"],
     "venueId": "lccc",
     "abstractText": "In this work, we distribute the MCMC-based MAP inference using the Map-Reduce framework. The variables are assigned randomly to machines, which leads to some factors that neighbor variables on separate machines. Parallel MCMC-chains are initiated using proposal distributions that only suggest local changes such that factors that lie across machines are not examined. After a fixed number of samples on each machine, we redistribute the variables amongst the machines to enable proposals across variables that were on different machines. To demonstrate the distribution strategy on a real-world information extraction application, we model the task of cross-document coreference.",
-    "pdfLink": "files/papers/singh-nipsws10-lccc.pdf",
+    "pdfLink": "/files/papers/singh-nipsws10-lccc.pdf",
     "pptLink": "files/papers/singh-nipsws10-lccc-ppt.pdf",
     "extraLinksSlot": [
       ["Video", "http://videolectures.net/nipsworkshops2010_singh_dmapi"]
@@ -1327,7 +1331,7 @@
     "year": 2009,
     "authorIds": ["wick", "khash", "sameer", "andrew"],
     "venueId": "nips",
-    "pdfLink": "files/papers/rl-nips09.pdf"
+    "pdfLink": "/files/papers/rl-nips09.pdf"
   },
   {
     "id": "factorie:nips09",
@@ -1336,7 +1340,7 @@
     "year": 2009,
     "authorIds": ["andrew", "karl", "sameer"],
     "venueId": "nips",
-    "pdfLink": "files/papers/factorie-nips09.pdf"
+    "pdfLink": "/files/papers/factorie-nips09.pdf"
   },
   {
     "id": "bidirectional:ecml09",
@@ -1345,7 +1349,7 @@
     "year": 2009,
     "authorIds": ["sameer", "karl", "andrew"],
     "venueId": "Machine Learning and Knowledge Discovery in Databases (Lecture Notes in Computer Science) and European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)",
-    "pdfLink": "files/papers/bidirectional-ecml09.pdf",
+    "pdfLink": "/files/papers/bidirectional-ecml09.pdf",
     "pptLink": "files/papers/bidirectional-ecml09-ppt.pdf",
     "extraLinksSlot": [
       ["Video", "http://videolectures.net/ecmlpkdd09_singh_bdjiersuidfg"]
@@ -1363,7 +1367,7 @@
       "Daria Sorokina"
     ],
     "venueId": "SIAM International Conference on Data Mining (SDM)",
-    "pdfLink": "files/papers/parallel-sdm09.pdf",
+    "pdfLink": "/files/papers/parallel-sdm09.pdf",
     "pptLink": "files/papers/parallel-sdm09-ppt.pdf"
   },
   {
@@ -1373,7 +1377,7 @@
     "year": 2009,
     "authorIds": ["sameer"],
     "venueId": "University of Massachusetts Amherst, PhD Candidacy/Synthesis Report",
-    "pdfLink": "files/papers/optiondiscovery-synthesis09.pdf",
+    "pdfLink": "/files/papers/optiondiscovery-synthesis09.pdf",
     "note": "Readers: Andy Barto and Andrew McCallum"
   },
   {
@@ -1383,7 +1387,7 @@
     "year": 2008,
     "authorIds": ["andrew", "khash", "wick", "karl", "sameer"],
     "venueId": "probprog",
-    "pdfLink": "files/papers/factorie-nipsws08.pdf"
+    "pdfLink": "/files/papers/factorie-nipsws08.pdf"
   },
   {
     "id": "feature:patent08",
@@ -1422,7 +1426,7 @@
     ],
     "venueId": "Software Quality Journal (SQJ)",
     "extraFieldsSlot": [["volume", "15"]],
-    "pdfLink": "files/papers/common-sqj07.pdf"
+    "pdfLink": "/files/papers/common-sqj07.pdf"
   },
   {
     "id": "jss07",
@@ -1443,7 +1447,7 @@
     ],
     "venueId": "Journal of Systems and Software (JSS)",
     "extraFieldsSlot": [["volume", "80"]],
-    "pdfLink": "files/papers/common-jss07.pdf"
+    "pdfLink": "/files/papers/common-jss07.pdf"
   },
   {
     "id": "icaps07",
@@ -1467,7 +1471,7 @@
     "year": 2006,
     "authorIds": ["sameer", "Julie A. Adams"],
     "venueId": "International Conference on Robotics and Automation (ICRA)",
-    "pdfLink": "files/papers/transfer-icra06.pdf"
+    "pdfLink": "/files/papers/transfer-icra06.pdf"
   },
   {
     "id": "incarf03",
