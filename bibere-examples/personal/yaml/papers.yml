@@ -1,3 +1,64 @@
+checklist:acl20:
+  title: >
+    Beyond Accuracy: Behavioral Testing of NLP models with CheckList
+  venue: "acl"
+  year: 2020
+  type: "Conference"
+  authors:
+    - "marco"
+    - "Tongshuang Wu"
+    - "carlos"
+    - "sameer"
+
+impsample:acl20:
+  title: >
+    On Importance Sampling-Based Evaluation of Latent Language Models
+  venue: "acl"
+  year: 2020
+  type: "Conference"
+  authors:
+    - "rlogan"
+    - "mattg"
+    - "sameer"
+
+nmninterpret:acl20:
+  title: >
+    Achieving Interpretability in Compositional Neural Networks
+  venue: "acl"
+  year: 2020
+  type: "Conference"
+  authors:
+    - "Sanjay Subramanian"
+    - "Ben Bogin"
+    - "nitish"
+    - "Tomer Wolfson"
+    - "sameer"
+    - "Jonathan Berant"
+    - "mattg"
+
+intannot:acl20:
+  title: >
+    Benefits of Intermediate Annotations in Reading Comprehension
+  venue: "acl"
+  year: 2020
+  type: "Conference"
+  authors:
+    - "dheeru"
+    - "sameer"
+    - "mattg"
+
+dynsample:acl20:
+  title: >
+    Dynamic Sampling Strategies for Multi-Task Reading Comprehension
+  venue: "acl"
+  year: 2020
+  type: "Conference"
+  authors:
+    - "Ananth Gottumukkala"
+    - "dheeru"
+    - "sameer"
+    - "mattg"
+
 nmn:iclr20:
   title: >
     Neural Module Networks for Reasoning over Text
@@ -20,7 +81,7 @@ nmn:iclr20:
 
 salrl:iclr20:
   title: >
-    Explain Your Move: Understanding Agent Actions Using Focused Feature Saliency
+    Explain Your Move: Understanding Agent Actions Using Specific and Relevant Feature Attribution
   venue: "iclr"
   year: 2020
   type: "Conference"
@@ -33,6 +94,10 @@ salrl:iclr20:
     - "Balaji Krishnamurthy"
     - "sameer"
   links:
+    - name: "PDF"
+      link: "https://openreview.net/pdf?id=SJgzLkBKPB"
+    - name: "arXiv"
+      link: "https://arxiv.org/abs/1912.12191"
     - name: "OpenReview"
       link: "https://openreview.net/forum?id=SJgzLkBKPB"
 

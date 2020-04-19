@@ -1,5 +1,45 @@
 [
   {
+    "id": "checklist:acl20",
+    "title": "Beyond Accuracy: Behavioral Testing of NLP models with CheckList",
+    "pubTypeSlot": "Conference",
+    "year": 2020,
+    "authorIds": ["marco", "Tongshuang Wu", "carlos", "sameer"],
+    "venueId": "acl"
+  },
+  {
+    "id": "impsample:acl20",
+    "title": "On Importance Sampling-Based Evaluation of Latent Language Models",
+    "pubTypeSlot": "Conference",
+    "year": 2020,
+    "authorIds": ["rlogan", "mattg", "sameer"],
+    "venueId": "acl"
+  },
+  {
+    "id": "nmninterpret:acl20",
+    "title": "Achieving Interpretability in Compositional Neural Networks",
+    "pubTypeSlot": "Conference",
+    "year": 2020,
+    "authorIds": ["Sanjay Subramanian", "Ben Bogin", "nitish", "Tomer Wolfson", "sameer", "Jonathan Berant", "mattg"],
+    "venueId": "acl"
+  },
+  {
+    "id": "intannot:acl20",
+    "title": "Benefits of Intermediate Annotations in Reading Comprehension",
+    "pubTypeSlot": "Conference",
+    "year": 2020,
+    "authorIds": ["dheeru", "sameer", "mattg"],
+    "venueId": "acl"
+  },
+  {
+    "id": "dynsample:acl20",
+    "title": "Dynamic Sampling Strategies for Multi-Task Reading Comprehension",
+    "pubTypeSlot": "Conference",
+    "year": 2020,
+    "authorIds": ["Ananth Gottumukkala", "dheeru", "sameer", "mattg"],
+    "venueId": "acl"
+  },
+  {
     "id": "nmn:iclr20",
     "title": "Neural Module Networks for Reasoning over Text",
     "pubTypeSlot": "Conference",
@@ -14,11 +54,13 @@
   },
   {
     "id": "salrl:iclr20",
-    "title": "Explain Your Move: Understanding Agent Actions Using Focused Feature Saliency",
+    "title": "Explain Your Move: Understanding Agent Actions Using Specific and Relevant Feature Attribution",
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["Piyush Gupta", "Nikaash Puri", "Sukriti Verma", "Dhruv Kayastha", "Shripad Deshmukh", "Balaji Krishnamurthy", "sameer"],
+    "pdfLink": "https://openreview.net/pdf?id=SJgzLkBKPB",
     "extraLinksSlot": [
+      ["arXiv", "https://arxiv.org/abs/1912.12191"],
       ["OpenReview", "https://openreview.net/forum?id=SJgzLkBKPB"]
     ],
     "venueId": "iclr"
