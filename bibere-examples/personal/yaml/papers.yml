@@ -59,6 +59,17 @@ dynsample:acl20:
     - "sameer"
     - "mattg"
 
+bertdecept:ijcnn20:
+  title: >
+    Building a Better Lie Detector with BERT: The Difference Between Truth and Lies
+  venue: "International Joint Conference on Neural Networks (IJCNN)"
+  year: 2020
+  type: "Conference"
+  authors:
+    - "Dan Barsever"
+    - "sameer"
+    - "Emre Neftci"
+
 nmn:iclr20:
   title: >
     Neural Module Networks for Reasoning over Text

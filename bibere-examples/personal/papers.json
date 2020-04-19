@@ -40,6 +40,14 @@
     "venueId": "acl"
   },
   {
+    "id": "bertdecept:ijcnn20",
+    "title": "Building a Better Lie Detector with BERT: The Difference Between Truth and Lies",
+    "pubTypeSlot": "Conference",
+    "year": 2020,
+    "authorIds": ["Dan Barsever", "sameer", "Emre Neftci"],
+    "venueId": "International Joint Conference on Neural Networks (IJCNN)"
+  },
+  {
     "id": "nmn:iclr20",
     "title": "Neural Module Networks for Reasoning over Text",
     "pubTypeSlot": "Conference",
