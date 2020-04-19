@@ -34,6 +34,10 @@ class HTMLCoauthorWriter extends CoauthorWriter {
 
   def pageTitle = "Coauthors"
 
+  def listClass = ""
+
+  def listItemClass = ""
+
   def pre(writer: PrintWriter) {
     writer.println("<!DOCTYPE html>")
     writer.println("<html>")
@@ -51,9 +55,9 @@ class HTMLCoauthorWriter extends CoauthorWriter {
   }
 
   def writeCoauthors(authors: Iterable[Author], writer: PrintWriter) {
-    writer.println("<ul>")
+    writer.println("<ul class=\"%s\">".format(listClass))
     for (a <- authors) {
-      writer.println("<li>")
+      writer.println("<li class=\"%s\">".format(listItemClass))
       HTMLWriter.author(writer, a, fullName = true)
       writer.println("</li>\n")
     }

@@ -47,6 +47,10 @@ object Personal {
 
     override def mainAuthorId = Some("sameer")
 
+    override def listClass = "list-unstyled row"
+
+    override def listItemClass = "col-lg-3 col-md-4 col-sm-6"
+
     override def pre(writer: PrintWriter): Unit = {
       writer.println(
         """
