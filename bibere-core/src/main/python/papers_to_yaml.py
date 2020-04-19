@@ -43,7 +43,7 @@ def output_paper(paper, ofile):
                 ofile.write("      link: \"%s\"\n" % v)
     # abstract
     if "abstractText" in paper:
-        ofile.write("  abstract: >\n    %s\n" % (paper['abstractText'].encode('utf-8')))
+        ofile.write("  abstract: >\n    %s\n" % (paper['abstractText'].encode('utf-8').decode()))
     # notes
     if "emphasisNote" in paper:
         ofile.write("  emphasis: \"%s\"\n" % (paper['emphasisNote']))
