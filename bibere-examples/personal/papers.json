@@ -100,6 +100,14 @@
     "venueId": "aies"
   },
   {
+    "id": "ibal:vl320",
+    "title": "Data Importance-Based Active Learning for Limited Labels",
+    "pubTypeSlot": "Workshop",
+    "year": 2020,
+    "authorIds": ["pouya", "zhengli", "sameer"],
+    "venueId": "CVPR Workshop on Visual Learning with Limited Labels (VL3)"
+  },
+  {
     "id": "evalqa:mrqa19",
     "title": "Evaluating Question Answering Evaluation",
     "pubTypeSlot": "Workshop",

@@ -148,6 +148,17 @@ advlime:aies20:
     - name: "arXiv"
       link: "https://arxiv.org/abs/1911.02508"
 
+ibal:vl320:
+  title: >
+    Data Importance-Based Active Learning for Limited Labels
+  venue: "CVPR Workshop on Visual Learning with Limited Labels (VL3)"
+  year: 2020
+  type: "Workshop"
+  authors:
+    - "pouya"
+    - "zhengli"
+    - "sameer"
+
 evalqa:mrqa19:
   title: >
     Evaluating Question Answering Evaluation
