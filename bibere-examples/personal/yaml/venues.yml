@@ -32,6 +32,9 @@ mrqa:
   name: "Workshop on Machine Reading and Question Answering (MRQA)"
 
 akbc:
+  name: "Automated Knowledge Base Construction (AKBC)"
+
+akbc-ws:
   name: "Workshop on Automated Knowledge Base Construction (AKBC)"
 
 akbc12:

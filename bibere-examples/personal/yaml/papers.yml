@@ -9,6 +9,11 @@ checklist:acl20:
     - "Tongshuang Wu"
     - "carlos"
     - "sameer"
+  links:
+    - name: "PDF"
+      link: "https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf"
+    - name: "Code"
+      link: "https://github.com/marcotcr/checklist"
 
 impsample:acl20:
   title: >
@@ -23,7 +28,7 @@ impsample:acl20:
 
 nmninterpret:acl20:
   title: >
-    Achieving Interpretability in Compositional Neural Networks
+    Obtaining Faithful Interpretations from Compositional Neural Networks
   venue: "acl"
   year: 2020
   type: "Conference"
@@ -35,6 +40,11 @@ nmninterpret:acl20:
     - "sameer"
     - "Jonathan Berant"
     - "mattg"
+  links:
+    - name: "PDF"
+      link: "https://arxiv.org/pdf/2005.00724"
+    - name: "ArXiV"
+      link: "https://arxiv.org/abs/2005.00724"
 
 intannot:acl20:
   title: >
@@ -58,6 +68,22 @@ dynsample:acl20:
     - "dheeru"
     - "sameer"
     - "mattg"
+
+kbeval:akbc20:
+  title: >
+    Revisiting Evaluation of Knowledge Base Completion Models
+  venue: "akbc"
+  year: 2020
+  type: "Conference"
+  authors:
+    - "pouya"
+    - "Yifan Tian"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "https://openreview.net/pdf?id=1uufzxsxfL"
+    - name: "OpenReview"
+      link: "https://openreview.net/forum?id=1uufzxsxfL"
 
 bertdecept:ijcnn20:
   title: >
@@ -724,7 +750,7 @@ tsunami:geosense18:
 mmkbe:akbc17:
   title: >
     Embedding Multimodal Relational Data
-  venue: "akbc"
+  venue: "akbc-ws"
   year: 2017
   type: "Workshop"
   authors:
@@ -738,7 +764,7 @@ mmkbe:akbc17:
 maed:akbc17:
   title: >
     Multimodal Attribute Extraction
-  venue: "akbc"
+  venue: "akbc-ws"
   year: 2017
   type: "Workshop"
   authors:
@@ -1289,7 +1315,7 @@ prlr:mmlnlp14:
 kb-integration:akbc14:
   title: >
     Out of Many, One: Unifying Web-Extracted Knowledge Bases
-  venue: "akbc"
+  venue: "akbc-ws"
   year: 2014
   type: "Workshop"
   authors:

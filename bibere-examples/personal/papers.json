@@ -5,7 +5,11 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["marco", "Tongshuang Wu", "carlos", "sameer"],
-    "venueId": "acl"
+    "venueId": "acl",
+    "pdfLink": "https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf",
+    "extraLinksSlot": [
+      ["Code", "https://github.com/marcotcr/checklist"]
+    ]
   },
   {
     "id": "impsample:acl20",
@@ -17,10 +21,14 @@
   },
   {
     "id": "nmninterpret:acl20",
-    "title": "Achieving Interpretability in Compositional Neural Networks",
+    "title": "Obtaining Faithful Interpretations from Compositional Neural Networks",
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["Sanjay Subramanian", "Ben Bogin", "nitish", "Tomer Wolfson", "sameer", "Jonathan Berant", "mattg"],
+    "pdfLink": "https://arxiv.org/pdf/2005.00724",
+    "extraLinksSlot": [
+      ["ArXiV", "https://arxiv.org/abs/2005.00724"]
+    ],
     "venueId": "acl"
   },
   {
@@ -38,6 +46,18 @@
     "year": 2020,
     "authorIds": ["Ananth Gottumukkala", "dheeru", "sameer", "mattg"],
     "venueId": "acl"
+  },
+  {
+    "id": "kbeval:akbc20",
+    "title": "Revisiting Evaluation of Knowledge Base Completion Models",
+    "pubTypeSlot": "Conference",
+    "year": 2020,
+    "authorIds": ["pouya", "Yifan Tian", "sameer"],
+    "extraLinksSlot": [
+      ["OpenReview", "https://openreview.net/forum?id=1uufzxsxfL"]
+    ],
+    "pdfLink": "https://openreview.net/pdf?id=1uufzxsxfL",
+    "venueId": "akbc"
   },
   {
     "id": "bertdecept:ijcnn20",
@@ -594,7 +614,7 @@
     "year": 2017,
     "pdfLink": "/files/papers/mmkbe-akbc17.pdf",
     "authorIds": ["pouya", "Liyan Chen", "sameer"],
-    "venueId": "akbc"
+    "venueId": "akbc-ws"
   },
   {
     "id": "maed:akbc17",
@@ -603,7 +623,7 @@
     "year": 2017,
     "authorIds": ["rlogan", "Samuel Humeau", "sameer"],
     "pdfLink": "/files/papers/maed-akbc17.pdf",
-    "venueId": "akbc"
+    "venueId": "akbc-ws"
   },
   {
     "id": "semcompress:asilomar17",
@@ -1037,7 +1057,7 @@
     "pubTypeSlot": "Workshop",
     "year": 2014,
     "authorIds": ["mathias", "sameer"],
-    "venueId": "akbc",
+    "venueId": "akbc-ws",
     "pdfLink": "http://www.akbc.ws/2014/submissions/akbc2014_submission_28.pdf",
     "weight": 0.75
   },
