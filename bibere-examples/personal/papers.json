@@ -163,7 +163,10 @@
     "pubTypeSlot": "Workshop",
     "year": 2020,
     "authorIds": ["pouya", "zhengli", "sameer"],
-    "venueId": "CVPR Workshop on Visual Learning with Limited Labels (VL3)"
+    "venueId": "CVPR Workshop on Visual Learning with Limited Labels (VL3)",
+    "extraLinksSlot": [
+      ["Video", "https://www.youtube.com/watch?v=yCSRL9h6lqE"]
+    ]
   },
   {
     "id": "evalqa:mrqa19",
@@ -274,9 +277,11 @@
     "extraLinksSlot": [
       ["arXiv", "https://arxiv.org/abs/1908.07125"],
       ["Blog post", "http://www.ericswallace.com/triggers"],
-      ["Code", "https://github.com/Eric-Wallace/universal-triggers"]
+      ["Code", "https://github.com/Eric-Wallace/universal-triggers"],
+      ["ACL Anthology", "https://www.aclweb.org/anthology/D19-1221/"]
     ],
-    "weight": 3.6
+    "weight": 3.6,
+    "abstractText": "Adversarial examples highlight model vulnerabilities and are useful for evaluation and interpretation. We define universal adversarial triggers: input-agnostic sequences of tokens that trigger a model to produce a specific prediction when concatenated to any input from a dataset. We propose a gradient-guided search over tokens which finds short trigger sequences (e.g., one word for classification and four words for language modeling) that successfully trigger the target prediction. For example, triggers cause SNLI entailment accuracy to drop from 89.94% to 0.55%, 72% of “why” questions in SQuAD to be answered “to kill american people”, and the GPT-2 language model to spew racist output even when conditioned on non-racial contexts. Furthermore, although the triggers are optimized using white-box access to a specific model, they transfer to other models for all tasks we consider. Finally, since triggers are input-agnostic, they provide an analysis of global model behavior. For instance, they confirm that SNLI models exploit dataset biases and help to diagnose heuristics learned by reading comprehension models."
   },
   {
     "id": "numeracy:emnlp19",
@@ -322,6 +327,12 @@
       "sameer"
     ],
     "pdfLink": "/files/papers/allennlp-interpret-demo-emnlp19.pdf",
+    "extraLinksSlot": [
+      ["Project Page", "https://allennlp.org/interpret"],
+      ["ACL Anthology", "https://www.aclweb.org/anthology/D19-3002/"],
+      ["ArXiv", "https://arxiv.org/abs/1909.09251"],
+      ["Poster", "https://www.ericswallace.com/slides_and_posters/InterpretPoster.pdf"]
+    ],
     "venueId": "Demo at the Empirical Methods in Natural Language Processing (EMNLP)",
     "abstractText": "Neural NLP models are increasingly accurate but are imperfect and opaque---they break in counterintuitive ways and leave end users puzzled at their behavior. Model interpretation methods ameliorate this opacity by providing explanations for specific model predictions. Unfortunately, existing interpretation codebases make it difficult to apply these methods to new models and tasks, which hinders adoption for practitioners and burdens interpretability researchers. We introduce AllenNLP Interpret, a flexible framework for interpreting NLP models. The toolkit provides interpretation primitives (e.g., input gradients) for any AllenNLP model and task, a suite of built-in interpretation methods, and a library of front-end visualization components. We demonstrate the toolkit's flexibility and utility by implementing live demos for five interpretation methods (e.g., saliency maps and adversarial attacks) on a variety of models and tasks (e.g., masked language modeling using BERT and reading comprehension using BiDAF). These demos, alongside our code and tutorials, are available at https://allennlp.org/interpret.",
     "emphasisNote": "Best Demonstration Paper Award."
@@ -342,10 +353,12 @@
     "extraLinksSlot": [
       ["arXiv", "https://arxiv.org/abs/1906.07241"],
       ["Data", "https://rloganiv.github.io/linked-wikitext-2/"],
-      ["Code", "https://github.com/rloganiv/kglm-model"]
+      ["Code", "https://github.com/rloganiv/kglm-model"],
+      ["ACL Anthology", "https://www.aclweb.org/anthology/P19-1598/"]
     ],
     "venueId": "acl",
-    "weight": 2.5
+    "weight": 2.5,
+    "abstractText": "Modeling human language requires the ability to not only generate fluent text but also encode factual knowledge. However, traditional language models are only capable of remembering facts seen at training time, and often have difficulty recalling them. To address this, we introduce the knowledge graph language model (KGLM), a neural language model with mechanisms for selecting and copying facts from a knowledge graph that are relevant to the context. These mechanisms enable the model to render information it has never seen before, as well as generate out-of-vocabulary tokens. We also introduce the Linked WikiText-2 dataset, a corpus of annotated text aligned to the Wikidata knowledge graph whose contents (roughly) match the popular WikiText-2 benchmark. In experiments, we demonstrate that the KGLM achieves significantly better performance than a strong baseline language model. We additionally compare different language model’s ability to complete sentences requiring factual knowledge, showing that the KGLM outperforms even very large language models in generating facts."
   },
   {
     "id": "impl:acl19",
@@ -568,9 +581,10 @@
       ["Code", "https://github.com/marcotcr/sears"],
       [
         "ACL Anthology",
-        "https://aclanthology.coli.uni-saarland.de/papers/P18-1079/p18-1079"
+        "https://www.aclweb.org/anthology/P18-1079/"
       ],
-      ["Video", "https://vimeo.com/285801102"]
+      ["Video", "https://vimeo.com/285801102"],
+      ["Slides", "https://www.aclweb.org/anthology/attachments/P18-1079.Presentation.pdf"]
     ],
     "venueId": "acl",
     "emphasisNote": "Honorable Mention for Best Paper.",
