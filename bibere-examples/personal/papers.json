@@ -6,10 +6,15 @@
     "year": 2020,
     "authorIds": ["marco", "Tongshuang Wu", "carlos", "sameer"],
     "venueId": "acl",
-    "pdfLink": "https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf",
+    "pdfLink": "/files/papers/checklist-acl20.pdf",
     "extraLinksSlot": [
-      ["Code", "https://github.com/marcotcr/checklist"]
-    ]
+      ["Code", "https://github.com/marcotcr/checklist"],
+      ["ACL Anthology", "https://www.aclweb.org/anthology/2020.acl-main.442/"],
+      ["Video+Slides", "https://slideslive.com/38929272"],
+      ["ArXiV", "https://arxiv.org/abs/2005.04118"]
+    ],
+    "emphasisNote": "Best Paper Award",
+    "abstractText": "Although measuring held-out accuracy has been the primary approach to evaluate generalization, it often overestimates the performance of NLP models, while alternative approaches for evaluating models either focus on individual tasks or on specific behaviors. Inspired by principles of behavioral testing in software engineering, we introduce CheckList, a task-agnostic methodology for testing NLP models. CheckList includes a matrix of general linguistic capabilities and test types that facilitate comprehensive test ideation, as well as a software tool to generate a large and diverse number of test cases quickly. We illustrate the utility of CheckList with tests for three tasks, identifying critical failures in both commercial and state-of-art models. In a user study, a team responsible for a commercial sentiment analysis model found new and actionable bugs in an extensively tested model. In another user study, NLP practitioners with CheckList created twice as many tests, and found almost three times as many bugs as users without it."
   },
   {
     "id": "impsample:acl20",
@@ -17,6 +22,12 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["rlogan", "mattg", "sameer"],
+    "pdfLink": "/files/papers/impsample-acl20.pdf",
+    "extraLinksSlot": [
+      ["ACL Anthology", "https://www.aclweb.org/anthology/2020.acl-main.196/"],
+      ["Video+Slides", "https://slideslive.com/38929173"]
+    ],
+    "abstractText": "Language models that use additional latent structures (e.g., syntax trees, coreference chains, knowledge graph links) provide several advantages over traditional language models. However, likelihood-based evaluation of these models is often intractable as it requires marginalizing over the latent space. Existing works avoid this issue by using importance sampling. Although this approach has asymptotic guarantees, analysis is rarely conducted on the effect of decisions such as sample size and choice of proposal distribution on the reported estimates. In this paper, we carry out this analysis for three models: RNNG, EntityNLM, and KGLM. In addition, we elucidate subtle differences in how importance sampling is applied in these works that can have substantial effects on the final estimates, as well as provide theoretical results which reinforce the validity of this technique.",
     "venueId": "acl"
   },
   {
@@ -25,11 +36,14 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["Sanjay Subramanian", "Ben Bogin", "nitish", "Tomer Wolfson", "sameer", "Jonathan Berant", "mattg"],
-    "pdfLink": "https://arxiv.org/pdf/2005.00724",
+    "pdfLink": "/files/papers/nmninterpret-acl20.pdf",
     "extraLinksSlot": [
-      ["ArXiV", "https://arxiv.org/abs/2005.00724"]
+      ["ACL Anthology", "https://www.aclweb.org/anthology/2020.acl-main.495/"],
+      ["ArXiV", "https://arxiv.org/abs/2005.00724"],
+      ["Video+Slides", "https://slideslive.com/38929088"]
     ],
-    "venueId": "acl"
+    "venueId": "acl",
+    "abstractText": "Neural module networks (NMNs) are a popular approach for modeling compositionality: they achieve high accuracy when applied to problems in language and vision, while reflecting the compositional structure of the problem in the network architecture. However, prior work implicitly assumed that the structure of the network modules, describing the abstract reasoning process, provides a faithful explanation of the model’s reasoning; that is, that all modules perform their intended behaviour. In this work, we propose and conduct a systematic evaluation of the intermediate outputs of NMNs on NLVR2 and DROP, two datasets which require composing multiple reasoning steps. We find that the intermediate outputs differ from the expected output, illustrating that the network structure does not provide a faithful explanation of model behaviour. To remedy that, we train the model with auxiliary supervision and propose particular choices for module architecture that yield much better faithfulness, at a minimal cost to accuracy."
   },
   {
     "id": "intannot:acl20",
@@ -37,7 +51,13 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["dheeru", "sameer", "mattg"],
-    "venueId": "acl"
+    "pdfLink": "/files/papers/intannot-acl20.pdf",
+    "extraLinksSlot": [
+      ["ACL Anthology", "https://www.aclweb.org/anthology/2020.acl-main.497/"],
+      ["Video+Slides", "https://slideslive.com/38929228"]
+    ],
+    "venueId": "acl",
+    "abstractText": "Complex compositional reading comprehension datasets require performing latent sequential decisions that are learned via supervision from the final answer. A large combinatorial space of possible decision paths that result in the same answer, compounded by the lack of intermediate supervision to help choose the right path, makes the learning particularly hard for this task. In this work, we study the benefits of collecting intermediate reasoning supervision along with the answer during data collection. We find that these intermediate annotations can provide two-fold benefits. First, we observe that for any collection budget, spending a fraction of it on intermediate annotations results in improved model performance, for two complex compositional datasets: DROP and Quoref. Second, these annotations encourage the model to learn the correct latent reasoning steps, helping combat some of the biases introduced during the data collection process."
   },
   {
     "id": "dynsample:acl20",
@@ -45,7 +65,13 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["Ananth Gottumukkala", "dheeru", "sameer", "mattg"],
-    "venueId": "acl"
+    "pdfLink": "/files/papers/dynsample-acl20.pdf",
+    "extraLinksSlot": [
+      ["ACL Anthology", "https://www.aclweb.org/anthology/2020.acl-main.86/"],
+      ["Video+Slides", "https://slideslive.com/38929287"]
+    ],
+    "venueId": "acl",
+    "abstractText": "Building general reading comprehension systems, capable of solving multiple datasets at the same time, is a recent aspirational goal in the research community. Prior work has focused on model architecture or generalization to held out datasets, and largely passed over the particulars of the multi-task learning set up. We show that a simple dynamic sampling strategy, selecting instances for training proportional to the multi-task model’s current performance on a dataset relative to its single task performance, gives substantive gains over prior multi-task sampling strategies, mitigating the catastrophic forgetting that is common in multi-task learning. We also demonstrate that allowing instances of different tasks to be interleaved as much as possible between each epoch and batch has a clear benefit in multitask performance over forcing task homogeneity at the epoch or batch level. Our final model shows greatly increased performance over the best model on ORB, a recently-released multitask reading comprehension benchmark."
   },
   {
     "id": "kbeval:akbc20",
@@ -54,10 +80,15 @@
     "year": 2020,
     "authorIds": ["pouya", "Yifan Tian", "sameer"],
     "extraLinksSlot": [
-      ["OpenReview", "https://openreview.net/forum?id=1uufzxsxfL"]
+      ["Yago3-TC Data", "https://pouyapez.github.io/yago3-tc/"],
+      ["Video+Slides", "https://www.akbc.ws/2020/virtual/poster_5.html"],
+      ["OpenReview", "https://openreview.net/forum?id=1uufzxsxfL"],
+      ["AKBC Page", "https://www.akbc.ws/2020/papers/1uufzxsxfL"]
     ],
-    "pdfLink": "https://openreview.net/pdf?id=1uufzxsxfL",
-    "venueId": "akbc"
+    "pdfLink": "/files/papers/kbeval-akbc20.pdf",
+    "emphasisNote": "Runner-up for Best Paper Award",
+    "venueId": "akbc",
+    "abstractText": "Representing knowledge graphs (KGs) by learning embeddings for entities and relations has led to accurate models for existing KG completion benchmarks. However, due to the open-world assumption of existing KGs, evaluation of KG completion uses ranking metrics and triple classification with negative samples, and is thus unable to directly assess models on the goals of the task: completion. In this paper, we first study the shortcomings of these evaluation metrics. Specifically, we demonstrate that these metrics (1) are unreliable for estimating how calibrated the models are, (2) make strong assumptions that are often violated, and 3) do not sufficiently, and consistently, differentiate embedding methods from each other, or from simpler approaches. To address these issues, we gather a semi-complete KG referred as YAGO3-TC, using a random subgraph from the test and validation data of YAGO3-10, which enables us to compute accurate triple classification accuracy on this data. Conducting thorough experiments on existing models, we provide new insights and directions for the KG completion research. Along with the dataset and the open source implementation of the models, we also provide a leaderboard for knowledge graph completion that consists of a hidden, and growing, test set, available at https://pouyapez.github.io/yago3-tc/."
   },
   {
     "id": "bertdecept:ijcnn20",
@@ -73,12 +104,14 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["nitish", "Kevin Lin", "roth", "sameer", "mattg"],
-    "pdfLink": "https://arxiv.org/pdf/1912.04971",
+    "pdfLink": "/files/papers/nmn-iclr20.pdf",
     "extraLinksSlot": [
       ["arXiv", "https://arxiv.org/abs/1912.04971"],
-      ["OpenReview", "https://openreview.net/forum?id=SygWvAVFPr"]
+      ["OpenReview", "https://openreview.net/forum?id=SygWvAVFPr"],
+      ["Code", "https://nitishgupta.github.io/nmn-drop/"]
     ],
-    "venueId": "iclr"
+    "venueId": "iclr",
+    "abstractText": "Answering compositional questions that require multiple steps of reasoning against text is challenging, especially when they involve discrete, symbolic operations. Neural module networks (NMNs) learn to parse such questions as executable programs composed of learnable modules, performing well on synthetic visual QA domains. However, we find that it is challenging to learn these models for non-synthetic questions on open-domain text, where a model needs to deal with the diversity of natural language and perform a broader range of reasoning. We extend NMNs by: (a) introducing modules that reason over a paragraph of text, performing symbolic reasoning (such as arithmetic, sorting, counting) over numbers and dates in a probabilistic and differentiable manner; and (b) proposing an unsupervised auxiliary loss to help extract arguments associated with the events in text. Additionally, we show that a limited amount of heuristically-obtained question program and intermediate module output supervision provides sufficient inductive bias for accurate learning. Our proposed model significantly outperforms state-of-the-art models on a subset of the DROP dataset that poses a variety of reasoning challenges that are covered by our modules."
   },
   {
     "id": "salrl:iclr20",
@@ -86,9 +119,11 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["Piyush Gupta", "Nikaash Puri", "Sukriti Verma", "Dhruv Kayastha", "Shripad Deshmukh", "Balaji Krishnamurthy", "sameer"],
-    "pdfLink": "https://openreview.net/pdf?id=SJgzLkBKPB",
+    "pdfLink": "/files/papers/salrl-iclr20.pdf",
     "extraLinksSlot": [
+      ["Project page", "https://nikaashpuri.github.io/sarfa-saliency/"],
       ["arXiv", "https://arxiv.org/abs/1912.12191"],
+      ["Code+Data", "https://github.com/nikaashpuri/sarfa-saliency"],
       ["OpenReview", "https://openreview.net/forum?id=SJgzLkBKPB"]
     ],
     "venueId": "iclr"
@@ -180,7 +215,7 @@
         "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocz140/5571446"
       ]
     ],
-    "year": "2019"
+    "year": 2019
   },
   {
     "id": "compvqa:vigil19",
@@ -189,7 +224,7 @@
     "pubTypeSlot": "Workshop",
     "venueId": "NeurIPS Workshop on Visually Grounded Interaction and Language (ViGIL)",
     "pdfLink": "https://vigilworkshop.github.io/static/papers/43.pdf",
-    "year": "2019"
+    "year": 2019
   },
   {
     "id": "dpal:priml19",
@@ -201,7 +236,7 @@
     "extraLinksSlot": [
       [ "arXiv", "https://arxiv.org/abs/1910.01177" ]
     ],
-    "year": "2019"
+    "year": 2019
   },
   {
     "id": "review:synced19",
