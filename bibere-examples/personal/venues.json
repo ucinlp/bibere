@@ -44,6 +44,10 @@
   "acronym" : "MRQA"
 }, {
   "id" : "akbc",
+  "name" : "Automated Knowledge Base Construction (AKBC)",
+  "acronym" : "AKBC"
+}, {
+  "id" : "akbc-ws",
   "name" : "Workshop on Automated Knowledge Base Construction (AKBC)",
   "acronym" : "AKBC"
 }, {

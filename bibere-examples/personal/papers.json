@@ -5,7 +5,16 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["marco", "Tongshuang Wu", "carlos", "sameer"],
-    "venueId": "acl"
+    "venueId": "acl",
+    "pdfLink": "/files/papers/checklist-acl20.pdf",
+    "extraLinksSlot": [
+      ["Code", "https://github.com/marcotcr/checklist"],
+      ["ACL Anthology", "https://www.aclweb.org/anthology/2020.acl-main.442/"],
+      ["Video+Slides", "https://slideslive.com/38929272"],
+      ["ArXiV", "https://arxiv.org/abs/2005.04118"]
+    ],
+    "emphasisNote": "Best Paper Award",
+    "abstractText": "Although measuring held-out accuracy has been the primary approach to evaluate generalization, it often overestimates the performance of NLP models, while alternative approaches for evaluating models either focus on individual tasks or on specific behaviors. Inspired by principles of behavioral testing in software engineering, we introduce CheckList, a task-agnostic methodology for testing NLP models. CheckList includes a matrix of general linguistic capabilities and test types that facilitate comprehensive test ideation, as well as a software tool to generate a large and diverse number of test cases quickly. We illustrate the utility of CheckList with tests for three tasks, identifying critical failures in both commercial and state-of-art models. In a user study, a team responsible for a commercial sentiment analysis model found new and actionable bugs in an extensively tested model. In another user study, NLP practitioners with CheckList created twice as many tests, and found almost three times as many bugs as users without it."
   },
   {
     "id": "impsample:acl20",
@@ -13,15 +22,28 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["rlogan", "mattg", "sameer"],
+    "pdfLink": "/files/papers/impsample-acl20.pdf",
+    "extraLinksSlot": [
+      ["ACL Anthology", "https://www.aclweb.org/anthology/2020.acl-main.196/"],
+      ["Video+Slides", "https://slideslive.com/38929173"]
+    ],
+    "abstractText": "Language models that use additional latent structures (e.g., syntax trees, coreference chains, knowledge graph links) provide several advantages over traditional language models. However, likelihood-based evaluation of these models is often intractable as it requires marginalizing over the latent space. Existing works avoid this issue by using importance sampling. Although this approach has asymptotic guarantees, analysis is rarely conducted on the effect of decisions such as sample size and choice of proposal distribution on the reported estimates. In this paper, we carry out this analysis for three models: RNNG, EntityNLM, and KGLM. In addition, we elucidate subtle differences in how importance sampling is applied in these works that can have substantial effects on the final estimates, as well as provide theoretical results which reinforce the validity of this technique.",
     "venueId": "acl"
   },
   {
     "id": "nmninterpret:acl20",
-    "title": "Achieving Interpretability in Compositional Neural Networks",
+    "title": "Obtaining Faithful Interpretations from Compositional Neural Networks",
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["Sanjay Subramanian", "Ben Bogin", "nitish", "Tomer Wolfson", "sameer", "Jonathan Berant", "mattg"],
-    "venueId": "acl"
+    "pdfLink": "/files/papers/nmninterpret-acl20.pdf",
+    "extraLinksSlot": [
+      ["ACL Anthology", "https://www.aclweb.org/anthology/2020.acl-main.495/"],
+      ["ArXiV", "https://arxiv.org/abs/2005.00724"],
+      ["Video+Slides", "https://slideslive.com/38929088"]
+    ],
+    "venueId": "acl",
+    "abstractText": "Neural module networks (NMNs) are a popular approach for modeling compositionality: they achieve high accuracy when applied to problems in language and vision, while reflecting the compositional structure of the problem in the network architecture. However, prior work implicitly assumed that the structure of the network modules, describing the abstract reasoning process, provides a faithful explanation of the model’s reasoning; that is, that all modules perform their intended behaviour. In this work, we propose and conduct a systematic evaluation of the intermediate outputs of NMNs on NLVR2 and DROP, two datasets which require composing multiple reasoning steps. We find that the intermediate outputs differ from the expected output, illustrating that the network structure does not provide a faithful explanation of model behaviour. To remedy that, we train the model with auxiliary supervision and propose particular choices for module architecture that yield much better faithfulness, at a minimal cost to accuracy."
   },
   {
     "id": "intannot:acl20",
@@ -29,7 +51,13 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["dheeru", "sameer", "mattg"],
-    "venueId": "acl"
+    "pdfLink": "/files/papers/intannot-acl20.pdf",
+    "extraLinksSlot": [
+      ["ACL Anthology", "https://www.aclweb.org/anthology/2020.acl-main.497/"],
+      ["Video+Slides", "https://slideslive.com/38929228"]
+    ],
+    "venueId": "acl",
+    "abstractText": "Complex compositional reading comprehension datasets require performing latent sequential decisions that are learned via supervision from the final answer. A large combinatorial space of possible decision paths that result in the same answer, compounded by the lack of intermediate supervision to help choose the right path, makes the learning particularly hard for this task. In this work, we study the benefits of collecting intermediate reasoning supervision along with the answer during data collection. We find that these intermediate annotations can provide two-fold benefits. First, we observe that for any collection budget, spending a fraction of it on intermediate annotations results in improved model performance, for two complex compositional datasets: DROP and Quoref. Second, these annotations encourage the model to learn the correct latent reasoning steps, helping combat some of the biases introduced during the data collection process."
   },
   {
     "id": "dynsample:acl20",
@@ -37,7 +65,30 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["Ananth Gottumukkala", "dheeru", "sameer", "mattg"],
-    "venueId": "acl"
+    "pdfLink": "/files/papers/dynsample-acl20.pdf",
+    "extraLinksSlot": [
+      ["ACL Anthology", "https://www.aclweb.org/anthology/2020.acl-main.86/"],
+      ["Video+Slides", "https://slideslive.com/38929287"]
+    ],
+    "venueId": "acl",
+    "abstractText": "Building general reading comprehension systems, capable of solving multiple datasets at the same time, is a recent aspirational goal in the research community. Prior work has focused on model architecture or generalization to held out datasets, and largely passed over the particulars of the multi-task learning set up. We show that a simple dynamic sampling strategy, selecting instances for training proportional to the multi-task model’s current performance on a dataset relative to its single task performance, gives substantive gains over prior multi-task sampling strategies, mitigating the catastrophic forgetting that is common in multi-task learning. We also demonstrate that allowing instances of different tasks to be interleaved as much as possible between each epoch and batch has a clear benefit in multitask performance over forcing task homogeneity at the epoch or batch level. Our final model shows greatly increased performance over the best model on ORB, a recently-released multitask reading comprehension benchmark."
+  },
+  {
+    "id": "kbeval:akbc20",
+    "title": "Revisiting Evaluation of Knowledge Base Completion Models",
+    "pubTypeSlot": "Conference",
+    "year": 2020,
+    "authorIds": ["pouya", "Yifan Tian", "sameer"],
+    "extraLinksSlot": [
+      ["Yago3-TC Data", "https://pouyapez.github.io/yago3-tc/"],
+      ["Video+Slides", "https://www.akbc.ws/2020/virtual/poster_5.html"],
+      ["OpenReview", "https://openreview.net/forum?id=1uufzxsxfL"],
+      ["AKBC Page", "https://www.akbc.ws/2020/papers/1uufzxsxfL"]
+    ],
+    "pdfLink": "/files/papers/kbeval-akbc20.pdf",
+    "emphasisNote": "Runner-up for Best Paper Award",
+    "venueId": "akbc",
+    "abstractText": "Representing knowledge graphs (KGs) by learning embeddings for entities and relations has led to accurate models for existing KG completion benchmarks. However, due to the open-world assumption of existing KGs, evaluation of KG completion uses ranking metrics and triple classification with negative samples, and is thus unable to directly assess models on the goals of the task: completion. In this paper, we first study the shortcomings of these evaluation metrics. Specifically, we demonstrate that these metrics (1) are unreliable for estimating how calibrated the models are, (2) make strong assumptions that are often violated, and 3) do not sufficiently, and consistently, differentiate embedding methods from each other, or from simpler approaches. To address these issues, we gather a semi-complete KG referred as YAGO3-TC, using a random subgraph from the test and validation data of YAGO3-10, which enables us to compute accurate triple classification accuracy on this data. Conducting thorough experiments on existing models, we provide new insights and directions for the KG completion research. Along with the dataset and the open source implementation of the models, we also provide a leaderboard for knowledge graph completion that consists of a hidden, and growing, test set, available at https://pouyapez.github.io/yago3-tc/."
   },
   {
     "id": "bertdecept:ijcnn20",
@@ -53,12 +104,14 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["nitish", "Kevin Lin", "roth", "sameer", "mattg"],
-    "pdfLink": "https://arxiv.org/pdf/1912.04971",
+    "pdfLink": "/files/papers/nmn-iclr20.pdf",
     "extraLinksSlot": [
       ["arXiv", "https://arxiv.org/abs/1912.04971"],
-      ["OpenReview", "https://openreview.net/forum?id=SygWvAVFPr"]
+      ["OpenReview", "https://openreview.net/forum?id=SygWvAVFPr"],
+      ["Code", "https://nitishgupta.github.io/nmn-drop/"]
     ],
-    "venueId": "iclr"
+    "venueId": "iclr",
+    "abstractText": "Answering compositional questions that require multiple steps of reasoning against text is challenging, especially when they involve discrete, symbolic operations. Neural module networks (NMNs) learn to parse such questions as executable programs composed of learnable modules, performing well on synthetic visual QA domains. However, we find that it is challenging to learn these models for non-synthetic questions on open-domain text, where a model needs to deal with the diversity of natural language and perform a broader range of reasoning. We extend NMNs by: (a) introducing modules that reason over a paragraph of text, performing symbolic reasoning (such as arithmetic, sorting, counting) over numbers and dates in a probabilistic and differentiable manner; and (b) proposing an unsupervised auxiliary loss to help extract arguments associated with the events in text. Additionally, we show that a limited amount of heuristically-obtained question program and intermediate module output supervision provides sufficient inductive bias for accurate learning. Our proposed model significantly outperforms state-of-the-art models on a subset of the DROP dataset that poses a variety of reasoning challenges that are covered by our modules."
   },
   {
     "id": "salrl:iclr20",
@@ -66,12 +119,15 @@
     "pubTypeSlot": "Conference",
     "year": 2020,
     "authorIds": ["Piyush Gupta", "Nikaash Puri", "Sukriti Verma", "Dhruv Kayastha", "Shripad Deshmukh", "Balaji Krishnamurthy", "sameer"],
-    "pdfLink": "https://openreview.net/pdf?id=SJgzLkBKPB",
+    "pdfLink": "/files/papers/salrl-iclr20.pdf",
     "extraLinksSlot": [
+      ["Project page", "https://nikaashpuri.github.io/sarfa-saliency/"],
       ["arXiv", "https://arxiv.org/abs/1912.12191"],
+      ["Code+Data", "https://github.com/nikaashpuri/sarfa-saliency"],
       ["OpenReview", "https://openreview.net/forum?id=SJgzLkBKPB"]
     ],
-    "venueId": "iclr"
+    "venueId": "iclr",
+    "abstractText": "As deep reinforcement learning (RL) is applied to more tasks, there is a need to visualize and understand the behavior of learned agents. Saliency maps explain agent behavior by highlighting the features of the input state that are most relevant for the agent in taking an action. Existing perturbation-based approaches to compute saliency often highlight regions of the input that are not relevant to the action taken by the agent. Our proposed approach, SARFA (Specific and Relevant Feature Attribution), generates more focused saliency maps by balancing two aspects (specificity and relevance) that capture different desiderata of saliency. The first captures the impact of perturbation on the relative expected reward of the action to be explained. The second downweighs irrelevant features that alter the relative expected rewards of actions other than the action to be explained. We compare SARFA with existing approaches on agents trained to play board games (Chess and Go) and Atari games (Breakout, Pong and Space Invaders). We show through illustrative examples (Chess, Atari, Go), human studies (Chess), and automated evaluation methods (Chess) that SARFA generates saliency maps that are more interpretable for humans than existing approaches. For the code release and demo videos, see: https://nikaashpuri.github.io/sarfa-saliency/."
   },
   {
     "id": "malmo:eaai20",
@@ -85,7 +141,8 @@
       ["Poster", "/files/ppts/malmo-eaai20-poster.pdf"],
       ["Spotlight", "/files/ppts/malmo-eaai20-slides.pdf"]
     ],
-    "venueId": "eaai"
+    "venueId": "eaai",
+    "abstractText": "Undergraduate courses that focus on open-ended, projectbased learning teach students how to define concrete goals, transfer conceptual understanding of algorithms to code, and evaluate/analyze/present their solution. However, AI, along with machine learning, is getting increasingly varied in terms of both the approaches and applications, making it challenging to design project courses that span a sufficiently wide spectrum of AI. For these reasons, existing AI project courses are restricted to a narrow set of approaches (e.g. only reinforcement learning) or applications (e.g. only computer vision).<br>In this paper, we propose to use Minecraft as the platform for teaching AI via project-based learning. Minecraft is an open-world sandbox game with elements of exploration, resource gathering, crafting, construction, and combat, and is supported by the Malmo library that provides a programmatic interface to the player observations and actions at various levels of granularity. In Minecraft, students can design projects to use approaches like search-based AI, reinforcement learning, supervised learning, and constraint satisfaction, on data types like text, audio, images, and tabular data. We describe our experience with an open-ended, undergraduate AI projects course using Minecraft that includes 82 different projects, covering themes that ranged from navigation, instruction following, object detection, combat, and music/image generation."
   },
   {
     "id": "advlime:aies20",
@@ -97,7 +154,8 @@
     "extraLinksSlot": [
       ["arXiv", "https://arxiv.org/abs/1911.02508"]
     ],
-    "venueId": "aies"
+    "venueId": "aies",
+    "abstractText": "As machine learning black boxes are increasingly being deployed in domains such as healthcare and criminal justice, there is growing emphasis on building tools and techniques for explaining these black boxes in an interpretable manner. Such explanations are being leveraged by domain experts to diagnose systematic errors and underlying biases of black boxes. In this paper, we demonstrate that post hoc explanations techniques that rely on input perturbations, such as LIME and SHAP, are not reliable. Specifically, we propose a novel scaffolding technique that effectively hides the biases of any given classifier by allowing an adversarial entity to craft an arbitrary desired explanation. Our approach can be used to scaffold any biased classifier in such a way that its predictions on the input data distribution still remain biased, but the post hoc explanations of the scaffolded classifier look innocuous. Using extensive evaluation with multiple real-world datasets (including COMPAS), we demonstrate how extremely biased (racist) classifiers crafted by our framework can easily fool popular explanation techniques such as LIME and SHAP into generating innocuous explanations which do not reflect the underlying biases."
   },
   {
     "id": "ibal:vl320",
@@ -105,7 +163,10 @@
     "pubTypeSlot": "Workshop",
     "year": 2020,
     "authorIds": ["pouya", "zhengli", "sameer"],
-    "venueId": "CVPR Workshop on Visual Learning with Limited Labels (VL3)"
+    "venueId": "CVPR Workshop on Visual Learning with Limited Labels (VL3)",
+    "extraLinksSlot": [
+      ["Video", "https://www.youtube.com/watch?v=yCSRL9h6lqE"]
+    ]
   },
   {
     "id": "evalqa:mrqa19",
@@ -160,7 +221,7 @@
         "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocz140/5571446"
       ]
     ],
-    "year": "2019"
+    "year": 2019
   },
   {
     "id": "compvqa:vigil19",
@@ -169,7 +230,7 @@
     "pubTypeSlot": "Workshop",
     "venueId": "NeurIPS Workshop on Visually Grounded Interaction and Language (ViGIL)",
     "pdfLink": "https://vigilworkshop.github.io/static/papers/43.pdf",
-    "year": "2019"
+    "year": 2019
   },
   {
     "id": "dpal:priml19",
@@ -181,7 +242,7 @@
     "extraLinksSlot": [
       [ "arXiv", "https://arxiv.org/abs/1910.01177" ]
     ],
-    "year": "2019"
+    "year": 2019
   },
   {
     "id": "review:synced19",
@@ -216,9 +277,11 @@
     "extraLinksSlot": [
       ["arXiv", "https://arxiv.org/abs/1908.07125"],
       ["Blog post", "http://www.ericswallace.com/triggers"],
-      ["Code", "https://github.com/Eric-Wallace/universal-triggers"]
+      ["Code", "https://github.com/Eric-Wallace/universal-triggers"],
+      ["ACL Anthology", "https://www.aclweb.org/anthology/D19-1221/"]
     ],
-    "weight": 3.6
+    "weight": 3.6,
+    "abstractText": "Adversarial examples highlight model vulnerabilities and are useful for evaluation and interpretation. We define universal adversarial triggers: input-agnostic sequences of tokens that trigger a model to produce a specific prediction when concatenated to any input from a dataset. We propose a gradient-guided search over tokens which finds short trigger sequences (e.g., one word for classification and four words for language modeling) that successfully trigger the target prediction. For example, triggers cause SNLI entailment accuracy to drop from 89.94% to 0.55%, 72% of “why” questions in SQuAD to be answered “to kill american people”, and the GPT-2 language model to spew racist output even when conditioned on non-racial contexts. Furthermore, although the triggers are optimized using white-box access to a specific model, they transfer to other models for all tasks we consider. Finally, since triggers are input-agnostic, they provide an analysis of global model behavior. For instance, they confirm that SNLI models exploit dataset biases and help to diagnose heuristics learned by reading comprehension models."
   },
   {
     "id": "numeracy:emnlp19",
@@ -264,6 +327,12 @@
       "sameer"
     ],
     "pdfLink": "/files/papers/allennlp-interpret-demo-emnlp19.pdf",
+    "extraLinksSlot": [
+      ["Project Page", "https://allennlp.org/interpret"],
+      ["ACL Anthology", "https://www.aclweb.org/anthology/D19-3002/"],
+      ["ArXiv", "https://arxiv.org/abs/1909.09251"],
+      ["Poster", "https://www.ericswallace.com/slides_and_posters/InterpretPoster.pdf"]
+    ],
     "venueId": "Demo at the Empirical Methods in Natural Language Processing (EMNLP)",
     "abstractText": "Neural NLP models are increasingly accurate but are imperfect and opaque---they break in counterintuitive ways and leave end users puzzled at their behavior. Model interpretation methods ameliorate this opacity by providing explanations for specific model predictions. Unfortunately, existing interpretation codebases make it difficult to apply these methods to new models and tasks, which hinders adoption for practitioners and burdens interpretability researchers. We introduce AllenNLP Interpret, a flexible framework for interpreting NLP models. The toolkit provides interpretation primitives (e.g., input gradients) for any AllenNLP model and task, a suite of built-in interpretation methods, and a library of front-end visualization components. We demonstrate the toolkit's flexibility and utility by implementing live demos for five interpretation methods (e.g., saliency maps and adversarial attacks) on a variety of models and tasks (e.g., masked language modeling using BERT and reading comprehension using BiDAF). These demos, alongside our code and tutorials, are available at https://allennlp.org/interpret.",
     "emphasisNote": "Best Demonstration Paper Award."
@@ -284,10 +353,12 @@
     "extraLinksSlot": [
       ["arXiv", "https://arxiv.org/abs/1906.07241"],
       ["Data", "https://rloganiv.github.io/linked-wikitext-2/"],
-      ["Code", "https://github.com/rloganiv/kglm-model"]
+      ["Code", "https://github.com/rloganiv/kglm-model"],
+      ["ACL Anthology", "https://www.aclweb.org/anthology/P19-1598/"]
     ],
     "venueId": "acl",
-    "weight": 2.5
+    "weight": 2.5,
+    "abstractText": "Modeling human language requires the ability to not only generate fluent text but also encode factual knowledge. However, traditional language models are only capable of remembering facts seen at training time, and often have difficulty recalling them. To address this, we introduce the knowledge graph language model (KGLM), a neural language model with mechanisms for selecting and copying facts from a knowledge graph that are relevant to the context. These mechanisms enable the model to render information it has never seen before, as well as generate out-of-vocabulary tokens. We also introduce the Linked WikiText-2 dataset, a corpus of annotated text aligned to the Wikidata knowledge graph whose contents (roughly) match the popular WikiText-2 benchmark. In experiments, we demonstrate that the KGLM achieves significantly better performance than a strong baseline language model. We additionally compare different language model’s ability to complete sentences requiring factual knowledge, showing that the KGLM outperforms even very large language models in generating facts."
   },
   {
     "id": "impl:acl19",
@@ -510,9 +581,10 @@
       ["Code", "https://github.com/marcotcr/sears"],
       [
         "ACL Anthology",
-        "https://aclanthology.coli.uni-saarland.de/papers/P18-1079/p18-1079"
+        "https://www.aclweb.org/anthology/P18-1079/"
       ],
-      ["Video", "https://vimeo.com/285801102"]
+      ["Video", "https://vimeo.com/285801102"],
+      ["Slides", "https://www.aclweb.org/anthology/attachments/P18-1079.Presentation.pdf"]
     ],
     "venueId": "acl",
     "emphasisNote": "Honorable Mention for Best Paper.",
@@ -594,7 +666,7 @@
     "year": 2017,
     "pdfLink": "/files/papers/mmkbe-akbc17.pdf",
     "authorIds": ["pouya", "Liyan Chen", "sameer"],
-    "venueId": "akbc"
+    "venueId": "akbc-ws"
   },
   {
     "id": "maed:akbc17",
@@ -603,7 +675,7 @@
     "year": 2017,
     "authorIds": ["rlogan", "Samuel Humeau", "sameer"],
     "pdfLink": "/files/papers/maed-akbc17.pdf",
-    "venueId": "akbc"
+    "venueId": "akbc-ws"
   },
   {
     "id": "semcompress:asilomar17",
@@ -1037,7 +1109,7 @@
     "pubTypeSlot": "Workshop",
     "year": 2014,
     "authorIds": ["mathias", "sameer"],
-    "venueId": "akbc",
+    "venueId": "akbc-ws",
     "pdfLink": "http://www.akbc.ws/2014/submissions/akbc2014_submission_28.pdf",
     "weight": 0.75
   },
