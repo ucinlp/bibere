@@ -159,6 +159,22 @@ ibal:vl320:
     - "zhengli"
     - "sameer"
 
+distill:hottopics19:
+  title: >
+    Distilled Split Deep Neural Networks for Edge-Assisted Real-Time Systems
+  venue: "Mobicom Workshop on Hot Topics in Video Analytics and Intelligent Edges"
+  year: 2019
+  type: "Workshop"
+  authors:
+    - "Yoshitomo Matsubara"
+    - "Sabur Baidya"
+    - "Davide Callegaro"
+    - "levorato"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: "/files/paper/distill-hottopics19.pdf"
+
 evalqa:mrqa19:
   title: >
     Evaluating Question Answering Evaluation
