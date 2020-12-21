@@ -61,6 +61,9 @@ aistats:
 emnlp:
   name: "Empirical Methods in Natural Language Processing (EMNLP)"
 
+femnlp:
+  name: "Findings of the Association for Computational Linguistics: EMNLP (EMNLP Findings)"
+
 cikm:
   name: "ACM Conference of Information and Knowledge Management (CIKM)"
 

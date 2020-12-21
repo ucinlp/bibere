@@ -1,3 +1,183 @@
+activefew:hamlets20:
+  title: >
+    On the Utility of Active Instance Selection for Few-Shot Learning
+  venue: NeurIPS Workshop on Human And Model in the Loop Evaluation and Training Strategies (HAMLETS)
+  type: Workshop
+  year: 2020
+  authors:
+    - pouya
+    - zhengli
+    - sameer
+  links:
+    - name: PDF
+      link: https://openreview.net/pdf?id=p3m_WpN0rEX
+    - name: OpenReview
+      link: https://openreview.net/forum?id=p3m_WpN0rEX
+
+autoprompt:emnlp20:
+  title: >
+    AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts 
+  year: 2020
+  pages: 4222–4235
+  venue: emnlp
+  type: "Conference"
+  authors:
+    - Taylor Shin
+    - Yasaman Razeghi
+    - rlogan
+    - ericw
+    - sameer
+  links:
+    - name: PDF
+      link: https://www.aclweb.org/anthology/2020.emnlp-main.346.pdf
+    - name: Website
+      link: https://ucinlp.github.io/autoprompt/
+    - name: "ACL Anthology"
+      link: "https://www.aclweb.org/anthology/2020.acl-main.346/"
+  abstract: >
+    The remarkable success of pretrained language models has motivated the study of what kinds of knowledge these models learn during pretraining. Reformulating tasks as fill-in-the-blanks problems (e.g., cloze tests) is a natural approach for gauging such knowledge, however, its usage is limited by the manual effort and guesswork required to write suitable prompts. To address this, we develop AutoPrompt, an automated method to create prompts for a diverse set of tasks, based on a gradient-guided search. Using AutoPrompt, we show that masked language models (MLMs) have an inherent capability to perform sentiment analysis and natural language inference without additional parameters or finetuning, sometimes achieving performance on par with recent state-of-the-art supervised models. We also show that our prompts elicit more accurate factual knowledge from MLMs than the manually created prompts on the LAMA benchmark, and that MLMs can be used as relation extractors more effectively than supervised relation extraction models. These results demonstrate that automatically generated prompts are a viable parameter-free alternative to existing probing methods, and as pretrained LMs become more sophisticated and capable, potentially a replacement for finetuning.
+
+mocha:emnlp20:
+  title: >
+    MOCHA: A Dataset for Training and Evaluating Generative Reading Comprehension Metrics
+  year: 2020
+  pages: 6521–6532
+  venue: emnlp
+  type: "Conference"
+  authors:
+    - anthonyc
+    - gabis
+    - sameer
+    - mattg
+  links:
+    - name: PDF
+      link: https://www.aclweb.org/anthology/2020.emnlp-main.528.pdf
+    - name: Website
+      link: https://allennlp.org/mocha
+    - name: ACL Anthology
+      link: https://www.aclweb.org/anthology/2020.emnlp-main.528/
+  abstract: >
+    Posing reading comprehension as a generation problem provides a great deal of flexibility, allowing for open-ended questions with few restrictions on possible answers. However, progress is impeded by existing generation metrics, which rely on token overlap and are agnostic to the nuances of reading comprehension. To address this, we introduce a benchmark for training and evaluating generative reading comprehension metrics: MOdeling Correctness with Human Annotations. MOCHA contains 40K human judgement scores on model outputs from 6 diverse question answering datasets and an additional set of minimal pairs for evaluation. Using MOCHA, we train a Learned Evaluation metric for Reading Comprehension, LERC, to mimic human judgement scores. LERC outperforms baseline metrics by 10 to 36 absolute Pearson points on held-out annotations. When we evaluate robustness on minimal pairs, LERC achieves 80% accuracy, outperforming baselines by 14 to 26 absolute percentage points while leaving significant room for improvement. MOCHA presents a challenging problem for developing accurate and robust generative reading comprehension metrics.
+
+facade:femnlp20:
+  title: >
+    Gradient-based Analysis of NLP Models is Manipulable
+  year: 2020
+  venue: femnlp
+  type: "Conference"
+  pages: 247–258
+  authors:
+    - Junlin Wang
+    - Jens Tuyls
+    - ericw
+    - sameer
+  links:
+    - name: PDF
+      link: https://www.aclweb.org/anthology/2020.findings-emnlp.24.pdf
+    - name: Website
+      link: https://ucinlp.github.io/facade/
+
+contrast:femnlp20:
+  title: >
+    Evaluating Models’ Local Decision Boundaries via Contrast Sets
+  year: 2020
+  venue: femnlp
+  type: "Conference"
+  authors:
+    - mattg
+    - Yoav Artzi
+    - Victoria Basmov
+    - Jonathan Berant
+    - Ben Bogin
+    - Sihao Chen
+    - Pradeep Dasigi
+    - dheeru
+    - Yanai Elazar
+    - Ananth Gottumukkala
+    - nitish
+    - Hannaneh Hajishirzi
+    - Gabriel Ilharco
+    - Daniel Khashabi
+    - Kevin Lin
+    - Jiangming Liu
+    - Nelson F. Liu
+    - Phoebe Mulcaire
+    - Qiang Ning
+    - sameer
+    - Noah A. Smith
+    - Sanjay Subramanian
+    - Reut Tsarfaty
+    - ericw
+    - Ally Zhang
+    - Ben Zhou
+  links:
+    - name: PDF
+      link: https://www.aclweb.org/anthology/2020.findings-emnlp.117.pdf
+  pages: 1307–1323
+
+
+medicat:femnlp20:
+  title: >
+    MedICaT: A Dataset of Medical Images, Captions, and Textual References
+  year: 2020
+  venue: femnlp
+  type: "Conference"
+  authors:
+    - Sanjay Subramanian
+    - Lucy Lu Wang
+    - Ben Bogin
+    - Sachin Mehta
+    - Madeleine van Zuylen
+    - Sravanthi Parasa
+    - sameer
+    - mattg
+    - Hannaneh Hajishirzi
+  links:
+    - name: PDF
+      link: https://www.aclweb.org/anthology/2020.findings-emnlp.191.pdf
+  pages: 2112–2120
+
+covidlies:nlpcovid20:
+  title: >
+    COVIDLies: Detecting COVID-19 Misinformation on Social Media
+  year: 2020
+  venue: EMNLP NLP Covid19 Workshop
+  authors:
+    - Tamanna Hossain
+    - rlogan
+    - Arjuna Ugarte
+    - yoshi
+    - Sean Young
+    - sameer
+  links:
+    - name: PDF
+      link: /files/papers/covidlies-nlpcovid20.pdf
+    - name: ACL Anthology
+      link: "https://www.aclweb.org/anthology/2020.nlpcovid19-2.11/"
+    - name: Website (w/ demo)
+      link: http://ucinlp.github.io/covid19
+  type: Workshop
+  abstract: >
+    The ongoing pandemic has heightened the need for developing tools to flag COVID-19-related misinformation on the internet, specifically on social media such as Twitter. However, due to novel language and the rapid change of information, existing misinformation detection datasets are not effective for evaluating systems designed to detect misinformation on this topic. Misinformation detection can be divided into two sub-tasks: (i) retrieval of misconceptions relevant to posts being checked for veracity, and (ii) stance detection to identify whether the posts Agree, Disagree, or express No Stance towards the retrieved misconceptions. To facilitate research on this task, we release COVIDLies (https://ucinlp.github.io/covid19), a dataset of 6761 expert-annotated tweets to evaluate the performance of misinformation detection systems on 86 different pieces of COVID-19 related misinformation. We evaluate existing NLP systems on this dataset, providing initial benchmarks and identifying key challenges for future models to improve upon.
+  emphasis: "Best Paper Award"
+
+tweeki:wnut20:
+  title: >
+    Tweeki: Linking Named Entities on Twitter to a Knowledge Graph
+  year: 2020
+  venue: EMNLP Workshop on Noisy, User-generated Text (W-NUT)
+  authors:
+    - Bahareh Harandizadeh
+    - sameer
+  links:
+    - name: PDF
+      link: https://www.aclweb.org/anthology/2020.wnut-1.29.pdf
+    - name: ACL Anthology
+      link: https://www.aclweb.org/anthology/2020.wnut-1.29/
+  type: Workshop
+  abstract: >
+    To identify what entities are being talked about in tweets, we need to automatically link named entities that appear in tweets to structured KBs like WikiData. Existing approaches often struggle with such short, noisy texts, or their complex design and reliance on supervision make them brittle, difficult to use and maintain, and lose significance over time. Further, there is a lack of a large, linked corpus of tweets to aid researchers, along with lack of gold dataset to evaluate the accuracy of entity linking. In this paper, we introduce (1) Tweeki, an unsupervised, modular entity linking system for Twitter, (2) TweekiData, a large, automatically-annotated corpus of Tweets linked to entities in WikiData, and (3) TweekiGold, a gold dataset for entity linking evaluation. Through comprehensive analysis, we show that Tweeki is comparable to the performance of recent state-of-the-art entity linkers models, the dataset is of high quality, and a use case of how the dataset can be used to improve downstream tasks in social media analysis (geolocation prediction).
+
 checklist:acl20:
   title: >
     Beyond Accuracy: Behavioral Testing of NLP models with CheckList
@@ -9,6 +189,7 @@ checklist:acl20:
     - "Tongshuang Wu"
     - "carlos"
     - "sameer"
+  pages: 4902-4912
   links:
     - name: "PDF"
       link: "/files/papers/checklist-acl20.pdf"
@@ -34,6 +215,7 @@ impsample:acl20:
     - "rlogan"
     - "mattg"
     - "sameer"
+  pages: 2171-2176
   links:
     - name: "PDF"
       link: "/files/papers/impsample-acl20.pdf"
@@ -58,6 +240,7 @@ nmninterpret:acl20:
     - "sameer"
     - "Jonathan Berant"
     - "mattg"
+  pages: 5594-5608
   links:
     - name: "PDF"
       link: "/files/papers/nmninterpret-acl20.pdf"
@@ -80,6 +263,7 @@ intannot:acl20:
     - "dheeru"
     - "sameer"
     - "mattg"
+  pages: 5627-5634
   links:
     - name: "PDF"
       link: "/files/papers/intannot-acl20.pdf"
@@ -101,6 +285,7 @@ dynsample:acl20:
     - "dheeru"
     - "sameer"
     - "mattg"
+  pages: 920-924
   links:
     - name: "PDF"
       link: "/files/papers/dynsample-acl20.pdf"
@@ -146,6 +331,9 @@ bertdecept:ijcnn20:
     - "Dan Barsever"
     - "sameer"
     - "Emre Neftci"
+  links:
+    - name: "PDF"
+      link: "/files/papers/bertdecept-ijcnn20.pdf"
 
 nmn:iclr20:
   title: >
@@ -207,6 +395,8 @@ malmo:eaai20:
   type: "Conference"
   authors:
     - "sameer"
+  pages: 13504-13505
+  doi: 10.1609/aaai.v34i09.7070
   links:
     - name: "PDF"
       link: "/files/papers/malmo-eaai20.pdf"
@@ -216,6 +406,8 @@ malmo:eaai20:
       link: "/files/ppts/malmo-eaai20-poster.pdf"
     - name: "Spotlight"
       link: "/files/ppts/malmo-eaai20-slides.pdf"
+    - name: "AAAI Page"
+      link: https://aaai.org/ojs/index.php/AAAI/article/view/7070
   abstract: >
     Undergraduate courses that focus on open-ended, projectbased learning teach students how to define concrete goals, transfer conceptual understanding of algorithms to code, and evaluate/analyze/present their solution. However, AI, along with machine learning, is getting increasingly varied in terms of both the approaches and applications, making it challenging to design project courses that span a sufficiently wide spectrum of AI. For these reasons, existing AI project courses are restricted to a narrow set of approaches (e.g. only reinforcement learning) or applications (e.g. only computer vision).<br>In this paper, we propose to use Minecraft as the platform for teaching AI via project-based learning. Minecraft is an open-world sandbox game with elements of exploration, resource gathering, crafting, construction, and combat, and is supported by the Malmo library that provides a programmatic interface to the player observations and actions at various levels of granularity. In Minecraft, students can design projects to use approaches like search-based AI, reinforcement learning, supervised learning, and constraint satisfaction, on data types like text, audio, images, and tabular data. We describe our experience with an open-ended, undergraduate AI projects course using Minecraft that includes 82 different projects, covering themes that ranged from navigation, instruction following, object detection, combat, and music/image generation.
 
@@ -231,13 +423,36 @@ advlime:aies20:
     - "Emily Jia"
     - "sameer"
     - "Himabindu Lakkaraju"
+  pages: 180-186
+  doi: 10.1145/3375627.3375830
   links:
     - name: "PDF"
       link: "/files/papers/advlime-aies20.pdf"
     - name: "arXiv"
       link: "https://arxiv.org/abs/1911.02508"
+    - name: "ACM Page"
+      link: https://dl.acm.org/doi/abs/10.1145/3375627.3375830
   abstract: >
     As machine learning black boxes are increasingly being deployed in domains such as healthcare and criminal justice, there is growing emphasis on building tools and techniques for explaining these black boxes in an interpretable manner. Such explanations are being leveraged by domain experts to diagnose systematic errors and underlying biases of black boxes. In this paper, we demonstrate that post hoc explanations techniques that rely on input perturbations, such as LIME and SHAP, are not reliable. Specifically, we propose a novel scaffolding technique that effectively hides the biases of any given classifier by allowing an adversarial entity to craft an arbitrary desired explanation. Our approach can be used to scaffold any biased classifier in such a way that its predictions on the input data distribution still remain biased, but the post hoc explanations of the scaffolded classifier look innocuous. Using extensive evaluation with multiple real-world datasets (including COMPAS), we demonstrate how extremely biased (racist) classifiers crafted by our framework can easily fool popular explanation techniques such as LIME and SHAP into generating innocuous explanations which do not reflect the underlying biases.
+
+deblind:wosp20:
+  title: >
+    Citations Beyond Self Citations: Identifying Authors, Affiliations, and Nationalities in Scientific Papers
+  venue: Workshop on Mining Scientific Publications (WOSP)
+  year: 2020
+  type: Workshop
+  authors:
+    - yoshi
+    - sameer
+  links:
+    - name: "PDF"
+      link: /files/papers/deblind-wosp20.pdf
+    - name: "Code"
+      link: "https://github.com/yoshitomo-matsubara/guess-blind-entities"
+    - name: ACL Anthology
+      link: https://www.aclweb.org/anthology/2020.wosp-1.2/
+  abstract: >
+    The question of the utility of the blind peer-review system is fundamental to scientific research. Some studies investigate exactly how “blind” the papers are in the double-blind review system by manually or automatically identifying the true authors, mainly suggesting the number of self-citations in the submitted manuscripts as the primary signal for identity. However, related work on the automated approaches are limited by the sizes of their datasets and the restricted experimental setup, thus they lack practical insights into the blind review process. In this work, we train models that identify the authors, their affiliations, and their nationalities through real-world, large-scale experiments on the Microsoft Academic Graph, including the cold start scenario. Our models are accurate; we identify at least one of authors, affiliations, and nationalities of held-out papers with 40.3%, 47.9% and 86.0% accuracy respectively, from the top-10 guesses of our models. However, through insights from the model, we demonstrate that these entities are identifiable with a small number of guesses primarily by using a combination of self-citations, social, and common citations. Moreover, our further analysis on the results leads to interesting findings, such as that prominent affiliations are easily identifiable (e.g. 93.8% of test papers written by Microsoft are identified with top-10 guesses). The experimental results show, against conventional belief, that the self-citations are no more informative than looking at the common citations, thus suggesting that removing self-citations is not sufficient for authors to maintain their anonymity.
 
 ibal:vl320:
   title: >
@@ -260,14 +475,14 @@ distill:hottopics19:
   year: 2019
   type: "Workshop"
   authors:
-    - "Yoshitomo Matsubara"
+    - yoshi
     - "Sabur Baidya"
     - "Davide Callegaro"
     - "levorato"
     - "sameer"
   links:
     - name: "PDF"
-      link: "/files/paper/distill-hottopics19.pdf"
+      link: "/files/papers/distill-hottopics19.pdf"
 
 evalqa:mrqa19:
   title: >
@@ -307,6 +522,8 @@ convtopics:jamia19:
   venue: "Journal of the American Medical Informatics Association"
   year: 2019
   type: "Journal"
+  pages: 1493-1504
+  doi: 10.1093/jamia/ocz140
   authors:
     - "Jihyun Park"
     - "Dimitrios Kotzias"
@@ -327,7 +544,8 @@ convtopics:jamia19:
     - name: "Website"
       link: "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocz140/5571446"
   bibtex_fields:
-    volume: "TBD"
+    volume: 26
+    number: 12
 
 compvqa:vigil19:
   title: >
@@ -389,6 +607,8 @@ trigger:emnlp19:
     - "Nikhil Kandpal"
     - "mattg"
     - "sameer"
+  pages: 2153-2162
+  doi: 10.18653/v1/D19-1221
   links:
     - name: "PDF"
       link: "https://arxiv.org/pdf/1908.07125"
@@ -416,11 +636,15 @@ numeracy:emnlp19:
     - "Sujian Li"
     - "sameer"
     - "mattg"
+  pages: 5307-5315
+  doi: 10.18653/v1/D19-1534
   links:
     - name: "PDF"
       link: "https://arxiv.org/pdf/1909.07940"
     - name: "arXiv"
       link: "https://arxiv.org/abs/1909.07940"
+    - name: ACL Anthology
+      link: https://www.aclweb.org/anthology/D19-1534/
   sort_weight: 3.5
 
 knobert:emnlp19:
@@ -437,11 +661,15 @@ knobert:emnlp19:
     - "Vidur Joshi"
     - "sameer"
     - "Noah A. Smith"
+  pages: 43-54
+  doi: 10.18653/v1/D19-1005
   links:
     - name: "PDF"
       link: "https://arxiv.org/pdf/1909.04164"
     - name: "arXiv"
       link: "https://arxiv.org/abs/1909.04164"
+    - name: ACL Anthology
+      link: https://www.aclweb.org/anthology/D19-1005/
   sort_weight: 3.4
 
 interpret:emnlp19:
@@ -450,6 +678,8 @@ interpret:emnlp19:
   venue: "Demo at the Empirical Methods in Natural Language Processing (EMNLP)"
   year: 2019
   type: "Demo"
+  pages: 7-12
+  doi: 10.18653/v1/D19-3002
   authors:
     - "ericw"
     - "Jens Tuyls"
@@ -484,6 +714,8 @@ kglm:acl19:
     - "Matthew E. Peters"
     - "mattg"
     - "sameer"
+  pages: 5962-5971
+  doi: 10.18653/v1/P19-1598
   links:
     - name: "PDF"
       link: "/files/papers/kglm-acl19.pdf"
@@ -509,9 +741,13 @@ impl:acl19:
     - "marco"
     - "carlos"
     - "sameer"
+  pages: 6174-6184
+  doi: 10.18653/v1/P19-1621
   links:
     - name: "PDF"
       link: "/files/papers/impl-acl19.pdf"
+    - name: "ACL Anthology"
+      link: https://www.aclweb.org/anthology/P19-1621/
   sort_weight: 2.4
 
 mhop:acl19:
@@ -527,11 +763,15 @@ mhop:acl19:
     - "mattg"
     - "Hannaneh Hajishirzi"
     - "lsz"
+  pages: 4249-4257
+  doi: 10.18653/v1/P19-1416
   links:
     - name: "PDF"
       link: "/files/papers/mhop-acl19.pdf"
     - name: "arXiv"
       link: "https://arxiv.org/abs/1906.02900"
+    - name: "ACL Anthology"
+      link: https://www.aclweb.org/anthology/P19-1416/
   sort_weight: 2.2
 
 criage:naacl19:
@@ -544,6 +784,8 @@ criage:naacl19:
     - "pouya"
     - "Yifan Tian"
     - "sameer"
+  pages: 3336-3347
+  doi: 10.18653/v1/N19-1337
   links:
     - name: "PDF"
       link: "/files/papers/criage-naacl19.pdf"
@@ -571,6 +813,8 @@ gender:naacl19:
     - "ananya"
     - "Nitya Parthasarthi"
     - "sameer"
+  pages: 2959-2969
+  doi: 10.18653/v1/N19-1303
   links:
     - name: "PDF"
       link: "/files/papers/gender-naacl19.pdf"
@@ -597,6 +841,8 @@ drop:naacl19:
     - "gabis"
     - "sameer"
     - "mattg"
+  pages: 2368-2378
+  doi: 10.18653/v1/N19-1246
   links:
     - name: "PDF"
       link: "/files/papers/drop-naacl19.pdf"
@@ -631,6 +877,8 @@ pomo:naacl19:
     - "Kevin Gimpel"
     - "sameer"
     - "Niranjan Balasubramanian"
+  pages: 826-838
+  doi: 10.18653/v1/N19-1089
   links:
     - name: "PDF"
       link: "/files/papers/pomo-naacl19.pdf"
@@ -673,6 +921,7 @@ deeprl:chap18:
     - "Guillaume Hocquet"
     - "sameer"
     - "Pierre Baldi"
+  pages: 298-328
   links:
     - name: "PDF (Springer)"
       link: "https://link.springer.com/content/pdf/10.1007%2F978-3-319-99492-5_13.pdf"
@@ -693,6 +942,8 @@ mmkb:emnlp18:
     - "pouya"
     - "Liyan Chen"
     - "sameer"
+  pages: 3208-3218
+  doi: 10.18653/v1/D18-1359
   links:
     - name: "PDF"
       link: "http://arxiv.org/pdf/1809.01341"
@@ -723,11 +974,15 @@ quarc:emnlp18:
     - "Mike Sheldon"
     - "guillaume"
     - "sebastian"
+  pages: 2087-2097
+  doi: 10.18653/v1/D18-1233
   links:
     - name: "PDF"
       link: "http://arxiv.org/pdf/1809.01494"
     - name: "arXiv"
       link: "http://arxiv.org/abs/1809.01494"
+    - name: ACL Anthology
+      link: https://www.aclweb.org/anthology/D18-1233/
   abstract: >
     Most work in machine reading focuses on question answering problems where the answer is directly expressed in the text to read. However, many real-world question answering problems require the reading of text not because it contains the literal answer, but because it contains a recipe to derive an answer together with the reader's background knowledge. One example is the task of interpreting regulations to answer "Can I...?" or "Do I have to...?" questions such as "I am working in Canada. Do I have to carry on paying UK National Insurance?" after reading a UK government website about this topic. This task requires both the interpretation of rules and the application of background knowledge. It is further complicated due to the fact that, in practice, most questions are underspecified, and a human assistant will regularly have to ask clarification questions such as "How long have you been working abroad?" when the answer cannot be directly derived from the question and text. In this paper, we formalise this task and develop a crowd-sourcing strategy to collect 32k task instances based on real-world rules and crowd-generated questions and scenarios. We analyse the challenges of this task and assess its difficulty by evaluating the performance of rule-based and machine-learning baselines. We observe promising results when no background knowledge is necessary, and substantial room for improvement whenever background knowledge is needed.
   sort_weight: 1.7
@@ -742,6 +997,8 @@ sears:acl18:
     - "marco"
     - "sameer"
     - "carlos"
+  pages: 856-865
+  doi: 10.18653/v1/P18-1079
   links:
     - name: "PDF"
       link: "/files/papers/sears-acl18.pdf"
@@ -756,7 +1013,7 @@ sears:acl18:
     - name: "Slides"
       link: "https://www.aclweb.org/anthology/attachments/P18-1079.Presentation.pdf"
   abstract: >
-    Complex machine learning models for NLP are often brittle, making different predictions for input instances that are extremely similar semantically. To automatically detect this behavior for individual instances, we present semantically equivalent adversaries (SEAs) – semantic-preserving perturbations that induce changes in the model’s predictions. We generalize these adversaries into semantically equivalent adversarial rules (SEARs) – simple, universal replacement rules that induce adversaries on many instances. We demonstrate the usefulness and flexibility of SEAs and SEARs by detecting bugs in black-box state-of-the-art models for three domains: machine comprehension, visual question-answering, and sentiment analysis. Via user studies, we demonstrate that we generate high-quality local adversaries for more instances than humans, and that SEARs induce four times as many mistakes as the bugs discovered by human experts. SEARs are also actionable: retraining models using data augmentation significantly reduces bugs, while maintaining accuracy.
+    Complex machine learning models for NLP are often brittle, making different predictions for input instances that are extremely similar semantically. To automatically detect this behavior for individual instances, we present semantically equivalent adversaries (SEAs) - semantic-preserving perturbations that induce changes in the model’s predictions. We generalize these adversaries into semantically equivalent adversarial rules (SEARs) - simple, universal replacement rules that induce adversaries on many instances. We demonstrate the usefulness and flexibility of SEAs and SEARs by detecting bugs in black-box state-of-the-art models for three domains: machine comprehension, visual question-answering, and sentiment analysis. Via user studies, we demonstrate that we generate high-quality local adversaries for more instances than humans, and that SEARs induce four times as many mistakes as the bugs discovered by human experts. SEARs are also actionable: retraining models using data augmentation significantly reduces bugs, while maintaining accuracy.
   emphasis: "Honorable Mention for Best Paper."
   sort_weight: 1.6
 
@@ -815,6 +1072,7 @@ anchors:aaai18:
     - "marco"
     - "sameer"
     - "carlos"
+  pages: 1527-1535
   links:
     - name: "PDF"
       link: "/files/papers/anchors-aaai18.pdf"
@@ -822,6 +1080,8 @@ anchors:aaai18:
       link: "https://github.com/marcotcr/anchor"
     - name: "Code (results)"
       link: "https://github.com/marcotcr/anchor-experiments"
+    - name: AAAI Page
+      link: https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16982
   abstract: >
     We introduce a novel model-agnostic system that explains the behavior of complex models with high-precision rules called anchors, representing local, “sufficient” conditions for predictions. We propose an algorithm to efficiently compute these explanations for any black-box model with high-probability guarantees. We demonstrate the flexibility of anchors by explaining a myriad of different models for different domains and tasks. In a user study, we show that anchors enable users to predict how a model would behave on unseen instances with less effort and higher precision, as compared to existing linear explanations or no explanations.
 
@@ -839,6 +1099,8 @@ tsunami:geosense18:
     - "Bruno Adriano"
     - "Erick Mas"
     - "Shunichi Koshimura"
+  pages: 43-47
+  doi: 10.1109/LGRS.2017.2772349
   links:
     - name: "PDF"
       link: "/files/papers/tsunami-geosense18.pdf"
@@ -847,7 +1109,8 @@ tsunami:geosense18:
   abstract: >
     Near real-time building damage mapping is an indispensable prerequisite for governments to make decisions for disaster relief. With high-resolution synthetic aperture radar (SAR) systems, such as TerraSAR-X, the provision of such products in a fast and effective way becomes possible. In this letter, a deep learning-based framework for rapid regional tsunami damage recognition using post-event SAR imagery is proposed. To perform such a rapid damage mapping, a series of tile-based image split analysis is employed to generate the data set. Next, a selection algorithm with the SqueezeNet network is developed to swiftly distinguish between built-up (BU) and nonbuilt-up regions. Finally, a recognition algorithm with a modified wide residual network is developed to classify the BU regions into wash away, collapsed, and slightly damaged regions. Experiments performed on the TerraSAR-X data from the 2011 Tohoku earthquake and tsunami in Japan show a BU region extraction accuracy of 80.4% and a damage-level recognition accuracy of 74.8%, respectively. Our framework takes around 2 h to train on a new region, and only several minutes for prediction.
   bibtex_fields:
-    volume: "PP"
+    volume: "15"
+    number: 1
 
 mmkbe:akbc17:
   title: >
@@ -927,13 +1190,15 @@ neuralel:emnlp17:
     - "nitish"
     - "sameer"
     - "roth"
+  pages: 2681-2690
+  doi: 10.18653/v1/D17-1284
   links:
     - name: "PDF"
       link: "/files/papers/neuralel-emnlp17.pdf"
     - name: "Code"
       link: "https://nitishgupta.github.io/neural-el/"
     - name: "ACL Anthology"
-      link: "https://aclanthology.info/papers/D17-1284/d17-1284"
+      link: "https://www.aclweb.org/anthology/D17-1284/"
     - name: "Website"
       link: "http://cogcomp.org/page/publication_view/817"
   abstract: >
@@ -1013,11 +1278,12 @@ saul:coling16:
     - "Bhargav Mangipudi"
     - "sameer"
     - "roth"
+  pages: 3030-3040
   links:
     - name: "PDF"
       link: "/files/papers/saul-coling16.pdf"
     - name: "ACL Anthology"
-      link: "https://aclanthology.coli.uni-saarland.de/papers/C16-1285/c16-1285"
+      link: "https://www.aclweb.org/anthology/C16-1285"
   bibtex_fields:
     month: "December"
 
@@ -1031,6 +1297,8 @@ connot:acl16:
     - "rashkin"
     - "sameer"
     - "yejin"
+  pages: 311-321
+  doi: 10.18653/v1/P16-1030
   links:
     - name: "PDF"
       link: "/files/papers/connot-acl16.pdf"
@@ -1039,7 +1307,7 @@ connot:acl16:
     - name: "Website"
       link: "http://homes.cs.washington.edu/~hrashkin/connframe.html"
     - name: "ACL Anthology"
-      link: "https://aclanthology.coli.uni-saarland.de/papers/P16-1030/p16-1030"
+      link: "https://www.aclweb.org/anthology/P16-1030/"
   bibtex_fields:
     month: "August"
 
@@ -1144,6 +1412,8 @@ lime:kdd16:
     - "marco"
     - "sameer"
     - "carlos"
+  pages: 1135-1144
+  doi: 10.1145/2939672.2939778
   links:
     - name: "PDF"
       link: "/files/papers/lime-kdd16.pdf"
@@ -1157,6 +1427,8 @@ lime:kdd16:
       link: "https://oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime"
     - name: "Code (experiments)"
       link: "https://github.com/marcotcr/lime-experiments"
+    - name: "ACM Page"
+      link: "https://dl.acm.org/doi/10.1145/2939672.2939778"
   emphasis: "Audience Appreciation Award"
   note: "Also presented at the CHI 2016 Workshop on Human-Centred Machine Learning (HCML)."
   bibtex_fields:
@@ -1193,6 +1465,8 @@ moro:eaai16:
   links:
     - name: "PDF"
       link: "/files/papers/moro-eaai16.pdf"
+    - name: "AAAI Page"
+      link: "https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/11794"
   abstract: >
     Teaching artificial intelligence is effective if the experience is a visual and interactive one, with educational materials that utilize combinations of various content types such as text, math, and code into an integrated experience. Unfortunately, easy-to-use tools for creating such pedagogical resources are not available to the educators, resulting in most courses being taught using a disconnected set of static materials, which is not only ineffective for learning AI, but further, requires repeated and redundant effort for the instructor. In this paper, we introduce Moro, a software tool for easily creating and presenting AI-friendly teaching materials. Moro notebooks integrate content of different types (text, math, code, images), allow real-time interactions via modifiable and executable code blocks, and are viewable in browsers both as long-form pages and as presentations. Creating notebooks is easy and intuitive; the creation tool is also in-browser, is WYSIWYG for quick iterations of editing, and supports a variety of shortcuts and customizations for efficiency. We present three deployed case studies of Moro that widely differ from each other, demonstrating its utility in a variety of scenarios such as in-class teaching and conference tutorials.
 

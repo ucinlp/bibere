@@ -301,3 +301,8 @@ anima:
     last: "Anandkumar"
   website: "http://tensorlab.cms.caltech.edu/users/anima/"
 
+yoshi:
+  name:
+    first: Yoshitomo
+    last: Matsubara
+  website: http://labusers.net/~ymatsubara/
