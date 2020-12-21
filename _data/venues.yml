@@ -1,0 +1,96 @@
+biglearn:
+  name: "Neural Information Processing Systems (NeurIPS) Workshop on Big Learning"
+
+interpretML:
+  name: "NeurIPS Workshop on Interpretable Machine Learning in Complex Systems"
+
+coling:
+  name: "International Conference on Computational Linguistics (COLING)"
+
+probprog:
+  name: "NeurIPS Workshop on Probabilistic Programming"
+
+kdd:
+  name: "Knowledge Discovery and Data Mining (KDD)"
+
+starai:
+  name: "International Workshop on Statistical Relational AI (StarAI)"
+
+krr:
+  name: "AAAI Spring Symposium on Knowledge Representation and Reasoning (KRR): Integrating Symbolic and Neural Approaches"
+
+sp14:
+  name: "ACL 2014 Workshop on Semantic Parsing (SP14)"
+
+nwnlp:
+  name: "Pacific Northwest Regional NLP Workshop (NW-NLP)"
+
+akbc13:
+  name: "CIKM Workshop on Automated Knowledge Base Construction (AKBC)"
+
+mrqa:
+  name: "Workshop on Machine Reading and Question Answering (MRQA)"
+
+akbc:
+  name: "Automated Knowledge Base Construction (AKBC)"
+
+akbc-ws:
+  name: "Workshop on Automated Knowledge Base Construction (AKBC)"
+
+akbc12:
+  name: "NAACL/HLT Workshop on Automated Knowledge Base Construction (AKBC-WEKEX)"
+
+reseff:
+  name: "Neural Information Processing Systems (NeurIPS) Workshop on Resource Efficient Machine Learning"
+
+cost:
+  name: "Neural Information Processing Systems (NeurIPS) Workshop on Computational Trade-offs in Statistical Learning (COST)"
+
+lccc:
+  name: "Neural Information Processing Systems (NeurIPS) Workshop on Learning on Cores, Clusters, and Clouds (LCCC)"
+
+icml:
+  name: "International Conference on Machine Learning (ICML)"
+
+nips:
+  name: "Neural Information Processing Systems (NeurIPS)"
+
+aistats:
+  name: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
+
+emnlp:
+  name: "Empirical Methods in Natural Language Processing (EMNLP)"
+
+femnlp:
+  name: "Findings of the Association for Computational Linguistics: EMNLP (EMNLP Findings)"
+
+cikm:
+  name: "ACM Conference of Information and Knowledge Management (CIKM)"
+
+conll:
+  name: "Conference on Computational Natural Language Learning (CoNLL)"
+
+acl:
+  name: "Association for Computational Linguistics (ACL)"
+
+tacl:
+  name: "Transactions of the Association for Computational Linguistics (TACL)"
+
+naacl:
+  name: "Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)"
+
+tackbp:
+  name: "Text Analysis Conference on Knowledge Base Population (TAC KBP)"
+
+iclr:
+  name: "International Conference on Learning Representations (ICLR)"
+
+aaai:
+  name: "AAAI Conference on Artificial Intelligence (AAAI)"
+
+eaai:
+  name: "AAAI Symposium on Educational Advances in Artificial Intelligence (EAAI)"
+
+aies:
+  name: "AAAI/ACM Conference on AI, Ethics, and Society (AIES)"
+
