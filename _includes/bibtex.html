@@ -1,0 +1,33 @@
+{%- assign paper = site.data.bibere.papers[include.pid] -%}
+{%- if paper -%}
+@{%- include bibere/bibtex-entry-type.html type=paper.type -%} { {{-include.pid-}},
+  author = {
+    {%- for a in paper.authors -%}
+        {%- assign author = site.data.bibere.authors[a] -%}
+        {%- if author -%}
+          {%- if a == include.mainAuthor -%}
+            {\\textbf{ {{-author.name.first-}}}} {\\textbf{ {{-author.name.last-}} }}
+          {%- else -%}
+            {{ author.name.first }} {{ author.name.last }}
+          {%- endif -%}
+        {%- else -%}
+            {{ a }}
+        {%- endif -%}
+        {% unless forloop.last == true %} and {% endunless %}
+    {%- endfor -%}
+  },
+  title = { { {{- paper.title | strip_newlines -}} } },
+  {% include bibere/bibtex-venue-title.html type=paper.type %} = {
+        {%- assign venue = site.data.bibere.venues[paper.venue] -%}
+        {%- if venue -%}
+          {{ venue.name }}
+        {%- else -%}
+            {{ paper.venue }}
+        {%- endif -%}
+    },{% for field in paper.bibtex_fields %}
+  {{ field[0] }} = { {{- field[1] -}} },{% endfor %}{% if paper.doi %}
+  doi = { {{- paper.doi -}} },{% endif %}{% if paper.pages %}
+  pages = { {{- paper.pages -}} },{% endif %}
+  year = { {{- paper.year -}} }
+}
+{%- endif -%}

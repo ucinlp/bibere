@@ -1,0 +1,31 @@
+{% assign years = site.data.bibere.papers | group_by_exp: "p",
+"p[1].year" | sort: "name" | reverse %}
+
+<div>
+Publications (grouped by year): 
+{% for year in years %}
+    <a href="#{{ year.name }}">{{ year.name }}</a>
+    {%- if forloop.last == true -%}
+    .
+    {%- else -%}
+    , 
+    {%- endif -%}
+{% endfor %}
+<hr>
+</div>
+<!-- For each year, sorted by type (alphabetical), then sort_weight -->
+{% for year in years %}
+    <span id="{{ year.name }}" class="yearGroup">{{ year.name }}</span>
+    <ul class="papers">
+    {% assign types = year.items | group_by_exp: "p", "p[1].type" | sort: "name" %}
+    {% for type in types %}
+        {% assign weights = type.items | group_by_exp: "p", "p[1].sort_weight" | sort: "name" | reverse %}
+        {% for weight in weights %}
+            {% for p in weight.items %}
+                {%- assign pid = p[0] -%}
+                {% include bibere/paper.html pid=pid %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
+    </ul>
+{% endfor %}

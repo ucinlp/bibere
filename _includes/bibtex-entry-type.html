@@ -1,0 +1,13 @@
+{%- case include.type -%}
+  {%- when "Conference" -%} inproceedings
+  {%- when "Workshop" -%}   inproceedings
+  {%- when "Demo" -%}       inproceedings
+  {%- when "Invited" -%}    inproceedings
+  {%- when "TechReport" -%} techreport
+  {%- when "Patent" -%}     techreport
+  {%- when "Thesis" -%}     phdthesis
+  {%- when "Journal" -%}    article
+  {%- when "Chapter" -%}    incollection
+  {%- when "Online" -%}     misc
+  {%- else -%}     misc
+{%- endcase -%}
