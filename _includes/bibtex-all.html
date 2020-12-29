@@ -12,7 +12,7 @@
     {%- for p in year.items -%}
         {%- assign pid = p[0] -%}
         {{ newLine }}
-        {%- include bibere/bibtex.html pid=pid mainAuthor=include.mainAuthor -%}
+        {%- include_relative bibere/_includes/bibtex.html pid=pid mainAuthor=include.mainAuthor -%}
         {{ newLine }}
     {%- endfor -%}
 {%- endfor -%}
