@@ -23,7 +23,7 @@ Publications (grouped by year):
         {% for weight in weights %}
             {% for p in weight.items %}
                 {%- assign pid = p[0] -%}
-                {% include_relative bibere/paper.html pid=pid %}
+                {% include bibere/paper.html pid=pid %}
             {% endfor %}
         {% endfor %}
     {% endfor %}

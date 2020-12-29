@@ -1,6 +1,6 @@
 {%- assign paper = site.data.bibere.papers[include.pid] -%}
 {%- if paper -%}
-@{%- include_relative bibere/bibtex-entry-type.html type=paper.type -%} { {{-include.pid-}},
+@{%- include bibere/bibtex-entry-type.html type=paper.type -%} { {{-include.pid-}},
   author = {
     {%- for a in paper.authors -%}
         {%- assign author = site.data.bibere.authors[a] -%}
@@ -17,7 +17,7 @@
     {%- endfor -%}
   },
   title = { { {{- paper.title | strip_newlines -}} } },
-  {% include_relative bibere/bibtex-venue-title.html type=paper.type %} = {
+  {% include bibere/bibtex-venue-title.html type=paper.type %} = {
         {%- assign venue = site.data.bibere.venues[paper.venue] -%}
         {%- if venue -%}
           {{ venue.name }}
