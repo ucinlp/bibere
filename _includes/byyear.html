@@ -1,20 +1,25 @@
+{% assign minYear = include.minYear | plus: 0 %}
 {% assign years = site.data.bibere.papers | group_by_exp: "p",
 "p[1].year" | sort: "name" | reverse %}
 
 <div>
 Publications (grouped by year): 
-{% for year in years %}
-    <a href="#{{ year.name }}">{{ year.name }}</a>
-    {%- if forloop.last == true -%}
-    .
-    {%- else -%}
-    , 
+{%- for year in years -%}
+    {%- assign numyear = year.name | strip | plus: 0 -%}
+    {%- if numyear >= minYear -%}
+        {%- if forloop.first == false -%}
+        , 
+        {% endif %}
+        <a href="#{{ year.name }}">{{ year.name }}</a>
     {%- endif -%}
-{% endfor %}
+{%- endfor -%}
+.
 <hr>
 </div>
 <!-- For each year, sorted by type (alphabetical), then sort_weight -->
 {% for year in years %}
+    {% assign numyear = year.name | strip | plus: 0 %}
+    {% if numyear >= minYear %}
     <span id="{{ year.name }}" class="yearGroup">{{ year.name }}</span>
     <ul class="papers">
     {% assign types = year.items | group_by_exp: "p", "p[1].type" | sort: "name" %}
@@ -28,4 +33,5 @@ Publications (grouped by year):
         {% endfor %}
     {% endfor %}
     </ul>
+    {% endif %}
 {% endfor %}
