@@ -3,8 +3,22 @@
 % --------------------------------------------------------------
 
 {%- assign minYear = include.minYear | plus: 0 -%}
-{%- assign years = site.data.bibere.papers | group_by_exp: "p",
-"p[1].year" | sort: "name" | reverse %}
+<!-- Create a list of papers filtered by flags -->
+{%- assign filtered = '' | split: '' -%}
+{%- for p in site.data.bibere.papers -%}
+    {%- assign numyear = p[1].year | to_integer -%}
+    {%- if numyear >= minYear -%}
+        {%- if include.filterAuthor %}
+            {%- if p[1].authors contains include.filterAuthor -%}
+                {%- assign filtered = filtered | push: p -%}
+            {%- endif -%}
+        {%- else -%}
+            {%- assign filtered = filtered | push: p -%}
+        {%- endif -%}
+    {%- endif -%}
+{%- endfor -%}
+<!-- Group filtered ones by year, sorted -->
+{% assign years = filtered | group_by_exp: "p", "p[1].year" | sort: "name" | reverse %}
 
 {% capture newLine %}
 {% endcapture %}
