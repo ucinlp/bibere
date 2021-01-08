@@ -62,7 +62,12 @@
         [
         {%- if paper.links -%}
             {%- for item in paper.links -%} 
-            &nbsp;<a href="{{item.link}}">{{item.name}}</a>,
+                {% assign link_first_char = item.link | slice:0,1 %}
+                {%- if link_first_char == "/" and site.bibere.file_base_url -%}
+                    &nbsp;<a href="{{ site.bibere.file_base_url }}{{item.link}}">{{item.name}}</a>,
+                {%- else -%}
+                    &nbsp;<a href="{{item.link}}">{{item.name}}</a>,
+                {%- endif -%}
             {%- endfor -%}
         {%- endif -%}
         <!-- Abstract -->
