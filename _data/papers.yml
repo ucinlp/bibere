@@ -1,3 +1,71 @@
+emp-instance:naacl21:
+  title: >
+    An Empirical Comparison of Instance Attribution Methods for NLP
+  venue: "naacl"
+  type: "Conference"
+  year: 2021
+  authors:
+    - ppezeshkp
+    - ‪Sarthak Jain‬
+    - Byron Wallace
+    - sameer
+  abstract: >
+    Widespread adoption of deep pretrained (masked) neural language models has motivated a pressing need for approaches for interpreting network outputs and for facilitating model debugging. Instance attribution methods constitute one means of accomplishing these goals by retrieving training instances that (may have) led to a particular prediction. Influence functions (IF) provide machinery for doing this by quantifying the effect that perturbing individual train instances would have on a specific test prediction. However, even approximating the IF is computationally expensive, to a degree that may be prohibitive in many cases. Might simpler approaches (e.g., retrieving train instance most similar to a given test point) perform comparably? In this work we evaluate the degree to which different potential instance attribution agree with respect to the importance of training samples. We find that simple retrieval methods yield training instances that differ from those identified via gradient-based methods (such as the IF), but that nonetheless exhibit desirable characteristics similar to more complex attribution methods.
+
+poisoning:naacl21:
+  title: >
+    Customizing Triggers with Concealed Data Poisoning
+  venue: "naacl"
+  type: "Conference"
+  year: 2021
+  authors:
+    - ewallace
+    - Tony Z. Zhao
+    - Shi Feng
+    - sameer
+  abstract: >
+    Adversarial attacks alter NLP model predictions by perturbing test-time inputs. However, it is much less understood whether, and how, predictions can be manipulated with small, concealed changes to the training data. In this work, we develop a new data poisoning attack that allows an adversary to control model predictions whenever a desired trigger phrase is present in the input. For instance, we insert 50 poison examples into a sentiment model's training set that causes the model to frequently predict Positive whenever the input contains "James Bond". Crucially, we craft these poison examples using a gradient-based procedure so that they do not mention the trigger phrase. We also apply our poison attack to language modeling ("Apple iPhone" triggers negative generations) and machine translation ("iced coffee" mistranslated as "hot coffee"). We conclude by proposing three defenses that can mitigate our attack at some cost in prediction accuracy or extra human annotation.
+  links:
+    - name: PDF
+      link: https://arxiv.org/pdf/2010.12563.pdf
+    - name: ArXiV
+      link: https://arxiv.org/abs/2010.12563
+
+icrgan:aaai21:
+  title: Improved Consistency Regularization for GANs
+  venue: aaai
+  year: 2021
+  authors:
+    - zhengli
+    - sameer
+    - Honglak Lee
+    - Zizhao Zhang
+    - Augustus Odena
+    - Han Zhang
+  type: Conference
+  links:
+    - name: PDF
+      link: https://arxiv.org/pdf/2002.04724.pdf
+    - name: ArXiV
+      link: https://arxiv.org/abs/2002.04724
+  abstract: >
+    Recent work has increased the performance of Generative Adversarial Networks (GANs) by enforcing a consistency cost on the discriminator. We improve on this technique in several ways. We first show that consistency regularization can introduce artifacts into the GAN samples and explain how to fix this issue. We then propose several modifications to the consistency regularization procedure designed to improve its performance. We carry out extensive experiments quantifying the benefit of our improvements. For unconditional image synthesis on CIFAR-10 and CelebA, our modifications yield the best known FID scores on various GAN architectures. For conditional image synthesis on CIFAR-10, we improve the state-of-the-art FID score from 11.48 to 9.21. Finally, on ImageNet-2012, we apply our technique to the original BigGAN model and improve the FID from 6.66 to 5.38, which is the best score at that model size.
+
+cskgtests:cskg21:
+  title: Deriving Behavioral Tests from Common Sense Knowledge Graphs
+  venue: AAAI Workshop on Common Sense Knowledge Graphs (CSKGs)
+  year: 2021
+  authors:
+    - yrazeghi
+    - rlogan
+    - sameer
+  type: Workshop
+  links:
+    - name: PDF
+      link: https://usc-isi-i2.github.io/AAAI21workshop/papers/Razeghi_CSKGsAAAI-21.pdf
+  abstract: >
+    Although NLP models have demonstrated “superhuman” performance on common sense reasoning tasks, it is unclear whether these models truly have common sense knowledge. Constructing evaluation datasets to test this knowledge is expensive due to the manual effort involved, and is also limited in scope. Meanwhile, common sense knowledge graphs (CSKGs) aim for a wide coverage of structured common sense knowledge, but can not be directly used for testing purposes. In this work, we introduce a semi-automated approach that leverages CSKGs to construct out-of-domain evaluation sets for NLP tasks that are more scalable than purely manual approaches. Using this procedure, we create test cases from two popular CSKGs—ConceptNet and ATOMIC—to test the common sense reasoning capability of models trained for natural language inference (NLI) and question answering (QA). These tests reveal interesting differences in failure modes of these models; models trained on NLI tend to perform better on tests of ontological knowledge, e.g. ’is a’ and ’used for’ relations, failing on tests that require understanding ’desires’, ’needs’, and ’wants’, while QA models perform better on tests that involve ’wants’, and ’desires’.
+
 activefew:hamlets20:
   title: >
     On the Utility of Active Instance Selection for Few-Shot Learning
@@ -5,7 +73,7 @@ activefew:hamlets20:
   type: Workshop
   year: 2020
   authors:
-    - pouya
+    - ppezeshkp
     - zhengli
     - sameer
   links:
@@ -23,9 +91,9 @@ autoprompt:emnlp20:
   type: "Conference"
   authors:
     - Taylor Shin
-    - Yasaman Razeghi
+    - yrazeghi
     - rlogan
-    - ericw
+    - ewallace
     - sameer
   links:
     - name: PDF
@@ -45,7 +113,7 @@ mocha:emnlp20:
   venue: emnlp
   type: "Conference"
   authors:
-    - anthonyc
+    - achen
     - gabis
     - sameer
     - mattg
@@ -69,7 +137,7 @@ facade:femnlp20:
   authors:
     - Junlin Wang
     - Jens Tuyls
-    - ericw
+    - ewallace
     - sameer
   links:
     - name: PDF
@@ -91,7 +159,7 @@ contrast:femnlp20:
     - Ben Bogin
     - Sihao Chen
     - Pradeep Dasigi
-    - dheeru
+    - ddua
     - Yanai Elazar
     - Ananth Gottumukkala
     - nitish
@@ -107,7 +175,7 @@ contrast:femnlp20:
     - Noah A. Smith
     - Sanjay Subramanian
     - Reut Tsarfaty
-    - ericw
+    - ewallace
     - Ally Zhang
     - Ben Zhou
   links:
@@ -260,7 +328,7 @@ intannot:acl20:
   year: 2020
   type: "Conference"
   authors:
-    - "dheeru"
+    - "ddua"
     - "sameer"
     - "mattg"
   pages: 5627-5634
@@ -282,7 +350,7 @@ dynsample:acl20:
   type: "Conference"
   authors:
     - "Ananth Gottumukkala"
-    - "dheeru"
+    - "ddua"
     - "sameer"
     - "mattg"
   pages: 920-924
@@ -303,7 +371,7 @@ kbeval:akbc20:
   year: 2020
   type: "Conference"
   authors:
-    - "pouya"
+    - "ppezeshkp"
     - "Yifan Tian"
     - "sameer"
   links:
@@ -461,7 +529,7 @@ ibal:vl320:
   year: 2020
   type: "Workshop"
   authors:
-    - "pouya"
+    - "ppezeshkp"
     - "zhengli"
     - "sameer"
   links:
@@ -491,7 +559,7 @@ evalqa:mrqa19:
   year: 2019
   type: "Workshop"
   authors:
-    - "anthonyc"
+    - "achen"
     - "gabis"
     - "sameer"
     - "mattg"
@@ -507,7 +575,7 @@ orb:mrqa19:
   year: 2019
   type: "Workshop"
   authors:
-    - "dheeru"
+    - "ddua"
     - "Ananth Gottumukkala"
     - "Alon Talmor"
     - "sameer"
@@ -602,7 +670,7 @@ trigger:emnlp19:
   year: 2019
   type: "Conference"
   authors:
-    - "ericw"
+    - "ewallace"
     - "Shi Feng"
     - "Nikhil Kandpal"
     - "mattg"
@@ -631,7 +699,7 @@ numeracy:emnlp19:
   year: 2019
   type: "Conference"
   authors:
-    - "ericw"
+    - "ewallace"
     - "yizhong"
     - "Sujian Li"
     - "sameer"
@@ -681,7 +749,7 @@ interpret:emnlp19:
   pages: 7-12
   doi: 10.18653/v1/D19-3002
   authors:
-    - "ericw"
+    - "ewallace"
     - "Jens Tuyls"
     - "Junlin Wang"
     - "Sanjay Subramanian"
@@ -758,7 +826,7 @@ mhop:acl19:
   type: "Conference"
   authors:
     - "Sewon Min"
-    - "ericw"
+    - "ewallace"
     - "sameer"
     - "mattg"
     - "Hannaneh Hajishirzi"
@@ -781,7 +849,7 @@ criage:naacl19:
   year: 2019
   type: "Conference"
   authors:
-    - "pouya"
+    - "ppezeshkp"
     - "Yifan Tian"
     - "sameer"
   pages: 3336-3347
@@ -835,7 +903,7 @@ drop:naacl19:
   year: 2019
   type: "Conference"
   authors:
-    - "dheeru"
+    - "ddua"
     - "yizhong"
     - "Pradeep Dasigi"
     - "gabis"
@@ -873,7 +941,7 @@ pomo:naacl19:
     - "rlogan"
     - "Zewei Chu"
     - "Yang Chen"
-    - "dheeru"
+    - "ddua"
     - "Kevin Gimpel"
     - "sameer"
     - "Niranjan Balasubramanian"
@@ -939,7 +1007,7 @@ mmkb:emnlp18:
   year: 2018
   type: "Conference"
   authors:
-    - "pouya"
+    - "ppezeshkp"
     - "Liyan Chen"
     - "sameer"
   pages: 3208-3218
@@ -1047,7 +1115,7 @@ natadv:iclr18:
   type: "Conference"
   authors:
     - "zhengli"
-    - "dheeru"
+    - "ddua"
     - "sameer"
   links:
     - name: "PDF"
@@ -1112,6 +1180,21 @@ tsunami:geosense18:
     volume: "15"
     number: 1
 
+
+grank:southcal17:
+  title: >
+    Compact Factorization of Matrices Using Generalized Round-Rank
+  venue: Southern California Machine Learning Symposium
+  year: 2017
+  type: "Workshop"
+  authors:
+    - "ppezeshkp"
+    - "carlos"
+    - "sameer"
+  links:
+    - name: "PDF"
+      link: https://arxiv.org/pdf/1805.00184.pdf
+
 mmkbe:akbc17:
   title: >
     Embedding Multimodal Relational Data
@@ -1119,7 +1202,7 @@ mmkbe:akbc17:
   year: 2017
   type: "Workshop"
   authors:
-    - "pouya"
+    - "ppezeshkp"
     - "Liyan Chen"
     - "sameer"
   links:
@@ -1167,7 +1250,7 @@ natadv:mldecept17:
   type: "Workshop"
   authors:
     - "zhengli"
-    - "dheeru"
+    - "ddua"
     - "sameer"
   links:
     - name: "PDF"

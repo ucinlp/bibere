@@ -224,42 +224,6 @@ karl:
     first: "Karl"
     last: "Schultz"
 
-ananya:
-  name:
-    first: "Ananya"
-    last: "Ananya"
-  website: "https://www.ics.uci.edu/~aananya/"
-
-dheeru:
-  name:
-    first: "Dheeru"
-    last: "Dua"
-  website: "https://ddua.github.io/"
-
-mattg:
-  name:
-    first: "Matt"
-    last: "Gardner"
-  website: "https://matt-gardner.github.io/"
-
-pouya:
-  name:
-    first: "Pouya"
-    last: "Pezeshkpour"
-  website: "https://pouyapez.github.io/"
-
-rlogan:
-  name:
-    first: "Robert L."
-    last: "Logan IV"
-  website: "https://rloganiv.github.io/"
-
-zhengli:
-  name:
-    first: "Zhengli"
-    last: "Zhao"
-  website: "https://zhengliz.github.io/"
-
 greg:
   name:
     first: "Gregory"
@@ -271,7 +235,7 @@ forough:
     last: "Arabshahi"
   website: "https://forougha.github.io/"
 
-ericw:
+ewallace:
   name:
     first: "Eric"
     last: "Wallace"
@@ -289,12 +253,6 @@ gabis:
     last: "Stanovsky"
   website: "https://gabrielstanovsky.github.io/"
 
-anthonyc:
-  name:
-    first: "Anthony"
-    last: "Chen"
-  website: "https://anthonywchen.github.io/"
-
 anima:
   name:
     first: "Animashree"
@@ -306,3 +264,51 @@ yoshi:
     first: Yoshitomo
     last: Matsubara
   website: http://labusers.net/~ymatsubara/
+
+ananya:
+  name:
+    first: "Ananya"
+    last: "Ananya"
+  website: "https://www.ics.uci.edu/~aananya/"
+
+ddua:
+  name:
+    first: "Dheeru"
+    last: "Dua"
+  website: "https://ddua.github.io/"
+
+mattg:
+  name:
+    first: "Matt"
+    last: "Gardner"
+  website: "https://matt-gardner.github.io/"
+
+ppezeshkp:
+  name:
+    first: "Pouya"
+    last: "Pezeshkpour"
+  website: "https://pouyapez.github.io/"
+
+rlogan:
+  name:
+    first: "Robert L."
+    last: "Logan IV"
+  website: "https://rloganiv.github.io/"
+
+yrazeghi:
+  name:
+    first: "Yasaman"
+    last: "Razeghi"
+  website: "https://yasamanrazeghi.com/"
+
+zhengli:
+  name:
+    first: "Zhengli"
+    last: "Zhao"
+  website: "https://zhengliz.github.io/"
+
+achen:
+  name:
+    first: "Anthony"
+    last: "Chen"
+  website: "https://anthonywchen.github.io/"
