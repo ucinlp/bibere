@@ -22,7 +22,7 @@ title: bibere
 email: sameer@uci.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Minimal example demonstrating the bibere package for rendering bibliography in Github Pages.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/bibere" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sameer_
 github_username:  ucinlp
