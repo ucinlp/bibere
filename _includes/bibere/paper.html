@@ -1,0 +1,99 @@
+{%- assign paper = site.data.bibere.papers[include.pid] -%}
+{%- if paper -%}
+    {%- capture clean_id -%}
+    {{ include.pid | replace: ":", "_" | replace: "-", "_" }}
+    {%- endcapture -%}
+    <li id="{{ clean_id }}">
+        <!-- Author -->
+        {%- for a in paper.authors -%}
+            {%- assign author = site.data.bibere.authors[a] -%}
+            {%- if a == include.mainAuthor -%}
+                {%- assign authorClass = "mainAuthor" -%}
+            {%- else -%}
+                {%- assign authorClass = "author" -%}
+            {%- endif -%}
+            <span class="{{ authorClass }}">
+            {%- if author -%}
+                {%- if author.website -%}
+                    <a href="{{ author.website }}">{{ author.name.first }} {{ author.name.last }}</a>
+                {%- else -%}
+                    {{ author.name.first }} {{ author.name.last }}
+                {%- endif -%}
+            {%- else -%}
+                {{ a }}
+            {%- endif -%}
+            </span>
+            {%- if forloop.last == true -%}
+                .
+            {%- else -%}
+                ,&nbsp;
+            {%- endif -%}
+        {%- endfor -%}
+        <!-- Title -->
+        {%- assign clean_title = paper.title | replace: "}", '' | strip_newlines -%}
+        <span class="title">{{ clean_title | replace: "{", '' }}.</span>
+        <!-- Venue -->
+        <span class="venue">
+            {%- assign venue = site.data.bibere.venues[paper.venue] -%}
+            {%- if paper.type == "Thesis" -%}PhD Thesis,&nbsp;{%- endif -%}
+            {%- if paper.type == "TechReport" -%}Technical Report,&nbsp;{%- endif -%}
+            {%- if venue -%}
+                {{ venue.name }}
+            {%- else -%}
+                {{ paper.venue }}
+            {%- endif -%}.
+        </span>
+        <!-- Year -->
+        <span class="year">{{ paper.year }}</span>
+        <!-- Tag -->
+        <span class="tag_{{ paper.type }} tag label label-default">{{ paper.type }}</span>
+        {%- for tag in paper.extraTags -%}
+            <span class="tag_{{ tag }} tag label label-default">{{ tag }}</span>
+        {%- endfor -%}
+        <br/>
+        <!-- Notes -->
+        {%- if paper.emphasis -%}
+        <span class="emphasisNote">{{ paper.emphasis }}</span><br/>
+        {%- endif -%}
+        {%- if paper.note -%}
+        <span class="note">{{ paper.note }}</span><br/>
+        {%- endif -%}
+        <!-- Links -->
+        [
+        {%- if paper.links -%}
+            {%- for item in paper.links -%} 
+                {% assign link_first_char = item.link | slice:0,1 %}
+                {%- if link_first_char == "/" and site.bibere.file_base_url -%}
+                    &nbsp;<a href="{{ site.bibere.file_base_url }}{{item.link}}">{{item.name}}</a>,
+                {%- else -%}
+                    &nbsp;<a href="{{item.link}}">{{item.name}}</a>,
+                {%- endif -%}
+            {%- endfor -%}
+        {%- endif -%}
+        <!-- Abstract -->
+        {%- if paper.abstract -%}
+        &nbsp;<a role="button" data-toggle="collapse" href="#{{ clean_id }}_abstract" aria-expanded="false" aria-controls="{{ clean_id }}_abstract">Abstract</a>,
+        {%- endif -%}
+        <!-- BibTex -->
+        <a role="button" data-toggle="collapse" href="#{{ clean_id }}_bibtex" aria-expanded="false" aria-controls="{{ clean_id }}_bibtex">BibTex</a> ]
+        {%- if paper.abstract -%}
+        <div class="collapse" id="{{ clean_id }}_abstract">
+        <div class="panel panel-primary">
+            <div class="panel-body details-panel">
+            {{- paper.abstract  -}}
+            </div>
+        </div>
+        </div>
+        {%- endif -%}
+        <div class="collapse" id="{{ clean_id }}_bibtex">
+        <div class="panel panel-info">
+            <pre class="panel-body details-panel">
+            {%- include bibere/bibtex.html pid=include.pid -%}
+            </pre>
+        </div>
+        </div>
+    </li>
+{%- else -%}
+    <p class="text-danger">Paper with id {{include.pid}} not found!</p>
+    {{ error.standard_error }}
+{%- endif -%}

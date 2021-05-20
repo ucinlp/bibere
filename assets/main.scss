@@ -1,0 +1,117 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+// @import "bibere";
+
+$primary:       #0064a4;
+$link:          #666666;
+$link-hover:    #999999;
+
+$white:         #ffffff;
+$black:         #000000;
+
+.yearGroup {
+  font-size: 20px;
+}
+
+.papers {
+  padding-left: 5px;
+  margin: 5px;
+}
+
+// .papers li {
+//   margin: 10px;
+//   padding-left: 0px;
+// }
+
+.mainAuthor {
+  color:$primary;
+  font-weight: normal;
+}
+
+.mainAuthor a {
+  color:$primary;
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+  display: block;
+}
+
+.venue {
+  font-style: italic;
+}
+
+.emphasisNote {
+  font-weight: bold;
+  color: $primary;
+}
+
+.note {
+  font-style: italic;
+  color: $primary;
+}
+
+.abstract {
+  display: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+// .link a {
+//   display: inline-block;
+// }
+
+.tag {
+  margin-left: 10px;
+  padding: 3px;
+}
+
+.details-panel {
+  margin: 2px;
+  padding: 2px;
+  font-size: 12px;
+}
+
+.details-panel-body {
+  margin: 0px;
+  border: 0px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.details-panel-body:before {
+  content: "";
+}
+
+.details-panel-body:after {
+  content: "";
+}
+
+.tag_Conference {
+  background-color: $primary;
+  color: $white;
+}
+
+.tag_Journal {
+  background-color: $primary;
+  color: $white;
+}
+
+.tag_Workshop {
+  background-color: $link;
+  color: $white;
+}
+
+.tag_Chapter {
+  background-color: $link-hover;
+  color: $black;
+}
+
+.tag_Demo {
+  background-color: $link-hover;
+  color: $black;
+}

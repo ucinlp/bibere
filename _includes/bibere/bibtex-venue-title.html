@@ -1,0 +1,13 @@
+{%- case include.type -%}
+  {%- when "Conference" -%} booktitle
+  {%- when "Workshop" -%}   booktitle
+  {%- when "Demo" -%}       booktitle
+  {%- when "Invited" -%}    booktitle
+  {%- when "TechReport" -%} institution
+  {%- when "Patent" -%}     institution
+  {%- when "Thesis" -%}     school
+  {%- when "Journal" -%}    journal
+  {%- when "Chapter" -%}    booktitle
+  {%- when "Online" -%}     editor
+  {%- else -%}    series
+{%- endcase -%}

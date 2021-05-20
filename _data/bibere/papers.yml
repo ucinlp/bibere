@@ -1,0 +1,9 @@
+sentiment:emnlp02:
+  title: Thumbs up? Sentiment Classification using Machine Learning Techniques
+  venue: emnlp
+  type: Conference
+  authors:
+    - bo
+    - lillian
+    - Shivakumar Vaithyanathan
+  year: 2002
