@@ -72,10 +72,10 @@
         {%- endif -%}
         <!-- Abstract -->
         {%- if paper.abstract -%}
-        &nbsp;<a onclick="$('#{{ clean_id }}_abstract').slideToggle(200)">Abstract</a>,
+        &nbsp;<a class="collapse-clicker" onclick="$('#{{ clean_id }}_abstract').slideToggle(200)">Abstract</a>,
         {%- endif -%}
         <!-- BibTex -->
-        <a onclick="$('#{{ clean_id }}_bibtex').slideToggle(200)">BibTex</a> ]
+        <a class="collapse-clicker" onclick="$('#{{ clean_id }}_bibtex').slideToggle(200)">BibTex</a> ]
         {%- if paper.abstract -%}
         <div class="collapse" id="{{ clean_id }}_abstract">
         <div class="panel panel-primary">
