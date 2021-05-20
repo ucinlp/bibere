@@ -1,59 +1,68 @@
 bibere
 ======
 
-This is a library to maintain a database of publications currently backed by YAML files. The main purpose is to support Github pages, with additional features for BibTex for citations/resumes, raw HTML for webpages, Markdown for whatever people use Markdown for, etc.
+This is a library to maintain a database of publications currently backed by YAML files. The main purpose is to support static Github pages rendered without _any_ local computation, i.e. relying on Github-supported Jekyll to render webpages on the server.
+
+We use bibere to maintain [our own publications](https://ucinlp.github.io/publications.html).
 
 Here are the goals of this project:
-- To be extremely easy to add/edit papers, such as quickly editing a YAML file.
-- Automatic generation of `bib` entried (and `bib` file), HTML/Markdown with interactive buttons (for abstract), etc.
-- Use only Github Pages rendering (using Jekyll), i.e. don't use features of Jekyll not supported by Github.
-- Extensible and customizable to control the rendering of the papers.
+- To be extremely easy to add/edit papers, such as quickly changing a YAML file.
+- Automatic generation of HTML elements with some interactivity, BibTex entries (and `bib` file), etc.
+- Use only Github Pages rendering (using Jekyll), i.e. don't use features of Jekyll not supported by Github, or any other offline processing.
+- Extensible and customizable.
 
 Current set of features:
-- Read and write authors, papers, and venues in human-editable YAML files
+- Store authors, papers, and venues in human-editable YAML files
 - Jekyll generator: render papers using the Liquid template engine to generate classed-up html, that can be beautified using CSS.
-- BibTex generator: writes out publications as @inproceedings with the basic fields (as Jekyll include)
+- BibTex generator: writes out publications as @inproceedings with the basic fields (as Jekyll include), also generates `bib` files as needed.
 
 ## Quick Start
+
+### Minimal Example
+
+A bare-bones version of a GithubPages website with papers rendered with `bibere` is [available here](http://ucinlp.github.io/bibere).
+
+Browse the source code of the site at [ucinlp/bibere/gh-pages](https://github.com/ucinlp/bibere/tree/gh-pages).
 
 ### Requirements
 
 - Github Pages hosted website using Jekyll
-- Bootstrap for styling: optional, you can customize style as needed
+- [JQuery](https://code.jquery.com/) included in the `<head>`. `bibere` uses it to slide paper details. See [example](https://github.com/ucinlp/bibere/blob/gh-pages/_includes/head.html#L11) of how to include it.
 
 ### Getting Started
 
 `bibere` requires files in the following two directories in your Github Pages project:
 - `_data/bibere` to store the papers, authors, and venues as YAML files, see example here: https://github.com/ucinlp/bibere/tree/master/_data
 - `_includes/bibere` containing the package files from here: https://github.com/ucinlp/bibere/tree/master/_includes
-
-**Highly recommended**: You might want to use a default style file. coming soon, to make sure your publications look okay.
-<!-- CSS in minimal example -->
+- **Recommended**: You might want to use a default style file, such as [this one](https://github.com/ucinlp/bibere/blob/gh-pages/_sass/bibere.scss), to make sure your publications don't look wonky.
 
 Once you have the file, edit any Markdown or HTML file and insert the following:
 ```liquid
 {% include bibere/byyear.html %}
 ```
 
-See this for an example: https://github.com/ucinlp/ucinlp.github.io/blob/master/publications.html
+And you will get a list of papers!
 
-### Minimal Example
-
-A bare-bones version of a Jekyll website with papers rendered with `bibere` is coming soon.
-<!-- A simple standlone website is available here: http://ucinlp.github.io/bibere
-You can browse the source code of the website at -->
+See these examples:
+- From demo site: [webpage](https://ucinlp.github.io/bibere/pubs/) ([source](https://github.com/ucinlp/bibere/blob/gh-pages/pubs.md))
+- Our own papers: [webpage](https://ucinlp.github.io/publications.html), ([source](https://github.com/ucinlp/ucinlp.github.io/blob/master/publications.html))
 
 ## Data Files to Store Papers
 
 Here are the description of the three files that will store the meta data about your papers.
 
-### `papers.yml`
+For actual examples of these files, see versions of this:
+- on the [demo site](https://github.com/ucinlp/bibere/tree/gh-pages/_data/bibere)
+- on the [group site](https://github.com/ucinlp/ucinlp.github.io/tree/master/_data/bibere/) (around 120 papers)
+
+
+### Papers in `papers.yml`
 
 This is the _only_ necessary file. It lists all of the papers as a _dictionary_ for `bibere` to render.
 
 Here is the minimal example for a paper:
 ```yaml
-sentiment:emnlp02:
+thumbs:emnlp02:
   title: Thumbs up? Sentiment Classification using Machine Learning Techniques
   venue: Empirical Methods in Natural Language Processing (EMNLP)
   authors:
@@ -63,9 +72,9 @@ sentiment:emnlp02:
   type: Conference
   year: 2002
 ```
-Here is the version of the paper is the author and venue metadata is stored separately:
+Here is the version of the paper if the author and venue metadata is stored separately:
 ```yaml
-sentiment:emnlp02:
+thumbs:emnlp02:
   title: Thumbs up? Sentiment Classification using Machine Learning Techniques
   venue: emnlp
   type: Conference
@@ -103,13 +112,14 @@ checklist:acl20:
   abstract: >
     Although measuring held-out accuracy has been the primary approach to evaluate generalization, it often overestimates the performance of NLP models, while alternative approaches for evaluating models either focus on individual tasks or on specific behaviors. Inspired by principles of behavioral testing in software engineering, we introduce CheckList, a task-agnostic methodology for testing NLP models. CheckList includes a matrix of general linguistic capabilities and test types that facilitate comprehensive test ideation, as well as a software tool to generate a large and diverse number of test cases quickly. We illustrate the utility of CheckList with tests for three tasks, identifying critical failures in both commercial and state-of-art models. In a user study, a team responsible for a commercial sentiment analysis model found new and actionable bugs in an extensively tested model. In another user study, NLP practitioners with CheckList created twice as many tests, and found almost three times as many bugs as users without it.
   emphasis: "Best Paper Award"
+  note: "To be presented at XYZ Workshop"
   ```
 
-### `authors.yaml`
+### Authors in `authors.yaml`
 
-In `papers.yml`, you can just list the authors by name. However, if you want to use a short name to refer to the same authors again and again, or you want to attach metadata to the authors (such as their website), you'll have to use `authors.yml` file.
+In `papers.yml`, you can just list the authors by name. However, if you want to use a short name to refer to the same authors repeatedly, or you want to attach metadata to the authors (such as their website), you'll have to use `authors.yml` file.
 
-The YAML file is also a _dictionary_, with short names you want to use for the authors as keys:
+This file is also a _dictionary_, with the short names for the authors as keys:
 ```yaml
 lillian:
   name:
@@ -119,9 +129,9 @@ lillian:
 ```
 Website is optional.
 
-### `venues.yaml`
+### Venues in `venues.yaml`
 
-As with authors, `papers.yml` can direction mention venues in the `venue:` field. However, sometimes you want to reuse the names to save effort and avoid typos.
+As with authors, `papers.yml` can directly mention venues in the `venue:` field. However, sometimes you want to reuse the names to save effort and avoid typos.
 
 The `venues.yml` file helps you with that, by allowing you to add short venue names as keys:
 ```yaml
@@ -136,7 +146,7 @@ There are a number of Jekyll commands in order to render the papers in HTML/Mark
 
 ### List of publications, by year
 
-This command lists all the papers, sorted by year.
+This command lists all the papers, sorted by year (reverse chronological for now).
 ```liquid
 {% include bibere/byyear.html %}
 ```
@@ -146,7 +156,7 @@ There are additional fields for this command:
 - `minYear`: Papers whose `year` field is same or later than this year will be included.
 
 Here is an example that uses all of these (lists papers published >=2016 written by `bo`, but highlight `lillian` in the entries):
-```
+```liquid
 {% include bibere/byyear.html mainAuthor="lillian" filterAuthor="bo" minYear=2016 %}
 ```
 
@@ -154,9 +164,11 @@ Here is an example that uses all of these (lists papers published >=2016 written
 
 You might want to just render a single paper, such as in a list of _selected publications_ or such.
 ```liquid
-{% include bibere/paper.html pid="sentiment:emnlp02" %}
+{% include bibere/paper.html pid="thumbs:emnlp02" %}
 ```
 Also supports `mainAuthor` for highlighting a single author.
+
+Note that this is an `<li>` element, so best to surround with `<ul>` or `<ol>`.
 
 ### Generating a BibTex bibliography
 
@@ -179,11 +191,11 @@ The command `bibere/bibtex-all.html` supports the same fields as `byyear`, i.e.
 - `filterAuthor`, if you want to include a subset of the papers
 - `minYear`, include only papers publish in, or after, this year
 
-## Styling Papers
+## Styling
 
-For the HTML rendering, we use the following classes. For a _reasonable_ initial style, you might want to include `bibere.css` in your style folder, and include it.
+For a _reasonable_ initial style, you might want to start with something like the following [basic style file](https://github.com/ucinlp/bibere/blob/gh-pages/_sass/bibere.scss).
 
-## Python tools
+## Python tools (under development)
 
 Some features are implemented in Python:
 - Word document format of publications (requires `docx` module in Python2, or `python-docx` in Python3)
