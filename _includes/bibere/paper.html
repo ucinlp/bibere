@@ -72,10 +72,10 @@
         {%- endif -%}
         <!-- Abstract -->
         {%- if paper.abstract -%}
-        &nbsp;<a role="button" data-toggle="collapse" href="#{{ clean_id }}_abstract" aria-expanded="false" aria-controls="{{ clean_id }}_abstract">Abstract</a>,
+        &nbsp;<a onclick="$('#{{ clean_id }}_abstract').slideToggle(200)">Abstract</a>,
         {%- endif -%}
         <!-- BibTex -->
-        <a role="button" data-toggle="collapse" href="#{{ clean_id }}_bibtex" aria-expanded="false" aria-controls="{{ clean_id }}_bibtex">BibTex</a> ]
+        <a onclick="$('#{{ clean_id }}_bibtex').slideToggle(200)">BibTex</a> ]
         {%- if paper.abstract -%}
         <div class="collapse" id="{{ clean_id }}_abstract">
         <div class="panel panel-primary">
