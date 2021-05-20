@@ -1,2 +1,5 @@
 emnlp:
   name: "Empirical Methods in Natural Language Processing (EMNLP)"
+
+acl:
+  name: "Annual Meeting of the Association of Computational Linguistics (ACL)"

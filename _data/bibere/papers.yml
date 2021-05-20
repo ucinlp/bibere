@@ -1,4 +1,4 @@
-sentiment:emnlp02:
+thumbs:emnlp02:
   title: Thumbs up? Sentiment Classification using Machine Learning Techniques
   venue: emnlp
   type: Conference
@@ -7,3 +7,53 @@ sentiment:emnlp02:
     - lillian
     - Shivakumar Vaithyanathan
   year: 2002
+
+education:acl04:
+  title: "A Sentimental Education: Sentiment Analysis Using Subjectivity Summarization Based on Minimum Cuts"
+  venue: acl
+  type: Conference
+  year: 2004
+  authors:
+    - bo
+    - lillian
+  abstract: >
+    Sentiment analysis seeks to identify the viewpoint(s) underlying a text span; an example application is classifying a movie review as "thumbs up" or "thumbs down". To determine this sentiment polarity, we propose a novel machine-learning method that applies text-categorization techniques to just the subjective portions of the document. Extracting these portions can be implemented using efficient techniques for finding minimum cuts in graphs; this greatly facilitates incorporation of cross-sentence contextual constraints.
+  links:
+    - name: PDF
+      link: https://www.aclweb.org/anthology/P04-1035.pdf
+
+learning:acl11:
+  title: Learning Word Vectors for Sentiment Analysis
+  venue: acl
+  type: Conference
+  year: 2011
+  authors:
+    - Andrew L. Maas
+    - Raymond E. Daly
+    - Peter T. Pham
+    - Dan Huang
+    - ang
+    - cpotts
+
+recursive:emnlp13:
+  title: Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank
+  venue: emnlp
+  year: 2013
+  type: Conference
+  authors:
+    - Richard Socher
+    - Alex Perelygin
+    - Jean Wu
+    - Jason Chuang
+    - Christopher D. Manning
+    - ang
+    - cpotts
+  abstract: >
+    Semantic word spaces have been very useful but cannot express the meaning of longer phrases in a principled way. Further progress towards understanding compositionality in tasks such as sentiment detection requires richer supervised training and evaluation resources and more powerful models of composition. To remedy this, we introduce a Sentiment Treebank. It includes fine grained sentiment labels for 215,154 phrases in the parse trees of 11,855 sentences and presents new challenges for sentiment compositionality. To address them, we introduce the Recursive Neural Tensor Network. When trained on the new treebank, this model outperforms all previous methods on several metrics. It pushes the state of the art in single sentence positive/negative classification from 80% up to 85.4%. The accuracy of predicting fine-grained sentiment labels for all phrases reaches 80.7%, an improvement of 9.7% over bag of features baselines. Lastly, it is the only model that can accurately capture the effects of negation and its scope at various tree levels for both positive and negative phrases.
+  links:
+    - name: Website
+      link: https://nlp.stanford.edu/sentiment/
+    - name: Demo
+      link: http://nlp.stanford.edu:8080/sentiment/rntnDemo.html
+
+

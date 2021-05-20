@@ -8,3 +8,15 @@ bo:
   name:
     first: Bo
     last: Pang
+
+ang:
+  name:
+    first: Andrew Y.
+    last: Ng
+  website: https://ai.stanford.edu/~ang/originalHomepage.html
+
+cpotts:
+  name:
+    first: Christopher
+    last: Potts
+  website: https://web.stanford.edu/~cgpotts/
