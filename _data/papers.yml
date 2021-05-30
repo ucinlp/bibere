@@ -56,7 +56,12 @@ emp-instance:naacl21:
     - sameer
   abstract: >
     Widespread adoption of deep pretrained (masked) neural language models has motivated a pressing need for approaches for interpreting network outputs and for facilitating model debugging. Instance attribution methods constitute one means of accomplishing these goals by retrieving training instances that (may have) led to a particular prediction. Influence functions (IF) provide machinery for doing this by quantifying the effect that perturbing individual train instances would have on a specific test prediction. However, even approximating the IF is computationally expensive, to a degree that may be prohibitive in many cases. Might simpler approaches (e.g., retrieving train instance most similar to a given test point) perform comparably? In this work we evaluate the degree to which different potential instance attribution agree with respect to the importance of training samples. We find that simple retrieval methods yield training instances that differ from those identified via gradient-based methods (such as the IF), but that nonetheless exhibit desirable characteristics similar to more complex attribution methods.
-
+  links:
+    - name: PDF
+      link: https://arxiv.org/pdf/2104.04128.pdf
+    - name: ArXiV
+      link: https://arxiv.org/abs/2104.04128
+      
 poisoning:naacl21:
   title: >
     Customizing Triggers with Concealed Data Poisoning
