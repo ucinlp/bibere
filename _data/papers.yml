@@ -1,3 +1,48 @@
+poisoning:icml21:
+  title: "Calibrate Before Use: Improving Few-shot Performance of Language Models"
+  venue: icml
+  year: 2021
+  type: Conference
+  authors:
+    - Zihao Zhao
+    - ewallace
+    - Shi Feng
+    - Dan Klein
+    - sameer
+
+amber:acl21:
+  title: "There's More Than One Abe Lincoln: Evaluating Entity Disambiguation in Retrieval-Based NLP"
+  venue: acl
+  year: 2021
+  type: Conference
+  authors:
+    - achen
+    - Pallavi Gudipati
+    - Shayne Longpre
+    - xiao
+    - sameer
+
+streamingcdcr:acl21:
+  title: Benchmarking Scalable Methods for Streaming Cross Document Coreference
+  venue: acl
+  year: 2021
+  type: Conference
+  authors:
+    - rlogan
+    - andrew
+    - sameer
+    - Dan Bikel
+
+spconsistency:acl21:
+  title: Enforcing Consistency in Weakly Supervised Semantic Parsing
+  venue: acl
+  year: 2021
+  type: Conference
+  authors:
+    - nitish
+    - sameer
+    - mattg
+
 emp-instance:naacl21:
   title: >
     An Empirical Comparison of Instance Attribution Methods for NLP
