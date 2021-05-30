@@ -72,6 +72,9 @@ thumbs:emnlp02:
   type: Conference
   year: 2002
 ```
+Which should give you something like this:
+![image](https://user-images.githubusercontent.com/585359/118951911-5749c600-b910-11eb-9ecb-630500fd6511.png)
+
 Here is the version of the paper if the author and venue metadata is stored separately:
 ```yaml
 thumbs:emnlp02:
