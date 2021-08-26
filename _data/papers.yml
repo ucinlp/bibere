@@ -1,3 +1,66 @@
+genqa:emnlp21:
+  title: Generative Context Pair Selection for Multi-hop Question Answering
+  venue: emnlp
+  year: 2021
+  type: Conference
+  authors:
+    - ddua
+    - Cicero Nogueira dos Santos
+    - Patrick Ng
+    - Ben Athiwaratkun
+    - Bing Xiang
+    - mattg
+    - sameer
+
+:emnlp21:
+  title: Entity-Based Knowledge Conflicts in Question Answering
+  venue: emnlp
+  year: 2021
+  type: Conference
+  authors:
+    - Shayne Longpre
+    - Kartik Perisetla
+    - achen
+    - Nikhil Ramesh
+    - Chris DuBois
+    - sameer
+
+bundles:emnlp21:
+  title: Learning with Instance Bundles for Reading Comprehension
+  venue: emnlp
+  year: 2021
+  type: Conference
+  authors:
+    - ddua
+    - Pradeep Dasigi
+    - sameer
+    - mattg
+
+:emnlp21:
+  title: "Competency Problems: On Finding and Removing Artifacts in Language Data"
+  venue: emnlp
+  year: 2021
+  type: Conference
+  authors:
+    - mattg
+    - William Merrill
+    - Jesse Dodge
+    - Matthew Peters
+    - Alexis Ross
+    - sameer
+    - Noah A. Smith
+
+:emnlp21:
+  title: Paired Examples as Indirect Supervision in Latent Decision Models
+  venue: emnlp
+  year: 2021
+  type: Conference
+  authors:
+    - nitish
+    - sameer
+    - mattg
+    - roth
+
 poisoning:icml21:
   title: "Calibrate Before Use: Improving Few-shot Performance of Language Models"
   venue: icml
