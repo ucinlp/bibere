@@ -50,7 +50,7 @@ competency:emnlp21:
     - sameer
     - Noah A. Smith
 
-:emnlp21:
+pairednmn:emnlp21:
   title: Paired Examples as Indirect Supervision in Latent Decision Models
   venue: emnlp
   year: 2021
