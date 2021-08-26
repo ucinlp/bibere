@@ -12,7 +12,7 @@ genqa:emnlp21:
     - mattg
     - sameer
 
-:emnlp21:
+qaconflicts:emnlp21:
   title: Entity-Based Knowledge Conflicts in Question Answering
   venue: emnlp
   year: 2021
@@ -36,7 +36,7 @@ bundles:emnlp21:
     - sameer
     - mattg
 
-:emnlp21:
+competency:emnlp21:
   title: "Competency Problems: On Finding and Removing Artifacts in Language Data"
   venue: emnlp
   year: 2021
