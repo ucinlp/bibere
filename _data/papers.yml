@@ -73,7 +73,26 @@ parsinlu:tacl21:
     - Siamak Shakeri
     - Pedram Hosseini
     - ppezeshkp
-    - et al
+    - Malihe Alikhani
+    - Moin Aminnaseri
+    - Marzieh Bitaab
+    - Faeze Brahman
+    - Sarik Ghazarian
+    - Mozhdeh Gheini
+    - Arman Kabiri
+    - Rabeeh Karimi Mahabadi
+    - Omid Memarrast
+    - Ahmadreza Mosallanezhad
+    - Erfan Noury
+    - Shahab Raji
+    - Mohammad Sadegh Rasooli
+    - Sepideh Sadeghi
+    - Erfan Sadeqi Azer
+    - Niloofar Safi Samghabadi
+    - Mahsa Shafaei
+    - Saber Sheybani
+    - Ali Tazarv
+    - Yadollah Yaghoobzadeh
   abstract: >
    Despite the progress made in recent years in addressing natural language understanding (NLU) challenges, the majority of this progress remains to be concentrated on resource-rich languages like English. This work focuses on Persian language, one of the widely spoken languages in the world, and yet there are few NLU datasets available for this rich language. The availability of high-quality evaluation datasets is a necessity for reliable assessment of the progress on different NLU tasks and domains. We introduce PARSINLU, the first benchmark in Persian language that includes a range of high-level tasks — Reading Comprehension, Textual Entailment, etc. These datasets are collected in a multitude of ways, often involving manual annotations by native speakers. This results in over 14.5k new instances across 6 distinct NLU tasks. Besides, we present the first results on state-of-the-art monolingual and multi-lingual pre-trained language-models on this benchmark and compare them with human performance, which provides valuable insights into our ability to tackle natural language understanding challenges in Persian. We hope PARSINLU fosters further research and advances in Persian language understanding.
   links:
