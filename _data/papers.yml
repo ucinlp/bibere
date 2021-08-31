@@ -135,16 +135,28 @@ streamingcdcr:acl21:
     - andrew
     - sameer
     - Dan Bikel
+  links:
+    - name: ACL Anthology
+      link: https://aclanthology.org/2021.acl-long.364/
+    - name: PDF
+      link: https://aclanthology.org/2021.acl-long.364.pdf
+  doi: 10.18653/v1/2021.acl-long.364
 
 spconsistency:acl21:
   title: Enforcing Consistency in Weakly Supervised Semantic Parsing
   venue: acl
   year: 2021
   type: Conference
+  doi: 10.18653/v1/2021.acl-short.22
   authors:
     - nitish
     - sameer
     - mattg
+  links:
+    - name: ACL Anthology
+      link: https://aclanthology.org/2021.acl-short.22
+    - name: PDF
+      link: https://aclanthology.org/2021.acl-short.22.pdf
 
 emp-instance:naacl21:
   title: >
@@ -209,6 +221,22 @@ icrgan:aaai21:
       link: https://arxiv.org/abs/2002.04724
   abstract: >
     Recent work has increased the performance of Generative Adversarial Networks (GANs) by enforcing a consistency cost on the discriminator. We improve on this technique in several ways. We first show that consistency regularization can introduce artifacts into the GAN samples and explain how to fix this issue. We then propose several modifications to the consistency regularization procedure designed to improve its performance. We carry out extensive experiments quantifying the benefit of our improvements. For unconditional image synthesis on CIFAR-10 and CelebA, our modifications yield the best known FID scores on various GAN architectures. For conditional image synthesis on CIFAR-10, we improve the state-of-the-art FID score from 11.48 to 9.21. Finally, on ImageNet-2012, we apply our technique to the original BigGAN model and improve the FID from 6.66 to 5.38, which is the best score at that model size.
+
+modulargl:embodied21:
+  title: Modular Framework for Visuomotor Language Grounding
+  venue: Embodied AI Workshop at CVPR
+  year: 2021
+  type: Workshop
+  authors:
+    - Kolby Nottingham 
+    - Litian Liang 
+    - Daeyun Shin 
+    - Charless C. Fowlkes 
+    - Roy Fox
+    - sameer
+  links:
+    - name: PDF
+      link: /files/papers/modulargl-embodied21.pdf
 
 cskgtests:cskg21:
   title: Deriving Behavioral Tests from Common Sense Knowledge Graphs
@@ -376,6 +404,7 @@ covidlies:nlpcovid20:
     - yoshi
     - Sean Young
     - sameer
+  doi: 10.18653/v1/2020.nlpcovid19-2.11
   links:
     - name: PDF
       link: /files/papers/covidlies-nlpcovid20.pdf
@@ -396,6 +425,7 @@ tweeki:wnut20:
   authors:
     - Bahareh Harandizadeh
     - sameer
+  doi: 10.18653/v1/2020.wnut-1.29
   links:
     - name: PDF
       link: https://www.aclweb.org/anthology/2020.wnut-1.29.pdf
