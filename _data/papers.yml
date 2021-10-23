@@ -1,3 +1,56 @@
+covr:emnlp21:
+  title: >
+    COVR: A Test-Bed for Visually Grounded Compositional Generalization with Real Images
+  venue: emnlp
+  year: 2021
+  type: Conference
+  authors:
+    - benbogin
+    - sgupta
+    - joberant
+    - mattg
+  links:
+    - name: PDF
+      link: https://arxiv.org/pdf/2109.10613
+    - name: ArXiV
+      link: https://arxiv.org/abs/2109.10613
+    - name: Website
+      link: https://covr-dataset.github.io
+    - name: Code
+      link: https://github.com/benbogin/covr-dataset
+
+manipcfs:nips21:
+  title: Counterfactual Explanations Can Be Manipulated
+  venue: neurips
+  year: 2021
+  type: Conference
+  authors:
+    - dslack
+    - shilgard
+    - hima
+    - sameer
+  links:
+    - name: PDF
+      link: https://arxiv.org/pdf/2106.02666
+    - name: ArXiV
+      link: https://arxiv.org/abs/2106.02666
+    
+bayeslimeshap:nips21:
+  title: Reliable Post hoc Explanations Modeling Uncertainty in Explainability
+  venue: neurips
+  year: 2021
+  type: Conference
+  authors:
+    - dslack
+    - shilgard
+    - sameer
+    - hima
+  links:
+    - name: PDF
+      link: https://arxiv.org/pdf/2008.05030
+    - name: ArXiV
+      link: https://arxiv.org/abs/2008.05030
+
 genqa:emnlp21:
   title: Generative Context Pair Selection for Multi-hop Question Answering
   venue: emnlp
@@ -11,6 +64,11 @@ genqa:emnlp21:
     - Bing Xiang
     - mattg
     - sameer
+  links:
+    - name: PDF
+      link: https://arxiv.org/pdf/2104.08744
+    - name: ArXiV
+      link: https://arxiv.org/abs/2104.08744
 
 qaconflicts:emnlp21:
   title: Entity-Based Knowledge Conflicts in Question Answering
@@ -24,6 +82,15 @@ qaconflicts:emnlp21:
     - Nikhil Ramesh
     - Chris DuBois
     - sameer
+  links:
+    - name: PDF
+      link: https://arxiv.org/pdf/2109.05052
+    - name: ArXiV
+      link: https://arxiv.org/abs/2109.05052
+    - name: Project Page
+      link: https://machinelearning.apple.com/research/entity-knowledge-conflicts
+    - name: Source Code
+      link: https://github.com/apple/ml-knowledge-conflicts
 
 bundles:emnlp21:
   title: Learning with Instance Bundles for Reading Comprehension
@@ -35,6 +102,13 @@ bundles:emnlp21:
     - Pradeep Dasigi
     - sameer
     - mattg
+  abstract: >
+    When training most modern reading comprehension models, all the questions associated with a context are treated as being independent from each other. However, closely related questions and their corresponding answers are not independent, and leveraging these relationships could provide a strong supervision signal to a model. Drawing on ideas from contrastive estimation, we introduce several new supervision techniques that compare question-answer scores across multiple related instances. Specifically, we normalize these scores across various neighborhoods of closely contrasting questions and/or answers, adding another cross entropy loss term that is used in addition to traditional maximum likelihood estimation. Our techniques require bundles of related question-answer pairs, which we can either mine from within existing data or create using various automated heuristics. We empirically demonstrate the effectiveness of training with instance bundles on two datasets -- HotpotQA and ROPES -- showing up to 11% absolute gains in accuracy.
+  links:
+    - name: PDF
+      link: https://arxiv.org/pdf/2104.08735
+    - name: ArXiV
+      link: https://arxiv.org/abs/2104.08735
 
 competency:emnlp21:
   title: "Competency Problems: On Finding and Removing Artifacts in Language Data"
@@ -49,6 +123,11 @@ competency:emnlp21:
     - Alexis Ross
     - sameer
     - Noah A. Smith
+  links:
+    - name: PDF
+      link: https://arxiv.org/pdf/2104.08646
+    - name: ArXiV
+      link: https://arxiv.org/abs/2104.08646
 
 pairednmn:emnlp21:
   title: Paired Examples as Indirect Supervision in Latent Decision Models
@@ -60,6 +139,11 @@ pairednmn:emnlp21:
     - sameer
     - mattg
     - roth
+  links:
+    - name: PDF
+      link: https://arxiv.org/pdf/2104.01759
+    - name: ArXiV
+      link: https://arxiv.org/abs/2104.01759
 
 parsinlu:tacl21:
   title: >
@@ -112,9 +196,18 @@ poisoning:icml21:
     - Shi Feng
     - Dan Klein
     - sameer
+  links:
+    - name: PDF
+      link: https://arxiv.org/pdf/2102.09690
+    - name: ArXiV
+      link: https://arxiv.org/abs/2102.09690
+    - name: ICML Page
+      link: http://proceedings.mlr.press/v139/zhao21c.html
+    - name: Video/Slides
+      link: https://slideslive.com/38958659/calibrate-before-use-improving-fewshot-performance-of-language-models?ref=speaker-32224-latest
 
 amber:acl21:
-  title: "There's More Than One Abe Lincoln: Evaluating Entity Disambiguation in Retrieval-Based NLP"
+  title: Evaluating Entity Disambiguation and the Role of Popularity in Retrieval-Based NLP
   venue: acl
   year: 2021
   type: Conference
@@ -124,6 +217,12 @@ amber:acl21:
     - Shayne Longpre
     - xiao
     - sameer
+  links:
+    - name: ACL Anthology
+      link: https://aclanthology.org/2021.acl-long.345/
+    - name: PDF
+      link: https://aclanthology.org/2021.acl-long.345.pdf
+  doi: 10.18653/v1/2021.acl-long.345
 
 streamingcdcr:acl21:
   title: Benchmarking Scalable Methods for Streaming Cross Document Coreference
@@ -675,11 +774,11 @@ advlime:aies20:
   year: 2020
   type: "Conference"
   authors:
-    - "Dylan Slack"
-    - "Sophie Hilgard"
+    - dslack
+    - shilgard
     - "Emily Jia"
-    - "sameer"
-    - "Himabindu Lakkaraju"
+    - sameer
+    - hima
   pages: 180-186
   doi: 10.1145/3375627.3375830
   links:
@@ -2428,7 +2527,7 @@ distantly:tr10:
 rlmap:nips09:
   title: >
     Training Factor Graphs with Reinforcement Learning for Efficient MAP Inference
-  venue: "nips"
+  venue: neurips
   year: 2009
   type: "Conference"
   authors:
@@ -2443,7 +2542,7 @@ rlmap:nips09:
 factorie:nips09:
   title: >
     FACTORIE: Probabilistic Programming via Imperatively Defined Factor Graphs
-  venue: "nips"
+  venue: neurips
   year: 2009
   type: "Conference"
   authors:

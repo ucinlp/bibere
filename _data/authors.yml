@@ -312,3 +312,39 @@ achen:
     first: "Anthony"
     last: "Chen"
   website: "https://anthonywchen.github.io/"
+  
+dslack:
+  name:
+    first: "Dylan"
+    last: "Slack"
+  website: "https://dylanslacks.website/"
+  
+hima:
+  name:
+    first: "Himabindu"
+    last: "Lakkaraju"
+  website: "https://himalakkaraju.github.io/"
+  
+shilgard:
+  name:
+    first: "Sophie"
+    last: "Hilgard"
+  website: "https://scholar.harvard.edu/shilgard/home"
+
+sgupta:
+  name:
+    first: "Shivanshu"
+    last: "Gupta"
+  website: "https://github.com/Shivanshu-Gupta"
+
+benbogin:
+  name:
+    first: "Ben"
+    last: "Bogin"
+  website: "https://benbogin.github.io"
+
+joberant:
+  name:
+    first: "Jonathan"
+    last: "Berant"
+  website: "https://www.cs.tau.ac.il/~joberant"

@@ -52,7 +52,7 @@ lccc:
 icml:
   name: "International Conference on Machine Learning (ICML)"
 
-nips:
+neurips:
   name: "Neural Information Processing Systems (NeurIPS)"
 
 aistats:
