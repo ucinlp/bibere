@@ -1,3 +1,24 @@
+nullprompts:effnlp21:
+  title: "Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with Language Models"
+  venue: NeurIPS Workshop on Efficient Natural Language and Speech Processing (ENLSP)
+  year: 2021
+  type: Workshop
+  authors:
+    - rlogan
+    - Ivana Balažević
+    - ewallace
+    - Fabio Petroni
+    - sameer
+    - sebastian
+  links:
+    - name: ArXiV
+      link: https://arxiv.org/abs/2106.13353
+    - name: PDF
+      link: https://arxiv.org/pdf/2106.13353
+    - name: Code
+      link: https://github.com/ucinlp/null-prompts
+  emphasis: "Best Poster Award"
+
 covr:emnlp21:
   title: >
     COVR: A Test-Bed for Visually Grounded Compositional Generalization with Real Images
@@ -19,7 +40,7 @@ covr:emnlp21:
     - name: Code
       link: https://github.com/benbogin/covr-dataset
 
-manipcfs:nips21:
+manipcfs:neurips21:
   title: Counterfactual Explanations Can Be Manipulated
   venue: neurips
   year: 2021
@@ -35,7 +56,7 @@ manipcfs:nips21:
     - name: ArXiV
       link: https://arxiv.org/abs/2106.02666
     
-bayeslimeshap:nips21:
+bayeslimeshap:neurips21:
   title: Reliable Post hoc Explanations Modeling Uncertainty in Explainability
   venue: neurips
   year: 2021
