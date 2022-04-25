@@ -1,3 +1,92 @@
+fruit:naacl22:
+  title: >
+    FRUIT: Faithfully Reflecting Updated Information in Text
+  authors:
+    - rlogan
+    - Alexandre Passos
+    - sameer
+    - Ming-Wei Chang
+  venue: naacl
+  year: 2022
+  type: Conference
+
+reclip:acl22:
+  title: >
+    ReCLIP: A Strong Zero-Shot Baseline for Referring Expression Comprehension 
+  authors:
+    - Sanjay Subramanian
+    - William Merrill
+    - Trevor Darrell
+    - mattg
+    - sameer
+    - Anna Rohrbach
+  venue: acl
+  year: 2022
+  type: Conference
+
+tfa:facl22:
+  title: >
+    Combining Feature and Instance Attribution to Detect Artifacts
+  authors:
+    - ppezeshkp
+    - Sarthak Jain
+    - sameer
+    - Byron Wallace
+  venue: facl
+  year: 2022
+  type: Conference
+
+cutting:facl22:
+  title: >
+    Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with Language Models
+  authors:
+    - rlogan
+    - Ivana Balažević
+    - ewallace
+    - Fabio Petroni
+    - sameer
+    - sebastian
+  venue: facl
+  year: 2022
+  type: Conference
+
+bottlefit:wowmom22:
+  title: >
+    BottleFit: Learning Compressed Representations in Deep Neural Networks for Effective and Efficient Split Computing
+  venue:  IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM)
+  year: 2022
+  type: Conference
+  authors:
+    - yoshi
+    - "Davide Callegaro"
+    - "sameer"
+    - "levorato"
+    - Francesco Restuccia
+  links:
+    - name: "ArXiV Page"
+      link: "https://arxiv.org/abs/2201.02693"
+    - name: "PDF"
+      link: "https://arxiv.org/pdf/2201.02693.pdf"
+
+sentiment:ijrm22:
+  title: An Empirical Comparison of Machine Learning Methods for Text-based Sentiment Analysis of Online Consumer Reviews
+  venue: International Journal of Research in Marketing
+  type: Journal
+  authors:
+    - Huwail J.Alantari
+    - Imran S.Currim
+    - Yiting Deng
+    - sameer
+  year: 2022
+  doi: 10.1016/j.ijresmar.2021.10.011
+  links:
+    - name: Journal
+      link: https://www.sciencedirect.com/science/article/abs/pii/S0167811621000926?via%3Dihub
+  pages: 1-19
+  bibtex_fields:
+    volume: 39
+    number: 1
+
 nullprompts:effnlp21:
   title: "Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with Language Models"
   venue: NeurIPS Workshop on Efficient Natural Language and Speech Processing (ENLSP)
@@ -372,6 +461,27 @@ cskgtests:cskg21:
       link: https://usc-isi-i2.github.io/AAAI21workshop/papers/Razeghi_CSKGsAAAI-21.pdf
   abstract: >
     Although NLP models have demonstrated “superhuman” performance on common sense reasoning tasks, it is unclear whether these models truly have common sense knowledge. Constructing evaluation datasets to test this knowledge is expensive due to the manual effort involved, and is also limited in scope. Meanwhile, common sense knowledge graphs (CSKGs) aim for a wide coverage of structured common sense knowledge, but can not be directly used for testing purposes. In this work, we introduce a semi-automated approach that leverages CSKGs to construct out-of-domain evaluation sets for NLP tasks that are more scalable than purely manual approaches. Using this procedure, we create test cases from two popular CSKGs—ConceptNet and ATOMIC—to test the common sense reasoning capability of models trained for natural language inference (NLI) and question answering (QA). These tests reveal interesting differences in failure modes of these models; models trained on NLI tend to perform better on tests of ontological knowledge, e.g. ’is a’ and ’used for’ relations, failing on tests that require understanding ’desires’, ’needs’, and ’wants’, while QA models perform better on tests that involve ’wants’, and ’desires’.
+
+fohn:jgr21:
+  title: >
+    Climatology and Evolution of the Antarctic Peninsula Föhn Wind‐Induced Melt Regime From 1979–2018
+  venue: "Journal of Geophysical Research: Atmospheres"
+  type: Journal
+  year: 2021
+  authors:
+    - Matthew K Laffin
+    - Charles Zender
+    - sameer
+    - J. Van Wessem
+    - C. J. P. P. Smeets
+    - C. H. Reijmer
+  links:
+    - name: Journal
+      link: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JD033682
+  doi: 10.1029/2020JD033682
+  bibtex_fields:
+    volume: 126
+    number: 4
 
 activefew:hamlets20:
   title: >
@@ -844,6 +954,26 @@ ibal:vl320:
   links:
     - name: "Video"
       link: "https://www.youtube.com/watch?v=yCSRL9h6lqE"
+
+headnet:ieee20:
+  title: >
+    Head Network Distillation: Splitting Distilled Deep Neural Networks for Resource-Constrained Edge Computing Systems
+  venue: IEEE Access
+  type: Journal
+  year: 2020
+  authors:
+    - yoshi
+    - Davide Callegaro
+    - Sabur Baidya
+    - levorato
+    - sameer
+  links:
+    - name: Journal
+      link: https://ieeexplore.ieee.org/document/9265295
+  doi: 10.1109/ACCESS.2020.3039714
+  bibtex_fields:
+    volume: 126
+    number: 4
 
 distill:hottopics19:
   title: >

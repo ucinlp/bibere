@@ -73,6 +73,9 @@ conll:
 acl:
   name: "Association for Computational Linguistics (ACL)"
 
+facl:
+  name: "Findings of the Association for Computational Linguistics (ACL Findings)"
+
 tacl:
   name: "Transactions of the Association for Computational Linguistics (TACL)"
 
