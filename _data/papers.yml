@@ -27,14 +27,21 @@ reclip:acl22:
 tfa:facl22:
   title: >
     Combining Feature and Instance Attribution to Detect Artifacts
+  year: 2022
+  venue: facl
+  type: "Conference"
   authors:
     - ppezeshkp
     - Sarthak Jain
     - sameer
     - Byron Wallace
-  venue: facl
-  year: 2022
-  type: Conference
+  abstract: >
+    Training the deep neural networks that dominate NLP requires large datasets. These are often collected automatically or via crowdsourcing, and may exhibit systematic biases or annotation artifacts. By the latter we mean spurious correlations between inputs and outputs that do not represent a generally held causal relationship between features and classes; models that exploit such correlations may appear to perform a given task well, but fail on out of sample data. In this paper we evaluate use of different attribution methods for aiding identification of training data artifacts. We propose new hybrid approaches that combine saliency maps (which highlight "important" input features) with instance attribution methods (which retrieve training samples "influential" to a given prediction). We show that this proposed training-feature attribution can be used to efficiently uncover artifacts in training data when a challenging validation set is available. We also carry out a small user study to evaluate whether these methods are useful to NLP researchers in practice, with promising results. 
+  links:
+    - name: PDF
+      link: https://arxiv.org/pdf/2107.00323.pdf
+    - name: ArXiV
+      link: https://arxiv.org/abs/2107.00323
 
 cutting:facl22:
   title: >
@@ -128,6 +135,8 @@ covr:emnlp21:
       link: https://covr-dataset.github.io
     - name: Code
       link: https://github.com/benbogin/covr-dataset
+    - name: ACL Anthology
+      link: https://aclanthology.org/2021.emnlp-main.774/
 
 manipcfs:neurips21:
   title: Counterfactual Explanations Can Be Manipulated
@@ -179,6 +188,8 @@ genqa:emnlp21:
       link: https://arxiv.org/pdf/2104.08744
     - name: ArXiV
       link: https://arxiv.org/abs/2104.08744
+    - name: ACL Anthology
+      link: https://aclanthology.org/2021.emnlp-main.561/
 
 qaconflicts:emnlp21:
   title: Entity-Based Knowledge Conflicts in Question Answering
@@ -201,6 +212,8 @@ qaconflicts:emnlp21:
       link: https://machinelearning.apple.com/research/entity-knowledge-conflicts
     - name: Source Code
       link: https://github.com/apple/ml-knowledge-conflicts
+    - name: ACL Anthology
+      link: https://aclanthology.org/2021.emnlp-main.565/
 
 bundles:emnlp21:
   title: Learning with Instance Bundles for Reading Comprehension
@@ -219,6 +232,8 @@ bundles:emnlp21:
       link: https://arxiv.org/pdf/2104.08735
     - name: ArXiV
       link: https://arxiv.org/abs/2104.08735
+    - name: ACL Anthology
+      link: https://aclanthology.org/2021.emnlp-main.584/
 
 competency:emnlp21:
   title: "Competency Problems: On Finding and Removing Artifacts in Language Data"
@@ -238,6 +253,8 @@ competency:emnlp21:
       link: https://arxiv.org/pdf/2104.08646
     - name: ArXiV
       link: https://arxiv.org/abs/2104.08646
+    - name: ACL Anthology
+      link: https://aclanthology.org/2021.emnlp-main.135/
 
 pairednmn:emnlp21:
   title: Paired Examples as Indirect Supervision in Latent Decision Models
@@ -254,6 +271,8 @@ pairednmn:emnlp21:
       link: https://arxiv.org/pdf/2104.01759
     - name: ArXiV
       link: https://arxiv.org/abs/2104.01759
+    - name: ACL Anthology
+      link: https://aclanthology.org/2021.emnlp-main.466/
 
 parsinlu:tacl21:
   title: >
@@ -461,6 +480,31 @@ cskgtests:cskg21:
       link: https://usc-isi-i2.github.io/AAAI21workshop/papers/Razeghi_CSKGsAAAI-21.pdf
   abstract: >
     Although NLP models have demonstrated “superhuman” performance on common sense reasoning tasks, it is unclear whether these models truly have common sense knowledge. Constructing evaluation datasets to test this knowledge is expensive due to the manual effort involved, and is also limited in scope. Meanwhile, common sense knowledge graphs (CSKGs) aim for a wide coverage of structured common sense knowledge, but can not be directly used for testing purposes. In this work, we introduce a semi-automated approach that leverages CSKGs to construct out-of-domain evaluation sets for NLP tasks that are more scalable than purely manual approaches. Using this procedure, we create test cases from two popular CSKGs—ConceptNet and ATOMIC—to test the common sense reasoning capability of models trained for natural language inference (NLI) and question answering (QA). These tests reveal interesting differences in failure modes of these models; models trained on NLI tend to perform better on tests of ontological knowledge, e.g. ’is a’ and ’used for’ relations, failing on tests that require understanding ’desires’, ’needs’, and ’wants’, while QA models perform better on tests that involve ’wants’, and ’desires’.
+
+advdetect:bbox21:
+  title: >
+    What Models Know About Their Attackers: Deriving Attacker Information From Latent Representations
+  venue: EMNLP Workshop on Analyzing and Interpreting Neural Networks for NLP (BlackBoxNLP)
+  year: 2021
+  type: Workshop
+  authors:
+    - Zhouhang Xie
+    - Jonathan Brophy
+    - Adam Noack
+    - Wencong You
+    - Kalyani Asthana
+    - Carter Perkins
+    - Sabrina Reis
+    - Zayd Hammoudeh
+    - Daniel Lowd
+    - sameer
+  abstract: >
+    Adversarial attacks curated against NLP models are increasingly becoming practical threats. Although various methods have been developed to detect adversarial attacks, securing learning-based NLP systems in practice would require more than identifying and evading perturbed instances. To address these issues, we propose a new set of adversary identification tasks, Attacker Attribute Classification via Textual Analysis (AACTA), that attempts to obtain more detailed information about the attackers from adversarial texts. Specifically, given a piece of adversarial text, we hope to accomplish tasks such as localizing perturbed tokens, identifying the attacker’s access level to the target model, determining the evasion mechanism imposed, and specifying the perturbation type employed by the attacking algorithm. Our contributions are as follows: we formalize the task of classifying attacker attributes, and create a benchmark on various target models from sentiment classification and abuse detection domains. We show that signals from BERT models and target models can be used to train classifiers that reveal the properties of the attacking algorithms. We demonstrate that adversarial attacks leave interpretable traces in both feature spaces of pre-trained language models and target models, making AACTA a promising direction towards more trustworthy NLP systems.
+  links:
+    - name: PDF
+      link: https://aclanthology.org/2021.blackboxnlp-1.6.pdf
+    - name: ACL Anthology
+      link: https://aclanthology.org/2021.blackboxnlp-1.6
 
 fohn:jgr21:
   title: >
