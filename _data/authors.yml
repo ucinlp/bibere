@@ -16,6 +16,12 @@ yejin:
     last: "Choi"
   website: "http://homes.cs.washington.edu/~yejin/"
 
+hannaneh:
+  name:
+    first: "Hannaneh"
+    last: "Hajishirzi"
+  website: "https://homes.cs.washington.edu/~hannaneh/"
+
 rashkin:
   name:
     first: "Hannah"
