@@ -1,3 +1,40 @@
+pylon:aaai22:
+  title: >
+    PYLON: A PyTorch Framework for Learning with Constraints
+  authors:
+    - Kareem Ahmed
+    - Tao Li
+    - Thy Ton
+    - Quan Guo
+    - Kai-Wei Chang
+    - parisa
+    - vivek
+    - Guy Van den Broeck
+    - sameer
+  venue: Demo at the AAAI Conference on Artificial Intelligence (AAAI)
+  type: Demo
+  year: 2022
+  pages: 13152-13154
+  doi: 10.1609/aaai.v36i11.21711
+  abstract: >
+    Deep learning excels at learning low-level task information from large amounts of data, but struggles with learning high-level domain knowledge, which can often be directly and succinctly expressed. In this work, we introduce Pylon, a neuro-symbolic training framework that builds on PyTorch to augment procedurally trained neural networks with declaratively specified knowledge. Pylon allows users to programmatically specify constraints as PyTorch functions, and compiles them into a differentiable loss, thus training predictive models that fit the data whilst satisfying the specified constraints. Pylon includes both exact as well as approximate compilers to efficiently compute the loss, employing fuzzy logic, sampling methods, and circuits, ensuring scalability even to complex models and constraints. A guiding principle in designing Pylon has been the ease with which any existing deep learning codebase can be extended to learn from constraints using only a few lines: a function expressing the constraint and a single line of code to compile it into a loss. We include case studies from natural language processing, computer vision, logical games, and knowledge graphs, that can be interactively trained, and highlights Pylon's usage.
+  links:
+    - name: AAAI Proceedings
+      link: https://ojs.aaai.org/index.php/AAAI/article/view/21711
+    - name: AAAI PDF (shorter)
+      link: https://ojs.aaai.org/index.php/AAAI/article/view/21711/21460
+    - name: Neurips Proceedings
+      link: https://proceedings.mlr.press/v176/ahmed22a.html
+    - name: NeurIPS PDF (longer)
+      link: https://proceedings.mlr.press/v176/ahmed22a/ahmed22a.pdf
+    - name: Website
+      link: https://pylon-lib.github.io/
+    - name: Code
+      link: https://github.com/pylon-lib/pylon
+    - name: Video
+      link: https://www.youtube.com/watch?v=9nKfe56py3A
+  note: Also presented as a Demo paper at Neurips 2021.
+
 fruit:naacl22:
   title: >
     FRUIT: Faithfully Reflecting Updated Information in Text
@@ -9,6 +46,49 @@ fruit:naacl22:
   venue: naacl
   year: 2022
   type: Conference
+  pages: 3670-3686
+  emphasis: "Best Task Paper Award"
+  links:
+    - name: PDF
+      link: https://aclanthology.org/2022.naacl-main.269.pdf
+    - name: ACL Anthology
+      link: https://aclanthology.org/2022.naacl-main.269/
+    - name: ArXiV
+      link: https://arxiv.org/abs/2112.08634
+  abstract: >
+    Textual knowledge bases such as Wikipedia require considerable effort to keep up to date and consistent. While automated writing assistants could potentially ease this burden, the problem of suggesting edits grounded in external knowledge has been under-explored. In this paper, we introduce the novel generation task of *faithfully reflecting updated information in text* (FRUIT) where the goal is to update an existing article given new evidence. We release the FRUIT-WIKI dataset, a collection of over 170K distantly supervised data produced from pairs of Wikipedia snapshots, along with our data generation pipeline and a gold evaluation set of 914 instances whose edits are guaranteed to be supported by the evidence. We provide benchmark results for popular generation systems as well as EDIT5 – a T5-based approach tailored to editing we introduce that establishes the state of the art. Our analysis shows that developing models that can update articles faithfully requires new capabilities for neural generation models, and opens doors to many new applications.
+  pages: 3670–3686
+  doi: 10.18653/v1/2022.naacl-main.269
+
+
+wayward:naacl22:
+  title: >
+    Prompt Waywardness: The Curious Case of Discretized Interpretation of Continuous Prompts
+  authors:
+    - Daniel Khashabi
+    - Xinxi Lyu
+    - Sewon Min
+    - Lianhui Qin
+    - Kyle Richardson
+    - Sean Welleck
+    - hannaneh
+    - Tushar Khot
+    - Ashish Sabharwal
+    - Sameer Singh
+    - yejin
+  venue: naacl
+  year: 2022
+  type: Conference
+  abstract: >
+    Fine-tuning continuous prompts for target tasks has recently emerged as a compact alternative to full model fine-tuning. Motivated by these promising results, we investigate the feasibility of extracting a discrete (textual) interpretation of continuous prompts that is faithful to the problem they solve. In practice, we observe a “wayward” behavior between the task solved by continuous prompts and their nearest neighbor discrete projections: We can find continuous prompts that solve a task while being projected to an arbitrary text (e.g., definition of a different or even a contradictory task), while being within a very small (2%) margin of the best continuous prompt of the same size for the task. We provide intuitions behind this odd and surprising behavior, as well as extensive empirical analyses quantifying the effect of various parameters. For instance, for larger model sizes we observe higher waywardness, i.e, we can find prompts that more closely map to any arbitrary text with a smaller drop in accuracy. These findings have important implications relating to the difficulty of faithfully interpreting continuous prompts and their generalization across models and tasks, providing guidance for future progress in prompting language models.
+  pages: 3631-3643
+  links:
+    - name: PDF
+      link: https://aclanthology.org/2022.naacl-main.266.pdf
+    - name: ACL Anthology
+      link: https://aclanthology.org/2022.naacl-main.266/
+    - name: Code
+      link: https://github.com/alrope123/prompt-waywardness
 
 reclip:acl22:
   title: >
@@ -23,6 +103,18 @@ reclip:acl22:
   venue: acl
   year: 2022
   type: Conference
+  pages: 5198-5215
+  doi: 10.18653/v1/2022.acl-long.357
+  abstract: >
+    Training a referring expression comprehension (ReC) model for a new visual domain requires collecting referring expressions, and potentially corresponding bounding boxes, for images in the domain. While large-scale pre-trained models are useful for image classification across domains, it remains unclear if they can be applied in a zero-shot manner to more complex tasks like ReC. We present ReCLIP, a simple but strong zero-shot baseline that repurposes CLIP, a state-of-the-art large-scale model, for ReC. Motivated by the close connection between ReC and CLIP’s contrastive pre-training objective, the first component of ReCLIP is a region-scoring method that isolates object proposals via cropping and blurring, and passes them to CLIP. However, through controlled experiments on a synthetic dataset, we find that CLIP is largely incapable of performing spatial reasoning off-the-shelf. We reduce the gap between zero-shot baselines from prior work and supervised models by as much as 29% on RefCOCOg, and on RefGTA (video game imagery), ReCLIP’s relative improvement over supervised ReC models trained on real images is 8%.
+  doi: 10.18653/v1/2022.acl-long.357
+  links:
+    - name: PDF
+      link: https://aclanthology.org/2022.acl-long.357.pdf
+    - name: ACL Anthology
+      link: https://aclanthology.org/2022.acl-long.357/
+    - name: Code
+      link: https://github.com/allenai/reclip
 
 tfa:facl22:
   title: >
@@ -37,11 +129,15 @@ tfa:facl22:
     - Byron Wallace
   abstract: >
     Training the deep neural networks that dominate NLP requires large datasets. These are often collected automatically or via crowdsourcing, and may exhibit systematic biases or annotation artifacts. By the latter we mean spurious correlations between inputs and outputs that do not represent a generally held causal relationship between features and classes; models that exploit such correlations may appear to perform a given task well, but fail on out of sample data. In this paper we evaluate use of different attribution methods for aiding identification of training data artifacts. We propose new hybrid approaches that combine saliency maps (which highlight "important" input features) with instance attribution methods (which retrieve training samples "influential" to a given prediction). We show that this proposed training-feature attribution can be used to efficiently uncover artifacts in training data when a challenging validation set is available. We also carry out a small user study to evaluate whether these methods are useful to NLP researchers in practice, with promising results. 
+  doi: 10.18653/v1/2022.findings-acl.153
+  pages: 1934–1946
   links:
     - name: PDF
       link: https://arxiv.org/pdf/2107.00323.pdf
     - name: ArXiV
       link: https://arxiv.org/abs/2107.00323
+    - name: ACL Anthology
+      link: https://aclanthology.org/2022.findings-acl.153/
 
 cutting:facl22:
   title: >
@@ -56,6 +152,20 @@ cutting:facl22:
   venue: facl
   year: 2022
   type: Conference
+  abstract: >
+    Prompting language models (LMs) with training examples and task descriptions has been seen as critical to recent successes in few-shot learning. In this work, we show that finetuning LMs in the few-shot setting can considerably reduce the need for prompt engineering. In fact, one can use null prompts, prompts that contain neither task-specific templates nor training examples, and achieve competitive accuracy to manually-tuned prompts across a wide range of tasks. While finetuning LMs does introduce new parameters for each downstream task, we show that this memory overhead can be substantially reduced: finetuning only the bias terms can achieve comparable or better accuracy than standard finetuning while only updating 0.1% of the parameters. All in all, we recommend finetuning LMs for few-shot learning as it is more accurate, robust to different prompts, and can be made nearly as efficient as using frozen LMs.
+  doi: 10.18653/v1/2022.findings-acl.222
+  pages: 2824–2835
+  links:
+    - name: PDF
+      link: https://aclanthology.org/2022.findings-acl.222.pdf
+    - name: ArXiV
+      link: https://arxiv.org/abs/2106.13353
+    - name: ACL Anthology
+      link: https://aclanthology.org/2022.findings-acl.222/
+    - name: Code
+      link: https://github.com/ucinlp/null-prompts
+  note: Also presented at the Neurips workshop on Efficient Natural Language and Speech Processing (ENLSP)
 
 bottlefit:wowmom22:
   title: >
@@ -63,12 +173,16 @@ bottlefit:wowmom22:
   venue:  IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM)
   year: 2022
   type: Conference
+  pages: 337-346
+  doi: 10.1109/WoWMoM54355.2022.00032
   authors:
     - yoshi
     - "Davide Callegaro"
     - "sameer"
     - "levorato"
     - Francesco Restuccia
+  abstract: >
+    Although mission-critical applications require the use of deep neural networks (DNNs), their continuous execution at mobile devices results in a significant increase in energy consumption. While edge offloading can decrease energy consumption, erratic patterns in channel quality, network and edge server load can lead to severe disruption of the system’s key operations. An alternative approach, called split computing, generates compressed representations within the model (called "bottlenecks"), to reduce bandwidth usage and energy consumption. Prior work has proposed approaches that introduce additional layers, to the detriment of energy consumption and latency. For this reason, we propose a new framework called BottleFit, which, in addition to targeted DNN architecture modifications, includes a novel training strategy to achieve high accuracy even with strong compression rates. We apply BottleFit on cutting-edge DNN models in image classification, and show that BottleFit achieves 77.1% data compression with up to 0.6% accuracy loss on ImageNet dataset, while state of the art such as SPINN loses up to 6% in accuracy. We experimentally measure the power consumption and latency of an image classification application running on an NVIDIA Jetson Nano board (GPU-based) and a Raspberry PI board (GPU-less). We show that BottleFit decreases power consumption and latency respectively by up to 49% and 89% with respect to (w.r.t.) local computing and by 37% and 55% w.r.t. edge offloading. We also compare BottleFit with state-of-the-art autoencoders-based approaches, and show that (i) BottleFit reduces power consumption and execution time respectively by up to 54% and 44% on the Jetson and 40% and 62% on Raspberry PI; (ii) the size of the head model executed on the mobile device is 83 times smaller. We publish the code repository for reproducibility of the results in this study.
   links:
     - name: "ArXiV Page"
       link: "https://arxiv.org/abs/2201.02693"
@@ -624,7 +738,7 @@ contrast:femnlp20:
     - Yanai Elazar
     - Ananth Gottumukkala
     - nitish
-    - Hannaneh Hajishirzi
+    - hannaneh
     - Gabriel Ilharco
     - Daniel Khashabi
     - Kevin Lin
@@ -660,7 +774,7 @@ medicat:femnlp20:
     - Sravanthi Parasa
     - sameer
     - mattg
-    - Hannaneh Hajishirzi
+    - hannaneh
   links:
     - name: PDF
       link: https://www.aclweb.org/anthology/2020.findings-emnlp.191.pdf
@@ -1312,7 +1426,7 @@ mhop:acl19:
     - "ewallace"
     - "sameer"
     - "mattg"
-    - "Hannaneh Hajishirzi"
+    - hannaneh
     - "lsz"
   pages: 4249-4257
   doi: 10.18653/v1/P19-1416
