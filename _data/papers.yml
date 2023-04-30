@@ -1,8 +1,137 @@
+deckard:icml23:
+  title: >
+    Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling
+  authors:
+    - knottingham
+    - Prithviraj Ammanabrolu
+    - Alane Suhr
+    - yejin
+    - hannaneh
+    - sameer
+    - Roy Fox
+  venue: icml
+  year: 2023
+  type: Conference
+  links:
+    - name: "ArXiV"
+      link: "https://arxiv.org/abs/2301.12050"
+    - name: "Project Page"
+      link: "https://deckardagent.github.io/"
+    - name: "Code"
+      link: "https://github.com/DeckardAgent/deckard"
+
+decompqa:aaai23:
+  title: >
+    Towards Factual and Informative Review Generation for Explainable Recommendation
+  authors:
+    - Zhouhang Xie
+    - sameer
+    - Julian McAuley
+    - Bodhisattwa P. Majumder
+  venue: aaai
+  year: 2023
+  type: Conference
+  links:
+    - name: ArXiV
+      link: "https://arxiv.org/abs/2303.17651"
+
+maestro:eaai23:
+  title: >
+    Maestro: A Gamified Platform for Teaching AI Robustness
+  authors:
+    - Margarita Geleta
+    - Jiacen Xu
+    - Manikanta Loya
+    - Junlin Wang
+    - sameer
+    - Zhou Li
+    - Sergio Gago Masague
+  venue: eaai
+  year: 2023
+  type: Conference
+  
+templates:tsrml22:
+  title: >   
+    Quantifying Social Biases Using Templates is Unreliable
+  type: "Workshop"
+  venue: "TSRML Workshop @ NeurIPS"
+  year: 2022
+  authors:
+    - pseshadri
+    - ppezeshkp
+    - sameer
+  links:
+    - name: "ArXiV"
+      link: "https://arxiv.org/abs/2210.04337"
+
+talktomodel:tsrml22:
+  title: >
+    TalkToModel: Explaining Machine Learning Models with Interactive Natural Language Conversations 
+  type: "Workshop"
+  venue: "TSRML Workshop @ NeurIPS"
+  year: 2022
+  authors:
+    - dslack
+    - skrishna
+    - hima
+    - sameer
+  links:
+    - name: "ArXiV"
+      link: "https://arxiv.org/abs/2207.04154"
+    - name: "Code"
+      link: "https://github.com/dylan-slack/TalkToModel"
+    - name: "Demo"
+      link: "https://nlp.ics.uci.edu/talk-to-healthcare-model/"
+    
+rethinking:hcai22:
+  title: >   
+    Rethinking Explainability as a Dialogue: A Practitioner's Perspective 
+  type: "Workshop"
+  venue: "HCAI Workshop @ NeurIPS"
+  year: 2022
+  authors:
+    - hima
+    - dslack
+    - yuxinchen
+    - chenhao
+    - sameer
+  links:
+    - name: "ArXiV"
+      link: "https://arxiv.org/abs/2202.01875"
+
+decompqa:emnlp22:
+  title: >
+    Successive Prompting for Decomposing Complex Questions
+  authors:
+    - ddua
+    - sgupta
+    - sameer
+    - mattg
+  venue: emnlp
+  year: 2022
+  type: Conference
+
+structdiversity:femnlp22:
+  title: >
+    Structurally Diverse Sampling for Sample-Efficient Training and Comprehensive Evaluation
+  authors:
+    - sgupta
+    - sameer
+    - mattg
+  venue: femnlp
+  year: 2022
+  type: Conference
+  links:
+    - name: "ArXiV"
+      link: "https://arxiv.org/abs/2203.08445"
+    - name: "PDF"
+      link: "https://arxiv.org/pdf/2203.08445.pdf"
+
 queryrl:rldm22:
   title: >
     Learning to Query Internet Text for Informing Reinforcement Learning Agents
   authors:
-    - Kolby Nottingham
+    - knottingham
     - Alekhya Pyla 
     - sameer
     - Roy Fox

@@ -4,6 +4,24 @@ sameer:
     last: "Singh"
   website: "http://www.sameersingh.org"
 
+yuxinchen:
+  name:
+    first: "Yuxin"
+    last: "Chen"
+  website: "https://yuxinchen.org"
+
+chenhao:
+  name: 
+    first: "Chenhao"
+    last: "Tan"
+  website: "https://chenhaot.com"
+
+skrishna:
+  name:
+    first: "Satyapriya"
+    last: "Krishna"
+  website: "https://satyapriyakrishna.com"
+
 guillaume:
   name:
     first: "Guillaume"
@@ -354,3 +372,15 @@ joberant:
     first: "Jonathan"
     last: "Berant"
   website: "https://www.cs.tau.ac.il/~joberant"
+
+pseshadri:
+  name:
+    first: "Preethi"
+    last: "Seshadri"
+  website: "https://preethiseshadri518.github.io/"
+
+knottingham:
+  name:
+    first: "Kolby"
+    last: "Nottingham"
+  website: "https://sites.uci.edu/kolbynottingham/"
