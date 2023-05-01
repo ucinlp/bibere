@@ -99,6 +99,26 @@ rethinking:hcai22:
     - name: "ArXiV"
       link: "https://arxiv.org/abs/2202.01875"
 
+snoopy:emnlp22:
+  title: >
+    Snoopy: An Online Interface for Exploring the Effect of Pretraining Term Frequencies on Few-Shot LM Performance
+  type: Demo
+  venue: "Demo at the Empirical Methods in Natural Language Processing (EMNLP)"
+  year: 2022
+  authors:
+    - yrazeghi
+    - Raja Sekhar Reddy Mekala
+    - rlogan
+    - mattg
+    - sameer
+  links:
+    - name: "Demo"
+      link: "https://nlp.ics.uci.edu/snoopy"
+    - name: ACL Anthology
+      link: "https://aclanthology.org/2022.emnlp-demos.39/"
+    - name: PDF
+      link: "https://aclanthology.org/2022.emnlp-demos.39.pdf"
+      
 decompqa:emnlp22:
   title: >
     Successive Prompting for Decomposing Complex Questions
