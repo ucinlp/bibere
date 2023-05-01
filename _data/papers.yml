@@ -20,7 +20,7 @@ deckard:icml23:
     - name: "Code"
       link: "https://github.com/DeckardAgent/deckard"
 
-decompqa:aaai23:
+recomm:aaai23:
   title: >
     Towards Factual and Informative Review Generation for Explainable Recommendation
   authors:
@@ -110,6 +110,42 @@ decompqa:emnlp22:
   venue: emnlp
   year: 2022
   type: Conference
+  links:
+    - name: ACL Anthology
+      link: "https://aclanthology.org/2022.emnlp-main.81/"
+
+pretraining:emnlp22:
+  title: >
+    Continued Pretraining for Better Zero- and Few-Shot Promptability
+  authors:
+    - Zhaofeng Wu
+    - rlogan
+    - Pete Walsh
+    - Akshita Bhagia
+    - Dirk Groeneveld
+    - sameer
+    - Iz Beltagy
+  venue: emnlp
+  year: 2022
+  type: Conference
+  links:
+    - name: ACL Anthology
+      link: "https://aclanthology.org/2022.emnlp-main.300/"
+
+impact:femnlp22:
+  title: >
+    Impact of Pretraining Term Frequencies on Few-Shot Numerical Reasoning
+  authors:
+    - yrazeghi
+    - rlogan
+    - mattg
+    - sameer
+  venue: femnlp
+  year: 2022
+  type: Conference
+  links:
+    - name: "ACL Anthology"
+      link: "https://aclanthology.org/2022.findings-emnlp.59/"
 
 structdiversity:femnlp22:
   title: >
@@ -126,6 +162,8 @@ structdiversity:femnlp22:
       link: "https://arxiv.org/abs/2203.08445"
     - name: "PDF"
       link: "https://arxiv.org/pdf/2203.08445.pdf"
+    - name: ACL Anthology
+      link: "https://aclanthology.org/2022.findings-emnlp.365/"
 
 queryrl:rldm22:
   title: >
