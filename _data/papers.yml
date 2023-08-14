@@ -1,3 +1,105 @@
+rumors:ipm23:
+  title: >
+    Evaluating the generalisability of neural rumour verification models
+  authors:
+    - Elena Kochkina
+    - tamanna
+    - rlogan
+    - Miguel Arana-Catania
+    - Rob Procter
+    - Arkaitz Zubiaga
+    - sameer
+    - Yulan He
+    - Maria Liakata
+  venue: Information Processing and Management
+  year: 2023
+  type: Journal
+  doi: 10.1016/j.ipm.2022.103116
+  abstract: >
+    Research on automated social media rumour verification, the task of identifying the veracity of questionable information circulating on social media, has yielded neural models achieving high performance, with accuracy scores that often exceed 90%. However, none of these studies focus on the real-world generalisability of the proposed approaches, that is whether the models perform well on datasets other than those on which they were initially trained and tested. In this work we aim to fill this gap by assessing the generalisability of top performing neural rumour verification models covering a range of different architectures from the perspectives of both topic and temporal robustness. For a more complete evaluation of generalisability, we collect and release COVID-RV, a novel dataset of Twitter conversations revolving around COVID-19 rumours. Unlike other existing COVID-19 datasets, our COVID-RV contains conversations around rumours that follow the format of prominent rumour verification benchmarks, while being different from them in terms of topic and time scale, thus allowing better assessment of the temporal robustness of the models. We evaluate model performance on COVID-RV and three popular rumour verification datasets to understand limitations and advantages of different model architectures, training datasets and evaluation scenarios. We find a dramatic drop in performance when testing models on a different dataset from that used for training. Further, we evaluate the ability of models to generalise in a few-shot learning setup, as well as when word embeddings are updated with the vocabulary of a new, unseen rumour. Drawing upon our experiments we discuss challenges and make recommendations for future research directions in addressing this important problem.
+  links:
+    - name: Journal page
+      link: https://www.sciencedirect.com/science/article/pii/S0306457322002175
+    - name: PDF
+      link: https://www.sciencedirect.com/science/article/pii/S0306457322002175/pdfft?md5=dfcd058eadba47288dfbf832b44e7e24&pid=1-s2.0-S0306457322002175-main.pdf
+
+talktomodel:ni23:
+  title: >
+    Explaining machine learning models with interactive natural language conversations using TalkToModel
+  authors:
+    - dslack
+    - Satyapriya Krishna
+    - hima
+    - sameer
+  venue: Nature Machine Intelligence
+  year: 2023
+  type: Journal
+  doi: 10.1038/s42256-023-00692-8
+  abstract: >
+    Practitioners increasingly use machine learning (ML) models, yet models have become more complex and harder to understand. To understand complex models, researchers have proposed techniques to explain model predictions. However, practitioners struggle to use explainability methods because they do not know which explanation to choose and how to interpret the explanation. Here we address the challenge of using explainability methods by proposing TalkToModel: an interactive dialogue system that explains ML models through natural language conversations. TalkToModel consists of three components: an adaptive dialogue engine that interprets natural language and generates meaningful responses; an execution component that constructs the explanations used in the conversation; and a conversational interface. In real-world evaluations, 73% of healthcare workers agreed they would use TalkToModel over existing systems for understanding a disease prediction model, and 85% of ML professionals agreed TalkToModel was easier to use, demonstrating that TalkToModel is highly effective for model explainability.
+  links:
+    - name: Nature page
+      link: "https://www.nature.com/articles/s42256-023-00692-8"
+    - name: PDF
+      link: "https://www.nature.com/articles/s42256-023-00692-8.pdf"
+    - name: Code
+      link: "https://github.com/dylan-slack/TalkToModel"
+    - name: ArXiV
+      link: https://arxiv.org/abs/2207.04154
+    - name: Demo
+      link: https://nlp.ics.uci.edu/talk-to-healthcare-model/
+
+adaptqa:acl23:
+  title: >
+    To Adapt or to Annotate: Challenges and Interventions for Domain Adaptation in Open-Domain Question Answering
+  authors:
+    - ddua
+    - Emma Strubell
+    - sameer
+    - Pat Verga
+  venue: acl
+  year: 2023
+  type: Conference
+  pages: 14429–14446
+  doi: 10.18653/v1/2023.acl-long.807
+  abstract: >
+    Recent advances in open-domain question answering (ODQA) have demonstrated impressive accuracy on general-purpose domains like Wikipedia. While some work has been investigating how well ODQA models perform when tested for out-of-domain (OOD) generalization, these studies have been conducted only under conservative shifts in data distribution and typically focus on a single component (i.e., retriever or reader) rather than an end-to-end system. This work proposes a more realistic end-to-end domain shift evaluation setting covering five diverse domains. We not only find that end-to-end models fail to generalize but that high retrieval scores often still yield poor answer prediction accuracy. To address these failures, we investigate several interventions, in the form of data augmentations, for improving model adaption and use our evaluation set to elucidate the relationship between the efficacy of an intervention scheme and the particular type of dataset shifts we consider. We propose a generalizability test that estimates the type of shift in a target dataset without training a model in the target domain and that the type of shift is predictive of which data augmentation schemes will be effective for domain adaption. Overall, we find that these interventions increase end-to-end performance by up to ~24 points.
+  links:
+    - name: ACL Anthology
+      link: "https://aclanthology.org/2023.acl-long.807/"
+    - name: ArXiV
+      link: "https://arxiv.org/abs/2212.10381"
+    - name: PDF
+      link: "https://arxiv.org/pdf/2212.10381.pdf"
+
+misgendered:acl23:
+  title: >
+    MISGENDERED: Limits of Large Language Models in Understanding Pronouns
+  authors:
+    - tamanna
+    - Sunipa Dev
+    - sameer
+  venue: acl
+  year: 2023
+  type: Conference
+  pages: 5352–5367
+  doi: 10.18653/v1/2023.acl-long.293
+  abstract: >
+    Content Warning: This paper contains examples of misgendering and erasure that could be offensive and potentially triggering.Gender bias in language technologies has been widely studied, but research has mostly been restricted to a binary paradigm of gender. It is essential also to consider non-binary gender identities, as excluding them can cause further harm to an already marginalized group. In this paper, we comprehensively evaluate popular language models for their ability to correctly use English gender-neutral pronouns (e.g., singular they, them) and neo-pronouns (e.g., ze, xe, thon) that are used by individuals whose gender identity is not represented by binary pronouns. We introduce Misgendered, a framework for evaluating large language models’ ability to correctly use preferred pronouns, consisting of (i) instances declaring an individual’s pronoun, followed by a sentence with a missing pronoun, and (ii) an experimental setup for evaluating masked and auto-regressive language models using a unified method. When prompted out-of-the-box, language models perform poorly at correctly predicting neo-pronouns (averaging 7.6% accuracy) and gender-neutral pronouns (averaging 31.0% accuracy). This inability to generalize results from a lack of representation of non-binary pronouns in training data and memorized associations. Few-shot adaptation with explicit examples in the prompt improves the performance but plateaus at only 45.4% for neo-pronouns. We release the full dataset, code, and demo at https://tamannahossainkay.github.io/misgendered/.
+  links:
+    - name: ACL Anthology
+      link: "https://aclanthology.org/2023.acl-long.293/"
+    - name: ArXiV
+      link: "https://arxiv.org/abs/2306.03950"
+    - name: PDF
+      link: "https://arxiv.org/pdf/2306.03950.pdf"
+    - name: Video
+      link: https://www.youtube.com/watch?v=9UBkpQBkZGI
+    - name: Demo
+      link: https://tamannahossainkay.github.io/misgendered/
+    - name: Code
+      link: https://github.com/tamannahossainkay/misgendered-backend
+      
 deckard:icml23:
   title: >
     Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling
@@ -993,7 +1095,7 @@ covidlies:nlpcovid20:
   year: 2020
   venue: EMNLP NLP Covid19 Workshop
   authors:
-    - Tamanna Hossain
+    - tamanna
     - rlogan
     - Arjuna Ugarte
     - yoshi
