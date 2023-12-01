@@ -56,6 +56,7 @@ rumors:ipm23:
       link: https://www.sciencedirect.com/science/article/pii/S0306457322002175
     - name: PDF
       link: https://www.sciencedirect.com/science/article/pii/S0306457322002175/pdfft?md5=dfcd058eadba47288dfbf832b44e7e24&pid=1-s2.0-S0306457322002175-main.pdf
+  grants: [mcs]
 
 talktomodel:ni23:
   title: >
