@@ -1,3 +1,37 @@
+posthoc:neurips23:
+  title: Post Hoc Explanations of Language Models Can Improve Language Models
+  authors:
+    - Satyapriya Krishna
+    - Jiaqi Ma
+    - dslack
+    - Asma Ghandeharioun
+    - sameer
+    - hima
+  venue: neurips
+  year: 2023
+  type: Conference
+  links:
+    - name: ArXiV
+      link: "https://arxiv.org/abs/2305.11426"
+    - name: PDF
+      link: "https://arxiv.org/pdf/2305.11426.pdf"
+
+demselect:emnlp23:
+  title: Coverage-based Example Selection for In-Context Learning
+  authors:
+    - sgupta
+    - mattg
+    - sameer
+  venue: emnlp
+  year: 2023
+  type: Conference
+  links:
+    - name: ArXiV
+      link: "https://arxiv.org/abs/2305.14907"
+    - name: PDF
+      link: "https://arxiv.org/pdf/2305.14907.pdf"
+  grants: [mcs]
+
 rumors:ipm23:
   title: >
     Evaluating the generalisability of neural rumour verification models
@@ -71,6 +105,7 @@ adaptqa:acl23:
       link: "https://arxiv.org/abs/2212.10381"
     - name: PDF
       link: "https://arxiv.org/pdf/2212.10381.pdf"
+  grants: [mcs]
 
 misgendered:acl23:
   title: >
@@ -250,6 +285,7 @@ decompqa:emnlp22:
   links:
     - name: ACL Anthology
       link: "https://aclanthology.org/2022.emnlp-main.81/"
+  grants: [mcs]
 
 pretraining:emnlp22:
   title: >
@@ -283,6 +319,7 @@ impact:femnlp22:
   links:
     - name: "ACL Anthology"
       link: "https://aclanthology.org/2022.findings-emnlp.59/"
+  grants: [mcs]
 
 structdiversity:femnlp22:
   title: >
@@ -301,6 +338,7 @@ structdiversity:femnlp22:
       link: "https://arxiv.org/pdf/2203.08445.pdf"
     - name: ACL Anthology
       link: "https://aclanthology.org/2022.findings-emnlp.365/"
+  grants: [mcs]
 
 compgenhardness:emnlp22:
   title: >
@@ -455,6 +493,7 @@ reclip:acl22:
       link: https://aclanthology.org/2022.acl-long.357/
     - name: Code
       link: https://github.com/allenai/reclip
+  grants: [mcs]
 
 tfa:facl22:
   title: >
@@ -506,6 +545,7 @@ cutting:facl22:
     - name: Code
       link: https://github.com/ucinlp/null-prompts
   note: Also presented at the Neurips workshop on Efficient Natural Language and Speech Processing (ENLSP)
+  grants: [mcs]
 
 bottlefit:wowmom22:
   title: >
@@ -668,6 +708,7 @@ qaconflicts:emnlp21:
       link: https://github.com/apple/ml-knowledge-conflicts
     - name: ACL Anthology
       link: https://aclanthology.org/2021.emnlp-main.565/
+  grants: [mcs]
 
 bundles:emnlp21:
   title: Learning with Instance Bundles for Reading Comprehension
@@ -788,6 +829,7 @@ poisoning:icml21:
       link: http://proceedings.mlr.press/v139/zhao21c.html
     - name: Video/Slides
       link: https://slideslive.com/38958659/calibrate-before-use-improving-fewshot-performance-of-language-models?ref=speaker-32224-latest
+  grants: [mcs]
 
 amber:acl21:
   title: Evaluating Entity Disambiguation and the Role of Popularity in Retrieval-Based NLP
@@ -806,6 +848,7 @@ amber:acl21:
     - name: PDF
       link: https://aclanthology.org/2021.acl-long.345.pdf
   doi: 10.18653/v1/2021.acl-long.345
+  grants: [mcs]
 
 streamingcdcr:acl21:
   title: Benchmarking Scalable Methods for Streaming Cross Document Coreference
@@ -823,6 +866,7 @@ streamingcdcr:acl21:
     - name: PDF
       link: https://aclanthology.org/2021.acl-long.364.pdf
   doi: 10.18653/v1/2021.acl-long.364
+  grants: [mcs]
 
 spconsistency:acl21:
   title: Enforcing Consistency in Weakly Supervised Semantic Parsing
@@ -1019,6 +1063,7 @@ autoprompt:emnlp20:
       link: "https://www.aclweb.org/anthology/2020.acl-main.346/"
   abstract: >
     The remarkable success of pretrained language models has motivated the study of what kinds of knowledge these models learn during pretraining. Reformulating tasks as fill-in-the-blanks problems (e.g., cloze tests) is a natural approach for gauging such knowledge, however, its usage is limited by the manual effort and guesswork required to write suitable prompts. To address this, we develop AutoPrompt, an automated method to create prompts for a diverse set of tasks, based on a gradient-guided search. Using AutoPrompt, we show that masked language models (MLMs) have an inherent capability to perform sentiment analysis and natural language inference without additional parameters or finetuning, sometimes achieving performance on par with recent state-of-the-art supervised models. We also show that our prompts elicit more accurate factual knowledge from MLMs than the manually created prompts on the LAMA benchmark, and that MLMs can be used as relation extractors more effectively than supervised relation extraction models. These results demonstrate that automatically generated prompts are a viable parameter-free alternative to existing probing methods, and as pretrained LMs become more sophisticated and capable, potentially a replacement for finetuning.
+  grants: [mcs]
 
 mocha:emnlp20:
   title: >
@@ -1041,6 +1086,7 @@ mocha:emnlp20:
       link: https://www.aclweb.org/anthology/2020.emnlp-main.528/
   abstract: >
     Posing reading comprehension as a generation problem provides a great deal of flexibility, allowing for open-ended questions with few restrictions on possible answers. However, progress is impeded by existing generation metrics, which rely on token overlap and are agnostic to the nuances of reading comprehension. To address this, we introduce a benchmark for training and evaluating generative reading comprehension metrics: MOdeling Correctness with Human Annotations. MOCHA contains 40K human judgement scores on model outputs from 6 diverse question answering datasets and an additional set of minimal pairs for evaluation. Using MOCHA, we train a Learned Evaluation metric for Reading Comprehension, LERC, to mimic human judgement scores. LERC outperforms baseline metrics by 10 to 36 absolute Pearson points on held-out annotations. When we evaluate robustness on minimal pairs, LERC achieves 80% accuracy, outperforming baselines by 14 to 26 absolute percentage points while leaving significant room for improvement. MOCHA presents a challenging problem for developing accurate and robust generative reading comprehension metrics.
+  grants: [mcs]
 
 facade:femnlp20:
   title: >
@@ -1144,6 +1190,7 @@ covidlies:nlpcovid20:
   abstract: >
     The ongoing pandemic has heightened the need for developing tools to flag COVID-19-related misinformation on the internet, specifically on social media such as Twitter. However, due to novel language and the rapid change of information, existing misinformation detection datasets are not effective for evaluating systems designed to detect misinformation on this topic. Misinformation detection can be divided into two sub-tasks: (i) retrieval of misconceptions relevant to posts being checked for veracity, and (ii) stance detection to identify whether the posts Agree, Disagree, or express No Stance towards the retrieved misconceptions. To facilitate research on this task, we release COVIDLies (https://ucinlp.github.io/covid19), a dataset of 6761 expert-annotated tweets to evaluate the performance of misinformation detection systems on 86 different pieces of COVID-19 related misinformation. We evaluate existing NLP systems on this dataset, providing initial benchmarks and identifying key challenges for future models to improve upon.
   emphasis: "Best Paper Award"
+  grants: [mcs]
 
 tweeki:wnut20:
   title: >
@@ -1189,6 +1236,7 @@ checklist:acl20:
   abstract: >
     Although measuring held-out accuracy has been the primary approach to evaluate generalization, it often overestimates the performance of NLP models, while alternative approaches for evaluating models either focus on individual tasks or on specific behaviors. Inspired by principles of behavioral testing in software engineering, we introduce CheckList, a task-agnostic methodology for testing NLP models. CheckList includes a matrix of general linguistic capabilities and test types that facilitate comprehensive test ideation, as well as a software tool to generate a large and diverse number of test cases quickly. We illustrate the utility of CheckList with tests for three tasks, identifying critical failures in both commercial and state-of-art models. In a user study, a team responsible for a commercial sentiment analysis model found new and actionable bugs in an extensively tested model. In another user study, NLP practitioners with CheckList created twice as many tests, and found almost three times as many bugs as users without it.
   emphasis: "Best Paper Award"
+  grants: [mcs]
 
 impsample:acl20:
   title: >
@@ -1210,6 +1258,7 @@ impsample:acl20:
       link: "https://slideslive.com/38929173"
   abstract: >
     Language models that use additional latent structures (e.g., syntax trees, coreference chains, knowledge graph links) provide several advantages over traditional language models. However, likelihood-based evaluation of these models is often intractable as it requires marginalizing over the latent space. Existing works avoid this issue by using importance sampling. Although this approach has asymptotic guarantees, analysis is rarely conducted on the effect of decisions such as sample size and choice of proposal distribution on the reported estimates. In this paper, we carry out this analysis for three models: RNNG, EntityNLM, and KGLM. In addition, we elucidate subtle differences in how importance sampling is applied in these works that can have substantial effects on the final estimates, as well as provide theoretical results which reinforce the validity of this technique.
+  grants: [mcs]
 
 nmninterpret:acl20:
   title: >
@@ -1305,6 +1354,7 @@ kbeval:akbc20:
   abstract: >
     Representing knowledge graphs (KGs) by learning embeddings for entities and relations has led to accurate models for existing KG completion benchmarks. However, due to the open-world assumption of existing KGs, evaluation of KG completion uses ranking metrics and triple classification with negative samples, and is thus unable to directly assess models on the goals of the task: completion. In this paper, we first study the shortcomings of these evaluation metrics. Specifically, we demonstrate that these metrics (1) are unreliable for estimating how calibrated the models are, (2) make strong assumptions that are often violated, and 3) do not sufficiently, and consistently, differentiate embedding methods from each other, or from simpler approaches. To address these issues, we gather a semi-complete KG referred as YAGO3-TC, using a random subgraph from the test and validation data of YAGO3-10, which enables us to compute accurate triple classification accuracy on this data. Conducting thorough experiments on existing models, we provide new insights and directions for the KG completion research. Along with the dataset and the open source implementation of the models, we also provide a leaderboard for knowledge graph completion that consists of a hidden, and growing, test set, available at https://pouyapez.github.io/yago3-tc/.
   emphasis: "Runner-up for Best Paper Award"
+  grants: [mcs]
 
 bertdecept:ijcnn20:
   title: >
@@ -1343,6 +1393,7 @@ nmn:iclr20:
       link: "https://nitishgupta.github.io/nmn-drop/"
   abstract: >
     Answering compositional questions that require multiple steps of reasoning against text is challenging, especially when they involve discrete, symbolic operations. Neural module networks (NMNs) learn to parse such questions as executable programs composed of learnable modules, performing well on synthetic visual QA domains. However, we find that it is challenging to learn these models for non-synthetic questions on open-domain text, where a model needs to deal with the diversity of natural language and perform a broader range of reasoning. We extend NMNs by: (a) introducing modules that reason over a paragraph of text, performing symbolic reasoning (such as arithmetic, sorting, counting) over numbers and dates in a probabilistic and differentiable manner; and (b) proposing an unsupervised auxiliary loss to help extract arguments associated with the events in text. Additionally, we show that a limited amount of heuristically-obtained question program and intermediate module output supervision provides sufficient inductive bias for accurate learning. Our proposed model significantly outperforms state-of-the-art models on a subset of the DROP dataset that poses a variety of reasoning challenges that are covered by our modules.
+  grants: [mcs]
 
 salrl:iclr20:
   title: >
@@ -1504,6 +1555,7 @@ evalqa:mrqa19:
     - name: "PDF"
       link: "/files/papers/evalqa-mrqa19.pdf"
   emphasis: "Best Paper Award."
+  grants: [mcs]
 
 orb:mrqa19:
   title: >
