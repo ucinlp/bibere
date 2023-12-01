@@ -200,6 +200,21 @@ rethinking:hcai22:
   links:
     - name: "ArXiV"
       link: "https://arxiv.org/abs/2202.01875"
+    
+safer:darl22:
+  title: >   
+    SAFER: Data-Efficient and Safe Reinforcement Learning via Skill Acquisition 
+  type: "Workshop"
+  venue: "DARL Workshop @ ICML"
+  year: 2022
+  authors:
+    - dslack
+    - yinlamchow
+    - bodai
+    - nwichers
+  links:
+    - name: "ArXiV"
+      link: "https://arxiv.org/abs/2202.04849"
 
 snoopy:emnlp22:
   title: >
@@ -286,6 +301,22 @@ structdiversity:femnlp22:
       link: "https://arxiv.org/pdf/2203.08445.pdf"
     - name: ACL Anthology
       link: "https://aclanthology.org/2022.findings-emnlp.365/"
+
+compgenhardness:emnlp22:
+  title: >
+    Unobserved Local Structures Make Compositional Generalization Hard
+  authors:
+    - benbogin
+    - sgupta
+    - joberant
+  venue: emnlp
+  year: 2022
+  type: Conference
+  links:
+    - name: "ArXiV"
+      link: "https://arxiv.org/abs/2201.05899"
+    - name: "PDF"
+      link: "https://arxiv.org/pdf/2201.05899.pdf"
 
 queryrl:rldm22:
   title: >

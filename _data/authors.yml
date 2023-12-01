@@ -10,6 +10,24 @@ yuxinchen:
     last: "Chen"
   website: "https://yuxinchen.org"
 
+yinlamchow:
+  name:
+    first: "Yinlam"
+    last: "Chow"
+  website: "https://stanfordasl.github.io/people/yinlam-chow/"
+
+bodai:
+  name:
+    first: "Bo"
+    last: "Dai"
+  website: "https://sites.google.com/site/daibohr/"
+
+nwichers:
+  name:
+    first: "Nevan"
+    last: "Wichers"
+  website: "https://www.linkedin.com/in/nevanwichers/"
+
 chenhao:
   name: 
     first: "Chenhao"
