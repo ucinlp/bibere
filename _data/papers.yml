@@ -357,6 +357,7 @@ talktomodel:tsrml22:
       link: "https://github.com/dylan-slack/TalkToModel"
     - name: "Demo"
       link: "https://nlp.ics.uci.edu/talk-to-healthcare-model/"
+  emphasis: "Honoral Mention for Best Paper"
     
 rethinking:hcai22:
   title: >   
