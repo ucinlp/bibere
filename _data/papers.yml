@@ -1,3 +1,138 @@
+skillsetopt:icml24:
+  title: "Skill Set Optimization: Reinforcing Language Model Behavior via Transferable Skills"
+  authors:
+    - knottingham
+    - Bodhisattwa Prasad Majumder
+    - Bhavana Dalvi Mishra
+    - sameer
+    - Peter Clark
+    - Roy Fox
+  venue: icml
+  year: 2024
+  type: Conference
+  links:
+    - name: PDF
+      link: "https://arxiv.org/pdf/2402.03244.pdf"
+    - name: ArXiV
+      link: "https://arxiv.org/abs/2402.03244"
+    - name: OpenReview
+      link: https://openreview.net/forum?id=9laB7ytoMp
+
+misgendermender:naacl24:
+  title: 	"MisgenderMender: A Community-Informed Approach to Interventions for Misgendering"
+  authors:
+    - tamanna
+    - Sunipa Dev
+    - sameer
+  venue: naacl
+  year: 2024
+  type: Conference
+  links:
+    - name: PDF
+      link: "https://arxiv.org/pdf/2404.14695.pdf"
+    - name: ArXiV
+      link: "https://arxiv.org/abs/2404.14695"  
+
+biasampl:naacl24:
+  title: The Bias Amplification Paradox in Text-to-Image Generation
+  authors:
+    - pseshadri
+    - sameer
+    - yanai
+  venue: naacl
+  year: 2024
+  type: Conference
+  links:
+    - name: PDF
+      link: "https://arxiv.org/pdf/2308.00755.pdf"
+    - name: ArXiV
+      link: "https://arxiv.org/abs/2308.00755"
+
+echoprompt:naacl24:
+  title: "EchoPrompt: Instructing the Model to Rephrase Queries for Improved In-context Learning"
+  authors:
+    - Raja Sekhar Reddy Mekala
+    - yrazeghi
+    - sameer
+  venue: naacl
+  year: 2024
+  type: Conference
+  links:
+    - name: PDF
+      link: "https://arxiv.org/pdf/2309.10687.pdf"
+    - name: ArXiV
+      link: "https://arxiv.org/abs/2309.10687"
+
+selperception:naacl24:
+  title: "Selective Perception: Learning Concise State Descriptions for Language Model Actors"
+  authors:
+    - knottingham
+    - yrazeghi
+    - Kyungmin Kim
+    - JB Lanier
+    - Pierre Baldi
+    - Roy Fox
+    - sameer
+  venue: naacl
+  year: 2024
+  type: Conference
+  links:
+    - name: PDF
+      link: "https://arxiv.org/pdf/2307.11922.pdf"
+    - name: ArXiV
+      link: "https://arxiv.org/abs/2307.11922"
+
+unstereoeval:iclr24:
+  title: Are Models Biased on Text without Gender-related Language?
+  authors:
+    - cbelem
+    - pseshadri
+    - yrazeghi
+    - sameer
+  venue: iclr
+  year: 2024
+  type: "Conference"
+  links:
+    - name: PDF
+      link: "https://arxiv.org/pdf/2405.00588.pdf"
+    - name: ArXiV
+      link: "https://arxiv.org/abs/2405.00588"
+    - name: OpenReview
+      link: https://openreview.net/forum?id=w1JanwReU6
+    - name: Project Page
+      link: https://ucinlp.github.io/unstereo-eval/
+    - name: Video
+      link: https://www.youtube.com/watch?v=gmqBoBSYj9U
+
+wimbd:iclr24:
+  title: What's In My Big Data?
+  authors:
+    - yanai
+    - Akshita Bhagia
+    - Ian Helgi Magnusson
+    - Abhilasha Ravichander
+    - Dustin Schwenk
+    - Alane Suhr
+    - Evan Pete Walsh
+    - Dirk Groeneveld
+    - Luca Soldaini
+    - sameer
+    - hannaneh
+    - Noah A. Smith
+    - Jesse Dodge
+  venue: iclr
+  year: 2024
+  type: "Conference"
+  links:
+    - name: PDF
+      link: "https://arxiv.org/pdf/2310.20707.pdf"
+    - name: ArXiV
+      link: "https://arxiv.org/abs/2310.20707"
+    - name: OpenReview
+      link: https://openreview.net/forum?id=RvfPnOkPV4
+    - name: Demo
+      link: https://wimbd.apps.allenai.org/
+
 posthoc:neurips23:
   title: Post Hoc Explanations of Language Models Can Improve Language Models
   authors:
@@ -150,6 +285,7 @@ deckard:icml23:
   venue: icml
   year: 2023
   type: Conference
+  pages: 26311-26325
   links:
     - name: "ArXiV"
       link: "https://arxiv.org/abs/2301.12050"
@@ -185,6 +321,7 @@ maestro:eaai23:
     - Zhou Li
     - Sergio Gago Masague
   venue: eaai
+  pages: 15816–15824
   year: 2023
   type: Conference
   
@@ -302,9 +439,13 @@ pretraining:emnlp22:
   venue: emnlp
   year: 2022
   type: Conference
+  pages: 4517–4531
+  doi: 10.18653/v1/2022.emnlp-main.300
   links:
     - name: ACL Anthology
       link: "https://aclanthology.org/2022.emnlp-main.300/"
+    - name: PDF
+      link: "https://aclanthology.org/2022.emnlp-main.300.pdf"
 
 impact:femnlp22:
   title: >
@@ -320,6 +461,8 @@ impact:femnlp22:
   links:
     - name: "ACL Anthology"
       link: "https://aclanthology.org/2022.findings-emnlp.59/"
+    - name: "PDF"
+      link: "https://aclanthology.org/2022.findings-emnlp.59.pdf"
   grants: [mcs]
 
 structdiversity:femnlp22:
@@ -332,6 +475,8 @@ structdiversity:femnlp22:
   venue: femnlp
   year: 2022
   type: Conference
+  pages: 4966–4979
+  doi: 10.18653/v1/2022.findings-emnlp.365
   links:
     - name: "ArXiV"
       link: "https://arxiv.org/abs/2203.08445"
@@ -648,6 +793,8 @@ manipcfs:neurips21:
       link: https://arxiv.org/pdf/2106.02666
     - name: ArXiV
       link: https://arxiv.org/abs/2106.02666
+    - name: NeurIPS Page
+      link: https://proceedings.neurips.cc/paper_files/paper/2021/hash/009c434cab57de48a31f6b669e7ba266-Abstract.html
     
 bayeslimeshap:neurips21:
   title: Reliable Post hoc Explanations Modeling Uncertainty in Explainability
@@ -659,7 +806,10 @@ bayeslimeshap:neurips21:
     - shilgard
     - sameer
     - hima
+  pages: 9391--9404
   links:
+    - name: NeurIPS Page
+      link: https://proceedings.neurips.cc/paper_files/paper/2021/hash/4e246a381baf2ce038b3b0f82c7d6fb4-Abstract.html
     - name: PDF
       link: https://arxiv.org/pdf/2008.05030
     - name: ArXiV
@@ -678,6 +828,8 @@ genqa:emnlp21:
     - Bing Xiang
     - mattg
     - sameer
+  pages: 7009–7015
+  doi: 10.18653/v1/2021.emnlp-main.561
   links:
     - name: PDF
       link: https://arxiv.org/pdf/2104.08744
@@ -710,6 +862,8 @@ qaconflicts:emnlp21:
     - name: ACL Anthology
       link: https://aclanthology.org/2021.emnlp-main.565/
   grants: [mcs]
+  pages: 7052–7063
+  doi: 10.18653/v1/2021.emnlp-main.565
 
 bundles:emnlp21:
   title: Learning with Instance Bundles for Reading Comprehension
@@ -730,6 +884,8 @@ bundles:emnlp21:
       link: https://arxiv.org/abs/2104.08735
     - name: ACL Anthology
       link: https://aclanthology.org/2021.emnlp-main.584/
+  pages: 7347–7357
+  doi: 10.18653/v1/2021.emnlp-main.584
 
 competency:emnlp21:
   title: "Competency Problems: On Finding and Removing Artifacts in Language Data"
@@ -751,6 +907,8 @@ competency:emnlp21:
       link: https://arxiv.org/abs/2104.08646
     - name: ACL Anthology
       link: https://aclanthology.org/2021.emnlp-main.135/
+  pages: 1801–1813
+  doi: 10.18653/v1/2021.emnlp-main.135
 
 pairednmn:emnlp21:
   title: Paired Examples as Indirect Supervision in Latent Decision Models
@@ -762,6 +920,8 @@ pairednmn:emnlp21:
     - sameer
     - mattg
     - roth
+  pages: 5774–5785
+  doi: 10.18653/v1/2021.emnlp-main.466
   links:
     - name: PDF
       link: https://arxiv.org/pdf/2104.01759
@@ -821,6 +981,7 @@ poisoning:icml21:
     - Shi Feng
     - Dan Klein
     - sameer
+  pages: 12697-12706
   links:
     - name: PDF
       link: https://arxiv.org/pdf/2102.09690
@@ -843,6 +1004,8 @@ amber:acl21:
     - Shayne Longpre
     - xiao
     - sameer
+  pages: 4472–4485
+  doi: 10.18653/v1/2021.acl-long.345
   links:
     - name: ACL Anthology
       link: https://aclanthology.org/2021.acl-long.345/
@@ -861,6 +1024,8 @@ streamingcdcr:acl21:
     - andrew
     - sameer
     - Dan Bikel
+  pages: 4717–4731
+  doi: 10.18653/v1/2021.acl-long.364
   links:
     - name: ACL Anthology
       link: https://aclanthology.org/2021.acl-long.364/
@@ -875,6 +1040,7 @@ spconsistency:acl21:
   year: 2021
   type: Conference
   doi: 10.18653/v1/2021.acl-short.22
+  pages: 168–174
   authors:
     - nitish
     - sameer
@@ -896,6 +1062,8 @@ emp-instance:naacl21:
     - Sarthak Jain
     - Byron Wallace
     - sameer
+  pages: 967–975
+  doi: 10.18653/v1/2021.naacl-main.75
   abstract: >
     Widespread adoption of deep pretrained (masked) neural language models has motivated a pressing need for approaches for interpreting network outputs and for facilitating model debugging. Instance attribution methods constitute one means of accomplishing these goals by retrieving training instances that (may have) led to a particular prediction. Influence functions (IF) provide machinery for doing this by quantifying the effect that perturbing individual train instances would have on a specific test prediction. However, even approximating the IF is computationally expensive, to a degree that may be prohibitive in many cases. Might simpler approaches (e.g., retrieving train instance most similar to a given test point) perform comparably? In this work we evaluate the degree to which different potential instance attribution agree with respect to the importance of training samples. We find that simple retrieval methods yield training instances that differ from those identified via gradient-based methods (such as the IF), but that nonetheless exhibit desirable characteristics similar to more complex attribution methods.
   links:
@@ -903,6 +1071,8 @@ emp-instance:naacl21:
       link: https://arxiv.org/pdf/2104.04128.pdf
     - name: ArXiV
       link: https://arxiv.org/abs/2104.04128
+    - name: ACL Anthology
+      link: https://aclanthology.org/2021.naacl-main.75/
       
 poisoning:naacl21:
   title: > 
@@ -915,6 +1085,8 @@ poisoning:naacl21:
     - Tony Z. Zhao
     - Shi Feng
     - sameer
+  pages: 139–150
+  doi: 10.18653/v1/2021.naacl-main.13
   abstract: >
     Adversarial attacks alter NLP model predictions by perturbing test-time inputs. However, it is much less understood whether, and how, predictions can be manipulated with small, concealed changes to the training data. In this work, we develop a new data poisoning attack that allows an adversary to control model predictions whenever a desired trigger phrase is present in the input. For instance, we insert 50 poison examples into a sentiment model’s training set that causes the model to frequently predict Positive whenever the input contains “James Bond”. Crucially, we craft these poison examples using a gradient-based procedure so that they do not mention the trigger phrase. We also apply our poison attack to language modeling (“Apple iPhone” triggers negative generations) and machine translation (“iced coffee” mistranslated as “hot coffee”). We conclude by proposing three defenses that can mitigate our attack at some cost in prediction accuracy or extra human annotation.
   links:
@@ -941,11 +1113,15 @@ icrgan:aaai21:
     - Augustus Odena
     - Han Zhang
   type: Conference
+  pages: 11033-11041
+  doi: 10.1609/aaai.v35i12.17317
   links:
     - name: PDF
       link: https://arxiv.org/pdf/2002.04724.pdf
     - name: ArXiV
       link: https://arxiv.org/abs/2002.04724
+    - name: AAAI Page
+      link: https://ojs.aaai.org/index.php/AAAI/article/view/17317
   abstract: >
     Recent work has increased the performance of Generative Adversarial Networks (GANs) by enforcing a consistency cost on the discriminator. We improve on this technique in several ways. We first show that consistency regularization can introduce artifacts into the GAN samples and explain how to fix this issue. We then propose several modifications to the consistency regularization procedure designed to improve its performance. We carry out extensive experiments quantifying the benefit of our improvements. For unconditional image synthesis on CIFAR-10 and CelebA, our modifications yield the best known FID scores on various GAN architectures. For conditional image synthesis on CIFAR-10, we improve the state-of-the-art FID score from 11.48 to 9.21. Finally, on ImageNet-2012, we apply our technique to the original BigGAN model and improve the FID from 6.66 to 5.38, which is the best score at that model size.
 
