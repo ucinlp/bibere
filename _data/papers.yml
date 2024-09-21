@@ -1,12 +1,3 @@
-watermark:emnlp24:
-  title: Performance Trade-offs of a Family of Text Watermarks
-  authors:
-    - Anirudh Ajith
-    - sameer
-    - Danish Pruthi
-  venue: emnlp
-  year: 2024
-  type: Conference
 plottwist:emnlp24:
   title: "PlotTwist: Generating and Evaluating Diverse Story Endings"
   authors:
@@ -29,6 +20,15 @@ linguncertain:emnlp24:
   venue: emnlp
   type: Conference
   year: 2024
+watermark:emnlp24:
+  title: Performance Trade-offs of a Family of Text Watermarks
+  authors:
+    - Anirudh Ajith
+    - sameer
+    - Danish Pruthi
+  venue: emnlp
+  year: 2024
+  type: Conference
 partial:emnlp24:
   title: Measuring and Improving Attentiveness to Partial Inputs with Counterfactuals
   authors:
