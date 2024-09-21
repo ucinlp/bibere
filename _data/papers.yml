@@ -1,3 +1,48 @@
+watermark:emnlp24:
+  title: Performance Trade-offs of a Family of Text Watermarks
+  authors:
+    - Anirudh Ajith
+    - sameer
+    - Danish Pruthi
+  venue: emnlp
+  year: 2024
+  type: Conference
+plottwist:emnlp24:
+  title: "PlotTwist: Generating and Evaluating Diverse Story Endings"
+  authors:
+    - yrazeghi
+    - Ishita Dasgupta
+    - Fangyu Liu
+    - Vinay Venkatesh Ramasesh
+    - sameer
+  venue: emnlp
+  year: 2024
+  type: Conference
+linguncertain:emnlp24:
+  title: Perceptions of Linguistic Uncertainty by Language Models and Humans
+  authors:
+    - cbelem
+    - Markelle Kelly
+    - Mark Steyvers
+    - sameer
+    - Padhraic Smyth
+  venue: emnlp
+  type: Conference
+  year: 2024
+partial:emnlp24:
+  title: Measuring and Improving Attentiveness to Partial Inputs with Counterfactuals
+  authors:
+    - yanai
+    - Bhargavi Paranjape
+    - Hao Peng
+    - Sarah Wiegreffe
+    - Khyathi Chandu
+    - Vivek Srikumar
+    - sameer
+    - Noah A. Smith
+  venue: emnlp
+  type: Conference
+  year: 2024
 skillsetopt:icml24:
   title: "Skill Set Optimization: Reinforcing Language Model Behavior via Transferable Skills"
   authors:
