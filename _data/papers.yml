@@ -110,6 +110,7 @@ watermark:emnlp24:
   year: 2024
   type: Conference
   doi: 10.18653/v1/2024.findings-emnlp.821
+  pages: 14039-14053
   links:
     - name: PDF
       link: https://aclanthology.org/2024.findings-emnlp.821.pdf
@@ -138,6 +139,7 @@ partial:emnlp24:
   venue: emnlp
   type: Conference
   year: 2024
+  grants: [career]
 skillsetopt:icml24:
   title: "Skill Set Optimization: Reinforcing Language Model Behavior via Transferable Skills"
   authors:
