@@ -1,3 +1,63 @@
+nudging:acl25:
+  title: "Nudging: Inference-time Alignment of LLMs via Guided Decoding"
+  authors:
+    - yu
+    - yrazeghi
+    - sameer
+  abstract: >
+    Large language models (LLMs) require alignment to effectively and safely follow user instructions. This process necessitates training an aligned version for every base model, resulting in significant computational overhead. In this work, we propose NUDGING, a simple, training-free algorithm that aligns any base model at inference time using a small aligned model. NUDGING is motivated by recent findings that alignment primarily alters the model's behavior on a small subset of stylistic tokens (e.g., discourse markers). We find that base models are significantly more uncertain when generating these tokens. Building on this insight, NUDGING employs a small aligned model to generate nudging tokens to guide the base model's output during decoding when the base model's uncertainty is high, with only a minor additional inference overhead. We evaluate NUDGING across 3 model families on a diverse range of open-instruction tasks. Without any training, nudging a large base model with a 7x-14x smaller aligned model achieves zero-shot performance comparable to, and sometimes surpassing, that of large aligned models. By operating at the token level, NUDGING enables off-the-shelf collaboration between model families. For instance, nudging Gemma-2-27b with Llama-27b-chat outperforms Llama-2-70b-chat on various tasks. Overall, our work offers a modular and cost-efficient solution to LLM alignment. Our code and demo are available at: https://fywalter.github.io/nudging/.
+  venue: acl
+  year: 2025
+  type: Conference
+  doi: 10.18653/v1/2025.acl-long.623
+  pages: 12702-12739
+  links:
+    - name: PDF
+      link: https://aclanthology.org/2025.acl-long.623.pdf
+    - name: ACL Anthology
+      link: https://aclanthology.org/2025.acl-long.623/
+turtlebench:naacl25:
+  title: "TurtleBench: A Visual Programming Benchmark in Turtle Geometry"
+  authors:
+    - Sina Rismanchian
+    - yrazeghi
+    - sameer
+    - Shayan Doroudi
+  abstract: >
+    Humans have the ability to reason about geometric patterns in images and scenes from a young age. However, developing large multimodal models (LMMs) capable of similar reasoning remains a challenge, highlighting the need for robust evaluation methods to assess these capabilities. We introduce TurtleBench, a benchmark designed to evaluate LMMs' capacity to interpret geometric patterns—given visual examples, textual instructions, or both—and generate precise code outputs. Inspired by turtle geometry, a notion used to teach children foundational coding and geometric concepts, TurtleBench features tasks with patterned shapes that have underlying algorithmic logic. Our evaluation reveals that leading LMMs struggle significantly with these tasks, with GPT-4V achieving only 19% accuracy on the simplest tasks and few-shot prompting only marginally improves their performance (<2%). TurtleBench highlights the gap between human and AI performance in intuitive and visual geometrical understanding, setting the stage for future research in this area and stands as one of the few benchmarks to evaluate the integration of visual understanding and code generation capabilities in LMMs, setting the stage for future research.
+  venue: naacl
+  year: 2025
+  type: Conference
+  pages: 12170-12188
+  doi: 10.18653/v1/2025.naacl-long.607
+  links:
+    - name: PDF
+      link: https://aclanthology.org/2025.naacl-long.607.pdf
+    - name: ACL Anthology
+      link: https://aclanthology.org/2025.naacl-long.607/
+
+benchmark:neurips24:
+  title: "Benchmark Data Repositories for Better Benchmarking"
+  authors:
+    - Rachel Longjohn
+    - Markelle Kelly
+    - sameer
+    - Padhraic Smyth
+  venue: neurips
+  year: 2024
+  type: Conference
+  pages: 86435-86457
+  doi: 10.18653/v1/2024.nips-2744
+  links:
+    - name: PDF
+      link: https://proceedings.neurips.cc/paper_files/paper/2024/file/9d41fddf3169f4df3025fc60bfac94fa-Paper-Datasets_and_Benchmarks_Track.pdf
+    - name: NeurIPS Page (+Video)
+      link: https://nips.cc/virtual/2024/poster/97636
+    - name: ACM Page
+      link: https://dl.acm.org/doi/10.5555/3737916.3740660
+  abstract: >
+    In machine learning research, it is common to evaluate algorithms via their performance on standard benchmark datasets. While a growing body of work establishes guidelines for—and levies criticisms at—data and benchmarking practices in machine learning, comparatively less attention has been paid to the data repositories where these datasets are stored, documented, and shared. In this paper, we analyze the landscape of these benchmark data repositories and the role they can play in improving benchmarking. This role includes addressing issues with both datasets themselves (e.g., representational harms, construct validity) and the manner in which evaluation is carried out using such datasets (e.g., overemphasis on a few datasets and metrics, lack of reproducibility). To this end, we identify and discuss a set of considerations surrounding the design and use of benchmark data repositories, with a focus on improving benchmarking practices in machine learning.
+
 plottwist:emnlp24:
   title: "PlotTwist: Multimodal Models Don't Comprehend Simple Chart Details"
   authors:
@@ -6,9 +66,18 @@ plottwist:emnlp24:
     - Fangyu Liu
     - Vinay Venkatesh Ramasesh
     - sameer
+  abstract: >
+    Recent advances in multimodal models show remarkable performance in real-world benchmarks for chart and figure understanding like ChartQA that involve interpreting trends, comparing data points, and extracting insights from visuals.In this paper, we investigate the extent to which these models truly comprehend the underlying information in charts by posing direct, elementary questions about simple features such as axes ranges and values to examine their fundamental visual understanding abilities in the context of charts.Our questions are applied to two sets of figures: synthetic and real-world.The empirical evaluation of 5 popular multimodal models on our dataset reveals shortfalls in understanding charts and figures, contrary to what their performance on complex benchmarks might suggest.For instance, Gemini Pro Vision only achieves 57.9% accuracy on our elementary set of questions on real-world plots, while other popular multimodal models showed similar or less performance.This work highlights an important limitation of current multimodal models, and cautions against overly optimistic interpretations of their abilities based on results of canonical evaluations.
   venue: emnlp
   year: 2024
+  pages: 5922-5937
   type: Conference
+  doi: 10.18653/v1/2024.findings-emnlp.342
+  links:
+    - name: PDF
+      link: https://aclanthology.org/2024.findings-emnlp.342.pdf
+    - name: ACL Anthology
+      link: https://aclanthology.org/2024.findings-emnlp.342/
 linguncertain:emnlp24:
   title: Perceptions of Linguistic Uncertainty by Language Models and Humans
   authors:
@@ -17,18 +86,35 @@ linguncertain:emnlp24:
     - Mark Steyvers
     - sameer
     - Padhraic Smyth
+  abstract: >
+    *Uncertainty expressions* such as 'probably' or 'highly unlikely' are pervasive in human language. While prior work has established that there is population-level agreement in terms of how humans quantitatively interpret these expressions, there has been little inquiry into the abilities of language models in the same context. In this paper, we investigate how language models map linguistic expressions of uncertainty to numerical responses. Our approach assesses whether language models can employ theory of mind in this setting: understanding the uncertainty of another agent about a particular statement, independently of the model's own certainty about that statement. We find that 7 out of 10 models are able to map uncertainty expressions to probabilistic responses in a human-like manner. However, we observe systematically different behavior depending on whether a statement is actually true or false. This sensitivity indicates that language models are substantially more susceptible to bias based on their prior knowledge (as compared to humans). These findings raise important questions and have broad implications for human-AI and AI-AI communication.
   venue: emnlp
   type: Conference
   year: 2024
+  pages: 8467-8502
+  doi: 10.18653/v1/2024.emnlp-main.483
+  links:
+    - name: PDF
+      link: https://aclanthology.org/2024.emnlp-main.483.pdf
+    - name: ACL Anthology
+      link: https://aclanthology.org/2024.emnlp-main.483/
 watermark:emnlp24:
-  title: Performance Trade-offs of a Family of Text Watermarks
+  title: Downstream Trade-offs of a Family of Text Watermarks
   authors:
     - Anirudh Ajith
     - sameer
     - Danish Pruthi
+  abstract: >
+    Watermarking involves implanting an imperceptible signal into generated text that can later be detected via statistical tests. A prominent family of watermarking strategies for LLMs embeds this signal by upsampling a (pseudorandomly-chosen) subset of tokens at every generation step. However, such signals alter the model's output distribution and can have unintended effects on its downstream performance. In this work, we evaluate the performance of LLMs watermarked using three different strategies over a diverse suite of tasks including those cast as k-class classification (CLS), multiple choice question answering (MCQ), short-form generation (e.g., open-ended question answering) and long-form generation (e.g., translation) tasks. We find that watermarks (under realistic hyperparameters) can cause significant drops in LLMs' effective utility across all tasks. We observe drops of 10 to 20% in CLS tasks in the average case, which shoot up to 100% in the worst case. We notice degradations of about 7% in MCQ tasks, 10-15% in short-form generation, and 5-15% in long-form generation tasks. Our findings highlight the trade-offs that users should be cognizant of when using watermarked models.
   venue: emnlp
   year: 2024
   type: Conference
+  doi: 10.18653/v1/2024.findings-emnlp.821
+  links:
+    - name: PDF
+      link: https://aclanthology.org/2024.findings-emnlp.821.pdf
+    - name: ACL Anthology
+      link: https://aclanthology.org/2024.findings-emnlp.821/
 partial:emnlp24:
   title: Measuring and Improving Attentiveness to Partial Inputs with Counterfactuals
   authors:
@@ -40,6 +126,15 @@ partial:emnlp24:
     - Vivek Srikumar
     - sameer
     - Noah A. Smith
+  abstract: >
+    The inevitable appearance of spurious correlations in training datasets hurts the generalization of NLP models on unseen data. Previous work has found that datasets with paired inputs are prone to correlations between a specific part of the input (e.g., the hypothesis in NLI) and the label; consequently, models trained only on those outperform chance. Are these correlations picked up by models trained on the full input data? To address this question, we propose a new evaluation method, Counterfactual Attentiveness Test (CAT). CAT uses counterfactuals by replacing part of the input with its counterpart from a different example (subject to some restrictions), expecting an attentive model to change its prediction. Using CAT, we systematically investigate established supervised and in-context learning models on ten datasets spanning four tasks: natural language inference, reading comprehension, paraphrase detection, and visual & language reasoning. CAT reveals that reliance on such correlations is mainly data-dependent. Surprisingly, we find that GPT3 becomes less attentive with an increased number of demonstrations, while its accuracy on the test data improves. Our results demonstrate that augmenting training or demonstration data with counterfactuals is effective in improving models' attentiveness. We show that models' attentiveness measured by CAT reveals different conclusions from solely measuring correlations in data.
+  doi: 10.18653/v1/2024.findings-emnlp.205
+  pages: 3603-3623
+  links:
+    - name: PDF
+      link: https://aclanthology.org/2024.findings-emnlp.205.pdf
+    - name: ACL Anthology
+      link: https://aclanthology.org/2024.findings-emnlp.205/
   venue: emnlp
   type: Conference
   year: 2024
@@ -72,11 +167,21 @@ misgendermender:naacl24:
   venue: naacl
   year: 2024
   type: Conference
+  abstract: >
+    Content Warning: This paper contains examples of misgendering and erasure that could be offensive and potentially triggering.Misgendering, the act of incorrectly addressing someone's gender, inflicts serious harm and is pervasive in everyday technologies, yet there is a notable lack of research to combat it. We are the first to address this lack of research into interventions for misgendering by conducting a survey of gender-diverse individuals in the US to understand perspectives about automated interventions for text-based misgendering. Based on survey insights on the prevalence of misgendering, desired solutions, and associated concerns, we introduce a misgendering interventions task and evaluation dataset, MisgenderMender. We define the task with two sub-tasks: (i) detecting misgendering, followed by (ii) correcting misgendering where misgendering is present, in domains where editing is appropriate. MisgenderMender comprises 3790 instances of social media content and LLM-generations about non-cisgender public figures, annotated for the presence of misgendering, with additional annotations for correcting misgendering in LLM-generated text. Using this dataset, we set initial benchmarks by evaluating existing NLP systems and highlighting challenges for future models to address. We release the full dataset, code, and demo at https://tamannahossainkay.github.io/misgendermender/
+  doi: 10.18653/v1/2024.naacl-long.419
+  pages: 7538-7558
   links:
     - name: PDF
       link: "https://arxiv.org/pdf/2404.14695.pdf"
     - name: ArXiV
       link: "https://arxiv.org/abs/2404.14695"  
+    - name: ACL Anthology
+      link: https://aclanthology.org/2024.naacl-long.419/
+    - name: Video
+      link: https://aclanthology.org/2024.naacl-long.419.mp4
+    - name: Project Page (w/ Demo)
+      linke: https://tamannahossainkay.github.io/misgendermender/
 
 biasampl:naacl24:
   title: The Bias Amplification Paradox in Text-to-Image Generation
@@ -84,14 +189,22 @@ biasampl:naacl24:
     - pseshadri
     - sameer
     - yanai
+  abstract: >
+    Bias amplification is a phenomenon in which models exacerbate biases or stereotypes present in the training data. In this paper, we study bias amplification in the text-to-image domain using Stable Diffusion by comparing gender ratios in training vs. generated images. We find that the model appears to amplify gender-occupation biases found in the training data (LAION) considerably. However, we discover that amplification can be largely attributed to discrepancies between training captions and model prompts. For example, an inherent difference is that captions from the training data often contain explicit gender information while our prompts do not, which leads to a distribution shift and consequently inflates bias measures. Once we account for distributional differences between texts used for training and generation when evaluating amplification, we observe that amplification decreases drastically. Our findings illustrate the challenges of comparing biases in models and their training data, as well as evaluation more broadly, and highlight how confounding factors can impact analyses.
   venue: naacl
   year: 2024
   type: Conference
+  pages: 6367-6384
+  doi: 10.18653/v1/2024.naacl-long.353
   links:
     - name: PDF
       link: "https://arxiv.org/pdf/2308.00755.pdf"
     - name: ArXiV
       link: "https://arxiv.org/abs/2308.00755"
+    - name: ACL Anthology
+      link: https://aclanthology.org/2024.naacl-long.353/
+    - name: Video
+      linke: https://aclanthology.org/2024.naacl-long.353.mp4
 
 echoprompt:naacl24:
   title: "EchoPrompt: Instructing the Model to Rephrase Queries for Improved In-context Learning"
@@ -100,13 +213,21 @@ echoprompt:naacl24:
     - yrazeghi
     - sameer
   venue: naacl
+  abstract: >
+    Language models are achieving impressive performance on various tasks by aggressively adopting inference-time prompting techniques,such as zero-shot and few-shot prompting. In this work, we introduce EchoPrompt, a simple yet effective approach that prompts the model to rephrase its queries before answering them. EchoPrompt is tailored for four scenarios, including standard and chain-of-thought prompting, in both zero-shot and few-shot settings. Experimental results show that EchoPrompt yields substantial improvementsacross all these settings for four families of causal language models. These improvements are observed across various numerical reasoning (e.g., GSM8K, SVAMP), reading comprehension (e.g., DROP), and logical reasoning (e.g., Coin flipping) tasks. On average, EchoPrompt improves the Zero-shot-CoT performance of code-davinci-002 by 5% in numerical tasks and 13% in reading comprehension tasks. Our empirical results indicate that EchoPrompt is an effective technique that enhances in-context learning performance.
   year: 2024
   type: Conference
+  doi: 10.18653/v1/2024.naacl-short.35
+  pages: 399-432
   links:
     - name: PDF
       link: "https://arxiv.org/pdf/2309.10687.pdf"
     - name: ArXiV
       link: "https://arxiv.org/abs/2309.10687"
+    - name: ACL Anthology
+      link: https://aclanthology.org/2024.naacl-short.35/
+    - name: Video
+      link: https://aclanthology.org/2024.naacl-short.35.mp4
 
 selperception:naacl24:
   title: "Selective Perception: Learning Concise State Descriptions for Language Model Actors"
@@ -118,6 +239,10 @@ selperception:naacl24:
     - Pierre Baldi
     - Roy Fox
     - sameer
+  abstract: >
+    The latest large language models (LMs) support increasingly longer contexts. While this trend permits using substantial amounts of text with SOTA LMs, requiring these large LMs to process potentially redundant or irrelevant data needlessly increases inference time and cost. To remedy this problem, we propose BLINDER, a method that leverages a small finetuned LM to sample the minimal set of input features that maximizes the performance of a downstream LM. BLINDER trains an LM with a value head to estimate the likelihood of optimal outputs from a downstream LM given an input. We evaluate BLINDER on embodied decision making tasks with notoriously verbose state descriptions: NetHack and robot planning. BLINDER reduces the length of LM actor input by 87% and 99% while improving task success rates by 158% and 54% on NetHack and robot planning respectively which represents substantial inference cost savings while actually increasing performance.
+  doi: 10.18653/v1/2024.naacl-short.29
+  pages: 327-341
   venue: naacl
   year: 2024
   type: Conference
@@ -126,6 +251,10 @@ selperception:naacl24:
       link: "https://arxiv.org/pdf/2307.11922.pdf"
     - name: ArXiV
       link: "https://arxiv.org/abs/2307.11922"
+    - name: ACL Anthology
+      link: https://aclanthology.org/2024.naacl-short.29/
+    - name: Video
+      link: https://aclanthology.org/2024.naacl-short.29.mp4
 
 unstereoeval:iclr24:
   title: Are Models Biased on Text without Gender-related Language?
@@ -627,7 +756,6 @@ fruit:naacl22:
       link: https://arxiv.org/abs/2112.08634
   abstract: >
     Textual knowledge bases such as Wikipedia require considerable effort to keep up to date and consistent. While automated writing assistants could potentially ease this burden, the problem of suggesting edits grounded in external knowledge has been under-explored. In this paper, we introduce the novel generation task of *faithfully reflecting updated information in text* (FRUIT) where the goal is to update an existing article given new evidence. We release the FRUIT-WIKI dataset, a collection of over 170K distantly supervised data produced from pairs of Wikipedia snapshots, along with our data generation pipeline and a gold evaluation set of 914 instances whose edits are guaranteed to be supported by the evidence. We provide benchmark results for popular generation systems as well as EDIT5 – a T5-based approach tailored to editing we introduce that establishes the state of the art. Our analysis shows that developing models that can update articles faithfully requires new capabilities for neural generation models, and opens doors to many new applications.
-  pages: 3670–3686
   doi: 10.18653/v1/2022.naacl-main.269
 
 
@@ -677,7 +805,6 @@ reclip:acl22:
   doi: 10.18653/v1/2022.acl-long.357
   abstract: >
     Training a referring expression comprehension (ReC) model for a new visual domain requires collecting referring expressions, and potentially corresponding bounding boxes, for images in the domain. While large-scale pre-trained models are useful for image classification across domains, it remains unclear if they can be applied in a zero-shot manner to more complex tasks like ReC. We present ReCLIP, a simple but strong zero-shot baseline that repurposes CLIP, a state-of-the-art large-scale model, for ReC. Motivated by the close connection between ReC and CLIP’s contrastive pre-training objective, the first component of ReCLIP is a region-scoring method that isolates object proposals via cropping and blurring, and passes them to CLIP. However, through controlled experiments on a synthetic dataset, we find that CLIP is largely incapable of performing spatial reasoning off-the-shelf. We reduce the gap between zero-shot baselines from prior work and supervised models by as much as 29% on RefCOCOg, and on RefGTA (video game imagery), ReCLIP’s relative improvement over supervised ReC models trained on real images is 8%.
-  doi: 10.18653/v1/2022.acl-long.357
   links:
     - name: PDF
       link: https://aclanthology.org/2022.acl-long.357.pdf
@@ -1057,7 +1184,6 @@ amber:acl21:
       link: https://aclanthology.org/2021.acl-long.345/
     - name: PDF
       link: https://aclanthology.org/2021.acl-long.345.pdf
-  doi: 10.18653/v1/2021.acl-long.345
   grants: [mcs]
 
 streamingcdcr:acl21:
@@ -1077,7 +1203,6 @@ streamingcdcr:acl21:
       link: https://aclanthology.org/2021.acl-long.364/
     - name: PDF
       link: https://aclanthology.org/2021.acl-long.364.pdf
-  doi: 10.18653/v1/2021.acl-long.364
   grants: [mcs]
 
 spconsistency:acl21:

@@ -4,6 +4,12 @@ sameer:
     last: "Singh"
   website: "http://www.sameersingh.org"
 
+yu:
+  name:
+    first: "Yu"
+    last: "Fei"
+  website: "https://fywalter.github.io/"
+
 yuxinchen:
   name:
     first: "Yuxin"
