@@ -140,6 +140,7 @@ partial:emnlp24:
   type: Conference
   year: 2024
   grants: [career]
+
 skillsetopt:icml24:
   title: "Skill Set Optimization: Reinforcing Language Model Behavior via Transferable Skills"
   authors:
@@ -472,7 +473,7 @@ deckard:icml23:
 
 recomm:aaai23:
   title: >
-    Towards Factual and Informative Review Generation for Explainable Recommendation
+    Factual and Informative Review Generation for Explainable Recommendation
   authors:
     - Zhouhang Xie
     - sameer
@@ -481,9 +482,13 @@ recomm:aaai23:
   venue: aaai
   year: 2023
   type: Conference
+  abstract: >
+    Recent models can generate fluent and grammatical synthetic reviews while accurately predicting user ratings. The generated reviews, expressing users' estimated opinions towards related products, are often viewed as natural language 'rationales' for the jointly predicted rating. However, previous studies found that existing models often generate repetitive, universally applicable, and generic explanations, resulting in uninformative rationales. Further, our analysis shows that previous models' generated content often contain factual hallucinations. These issues call for novel solutions that could generate both informative and factually grounded explanations. Inspired by recent success in using retrieved content in addition to parametric knowledge for generation, we propose to augment the generator with a personalized retriever, where the retriever's output serves as external knowledge for enhancing the generator. Experiments on Yelp, TripAdvisor, and Amazon Movie Reviews dataset show our model could generate explanations that more reliably entail existing reviews, are more diverse, and are rated more informative by human evaluators.
   links:
     - name: ArXiV
       link: "https://arxiv.org/abs/2303.17651"
+    - name: ACM Page
+      link: "https://dl.acm.org/doi/10.1609/aaai.v37i11.26618"
 
 maestro:eaai23:
   title: >
