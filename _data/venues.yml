@@ -97,3 +97,12 @@ eaai:
 aies:
   name: "AAAI/ACM Conference on AI, Ethics, and Society (AIES)"
 
+aacl:
+  name: "International Joint Conference on Natural Language Processing and the Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL)"
+
+mtillm:
+  name: "NeurIPS Workshop on Multi-Turn Interactions in Large Language Models (MTI-LLM)"
+
+arxiv:
+  name: "arXiv preprint"
+

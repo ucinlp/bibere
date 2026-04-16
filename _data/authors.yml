@@ -426,3 +426,9 @@ cbelem:
     first: "Catarina"
     last: "Belém"
   website: "https://pastelbelem8.github.io/"
+
+kareem:
+  name:
+    first: "Kareem"
+    last: "Ahmed"
+  website: "https://kareemahmed.com/"
