@@ -1,4 +1,4 @@
-lostinsim:arxiv26:
+lostinsim:acl26:
   title: "Lost in Simulation: LLM-Simulated Users are Unreliable Proxies for Human Users in Agentic Evaluations"
   authors:
     - pseshadri
@@ -8,14 +8,38 @@ lostinsim:arxiv26:
     - Seraphina Goldfarb-Tarrant
   abstract: >
     Agentic benchmarks increasingly rely on LLM-simulated users to scalably evaluate agent performance, yet the robustness, validity, and fairness of this approach remain unexamined. Through a user study with participants across the United States, India, Kenya, and Nigeria, we investigate whether LLM-simulated users serve as reliable proxies for real human users in evaluating agents on τ-Bench retail tasks. We find that user simulation lacks robustness, with agent success rates varying up to 9 percentage points across different user LLMs. Furthermore, evaluations using simulated users exhibit systematic miscalibration, underestimating agent performance on challenging tasks and overestimating it on moderately difficult ones. African American Vernacular English (AAVE) speakers experience consistently worse success rates and calibration errors than Standard American English (SAE) speakers, with disparities compounding significantly with age. We also find simulated users to be a differentially effective proxy for different populations, performing worst for AAVE and Indian English speakers. Additionally, simulated users introduce conversational artifacts and surface different failure patterns than human users. These findings demonstrate that current evaluation practices risk misrepresenting agent capabilities across diverse user populations and may obscure real-world deployment challenges.
-  venue: arxiv
+  venue: acl
   year: 2026
-  type: TechReport
+  type: Conference
   links:
     - name: PDF
       link: https://arxiv.org/pdf/2601.17087.pdf
     - name: ArXiV
       link: https://arxiv.org/abs/2601.17087
+
+ptp:iclr26:
+  title: "Parallel Token Prediction for Language Models"
+  authors:
+    - Felix Draxler
+    - Justus Will
+    - Farrin Marouf Sofian
+    - Theofanis Karaletsos
+    - sameer
+    - Stephan Mandt
+  abstract: >
+    Autoregressive decoding in language models is inherently slow, generating only one token per forward pass. We propose Parallel Token Prediction (PTP), a general-purpose framework for predicting multiple tokens in a single model call. PTP moves the source of randomness from post-hoc sampling to random input variables, making future tokens deterministic functions of those inputs and thus jointly predictable in a single forward pass. We prove that a single PTP call can represent arbitrary dependencies between tokens. PTP is trained by distilling an existing model or through inverse autoregressive training without a teacher. Experimentally, PTP achieves a 2.4x speedup on a diverse-task speculative decoding benchmark. We provide code and checkpoints at https://github.com/mandt-lab/ptp.
+  venue: iclr
+  year: 2026
+  type: Conference
+  links:
+    - name: PDF
+      link: https://arxiv.org/pdf/2512.21323.pdf
+    - name: ArXiV
+      link: https://arxiv.org/abs/2512.21323
+    - name: OpenReview
+      link: https://openreview.net/forum?id=AGJomYSrUG
+    - name: Code
+      link: https://github.com/mandt-lab/ptp
 
 epic:arxiv26:
   title: "Entropy-Aligned Decoding of LMs for Better Writing and Reasoning"
