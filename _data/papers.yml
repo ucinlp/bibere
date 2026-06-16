@@ -155,6 +155,7 @@ nudging:acl25:
   venue: acl
   year: 2025
   type: Conference
+  emphasis: In the Top 25 Papers at ACL
   doi: 10.18653/v1/2025.acl-long.623
   pages: 12702-12739
   links:
