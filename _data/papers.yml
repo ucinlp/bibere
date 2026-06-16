@@ -40,6 +40,8 @@ ptp:iclr26:
       link: https://openreview.net/forum?id=AGJomYSrUG
     - name: Code
       link: https://github.com/mandt-lab/ptp
+    - name: Project Page
+      link: https://www.justuswill.com/ptp/
 
 epic:arxiv26:
   title: "Entropy-Aligned Decoding of LMs for Better Writing and Reasoning"
@@ -160,6 +162,10 @@ nudging:acl25:
       link: https://aclanthology.org/2025.acl-long.623.pdf
     - name: ACL Anthology
       link: https://aclanthology.org/2025.acl-long.623/
+    - name: Project Page
+      link: https://fywalter.github.io/nudging/
+    - name: Video
+      link: https://www.youtube.com/watch?v=-HS1J_uCWUY
 turtlebench:naacl25:
   title: "TurtleBench: A Visual Programming Benchmark in Turtle Geometry"
   authors:
