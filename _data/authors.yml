@@ -432,3 +432,34 @@ kareem:
     first: "Kareem"
     last: "Ahmed"
   website: "https://kareemahmed.com/"
+
+nsmith:
+  name:
+    first: "Noah A."
+    last: "Smith"
+  website: "https://nasmith.github.io/"
+
+dkhashabi:
+  name:
+    first: "Daniel"
+    last: "Khashabi"
+  website: "https://danielkhashabi.com/"
+
+ssubramanian:
+  name:
+    first: "Sanjay"
+    last: "Subramanian"
+  website: "https://sanjayss34.github.io/"
+
+royfox:
+  name:
+    first: "Roy"
+    last: "Fox"
+  website: "https://royf.org/"
+
+psmyth:
+  name:
+    first: "Padhraic"
+    last: "Smyth"
+  website: "https://ics.uci.edu/~smyth/"
+

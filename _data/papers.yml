@@ -131,7 +131,7 @@ scone:arxiv25:
   authors:
     - kareem
     - cbelem
-    - Padhraic Smyth
+    - psmyth
     - sameer
   abstract: >
     Semantic control entails steering LM generations towards satisfying subtle non-lexical constraints, e.g., toxicity, sentiment, or politeness, attributes that can be captured by a sequence-level verifier. It can thus be viewed as sampling from the LM distribution conditioned on the target attribute, a computationally intractable problem due to the non-decomposable nature of the verifier. Existing approaches to LM control either only deal with syntactic constraints which cannot capture the aforementioned attributes, or rely on sampling to explore the conditional LM distribution, an ineffective estimator for low-probability events. In this work, we leverage a verifier's gradient information to efficiently reason over all generations that satisfy the target attribute, enabling precise steering of LM generations by reweighing the next-token distribution. Starting from an initial sample, we create a local LM distribution favoring semantically similar sentences. This approximation enables the tractable computation of an expected sentence embedding. We use this expected embedding, informed by the verifier's evaluation at the initial sample, to estimate the probability of satisfying the constraint, which directly informs the update to the next-token distribution. We evaluated the effectiveness of our approach in controlling the toxicity, sentiment, and topic-adherence of LMs yielding generations satisfying the constraint with high probability (>95%) without degrading their quality.
@@ -193,7 +193,7 @@ benchmark:neurips24:
     - Rachel Longjohn
     - Markelle Kelly
     - sameer
-    - Padhraic Smyth
+    - psmyth
   venue: neurips
   year: 2024
   type: Conference
@@ -236,7 +236,7 @@ linguncertain:emnlp24:
     - Markelle Kelly
     - Mark Steyvers
     - sameer
-    - Padhraic Smyth
+    - psmyth
   abstract: >
     *Uncertainty expressions* such as 'probably' or 'highly unlikely' are pervasive in human language. While prior work has established that there is population-level agreement in terms of how humans quantitatively interpret these expressions, there has been little inquiry into the abilities of language models in the same context. In this paper, we investigate how language models map linguistic expressions of uncertainty to numerical responses. Our approach assesses whether language models can employ theory of mind in this setting: understanding the uncertainty of another agent about a particular statement, independently of the model's own certainty about that statement. We find that 7 out of 10 models are able to map uncertainty expressions to probabilistic responses in a human-like manner. However, we observe systematically different behavior depending on whether a statement is actually true or false. This sensitivity indicates that language models are substantially more susceptible to bias based on their prior knowledge (as compared to humans). These findings raise important questions and have broad implications for human-AI and AI-AI communication.
   venue: emnlp
@@ -277,7 +277,7 @@ partial:emnlp24:
     - Khyathi Chandu
     - Vivek Srikumar
     - sameer
-    - Noah A. Smith
+    - nsmith
   abstract: >
     The inevitable appearance of spurious correlations in training datasets hurts the generalization of NLP models on unseen data. Previous work has found that datasets with paired inputs are prone to correlations between a specific part of the input (e.g., the hypothesis in NLI) and the label; consequently, models trained only on those outperform chance. Are these correlations picked up by models trained on the full input data? To address this question, we propose a new evaluation method, Counterfactual Attentiveness Test (CAT). CAT uses counterfactuals by replacing part of the input with its counterpart from a different example (subject to some restrictions), expecting an attentive model to change its prediction. Using CAT, we systematically investigate established supervised and in-context learning models on ten datasets spanning four tasks: natural language inference, reading comprehension, paraphrase detection, and visual & language reasoning. CAT reveals that reliance on such correlations is mainly data-dependent. Surprisingly, we find that GPT3 becomes less attentive with an increased number of demonstrations, while its accuracy on the test data improves. Our results demonstrate that augmenting training or demonstration data with counterfactuals is effective in improving models' attentiveness. We show that models' attentiveness measured by CAT reveals different conclusions from solely measuring correlations in data.
   doi: 10.18653/v1/2024.findings-emnlp.205
@@ -300,7 +300,7 @@ skillsetopt:icml24:
     - Bhavana Dalvi Mishra
     - sameer
     - Peter Clark
-    - Roy Fox
+    - royfox
   venue: icml
   year: 2024
   type: Conference
@@ -391,7 +391,7 @@ selperception:naacl24:
     - Kyungmin Kim
     - JB Lanier
     - Pierre Baldi
-    - Roy Fox
+    - royfox
     - sameer
   abstract: >
     The latest large language models (LMs) support increasingly longer contexts. While this trend permits using substantial amounts of text with SOTA LMs, requiring these large LMs to process potentially redundant or irrelevant data needlessly increases inference time and cost. To remedy this problem, we propose BLINDER, a method that leverages a small finetuned LM to sample the minimal set of input features that maximizes the performance of a downstream LM. BLINDER trains an LM with a value head to estimate the likelihood of optimal outputs from a downstream LM given an input. We evaluate BLINDER on embodied decision making tasks with notoriously verbose state descriptions: NetHack and robot planning. BLINDER reduces the length of LM actor input by 87% and 99% while improving task success rates by 158% and 54% on NetHack and robot planning respectively which represents substantial inference cost savings while actually increasing performance.
@@ -446,7 +446,7 @@ wimbd:iclr24:
     - Luca Soldaini
     - sameer
     - hannaneh
-    - Noah A. Smith
+    - nsmith
     - Jesse Dodge
   venue: iclr
   year: 2024
@@ -609,7 +609,7 @@ deckard:icml23:
     - yejin
     - hannaneh
     - sameer
-    - Roy Fox
+    - royfox
   venue: icml
   year: 2023
   type: Conference
@@ -842,7 +842,7 @@ queryrl:rldm22:
     - knottingham
     - Alekhya Pyla 
     - sameer
-    - Roy Fox
+    - royfox
   venue: Reinforcement Learning and Decision Making (RLDM)
   year: 2022
   type: Conference
@@ -921,7 +921,7 @@ wayward:naacl22:
   title: >
     Prompt Waywardness: The Curious Case of Discretized Interpretation of Continuous Prompts
   authors:
-    - Daniel Khashabi
+    - dkhashabi
     - Xinxi Lyu
     - Sewon Min
     - Lianhui Qin
@@ -950,7 +950,7 @@ reclip:acl22:
   title: >
     ReCLIP: A Strong Zero-Shot Baseline for Referring Expression Comprehension 
   authors:
-    - Sanjay Subramanian
+    - ssubramanian
     - William Merrill
     - Trevor Darrell
     - mattg
@@ -1230,7 +1230,7 @@ competency:emnlp21:
     - Matthew Peters
     - Alexis Ross
     - sameer
-    - Noah A. Smith
+    - nsmith
   links:
     - name: PDF
       link: https://arxiv.org/pdf/2104.08646
@@ -1268,7 +1268,7 @@ parsinlu:tacl21:
   type: "Journal"
   year: 2021
   authors:
-    - Daniel Khashabi
+    - dkhashabi
     - Arman Cohan
     - Siamak Shakeri
     - Pedram Hosseini
@@ -1464,7 +1464,7 @@ modulargl:embodied21:
     - Litian Liang 
     - Daeyun Shin 
     - Charless C. Fowlkes 
-    - Roy Fox
+    - royfox
     - sameer
   links:
     - name: PDF
@@ -1632,15 +1632,15 @@ contrast:femnlp20:
     - nitish
     - hannaneh
     - Gabriel Ilharco
-    - Daniel Khashabi
+    - dkhashabi
     - Kevin Lin
     - Jiangming Liu
     - Nelson F. Liu
     - Phoebe Mulcaire
     - Qiang Ning
     - sameer
-    - Noah A. Smith
-    - Sanjay Subramanian
+    - nsmith
+    - ssubramanian
     - Reut Tsarfaty
     - ewallace
     - Ally Zhang
@@ -1658,7 +1658,7 @@ medicat:femnlp20:
   venue: femnlp
   type: "Conference"
   authors:
-    - Sanjay Subramanian
+    - ssubramanian
     - Lucy Lu Wang
     - Ben Bogin
     - Sachin Mehta
@@ -1773,7 +1773,7 @@ nmninterpret:acl20:
   year: 2020
   type: "Conference"
   authors:
-    - "Sanjay Subramanian"
+    - ssubramanian
     - "Ben Bogin"
     - "nitish"
     - "Tomer Wolfson"
@@ -2100,7 +2100,7 @@ convtopics:jamia19:
     - "David C. Atkins"
     - "Ming Tai-Seale"
     - "Zac E Imel"
-    - "Padhraic Smyth"
+    - psmyth
   links:
     - name: "PDF"
       link: "https://academic.oup.com/jamia/advance-article-pdf/doi/10.1093/jamia/ocz140/30035158/ocz140.pdf"
@@ -2117,7 +2117,7 @@ compvqa:vigil19:
   year: 2019
   type: "Workshop"
   authors:
-    - "Sanjay Subramanian"
+    - ssubramanian
     - "sameer"
     - "mattg"
   links:
@@ -2223,7 +2223,7 @@ knobert:emnlp19:
     - "Roy Schwartz"
     - "Vidur Joshi"
     - "sameer"
-    - "Noah A. Smith"
+    - nsmith
   pages: 43-54
   doi: 10.18653/v1/D19-1005
   links:
@@ -2247,7 +2247,7 @@ interpret:emnlp19:
     - "ewallace"
     - "Jens Tuyls"
     - "Junlin Wang"
-    - "Sanjay Subramanian"
+    - ssubramanian
     - "mattg"
     - "sameer"
   links:
@@ -2793,7 +2793,7 @@ saul:starai17:
   authors:
     - "parisa"
     - "sameer"
-    - "Daniel Khashabi"
+    - dkhashabi
     - "Christos Christodoulopoulos"
     - "Mark Summons"
     - "Saurabh Sinha"
@@ -2851,7 +2851,7 @@ saul:coling16:
   type: "Conference"
   authors:
     - "parisa"
-    - "Daniel Khashabi"
+    - dkhashabi
     - "Christos Christodoulopoulos"
     - "Bhargav Mangipudi"
     - "sameer"
